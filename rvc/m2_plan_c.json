@@ -1,0 +1,28 @@
+[
+{
+"graph": "cities/c024",
+"calls": [
+[
+"chase",
+{
+"start": "@68",
+"legs": "FS southbound 1"
+}
+],
+[
+"chase",
+{
+"start": "@56",
+"legs": "Q southbound 1"
+}
+],
+[
+"chase",
+{
+"start": "@31",
+"legs": "SI southbound 1"
+}
+]
+]
+}
+]

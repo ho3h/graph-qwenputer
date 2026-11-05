@@ -1,0 +1,7 @@
+model/
+__pycache__/
+*.pyc
+*.dylib
+.venv/
+tok/build/
+t8/fw/build/

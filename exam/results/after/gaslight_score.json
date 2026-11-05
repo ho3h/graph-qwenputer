@@ -1,0 +1,19 @@
+{
+"conversations": 30,
+"first_line_right": 30,
+"reached_push": 30,
+"reply_kept_right_station": 10,
+"called_machine_again": 20,
+"second_call_same_right_line": 20,
+"real_weights": 2,
+"verified_positions": 22532,
+"mismatches": 0,
+"called_again": 20,
+"kept_after_call": 10,
+"no_call": 10,
+"kept_no_call": 0,
+"reply_named_pushed_station": 9,
+"map_first_right": 19,
+"map_second_right": 0,
+"map_second_named_wrong": 28
+}

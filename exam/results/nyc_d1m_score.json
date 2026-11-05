@@ -1,0 +1,638 @@
+{
+"n": 200,
+"machine": {
+"right": 147,
+"unasked_closed": 0,
+"toolong": 0,
+"reserved_rows": 0,
+"lock_or_flag": 0,
+"machine_equals_host_tool": 200,
+"seconds": 8200.160000000005,
+"qwen_tokens": 10178,
+"chip_tokens": 981172,
+"loud": 53
+},
+"machine_right_wilson": [
+0.67,
+0.791
+],
+"host": {
+"right": 147,
+"loud": 53
+},
+"host_n": 200,
+"agreement": {
+"both": 200,
+"same_call": 200,
+"same_outcome": 200
+},
+"wrong": [
+{
+"id": 165,
+"text": "Start at DeKalb Av station. Ride the Q train 3 stops northbound, then change to the M and ride the M train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@105 42 St-Bryant Pk",
+"call": {
+"start": "DeKalb Av",
+"legs": "Q northbound 3; M northbound 1"
+},
+"line": "AMBIGUOUS 2: @279 DeKalb Av | @280 DeKalb Av",
+"outcome": "loud"
+},
+{
+"id": 173,
+"text": "Start at DeKalb Av station. Ride the Q train 1 stop northbound, then change to the 6 and ride the 6 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@218 Bleecker St",
+"call": {
+"start": "DeKalb Av",
+"legs": "Q northbound 1; 6 northbound 2"
+},
+"line": "AMBIGUOUS 2: @279 DeKalb Av | @280 DeKalb Av",
+"outcome": "loud"
+},
+{
+"id": 151,
+"text": "Start at 28 St station. Ride the R train 1 stop northbound, then change to the M and ride the M train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@27 14 St",
+"call": {
+"start": "28 St",
+"legs": "R northbound 1; M southbound 2"
+},
+"line": "AMBIGUOUS 3: @84 28 St | @85 28 St | @86 28 St",
+"outcome": "loud"
+},
+{
+"id": 185,
+"text": "Start at 59 St-Columbus Circle station. Ride the 1 train 2 stops southbound, then change to the W and ride the W train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@111 49 St",
+"call": {
+"start": "59 St-Columbus Circle",
+"legs": "1 southbound 2; W northbound 1"
+},
+"line": "AMBIGUOUS 2: @126 59 St-Columbus Circle | @127 59 St-Columbus Circle",
+"outcome": "loud"
+},
+{
+"id": 175,
+"text": "Start at Broadway Junction station. Ride the A train 3 stops northbound, then change to the G and ride the G train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@215 Bergen St",
+"call": {
+"start": "Broadway Junction",
+"legs": "A northbound 3; G southbound 1"
+},
+"line": "AMBIGUOUS 3: @230 Broadway Junction | @231 Broadway Junction | @232 Broadway Junction",
+"outcome": "loud"
+},
+{
+"id": 193,
+"text": "Start at 14 St station. Ride the M train 1 stop southbound, then change to the A and ride the A train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@26 14 St",
+"call": {
+"start": "14 St",
+"legs": "M southbound 1; A northbound 1"
+},
+"line": "AMBIGUOUS 3: @25 14 St | @26 14 St | @27 14 St",
+"outcome": "loud"
+},
+{
+"id": 180,
+"text": "Start at 59 St station. Ride the N train 1 stop northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@233 Broadway-Lafayette St",
+"call": {
+"start": "59 St",
+"legs": "N northbound 1; D northbound 3"
+},
+"line": "AMBIGUOUS 2: @124 59 St | @125 59 St",
+"outcome": "loud"
+},
+{
+"id": 149,
+"text": "Start at 34 St-Herald Sq station. Ride the F train 3 stops northbound, then change to the E and ride the E train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@116 50 St",
+"call": {
+"start": "34 St-Herald Sq",
+"legs": "F northbound 3; E southbound 2"
+},
+"line": "AMBIGUOUS 2: @93 34 St-Herald Sq | @94 34 St-Herald Sq",
+"outcome": "loud"
+},
+{
+"id": 141,
+"text": "Start at 72 St station. Ride the B train 1 stop southbound, then change to the 1 and ride the 1 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@115 50 St",
+"call": {
+"start": "72 St",
+"legs": "B southbound 1; 1 southbound 1"
+},
+"line": "AMBIGUOUS 3: @141 72 St | @142 72 St | @143 72 St",
+"outcome": "loud"
+},
+{
+"id": 172,
+"text": "Start at 8 Av station. Ride the L train 2 stops southbound, then change to the 4 and ride the 4 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@325 Grand Central-42 St",
+"call": {
+"start": "8 Av",
+"legs": "L southbound 2; 4 northbound 1"
+},
+"line": "AMBIGUOUS 2: @151 8 Av | @152 8 Av",
+"outcome": "loud"
+},
+{
+"id": 156,
+"text": "Start at Chambers St station. Ride the Z train 1 stop northbound, then change to the W and ride the W train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@270 Cortlandt St",
+"call": {
+"start": "Chambers St",
+"legs": "Z northbound 1; W southbound 2"
+},
+"line": "AMBIGUOUS 3: @253 Chambers St | @254 Chambers St | @255 Chambers St",
+"outcome": "loud"
+},
+{
+"id": 144,
+"text": "Start at Borough Hall station. Ride the 2 train 3 stops northbound, then change to the A and ride the A train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@345 Hoyt-Schermerhorn Sts",
+"call": {
+"start": "Borough Hall",
+"legs": "2 northbound 3; A southbound 3"
+},
+"line": "AMBIGUOUS 2: @219 Borough Hall | @220 Borough Hall",
+"outcome": "loud"
+},
+{
+"id": 123,
+"text": "Start at 103 St station. Ride the 6 train 3 stops northbound, then change to the 5 and ride the 5 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@89 3 Av-149 St",
+"call": {
+"start": "103 St",
+"legs": "6 northbound 3; 5 northbound 3"
+},
+"line": "AMBIGUOUS 3: @1 103 St | @2 103 St | @3 103 St",
+"outcome": "loud"
+},
+{
+"id": 195,
+"text": "Start at 7 Av station. Ride the F train 1 stop northbound, then change to the R and ride the R train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@280 DeKalb Av",
+"call": {
+"start": "7 Av",
+"legs": "F northbound 1; R northbound 3"
+},
+"line": "AMBIGUOUS 3: @137 7 Av | @138 7 Av | @139 7 Av",
+"outcome": "loud"
+},
+{
+"id": 148,
+"text": "Start at Wall St station. Ride the 5 train 3 stops northbound, then change to the W and ride the W train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@428 Prince St",
+"call": {
+"start": "Wall St",
+"legs": "5 northbound 3; W southbound 2"
+},
+"line": "AMBIGUOUS 2: @482 Wall St | @483 Wall St",
+"outcome": "loud"
+},
+{
+"id": 178,
+"text": "Start at 59 St station. Ride the 5 train 1 stop southbound, then change to the 7 and ride the 7 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@95 34 St-Hudson Yards",
+"call": {
+"start": "59 St",
+"legs": "5 southbound 1; 7 southbound 3"
+},
+"line": "AMBIGUOUS 2: @124 59 St | @125 59 St",
+"outcome": "loud"
+},
+{
+"id": 137,
+"text": "Start at Nostrand Av station. Ride the 3 train 2 stops northbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@427 President St-Medgar Evers College",
+"call": {
+"start": "Nostrand Av",
+"legs": "3 northbound 2; 2 southbound 2"
+},
+"line": "AMBIGUOUS 2: @411 Nostrand Av | @412 Nostrand Av",
+"outcome": "loud"
+},
+{
+"id": 167,
+"text": "Start at 23 St station. Ride the F train 2 stops southbound, then change to the A and ride the A train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@97 34 St-Penn Station",
+"call": {
+"start": "23 St",
+"legs": "F southbound 2; A northbound 2"
+},
+"line": "AMBIGUOUS 4: @74 23 St | @75 23 St | @76 23 St | @77 23 St",
+"outcome": "loud"
+},
+{
+"id": 104,
+"text": "Start at 59 St-Columbus Circle station. Ride the 1 train 2 stops southbound, then change to the N and ride the N train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@123 57 St-7 Av",
+"call": {
+"start": "59 St-Columbus Circle",
+"legs": "1 southbound 2; N northbound 2"
+},
+"line": "AMBIGUOUS 2: @126 59 St-Columbus Circle | @127 59 St-Columbus Circle",
+"outcome": "loud"
+},
+{
+"id": 187,
+"text": "Start at Delancey St-Essex St station. Ride the F train 3 stops southbound, then change to the R and ride the R train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@274 Court St",
+"call": {
+"start": "Delancey St-Essex St",
+"legs": "F southbound 3; R northbound 1"
+},
+"line": "AMBIGUOUS 2: @281 Delancey St-Essex St | @282 Delancey St-Essex St",
+"outcome": "loud"
+},
+{
+"id": 129,
+"text": "Start at 23 St station. Ride the F train 1 stop northbound, then change to the Q and ride the Q train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@466 Times Sq-42 St",
+"call": {
+"start": "23 St",
+"legs": "F northbound 1; Q northbound 1"
+},
+"line": "AMBIGUOUS 4: @74 23 St | @75 23 St | @76 23 St | @77 23 St",
+"outcome": "loud"
+},
+{
+"id": 134,
+"text": "Start at 86 St station. Ride the 5 train 3 stops southbound, then change to the N and ride the N train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@94 34 St-Herald Sq",
+"call": {
+"start": "86 St",
+"legs": "5 southbound 3; N northbound 1"
+},
+"line": "AMBIGUOUS 6: @158 86 St | @159 86 St | @160 86 St | @161 86 St | @162 86 St | @163 86 St",
+"outcome": "loud"
+},
+{
+"id": 174,
+"text": "Start at 116 St station. Ride the 3 train 3 stops southbound, then change to the 1 and ride the 1 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@115 50 St",
+"call": {
+"start": "116 St",
+"legs": "3 southbound 3; 1 southbound 3"
+},
+"line": "AMBIGUOUS 3: @12 116 St | @13 116 St | @14 116 St",
+"outcome": "loud"
+},
+{
+"id": 118,
+"text": "Start at Bergen St station. Ride the F train 3 stops southbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@431 Prospect Av",
+"call": {
+"start": "Bergen St",
+"legs": "F southbound 3; R southbound 1"
+},
+"line": "AMBIGUOUS 2: @214 Bergen St | @215 Bergen St",
+"outcome": "loud"
+},
+{
+"id": 143,
+"text": "Start at Bergen St station. Ride the 2 train 1 stop northbound, then change to the Q and ride the Q train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@420 Parkside Av",
+"call": {
+"start": "Bergen St",
+"legs": "2 northbound 1; Q southbound 3"
+},
+"line": "AMBIGUOUS 2: @214 Bergen St | @215 Bergen St",
+"outcome": "loud"
+},
+{
+"id": 122,
+"text": "Start at DeKalb Av station. Ride the Q train 2 stops northbound, then change to the L and ride the L train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@151 8 Av",
+"call": {
+"start": "DeKalb Av",
+"legs": "Q northbound 2; L northbound 2"
+},
+"line": "AMBIGUOUS 2: @279 DeKalb Av | @280 DeKalb Av",
+"outcome": "loud"
+},
+{
+"id": 146,
+"text": "Start at W 4 St-Wash Sq station. Ride the F train 1 stop northbound, then change to the 2 and ride the 2 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@253 Chambers St",
+"call": {
+"start": "W 4 St-Wash Sq",
+"legs": "F northbound 1; 2 southbound 1"
+},
+"line": "AMBIGUOUS 2: @477 W 4 St-Wash Sq | @478 W 4 St-Wash Sq",
+"outcome": "loud"
+},
+{
+"id": 150,
+"text": "Start at DeKalb Av station. Ride the Q train 3 stops northbound, then change to the D and ride the D train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@478 W 4 St-Wash Sq",
+"call": {
+"start": "DeKalb Av",
+"legs": "Q northbound 3; D southbound 1"
+},
+"line": "AMBIGUOUS 2: @279 DeKalb Av | @280 DeKalb Av",
+"outcome": "loud"
+},
+{
+"id": 126,
+"text": "Start at 34 St-Herald Sq station. Ride the D train 3 stops northbound, then change to the E and ride the E train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@106 42 St-Port Authority Bus Terminal",
+"call": {
+"start": "34 St-Herald Sq",
+"legs": "D northbound 3; E southbound 2"
+},
+"line": "AMBIGUOUS 2: @93 34 St-Herald Sq | @94 34 St-Herald Sq",
+"outcome": "loud"
+},
+{
+"id": 106,
+"text": "Start at Wall St station. Ride the 5 train 2 stops northbound, then change to the 6 and ride the 6 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@218 Bleecker St",
+"call": {
+"start": "Wall St",
+"legs": "5 northbound 2; 6 northbound 3"
+},
+"line": "AMBIGUOUS 2: @482 Wall St | @483 Wall St",
+"outcome": "loud"
+},
+{
+"id": 194,
+"text": "Start at Cathedral Pkwy (110 St) station. Ride the 1 train 2 stops southbound, then change to the 3 and ride the 3 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@12 116 St",
+"call": {
+"start": "Cathedral Pkwy (110 St)",
+"legs": "1 southbound 2; 3 northbound 2"
+},
+"line": "AMBIGUOUS 2: @250 Cathedral Pkwy (110 St) | @251 Cathedral Pkwy (110 St)",
+"outcome": "loud"
+},
+{
+"id": 188,
+"text": "Start at Rockaway Av station. Ride the C train 1 stop southbound, then change to the Z and ride the Z train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@475 Van Siclen Av",
+"call": {
+"start": "Rockaway Av",
+"legs": "C southbound 1; Z northbound 2"
+},
+"line": "AMBIGUOUS 2: @440 Rockaway Av | @441 Rockaway Av",
+"outcome": "loud"
+},
+{
+"id": 162,
+"text": "Start at 34 St-Herald Sq station. Ride the B train 1 stop southbound, then change to the C and ride the C train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@243 Canal St",
+"call": {
+"start": "34 St-Herald Sq",
+"legs": "B southbound 1; C southbound 2"
+},
+"line": "AMBIGUOUS 2: @93 34 St-Herald Sq | @94 34 St-Herald Sq",
+"outcome": "loud"
+},
+{
+"id": 136,
+"text": "Start at Grand St station. Ride the D train 3 stops northbound, then change to the W and ride the W train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@86 28 St",
+"call": {
+"start": "Grand St",
+"legs": "D northbound 3; W southbound 1"
+},
+"line": "AMBIGUOUS 2: @328 Grand St | @329 Grand St",
+"outcome": "loud"
+},
+{
+"id": 127,
+"text": "Start at Pelham Pkwy station. Ride the 5 train 2 stops southbound, then change to the 2 and ride the 2 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@423 Pelham Pkwy",
+"call": {
+"start": "Pelham Pkwy",
+"legs": "5 southbound 2; 2 northbound 2"
+},
+"line": "AMBIGUOUS 2: @423 Pelham Pkwy | @424 Pelham Pkwy",
+"outcome": "loud"
+},
+{
+"id": 130,
+"text": "Start at 149 St-Hostos station. Ride the 5 train 3 stops southbound, then change to the 6 and ride the 6 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@147 77 St",
+"call": {
+"start": "149 St-Hostos",
+"legs": "5 southbound 3; 6 southbound 1"
+},
+"line": "AMBIGUOUS 2: @35 149 St-Hostos | @36 149 St-Hostos",
+"outcome": "loud"
+},
+{
+"id": 183,
+"text": "Start at 86 St station. Ride the R train 3 stops northbound, then change to the N and ride the N train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@405 New Utrecht Av",
+"call": {
+"start": "86 St",
+"legs": "R northbound 3; N southbound 3"
+},
+"line": "AMBIGUOUS 6: @158 86 St | @159 86 St | @160 86 St | @161 86 St | @162 86 St | @163 86 St",
+"outcome": "loud"
+},
+{
+"id": 155,
+"text": "Start at 72 St station. Ride the Q train 1 stop southbound, then change to the M and ride the M train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@70 21 St-Queensbridge",
+"call": {
+"start": "72 St",
+"legs": "Q southbound 1; M northbound 2"
+},
+"line": "AMBIGUOUS 3: @141 72 St | @142 72 St | @143 72 St",
+"outcome": "loud"
+},
+{
+"id": 112,
+"text": "Start at Spring St station. Ride the E train 1 stop northbound, then change to the B and ride the B train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@328 Grand St",
+"call": {
+"start": "Spring St",
+"legs": "E northbound 1; B southbound 2"
+},
+"line": "AMBIGUOUS 2: @452 Spring St | @453 Spring St",
+"outcome": "loud"
+},
+{
+"id": 176,
+"text": "Start at 23 St station. Ride the M train 2 stops southbound, then change to the B and ride the B train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@280 DeKalb Av",
+"call": {
+"start": "23 St",
+"legs": "M southbound 2; B southbound 3"
+},
+"line": "AMBIGUOUS 4: @74 23 St | @75 23 St | @76 23 St | @77 23 St",
+"outcome": "loud"
+},
+{
+"id": 108,
+"text": "Start at 28 St station. Ride the 1 train 3 stops southbound, then change to the 3 and ride the 3 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@418 Park Place",
+"call": {
+"start": "28 St",
+"legs": "1 southbound 3; 3 southbound 2"
+},
+"line": "AMBIGUOUS 3: @84 28 St | @85 28 St | @86 28 St",
+"outcome": "loud"
+},
+{
+"id": 190,
+"text": "Start at 34 St-Herald Sq station. Ride the N train 1 stop northbound, then change to the 3 and ride the 3 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@167 96 St",
+"call": {
+"start": "34 St-Herald Sq",
+"legs": "N northbound 1; 3 northbound 2"
+},
+"line": "AMBIGUOUS 2: @93 34 St-Herald Sq | @94 34 St-Herald Sq",
+"outcome": "loud"
+},
+{
+"id": 109,
+"text": "Start at Jay St-MetroTech station. Ride the F train 2 stops southbound, then change to the G and ride the G train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@319 Fulton St",
+"call": {
+"start": "Jay St-MetroTech",
+"legs": "F southbound 2; G northbound 3"
+},
+"line": "AMBIGUOUS 2: @356 Jay St-MetroTech | @357 Jay St-MetroTech",
+"outcome": "loud"
+},
+{
+"id": 179,
+"text": "Start at 34 St-Herald Sq station. Ride the B train 1 stop southbound, then change to the E and ride the E train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@243 Canal St",
+"call": {
+"start": "34 St-Herald Sq",
+"legs": "B southbound 1; E southbound 2"
+},
+"line": "AMBIGUOUS 2: @93 34 St-Herald Sq | @94 34 St-Herald Sq",
+"outcome": "loud"
+},
+{
+"id": 145,
+"text": "Start at Fulton St station. Ride the 3 train 3 stops northbound, then change to the 1 and ride the 1 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@74 23 St",
+"call": {
+"start": "Fulton St",
+"legs": "3 northbound 3; 1 northbound 2"
+},
+"line": "AMBIGUOUS 5: @316 Fulton St | @317 Fulton St | @318 Fulton St | @319 Fulton St | @320 Fulton St",
+"outcome": "loud"
+},
+{
+"id": 133,
+"text": "Start at 14 St-Union Sq station. Ride the N train 3 stops southbound, then change to the D and ride the D train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@165 9 Av",
+"call": {
+"start": "14 St-Union Sq",
+"legs": "N southbound 3; D southbound 1"
+},
+"line": "AMBIGUOUS 3: @28 14 St-Union Sq | @29 14 St-Union Sq | @30 14 St-Union Sq",
+"outcome": "loud"
+},
+{
+"id": 119,
+"text": "Start at Rector St station. Ride the W train 3 stops northbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@452 Spring St",
+"call": {
+"start": "Rector St",
+"legs": "W northbound 3; 6 northbound 1"
+},
+"line": "AMBIGUOUS 2: @437 Rector St | @438 Rector St",
+"outcome": "loud"
+},
+{
+"id": 124,
+"text": "Start at 161 St-Yankee Stadium station. Ride the B train 3 stops southbound, then change to the C and ride the C train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@38 155 St",
+"call": {
+"start": "161 St-Yankee Stadium",
+"legs": "B southbound 3; C northbound 2"
+},
+"line": "AMBIGUOUS 2: @41 161 St-Yankee Stadium | @42 161 St-Yankee Stadium",
+"outcome": "loud"
+},
+{
+"id": 192,
+"text": "Start at Jay St-MetroTech station. Ride the F train 1 stop southbound, then change to the G and ride the G train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@345 Hoyt-Schermerhorn Sts",
+"call": {
+"start": "Jay St-MetroTech",
+"legs": "F southbound 1; G northbound 1"
+},
+"line": "AMBIGUOUS 2: @356 Jay St-MetroTech | @357 Jay St-MetroTech",
+"outcome": "loud"
+},
+{
+"id": 125,
+"text": "Start at 116 St station. Ride the 3 train 3 stops southbound, then change to the 1 and ride the 1 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@149 79 St",
+"call": {
+"start": "116 St",
+"legs": "3 southbound 3; 1 northbound 1"
+},
+"line": "AMBIGUOUS 3: @12 116 St | @13 116 St | @14 116 St",
+"outcome": "loud"
+},
+{
+"id": 177,
+"text": "Start at Delancey St-Essex St station. Ride the J train 2 stops southbound, then change to the N and ride the N train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@30 14 St-Union Sq",
+"call": {
+"start": "Delancey St-Essex St",
+"legs": "J southbound 2; N northbound 1"
+},
+"line": "AMBIGUOUS 2: @281 Delancey St-Essex St | @282 Delancey St-Essex St",
+"outcome": "loud"
+},
+{
+"id": 196,
+"text": "Start at Rector St station. Ride the 1 train 2 stops northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@482 Wall St",
+"call": {
+"start": "Rector St",
+"legs": "1 northbound 2; 2 southbound 3"
+},
+"line": "AMBIGUOUS 2: @437 Rector St | @438 Rector St",
+"outcome": "loud"
+},
+{
+"id": 147,
+"text": "Start at Wall St station. Ride the 4 train 2 stops northbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@242 Canal St",
+"call": {
+"start": "Wall St",
+"legs": "4 northbound 2; 6 northbound 1"
+},
+"line": "AMBIGUOUS 2: @482 Wall St | @483 Wall St",
+"outcome": "loud"
+}
+],
+"stock": {
+"seed": 20261103,
+"asked": 4,
+"limit_s": 3000.0,
+"load_s": 8.3,
+"positions": 18149,
+"mismatches": 0,
+"head_mismatch": 0,
+"token_differences": 0,
+"seconds": 325.1,
+"passed": true
+},
+"stock_questions": 4,
+"void": null,
+"bar": {
+"machine_points": 73.5,
+"host_points": 73.5,
+"pass": true
+},
+"by_source": {
+"file_right": 47,
+"file_loud": 53,
+"generated_right": 100
+}
+}

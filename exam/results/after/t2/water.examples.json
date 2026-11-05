@@ -1,0 +1,23 @@
+[
+ {"user": "What does Regulator 2 supply?",
+  "calls": [{"fn": "neighbours", "args": {"node": "Regulator 2", "relation": "feeds"}, "result": "@8 Area 11 Orchard\n@9 Area 12 Quarry"}],
+  "reply": "Area 11 Orchard and Area 12 Quarry."},
+ {"user": "what's directly upstream of regulator 22",
+  "calls": [{"fn": "neighbours", "args": {"node": "Regulator 22", "relation": "feeds", "direction": "in"}, "result": "@4 Gate 6C\n@5 Gate 9"}],
+  "reply": "Gate 6C and Gate 9."},
+ {"user": "A tractor cracked the main at Gate 9 and it's isolated until the repair's done. What's the route with the fewest hops from Fernley Tank to Greenacre Care Home now?",
+  "calls": [{"fn": "close", "args": {"node": "Gate 9"}, "result": "closed @5 Gate 9"},
+            {"fn": "path", "args": {"from": "Fernley Tank", "to": "Greenacre Care Home"}, "result": "4 steps: @2 Fernley Tank > @3 Gate 6 > @4 Gate 6C > @7 Regulator 22 > @11 Greenacre Care Home"}],
+  "reply": "Gate 9 is closed. The route is Fernley Tank, Gate 6, Gate 6C, Regulator 22, Greenacre Care Home, 4 hops."},
+ {"user": "That repair is done and water is flowing through it again. What's the shortest pipe run from Fernley Tank to Greenacre Care Home, in metres?",
+  "calls": [{"fn": "reopen", "args": {"node": "Gate 9"}, "result": "reopened @5 Gate 9"},
+            {"fn": "cheapest", "args": {"from": "Fernley Tank", "to": "Greenacre Care Home"}, "result": "cost 1270: @2 Fernley Tank > @3 Gate 6 > @5 Gate 9 > @7 Regulator 22 > @11 Greenacre Care Home"}],
+  "reply": "Gate 9 is open again. The shortest run is 1,270 metres, through Gate 6, Gate 9 and Regulator 22."},
+ {"user": "We might shut Gate 6C next year for relining, but nothing's decided.",
+  "calls": [],
+  "reply": "Noted. I haven't changed anything."},
+ {"user": "Gate 6C and Gate 9 are now joined by a 450 metre cross-connection.",
+  "calls": [{"fn": "link", "args": {"from": "Gate 6C", "relation": "interconnect", "to": "Gate 9", "weight": "450"}, "result": "linked @4 Gate 6C > interconnect > @5 Gate 9"},
+            {"fn": "link", "args": {"from": "Gate 9", "relation": "interconnect", "to": "Gate 6C", "weight": "450"}, "result": "linked @5 Gate 9 > interconnect > @4 Gate 6C"}],
+  "reply": "Linked in both directions, 450 metres."}
+]

@@ -1,0 +1,13 @@
+slow ('random/r021', 20) True 18.99
+batched ('cities/c021', 223) True 29.79 {}
+batched ('cities/c004', 22) True 61.58 {}
+batched ('random/r090', 48) True 38.68 {}
+batched ('cities/c007', 358) True 59.76 {}
+batched ('cities/c000', 377) True 45.85 {}
+batched ('random/r014', 23) True 61.56 {}
+batched ('cities/c020', 230) False 24.12 {'n_calls': False, 'ids': False, 'responses': False, 'chip': False, 'qwen': False, 'echo': False}
+batched ('cities/c017', 348) True 129.05 {}
+batched ('random/r021', 22) False 195.7 {'prose': False}
+{"slow": {"n": 1, "s": 19.1, "tokens": 80}, "batched": {"n": 9, "s": 203.6, "tokens": 1908, "stats": {"gpu_steps": 868, "row_steps": 1899, "prefill_s": 32.4, "step_s": 157.0, "seconds": 203.6}}}
+{'mps_allocated_gib': 23.13, 'mps_driver_gib': 24.17}
+[stage seconds 222.9]

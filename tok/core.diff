@@ -1,0 +1,33 @@
+50c50,53
+< OUT_NAMES = list(S.FAMILIES) + S.CONTROL_NAMES + ["Q"] + list(S.STORE_FAMILIES)
+---
+> # tok/: T0..T3, a Qwen token by its id: family k holds id bits 17..16, the payload bits 15..0
+> OUT_NAMES = list(S.FAMILIES) + S.CONTROL_NAMES + ["Q"] + list(S.STORE_FAMILIES) + ["T0", "T1", "T2", "T3"]
+> PRINT_ID = 511  # tok/: BYTE(511): the echo is the token whose id is the next instruction's value (a delay slot)
+> NN = 271  # tok/: "\n\n", HALT's echo: the template's last token
+144,145c147,153
+<             p = text.printable_index(t - S.TEXT_TOKEN) if text else None
+<             return None if p is None else code_bits("Q", p)
+---
+>             if not text:
+>                 return None
+>             q = t - S.TEXT_TOKEN
+>             p = text.printable_index(q)
+>             if p is not None:
+>                 return code_bits("Q", p)
+>             return code_bits(f"T{q >> 16}", q & 0xFFFF) if text.id_ok(q) else None
+1125,1127c1133,1138
+<         cases.append(([fam["BYTE"]], "Q", c.pay["BYTE"]))
+<         nl = text.printable_index(text.NL)  # a run ends in a newline
+<         cases.append(([fam["HALT"]], "Q", [one if nl >> i & 1 else Expr() for i in range(9)]))
+---
+>         print_id = c.and_(c.pay["BYTE"], "byte.print_id")
+>         cases.append(([fam["BYTE"], one - print_id], "Q", c.pay["BYTE"]))
+>         for k in range(4):
+>             cases.append(([fam["BYTE"], print_id] + lits_of(val[16:18], k), f"T{k}", val[0:16]))
+>         # a run ends in "\n\n", as the template's generation prompt
+>         cases.append(([fam["HALT"]], f"T{NN >> 16}", [one if NN >> i & 1 else Expr() for i in range(16)]))
+1315a1327,1329
+>     if nm in ("T0", "T1", "T2", "T3"):
+>         q = int(nm[1]) << 16 | p
+>         return S.TEXT_TOKEN + q if text and text.id_ok(q) else -1

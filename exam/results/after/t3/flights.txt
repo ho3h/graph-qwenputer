@@ -1,0 +1,33 @@
+16:30:18 memguard: start pid 40160 limit 32.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python gq.py ask /tmp/t3-flights.graph.json --whole --model <home>/Models/x210/x210-tok --python /Users/tedsandta
+16:30:18 memguard: 0 s, 1 procs, 0.01 GiB, peak 0.01, system free 94%
+Loading the model. The first run also compiles the C engine.
+16:31:19 memguard: 60 s, 4 procs, 20.09 GiB, peak 20.29, system free 82%
+16:32:19 memguard: 121 s, 4 procs, 20.09 GiB, peak 20.29, system free 80%
+16:33:20 memguard: 181 s, 4 procs, 20.09 GiB, peak 20.29, system free 80%
+16:34:20 memguard: 242 s, 4 procs, 20.10 GiB, peak 20.29, system free 81%
+16:35:21 memguard: 302 s, 4 procs, 20.10 GiB, peak 20.29, system free 83%
+16:36:21 memguard: 363 s, 4 procs, 20.10 GiB, peak 20.29, system free 83%
+16:37:21 memguard: 423 s, 4 procs, 20.11 GiB, peak 20.29, system free 82%
+16:38:22 memguard: 484 s, 4 procs, 20.11 GiB, peak 20.29, system free 80%
+16:39:23 memguard: 545 s, 4 procs, 20.11 GiB, peak 20.29, system free 82%
+16:40:23 memguard: 605 s, 4 procs, 20.11 GiB, peak 20.29, system free 82%
+16:41:23 memguard: 665 s, 4 procs, 20.11 GiB, peak 20.29, system free 80%
+
+You: What's the cheapest way from Lisbon to Warsaw?
+  Machine: cheapest {"from": "Lisbon", "to": "Warsaw"} -> cost 250: @0 Lisbon > @2 Paris > @4 Berlin > @6 Warsaw
+Qwen: Lisbon, Paris, Berlin, Warsaw, for 250
+
+You: Paris airport has closed. What's the cheapest way from Lisbon to Warsaw now?
+  Machine: close {"node": "Paris"} -> closed @2 Paris
+  Machine: cheapest {"from": "Lisbon", "to": "Warsaw"} -> cost 400: @0 Lisbon > @1 Madrid > @3 Rome > @5 Athens > @6 Warsaw
+Qwen: Lisbon, Madrid, Rome, Athens, Warsaw, for 400
+
+You: Paris airport has reopened. What's the cheapest way from Lisbon to Warsaw now?
+  Machine: reopen {"node": "Paris"} -> reopened @2 Paris
+  Machine: cheapest {"from": "Lisbon", "to": "Warsaw"} -> cost 250: @0 Lisbon > @2 Paris > @4 Berlin > @6 Warsaw
+Qwen: Lisbon, Paris, Berlin, Warsaw, for 250
+
+Every token on the real weights, against the simulator: 17,657 compared, 0 differ.
+
+Ran on: stock and executor in lockstep. "executor" means the simulator ran the 11 added layers and Qwen's layers ran on the real weights. 17215 machine tokens, 690 s. Rows: <tmp>
+16:42:01 memguard: end code 0, 703 s, peak 20.29 GiB

@@ -1,0 +1,50 @@
+{
+"n": 300,
+"machine": {
+"right": 300,
+"unasked_closed": 0,
+"toolong": 0,
+"reserved_rows": 0,
+"lock_or_flag": 0,
+"machine_equals_host_tool": 300,
+"seconds": 11128.779999999999,
+"qwen_tokens": 13370,
+"chip_tokens": 1153497
+},
+"machine_right_wilson": [
+0.987,
+1.0
+],
+"host": {
+"right": 300
+},
+"host_n": 300,
+"agreement": {
+"both": 300,
+"same_call": 300,
+"same_outcome": 300
+},
+"wrong": [],
+"stock": {
+"seed": 20261103,
+"asked": 4,
+"limit_s": 1500,
+"load_s": 7.6,
+"positions": 15765,
+"mismatches": 0,
+"head_mismatch": 0,
+"token_differences": 0,
+"seconds": 233.3,
+"passed": true
+},
+"stock_questions": 4,
+"void": null,
+"bar": {
+"machine_points": 100.0,
+"host_points": 100.0,
+"pass": true
+},
+"by_source": {
+"file_right": 300
+}
+}

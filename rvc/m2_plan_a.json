@@ -1,0 +1,104 @@
+[
+{
+"graph": "tiny",
+"calls": [
+[
+"find",
+{
+"name": "Eastgate"
+}
+],
+[
+"find",
+{
+"name": "Ōtaki"
+}
+],
+[
+"find",
+{
+"name": "Central"
+}
+],
+[
+"follow",
+{
+"node": "Northwood",
+"relation": "blue southbound",
+"steps": "3"
+}
+],
+[
+"chase",
+{
+"start": "@4",
+"legs": "red eastbound 1; red eastbound 1"
+}
+],
+[
+"neighbours",
+{
+"node": "@8",
+"relation": "red eastbound"
+}
+],
+[
+"path",
+{
+"from": "@0",
+"to": "@11"
+}
+],
+[
+"cheapest",
+{
+"from": "@0",
+"to": "@11"
+}
+],
+[
+"close",
+{
+"node": "@5"
+}
+],
+[
+"follow",
+{
+"node": "@0",
+"relation": "blue southbound",
+"steps": "1"
+}
+],
+[
+"reopen",
+{
+"node": "@5"
+}
+],
+[
+"link",
+{
+"from": "@2",
+"relation": "transfer",
+"to": "@3",
+"weight": "3"
+}
+],
+[
+"unlink",
+{
+"from": "@2",
+"relation": "transfer",
+"to": "@3"
+}
+],
+[
+"nosuch",
+{
+"a": "b"
+}
+]
+]
+}
+]

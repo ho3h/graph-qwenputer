@@ -1,0 +1,11 @@
+# Flights in both directions, with a weight for the fare. gq.py import examples/flights.csv --both flight
+from,relation,to,weight
+Lisbon,flight,Madrid,60
+Lisbon,flight,Paris,120
+Madrid,flight,Rome,90
+Paris,flight,Rome,70
+Paris,flight,Berlin,80
+Rome,flight,Athens,110
+Berlin,flight,Warsaw,50
+Warsaw,flight,Athens,140
+Reykjavik,flight,Lisbon,300

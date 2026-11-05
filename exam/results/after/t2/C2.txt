@@ -1,0 +1,37 @@
+Loading the model. The first run also compiles the C engine.
+
+You: Harcourt Capital LLP looked at buying Tidewell Foods Ltd in the spring, but the deal fell through. Who owns Tidewell Foods Ltd?
+  Machine: neighbours {"node": "Tidewell Foods Ltd", "relation": "owns", "direction": "in"} -> @26 Sofia Lindqvist
+@28 Kenji Mori
+Qwen: Tidewell Foods Ltd is owned by Sofia Lindqvist and Kenji Mori.
+
+You: Brightwell Foods Ltd was struck off in June.
+  Machine: close {"node": "Brightwell Foods Ltd"} -> closed @17 Brightwell Foods Ltd
+Qwen: Brightwell Foods Ltd has been closed.
+
+You: How is Marcus Hale connected to Brightwell Dairy Ltd now?
+  Machine: path {"from": "Marcus Hale", "to": "Brightwell Dairy Ltd"} -> NOPATH
+  Machine: neighbours {"node": "Marcus Hale", "relation": "director_of"} -> NONE
+  Machine: neighbours {"node": "Marcus Hale", "relation": "owns"} -> @13 Harcourt Capital LLP
+  Machine: neighbours {"node": "Brightwell Dairy Ltd", "relation": "owns", "direction": "in"} -> NONE
+  Machine: neighbours {"node": "Brightwell Dairy Ltd", "relation": "director_of", "direction": "in"} -> NONE
+  Machine: neighbours {"node": "Brightwell Dairy Ltd", "relation": "registered_at", "direction": "in"} -> NONE
+  Machine: neighbours {"node": "Marcus Hale", "relation": "owns", "direction": "in"} -> NONE
+  Machine: neighbours {"node": "Marcus Hale", "relation": "director_of", "direction": "in"} -> NONE
+  Machine: neighbours {"node": "Marcus Hale", "relation": "owns"} -> @13 Harcourt Capital LLP
+  Machine: neighbours {"node": "Harcourt Capital LLP", "relation": "owns"} -> @15 Harcourt Capital Partners 1 LP
+@16 Harcourt Capital Partners 2 LP
+Qwen: <tool_call>
+<function=neighbours>
+<parameter=node>
+Harcourt Capital Partners 1 LP
+</parameter>
+<parameter=relation>
+owns
+</parameter>
+</function>
+</tool_call>
+
+The run stopped early: cap. 3 of 5 turns ran. "cap" means Qwen made 12 calls, and "budget" means Qwen wrote 320 tokens in a turn or 3,072 in all.
+
+Ran on: executor. "executor" means the simulator ran the 11 added layers and Qwen's layers ran on the real weights. 37263 machine tokens, 119 s. Rows: <tmp>

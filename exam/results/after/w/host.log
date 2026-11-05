@@ -1,0 +1,118 @@
+13:32:26 memguard: start pid 2211 limit 16.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python -B exam/wordings.py host --out exam/results/after/w/host.jsonl --deadline-s 1050
+13:32:26 memguard: 0 s, 1 procs, 0.01 GiB, peak 0.01, system free 93%
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 10971.15it/s]
+loaded 3.2
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+100 @241 Canal St 4.2
+101 @266 Clinton-Washington Avs 3.9
+102 @482 Wall St 3.9
+103 @344 Hoyt St 4.0
+104 @123 57 St-7 Av 4.1
+105 @372 Lafayette Av 4.0
+106 @218 Bleecker St 3.9
+107 @202 Beach 105 St 4.0
+108 @418 Park Place 4.0
+109 @319 Fulton St 4.2
+110 @11 111 St 4.2
+111 @373 Lexington Av/53 St 4.3
+112 @328 Grand St 4.1
+13:33:26 memguard: 60 s, 2 procs, 10.63 GiB, peak 10.63, system free 86%
+113 @114 5 Av/59 St 4.4
+114 @181 Atlantic Av-Barclays Ctr 4.1
+115 NORELATION K northbound 4.4
+116 @437 Rector St 4.3
+117 @405 New Utrecht Av 4.4
+118 @431 Prospect Av 4.3
+119 @452 Spring St 4.2
+120 @365 Kings Hwy 4.3
+121 @334 Greenpoint Av 4.5
+122 @151 8 Av 4.3
+123 @89 3 Av-149 St 4.4
+124 @38 155 St 4.6
+125 @149 79 St 4.4
+126 @106 42 St-Port Authority Bus Terminal 4.4
+13:34:27 memguard: 121 s, 2 procs, 10.63 GiB, peak 10.63, system free 86%
+127 @423 Pelham Pkwy 4.4
+128 @113 5 Av/53 St 4.6
+129 @466 Times Sq-42 St 4.5
+130 @147 77 St 4.5
+131 @291 East Broadway 4.5
+132 @208 Beach 90 St 4.7
+133 @165 9 Av 4.6
+134 @94 34 St-Herald Sq 5.2
+135 @76 23 St 4.7
+136 @86 28 St 4.6
+137 @427 President St-Medgar Evers College 4.4
+138 @310 Franklin Av 4.6
+139 @344 Hoyt St 4.8
+13:35:27 memguard: 181 s, 2 procs, 10.63 GiB, peak 10.63, system free 86%
+140 @192 Avenue U 4.6
+141 @115 50 St 4.6
+142 @328 Grand St 4.8
+143 @420 Parkside Av 4.8
+144 @345 Hoyt-Schermerhorn Sts 4.4
+145 @74 23 St 4.7
+146 @253 Chambers St 4.8
+147 @242 Canal St 4.7
+148 @428 Prince St 4.6
+149 @116 50 St 4.7
+150 @478 W 4 St-Wash Sq 4.6
+151 @27 14 St 4.6
+152 @209 Beach 98 St 4.9
+13:36:28 memguard: 242 s, 2 procs, 10.63 GiB, peak 10.63, system free 86%
+153 @74 23 St 4.6
+154 @118 51 St 4.9
+155 @70 21 St-Queensbridge 4.7
+156 @270 Cortlandt St 4.7
+157 @321 Gates Av 4.8
+158 @229 Broadway 4.6
+159 @433 Queens Plaza 4.7
+160 @41 161 St-Yankee Stadium 4.9
+161 @280 DeKalb Av 4.8
+162 @243 Canal St 4.7
+163 @362 Kew Gardens-Union Tpke 4.8
+164 @108 46 St 5.1
+13:37:28 memguard: 302 s, 2 procs, 10.55 GiB, peak 10.63, system free 86%
+165 @105 42 St-Bryant Pk 5.0
+166 @253 Chambers St 5.2
+167 @97 34 St-Penn Station 4.9
+168 @131 63 Dr-Rego Park 5.0
+169 Stopped early on leg 1: after 0 steps at @1 103 St, no furth 6.0
+170 @39 155 St 5.2
+171 @97 34 St-Penn Station 5.9
+172 @325 Grand Central-42 St 5.0
+173 @218 Bleecker St 4.7
+174 @115 50 St 4.9
+175 @215 Bergen St 5.0
+176 @280 DeKalb Av 4.8
+13:38:29 memguard: 363 s, 2 procs, 10.63 GiB, peak 10.63, system free 85%
+177 @30 14 St-Union Sq 5.2
+178 @95 34 St-Hudson Yards 5.5
+179 @243 Canal St 5.0
+180 @233 Broadway-Lafayette St 4.7
+181 @330 Grant Av 4.8
+182 @393 Myrtle Av 5.0
+183 @405 New Utrecht Av 4.7
+184 @240 Bushwick Av-Aberdeen St 4.6
+185 @111 49 St 5.5
+186 @139 7 Av 4.7
+187 @274 Court St 4.8
+188 @475 Van Siclen Av 5.2
+13:39:29 memguard: 423 s, 2 procs, 10.55 GiB, peak 10.63, system free 85%
+189 @328 Grand St 4.6
+190 @167 96 St 5.7
+191 @280 DeKalb Av 7.4
+192 @345 Hoyt-Schermerhorn Sts 7.9
+193 @26 14 St 5.6
+194 @12 116 St 6.2
+195 @280 DeKalb Av 4.9
+196 @482 Wall St 5.5
+197 @105 42 St-Bryant Pk 5.6
+198 @220 Borough Hall 5.5
+13:40:30 memguard: 484 s, 2 procs, 10.47 GiB, peak 10.63, system free 85%
+199 @98 36 Av 7.2
+done 481
+13:40:34 memguard: end code 0, 488 s, peak 10.63 GiB

@@ -1,0 +1,63 @@
+{
+"ran_on": "simulator, with the reference machine on every call",
+"calls": [
+{
+"fn": "chase",
+"args": {
+"start": "Bowling Green",
+"legs": "4 southbound 5; 3 southbound 5"
+},
+"body": "@425 Pennsylvania Av",
+"chip": 6279,
+"digest": "44b45fda1ced3134"
+},
+{
+"fn": "path",
+"args": {
+"from": "Bowling Green",
+"to": "Pennsylvania Av"
+},
+"body": "10 steps: @223 Bowling Green > @220 Borough Hall > @401 Nevins St > @181 Atlantic Av-Barclays Ctr > @312 Franklin Av-Medgar Evers College > @276 Crown Hts-Utica Av > @462 Sutter Av-Rutland Rd > @445 Saratoga Av > @440 Rockaway Av > @361 Junius St > @425 Pennsylvania Av",
+"chip": 39584,
+"digest": "9ce1e70105ef7afe"
+},
+{
+"fn": "close",
+"args": {
+"node": "Saratoga Av"
+},
+"body": "closed @445 Saratoga Av",
+"chip": 2555,
+"digest": "9c08b0685f73f74a"
+},
+{
+"fn": "path",
+"args": {
+"from": "Bowling Green",
+"to": "Pennsylvania Av"
+},
+"body": "14 steps: @223 Bowling Green > @220 Borough Hall > @274 Court St > @357 Jay St-MetroTech > @356 Jay St-MetroTech > @345 Hoyt-Schermerhorn Sts > @412 Nostrand Av > @471 Utica Av > @230 Broadway Junction > @232 Broadway Junction > @180 Atlantic Av > @461 Sutter Av > @377 Livonia Av > @361 Junius St > @425 Pennsylvania Av",
+"chip": 58901,
+"digest": "63e00a69085bf113"
+},
+{
+"fn": "reopen",
+"args": {
+"node": "Saratoga Av"
+},
+"body": "reopened @445 Saratoga Av",
+"chip": 1947,
+"digest": "ddb28906898ea219"
+},
+{
+"fn": "path",
+"args": {
+"from": "Bowling Green",
+"to": "Pennsylvania Av"
+},
+"body": "10 steps: @223 Bowling Green > @220 Borough Hall > @401 Nevins St > @181 Atlantic Av-Barclays Ctr > @312 Franklin Av-Medgar Evers College > @276 Crown Hts-Utica Av > @462 Sutter Av-Rutland Rd > @445 Saratoga Av > @440 Rockaway Av > @361 Junius St > @425 Pennsylvania Av",
+"chip": 39584,
+"digest": "0bee9186e8945d81"
+}
+]
+}

@@ -1,0 +1,14 @@
+{
+ "counts": {
+  "link": 300,
+  "same": 300,
+  "eq_reflib": 256,
+  "linked": 256,
+  "FULL": 44
+ },
+ "first_refusal": [
+  256,
+  "FULL",
+  "linked @51 Stop 0051 > r0 > @196 Stop 0196"
+ ]
+}

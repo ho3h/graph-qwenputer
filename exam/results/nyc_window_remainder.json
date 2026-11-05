@@ -1,0 +1,40 @@
+{
+ "totals": {
+  "gates": 20457,
+  "channels": 11879
+ },
+ "by_kind": {
+  "gates": {
+   "baseline": 11531,
+   "added_by_window": 312,
+   "compared_now": 11843,
+   "exam_reached": 11535,
+   "new_in_exams": 338,
+   "left_uncompared": 26
+  },
+  "channels": {
+   "baseline": 3268,
+   "added_by_window": 2145,
+   "compared_now": 5413,
+   "exam_reached": 5417,
+   "new_in_exams": 2489,
+   "left_uncompared": 344
+  },
+  "reads": {
+   "baseline": 132,
+   "added_by_window": 0,
+   "compared_now": 132,
+   "exam_reached": 132,
+   "new_in_exams": 0,
+   "left_uncompared": 0
+  },
+  "writes": {
+   "baseline": 66,
+   "added_by_window": 10,
+   "compared_now": 76,
+   "exam_reached": 76,
+   "new_in_exams": 10,
+   "left_uncompared": 0
+  }
+ }
+}

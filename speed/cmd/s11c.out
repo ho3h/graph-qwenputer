@@ -1,0 +1,5 @@
+{"rows": 8, "n": 24, "same": 24, "s": 169.7, "stats": {"gpu_steps": 1228, "row_steps": 7129, "prefill_s": 57.0, "step_s": 105.6, "seconds": 169.7}}
+{"rows": 15, "n": 24, "same": 24, "s": 302.5, "stats": {"gpu_steps": 945, "row_steps": 7129, "prefill_s": 52.0, "step_s": 242.3, "seconds": 302.5}}
+{"rows": 15, "n": 24, "same": 24, "s": 325.0, "stats": {"gpu_steps": 952, "row_steps": 6004, "prefill_s": 85.4, "step_s": 228.0, "seconds": 325.0}}
+{"rows": 8, "n": 24, "same": 24, "s": 358.3, "stats": {"gpu_steps": 1175, "row_steps": 6004, "prefill_s": 85.5, "step_s": 248.3, "seconds": 358.3}}
+[stage seconds 1155.7]

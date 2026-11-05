@@ -1,0 +1,33 @@
+{
+ "note": "r1: reached by r1's machine exams, E1 and D1r calls (machine-exam prompt); compared = baseline, frozen window, this window. r1's job, samples, lockstep and A's calls not added.",
+ "by_kind": {
+  "gates": {
+   "compared_now": 11893,
+   "added_by_this_window": 50,
+   "reached": 11589,
+   "reached_before_window_uncompared": 71,
+   "left_uncompared": 21
+  },
+  "channels": {
+   "compared_now": 5660,
+   "added_by_this_window": 247,
+   "reached": 5418,
+   "reached_before_window_uncompared": 416,
+   "left_uncompared": 169
+  },
+  "reads": {
+   "compared_now": 132,
+   "added_by_this_window": 0,
+   "reached": 132,
+   "reached_before_window_uncompared": 0,
+   "left_uncompared": 0
+  },
+  "writes": {
+   "compared_now": 76,
+   "added_by_this_window": 0,
+   "reached": 76,
+   "reached_before_window_uncompared": 0,
+   "left_uncompared": 0
+  }
+ }
+}

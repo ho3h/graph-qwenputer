@@ -1,0 +1,629 @@
+{
+ "search": {
+  "1": 6886,
+  "8": 6880
+ },
+ "units": {
+  "chain": {
+   "n": 1024,
+   "e": 1023,
+   "counts": {
+    "path": 41,
+    "path_same_as_reference": 41,
+    "path_equal_reflib": 41,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     659,
+     260449
+    ],
+    [
+     844,
+     332968
+    ],
+    [
+     948,
+     373557
+    ],
+    [
+     994,
+     390685
+    ],
+    [
+     1004,
+     394444
+    ],
+    [
+     1011,
+     397041
+    ],
+    [
+     1013,
+     397783
+    ],
+    [
+     1023,
+     401251
+    ]
+   ],
+   "max_chip": 401251,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "ring": {
+   "n": 1024,
+   "e": 1024,
+   "counts": {
+    "path": 41,
+    "path_same_as_reference": 41,
+    "path_equal_reflib": 41,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     940,
+     369487
+    ],
+    [
+     1001,
+     392995
+    ],
+    [
+     1023,
+     401251
+    ],
+    [
+     1023,
+     401303
+    ],
+    [
+     1023,
+     401303
+    ],
+    [
+     1023,
+     401331
+    ],
+    [
+     1023,
+     401390
+    ],
+    [
+     1023,
+     401409
+    ]
+   ],
+   "max_chip": 401409,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "star": {
+   "n": 1024,
+   "e": 2046,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     2,
+     59476
+    ],
+    [
+     2,
+     60873
+    ],
+    [
+     2,
+     60985
+    ],
+    [
+     2,
+     61997
+    ],
+    [
+     2,
+     62986
+    ],
+    [
+     2,
+     63464
+    ],
+    [
+     2,
+     63634
+    ],
+    [
+     2,
+     63944
+    ]
+   ],
+   "max_chip": 63944,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "tree": {
+   "n": 1023,
+   "e": 2044,
+   "counts": {
+    "path": 41,
+    "path_same_as_reference": 41,
+    "path_equal_reflib": 41,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     18,
+     68686
+    ],
+    [
+     18,
+     68990
+    ],
+    [
+     18,
+     73937
+    ],
+    [
+     18,
+     82999
+    ],
+    [
+     18,
+     83017
+    ],
+    [
+     18,
+     83076
+    ],
+    [
+     18,
+     83369
+    ],
+    [
+     18,
+     83595
+    ]
+   ],
+   "max_chip": 83595,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "grid": {
+   "n": 1024,
+   "e": 3968,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     39,
+     139026
+    ],
+    [
+     42,
+     140039
+    ],
+    [
+     43,
+     136714
+    ],
+    [
+     55,
+     147054
+    ],
+    [
+     56,
+     147031
+    ],
+    [
+     57,
+     147435
+    ],
+    [
+     58,
+     147481
+    ],
+    [
+     59,
+     148778
+    ]
+   ],
+   "max_chip": 148778,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "sf0064": {
+   "n": 64,
+   "e": 340,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     3,
+     7451
+    ],
+    [
+     3,
+     8704
+    ],
+    [
+     4,
+     7185
+    ],
+    [
+     4,
+     8769
+    ],
+    [
+     4,
+     8802
+    ],
+    [
+     4,
+     10418
+    ],
+    [
+     4,
+     11042
+    ],
+    [
+     4,
+     11086
+    ]
+   ],
+   "max_chip": 11086,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "sf0128": {
+   "n": 128,
+   "e": 722,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     4,
+     12710
+    ],
+    [
+     4,
+     16521
+    ],
+    [
+     4,
+     17192
+    ],
+    [
+     4,
+     17909
+    ],
+    [
+     4,
+     18145
+    ],
+    [
+     5,
+     19301
+    ],
+    [
+     5,
+     20953
+    ],
+    [
+     5,
+     20964
+    ]
+   ],
+   "max_chip": 20964,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "sf0256": {
+   "n": 256,
+   "e": 1466,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     4,
+     17081
+    ],
+    [
+     4,
+     21632
+    ],
+    [
+     4,
+     25909
+    ],
+    [
+     5,
+     25786
+    ],
+    [
+     5,
+     32451
+    ],
+    [
+     5,
+     35046
+    ],
+    [
+     5,
+     38958
+    ],
+    [
+     5,
+     40026
+    ]
+   ],
+   "max_chip": 40026,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "sf0512": {
+   "n": 512,
+   "e": 3010,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     4,
+     47498
+    ],
+    [
+     4,
+     48572
+    ],
+    [
+     4,
+     53988
+    ],
+    [
+     5,
+     55772
+    ],
+    [
+     5,
+     63842
+    ],
+    [
+     5,
+     69254
+    ],
+    [
+     5,
+     76459
+    ],
+    [
+     6,
+     73411
+    ]
+   ],
+   "max_chip": 76459,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "sf1024": {
+   "n": 1024,
+   "e": 6086,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     5,
+     66400
+    ],
+    [
+     5,
+     93668
+    ],
+    [
+     5,
+     94295
+    ],
+    [
+     5,
+     97159
+    ],
+    [
+     5,
+     127869
+    ],
+    [
+     6,
+     140251
+    ],
+    [
+     6,
+     155981
+    ],
+    [
+     6,
+     156914
+    ]
+   ],
+   "max_chip": 156914,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "densest": {
+   "n": 1024,
+   "e": 6880,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     5,
+     95609
+    ],
+    [
+     5,
+     96809
+    ],
+    [
+     6,
+     47762
+    ],
+    [
+     7,
+     190889
+    ],
+    [
+     7,
+     191804
+    ],
+    [
+     7,
+     192342
+    ],
+    [
+     7,
+     192587
+    ],
+    [
+     7,
+     193371
+    ]
+   ],
+   "max_chip": 193371,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "edits": {
+   "n": null,
+   "e": null,
+   "counts": {
+    "link": 300,
+    "link_same_as_reference": 300
+   },
+   "tokens_by_hops": [],
+   "max_chip": 0,
+   "first_refusal": [
+    0,
+    "BADARG link"
+   ],
+   "differences": [],
+   "done": true
+  }
+ }
+}

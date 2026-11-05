@@ -1,0 +1,39 @@
+{
+"seed": 20261104,
+"conversations": [
+{
+"key": "nyc-r:0",
+"graph": "nyc-b",
+"from": "Bowling Green",
+"to": "Pennsylvania Av",
+"closed": 445,
+"routes": [
+"10 steps: @223 Bowling Green > @220 Borough Hall > @401 Nevins St > @181 Atlantic Av-Barclays Ctr > @312 Franklin Av-Medgar Evers College > @276 Crown Hts-Utica Av > @462 Sutter Av-Rutland Rd > @445 Saratoga Av > @440 Rockaway Av > @361 Junius St > @425 Pennsylvania Av",
+"14 steps: @223 Bowling Green > @220 Borough Hall > @274 Court St > @357 Jay St-MetroTech > @356 Jay St-MetroTech > @345 Hoyt-Schermerhorn Sts > @412 Nostrand Av > @471 Utica Av > @230 Broadway Junction > @232 Broadway Junction > @180 Atlantic Av > @461 Sutter Av > @377 Livonia Av > @361 Junius St > @425 Pennsylvania Av"
+],
+"turns": [
+{
+"user": "Start at Bowling Green station. Ride the 4 train 5 stops southbound, then change to the 3 and ride the 3 train 5 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@425 Pennsylvania Av",
+"wants": null
+},
+{
+"user": "What's the route with the fewest stops from Bowling Green to Pennsylvania Av?",
+"gold": "10 steps: @223 Bowling Green > @220 Borough Hall > @401 Nevins St > @181 Atlantic Av-Barclays Ctr > @312 Franklin Av-Medgar Evers College > @276 Crown Hts-Utica Av > @462 Sutter Av-Rutland Rd > @445 Saratoga Av > @440 Rockaway Av > @361 Junius St > @425 Pennsylvania Av",
+"wants": null
+},
+{
+"user": "Flooding has shut Saratoga Av. What's the route now?",
+"gold": "14 steps: @223 Bowling Green > @220 Borough Hall > @274 Court St > @357 Jay St-MetroTech > @356 Jay St-MetroTech > @345 Hoyt-Schermerhorn Sts > @412 Nostrand Av > @471 Utica Av > @230 Broadway Junction > @232 Broadway Junction > @180 Atlantic Av > @461 Sutter Av > @377 Livonia Av > @361 Junius St > @425 Pennsylvania Av",
+"wants": null
+},
+{
+"user": "Repairs are done and Saratoga Av is back. What's the route now?",
+"gold": "10 steps: @223 Bowling Green > @220 Borough Hall > @401 Nevins St > @181 Atlantic Av-Barclays Ctr > @312 Franklin Av-Medgar Evers College > @276 Crown Hts-Utica Av > @462 Sutter Av-Rutland Rd > @445 Saratoga Av > @440 Rockaway Av > @361 Junius St > @425 Pennsylvania Av",
+"wants": null
+}
+]
+}
+],
+"plain": []
+}

@@ -1,0 +1,35 @@
+08:36:10 memguard: start pid 57855 limit 16.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python -B exam/mapped.py --arm M2 --out exam/results/after/mapped/M2.jsonl --limit 25 --deadline-s 1480
+08:36:10 memguard: 0 s, 1 procs, 0.01 GiB, peak 0.01, system free 93%
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 10711.02it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+08:37:11 memguard: 61 s, 2 procs, 9.65 GiB, peak 10.62, system free 86%
+08:38:12 memguard: 122 s, 2 procs, 10.47 GiB, peak 10.62, system free 86%
+08:39:13 memguard: 182 s, 2 procs, 10.46 GiB, peak 10.63, system free 86%
+08:40:14 memguard: 243 s, 2 procs, 10.48 GiB, peak 10.63, system free 86%
+08:41:14 memguard: 304 s, 2 procs, 10.47 GiB, peak 10.63, system free 86%
+08:42:15 memguard: 364 s, 2 procs, 10.46 GiB, peak 10.63, system free 86%
+08:43:15 memguard: 425 s, 2 procs, 9.62 GiB, peak 10.63, system free 86%
+08:44:16 memguard: 486 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+08:45:17 memguard: 546 s, 2 procs, 9.52 GiB, peak 10.63, system free 86%
+chunk done 544
+08:45:21 memguard: end code 0, 550 s, peak 10.63 GiB
+08:45:21 memguard: start pid 60153 limit 16.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python -B exam/mapped.py --arm M2 --out exam/results/after/mapped/M2.jsonl --limit 25 --deadline-s 930
+08:45:21 memguard: 0 s, 1 procs, 0.01 GiB, peak 0.01, system free 93%
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 10244.14it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+08:46:22 memguard: 61 s, 2 procs, 9.70 GiB, peak 9.70, system free 86%
+08:47:22 memguard: 121 s, 2 procs, 9.51 GiB, peak 10.61, system free 86%
+08:48:23 memguard: 182 s, 2 procs, 9.45 GiB, peak 10.62, system free 86%
+08:49:23 memguard: 243 s, 2 procs, 10.55 GiB, peak 10.62, system free 86%
+chunk done 282
+08:50:09 memguard: end code 0, 288 s, peak 10.62 GiB
+08:50:09 memguard: start pid 60907 limit 16.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python -B exam/mapped.py --arm M2 --out exam/results/after/mapped/M2.jsonl --limit 25 --deadline-s 642
+08:50:09 memguard: 0 s, 1 procs, 0.01 GiB, peak 0.01, system free 93%
+arm finished
+08:50:10 memguard: end code 0, 1 s, peak 0.01 GiB

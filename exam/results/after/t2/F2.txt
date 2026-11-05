@@ -1,0 +1,39 @@
+Loading the model. The first run also compiles the C engine.
+
+You: The capelin fishery has been closed since March. What eats Capelin?
+  Machine: neighbours {"node": "Capelin", "relation": "eats", "direction": "in"} -> @16 Gonatus squid
+@21 Atlantic cod
+@22 Haddock
+@23 Saithe
+@24 Beaked redfish
+@26 Greenland halibut
+@30 Minke whale
+@31 Harp seal
+@32 Black-legged kittiwake
+@33 Brünnich's guillemot
+@34 Common guillemot
+@35 Atlantic puffin
+@37 Northern fulmar
+@43 Fin whale
+@44 Humpback whale
+@46 Beluga
+@47 Harbour porpoise
+Qwen: Gonatus squid, Atlantic cod, Haddock, Saithe, Beaked redfish, Greenland halibut, Minke whale, Harp seal, Black-legged kittiwake, Brünnich's guillemot, Common guillemot, Atlantic puffin, Northern fulmar, Fin whale, Humpback whale, Beluga, and Harbour porpoise.
+
+You: This year's survey found no capelin anywhere in the study area.
+  Machine: close {"node": "Capelin"} -> closed @17 Capelin
+Qwen: Capelin has been closed.
+
+You: What's the shortest chain from Northern fulmar down to Calanus finmarchicus now?
+  Machine: path {"from": "Northern fulmar", "to": "Calanus finmarchicus"} -> 3 steps: @37 Northern fulmar > @16 Gonatus squid > @6 Krill > @0 Calanus finmarchicus
+Qwen: Northern fulmar eats Gonatus squid, which eats Krill, which eats Calanus finmarchicus.
+
+You: The autumn cruise picked them up again off Bear Island.
+  Machine: reopen {"node": "Capelin"} -> reopened @17 Capelin
+Qwen: Capelin has been reopened.
+
+You: Stomach samples show Greenland sharks take Hooded seal as well.
+  Machine: link {"from": "Greenland shark", "relation": "eats", "to": "Hooded seal"} -> linked @28 Greenland shark > eats > @41 Hooded seal
+Qwen: Greenland shark now eats Hooded seal.
+
+Ran on: executor. "executor" means the simulator ran the 11 added layers and Qwen's layers ran on the real weights. 21380 machine tokens, 91 s. Rows: <tmp>

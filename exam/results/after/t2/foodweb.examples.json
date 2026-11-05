@@ -1,0 +1,22 @@
+[
+ {"user": "What does Perch eat?",
+  "calls": [{"fn": "neighbours", "args": {"node": "Perch", "relation": "eats"}, "result": "@0 Daphnia\n@2 Mayfly larvae\n@5 Roach"}],
+  "reply": "Daphnia, Mayfly larvae and Roach."},
+ {"user": "what preys on roach?",
+  "calls": [{"fn": "neighbours", "args": {"node": "Roach", "relation": "eats", "direction": "in"}, "result": "@7 Perch\n@8 Pike\n@9 Grey heron"}],
+  "reply": "Perch, Pike and Grey heron."},
+ {"user": "Show me a food chain from Green algae up to Eurasian otter.",
+  "calls": [{"fn": "path", "args": {"from": "Eurasian otter", "to": "Green algae"}, "result": "3 steps: @10 Eurasian otter > @7 Perch > @0 Daphnia > @1 Green algae"}],
+  "reply": "Green algae is eaten by Daphnia, Daphnia by Perch, and Perch by Eurasian otter."},
+ {"user": "Angling for Perch has been banned since June. What preys on Perch?",
+  "calls": [{"fn": "neighbours", "args": {"node": "Perch", "relation": "eats", "direction": "in"}, "result": "@8 Pike\n@9 Grey heron\n@10 Eurasian otter"}],
+  "reply": "Pike, Grey heron and Eurasian otter. An angling ban doesn't change the web."},
+ {"user": "Netting this spring found no Mayfly larvae at all. What's the shortest chain from Common bream to Green algae now?",
+  "calls": [{"fn": "close", "args": {"node": "Mayfly larvae"}, "result": "closed @2 Mayfly larvae"},
+            {"fn": "path", "args": {"from": "Common bream", "to": "Green algae"}, "result": "2 steps: @6 Common bream > @4 Freshwater mussel > @1 Green algae"}],
+  "reply": "Common bream eats Freshwater mussel, which eats Green algae."},
+ {"user": "The July samples had them again. A gut study also found Perch taking Common bream.",
+  "calls": [{"fn": "reopen", "args": {"node": "Mayfly larvae"}, "result": "reopened @2 Mayfly larvae"},
+            {"fn": "link", "args": {"from": "Perch", "relation": "eats", "to": "Common bream"}, "result": "linked @7 Perch > eats > @6 Common bream"}],
+  "reply": "Mayfly larvae are back, and Perch now eats Common bream."}
+]

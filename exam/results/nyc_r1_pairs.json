@@ -1,0 +1,10 @@
+{
+"pairs": 720,
+"same_engines": 720,
+"same_reflib": 720,
+"narrowed": 693,
+"ambiguous": 27,
+"seconds": 2085,
+"bad": [],
+"elf": "<repo>/t8/fw/build_r1/writes.elf"
+}

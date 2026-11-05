@@ -1,0 +1,163 @@
+{
+ "format": "x210-graph/1",
+ "name": "flights",
+ "domain": "custom",
+ "nodes": [
+  {
+   "label": "Lisbon",
+   "prop": 0,
+   "src": "Lisbon"
+  },
+  {
+   "label": "Madrid",
+   "prop": 0,
+   "src": "Madrid"
+  },
+  {
+   "label": "Paris",
+   "prop": 0,
+   "src": "Paris"
+  },
+  {
+   "label": "Rome",
+   "prop": 0,
+   "src": "Rome"
+  },
+  {
+   "label": "Berlin",
+   "prop": 0,
+   "src": "Berlin"
+  },
+  {
+   "label": "Athens",
+   "prop": 0,
+   "src": "Athens"
+  },
+  {
+   "label": "Warsaw",
+   "prop": 0,
+   "src": "Warsaw"
+  },
+  {
+   "label": "Reykjavik",
+   "prop": 0,
+   "src": "Reykjavik"
+  }
+ ],
+ "relations": [
+  "flight"
+ ],
+ "edges": [
+  [
+   0,
+   0,
+   1,
+   60
+  ],
+  [
+   0,
+   0,
+   2,
+   120
+  ],
+  [
+   0,
+   0,
+   7,
+   300
+  ],
+  [
+   1,
+   0,
+   0,
+   60
+  ],
+  [
+   1,
+   0,
+   3,
+   90
+  ],
+  [
+   2,
+   0,
+   0,
+   120
+  ],
+  [
+   2,
+   0,
+   3,
+   70
+  ],
+  [
+   2,
+   0,
+   4,
+   80
+  ],
+  [
+   3,
+   0,
+   1,
+   90
+  ],
+  [
+   3,
+   0,
+   2,
+   70
+  ],
+  [
+   3,
+   0,
+   5,
+   110
+  ],
+  [
+   4,
+   0,
+   2,
+   80
+  ],
+  [
+   4,
+   0,
+   6,
+   50
+  ],
+  [
+   5,
+   0,
+   3,
+   110
+  ],
+  [
+   5,
+   0,
+   6,
+   140
+  ],
+  [
+   6,
+   0,
+   4,
+   50
+  ],
+  [
+   6,
+   0,
+   5,
+   140
+  ],
+  [
+   7,
+   0,
+   0,
+   300
+  ]
+ ],
+ "splice": [],
+ "change": null,
+ "meta": {}
+}

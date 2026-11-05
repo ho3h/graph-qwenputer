@@ -1,0 +1,35 @@
+Wed Nov  4 16:29:40 EST 2026
+Python 3.14.3
+Python 3.14.3
+[notice] A new release of pip is available: 25.3 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+huggingface_hub 2.2.0
+numpy 2.5.4
+safetensors 0.8.0
+tokenizers 0.23.3
+torch 2.14.1
+transformers 5.19.0
+<scratchpad>
+Wed Nov  4 16:32:15 EST 2026
+--- sim
+packages.graph.json: 13 nodes, 15 edges, 1 relations.
+4 steps: @0 app > @2 auth > @5 crypto > @9 bignum > @12 libc
+  4,964 machine tokens, 0.8 s. Reference machine and reference library: agree.
+--- model against my copy
+same model-00001-of-00008.safetensors
+same model-00002-of-00008.safetensors
+same model-00003-of-00008.safetensors
+same model-00004-of-00008.safetensors
+same model-00005-of-00008.safetensors
+same model-00006-of-00008.safetensors
+same model-00007-of-00008.safetensors
+same model-00008-of-00008.safetensors
+same chipformer.json
+same config.json
+same tokenizer.json
+same model.safetensors.index.json
+      17
+Wed Nov  4 16:35:08 EST 2026
+--- tests
+77 checks, 0 failed.
+Wed Nov  4 16:39:37 EST 2026

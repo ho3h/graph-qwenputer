@@ -1,0 +1,8 @@
+at layer 22 input differ 0
+{"n": 0, "pq": 0, "gate": 0, "qn": 0, "pk": 0, "pv": 0, "kn": 0, "qr": 0, "kr": 0, "attn": 0, "gated": 0, "o_proj": 0, "x2": 0, "n2": 2, "gt": 423, "up": 534, "act": 385, "prod": 811, "down": 670, "out": 326}
+down_block {2: 0, 3: 0, 4: 0, 8: 0, 16: 0}
+gate_block {2: 0, 3: 0, 4: 0, 8: 0, 16: 0}
+up_block {2: 0, 3: 0, 4: 0, 8: 0, 16: 0}
+o_block {2: 0, 3: 0, 4: 0, 8: 0, 16: 0}
+{'mps_allocated_gib': 23.42, 'mps_driver_gib': 24.17}
+[stage seconds 8.2]

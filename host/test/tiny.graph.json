@@ -1,0 +1,230 @@
+{
+ "format": "x210-graph/1",
+ "name": "tinytown",
+ "domain": "transit",
+ "nodes": [
+  {
+   "label": "Central",
+   "prop": 0,
+   "src": "b3"
+  },
+  {
+   "label": "Central",
+   "prop": 0,
+   "src": "r4"
+  },
+  {
+   "label": "Dockside",
+   "prop": 0,
+   "src": "r7"
+  },
+  {
+   "label": "Eastgate",
+   "prop": 0,
+   "src": "r6"
+  },
+  {
+   "label": "Harbor Point",
+   "prop": 0,
+   "src": "r1"
+  },
+  {
+   "label": "Mill St",
+   "prop": 0,
+   "src": "b2"
+  },
+  {
+   "label": "Mill St",
+   "prop": 0,
+   "src": "r2"
+  },
+  {
+   "label": "Northwood",
+   "prop": 0,
+   "src": "b5"
+  },
+  {
+   "label": "Quay-7",
+   "prop": 0,
+   "src": "r5"
+  },
+  {
+   "label": "Southfield",
+   "prop": 0,
+   "src": "b1"
+  },
+  {
+   "label": "St. Anne's",
+   "prop": 0,
+   "src": "b4"
+  },
+  {
+   "label": "Ōtaki",
+   "prop": 0,
+   "src": "r3"
+  }
+ ],
+ "relations": [
+  "red eastbound",
+  "red westbound",
+  "blue northbound",
+  "blue southbound",
+  "transfer"
+ ],
+ "edges": [
+  [
+   0,
+   2,
+   10,
+   3
+  ],
+  [
+   0,
+   3,
+   5,
+   5
+  ],
+  [
+   0,
+   4,
+   1,
+   2
+  ],
+  [
+   1,
+   0,
+   8,
+   5
+  ],
+  [
+   1,
+   1,
+   11,
+   2
+  ],
+  [
+   1,
+   4,
+   0,
+   2
+  ],
+  [
+   2,
+   1,
+   8,
+   4
+  ],
+  [
+   3,
+   1,
+   8,
+   3
+  ],
+  [
+   4,
+   0,
+   6,
+   3
+  ],
+  [
+   5,
+   2,
+   0,
+   5
+  ],
+  [
+   5,
+   3,
+   9,
+   4
+  ],
+  [
+   5,
+   4,
+   6,
+   2
+  ],
+  [
+   6,
+   0,
+   11,
+   4
+  ],
+  [
+   6,
+   1,
+   4,
+   3
+  ],
+  [
+   6,
+   4,
+   5,
+   2
+  ],
+  [
+   7,
+   3,
+   10,
+   5
+  ],
+  [
+   8,
+   0,
+   2,
+   4
+  ],
+  [
+   8,
+   0,
+   3,
+   3
+  ],
+  [
+   8,
+   1,
+   1,
+   5
+  ],
+  [
+   9,
+   2,
+   5,
+   4
+  ],
+  [
+   10,
+   2,
+   7,
+   5
+  ],
+  [
+   10,
+   3,
+   0,
+   3
+  ],
+  [
+   11,
+   0,
+   1,
+   2
+  ],
+  [
+   11,
+   1,
+   6,
+   4
+  ]
+ ],
+ "splice": [
+  "red eastbound",
+  "red westbound",
+  "blue northbound",
+  "blue southbound"
+ ],
+ "change": "transfer",
+ "meta": {
+  "hand_made": true
+ }
+}

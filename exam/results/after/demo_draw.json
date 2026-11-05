@@ -1,0 +1,36 @@
+{
+"seed": 20261103,
+"conversations": [
+{
+"key": "nyc-demo:0",
+"graph": "nyc",
+"node": 445,
+"label": "Saratoga Av",
+"changed": true,
+"turns": [
+{
+"user": "Start at Bowling Green station. Ride the 4 train 5 stops southbound, then change to the 3 and ride the 3 train 5 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@425 Pennsylvania Av",
+"wants": null
+},
+{
+"user": "Flooding has shut Saratoga Av. Start at Bowling Green station. Ride the 4 train 5 stops southbound, then change to the 3 and ride the 3 train 5 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@473 Van Siclen Av",
+"wants": [
+"close",
+445
+]
+},
+{
+"user": "Repairs are done and Saratoga Av is back. Start at Bowling Green station. Ride the 4 train 5 stops southbound, then change to the 3 and ride the 3 train 5 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@425 Pennsylvania Av",
+"wants": [
+"reopen",
+445
+]
+}
+]
+}
+],
+"plain": []
+}

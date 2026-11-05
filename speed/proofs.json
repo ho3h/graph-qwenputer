@@ -1,0 +1,90 @@
+[
+ {
+  "elf_sha256": "541e9ec989ce1d2c150bcfb7152fa69bbc5e12d26e28feb125ae453e3b896492",
+  "flow": "print/chase/extra=1/told=1/retries=2/prefill=0/note=0/rb=0",
+  "machine": "tok",
+  "name": "p2",
+  "questions": 32,
+  "reference": "results/proofs/p2_slow_0,results/proofs/p2_slow_1,results/proofs/p2_slow_2,results/proofs/p2_slow_3",
+  "stock_questions": 2,
+  "stock_positions": 9627,
+  "result": "results/proofs/p2.json"
+ },
+ {
+  "elf_sha256": "541e9ec989ce1d2c150bcfb7152fa69bbc5e12d26e28feb125ae453e3b896492",
+  "flow": "print/chase/extra=1/told=1/retries=2/prefill=0/note=0/rb=0/limit_stop+cap320+lazy_echo",
+  "machine": "tok",
+  "name": "p3-flags-on-p2-stock",
+  "questions": 32,
+  "reference": "results/proofs/p2_slow_0,results/proofs/p2_slow_1,results/proofs/p2_slow_2,results/proofs/p2_slow_3",
+  "stock_questions": 2,
+  "stock_positions": 9627,
+  "result": "results/proofs/p3.json"
+ },
+ {
+  "elf_sha256": "278e96aa06f53686d4a7d0c75f6030012527efb9b0ecbc00f7a80f1764ce5581",
+  "flow": "print/chase/extra=1/told=1/retries=0/prefill=0/note=0/rb=0",
+  "machine": "clean",
+  "name": "clean-print-one",
+  "questions": 32,
+  "reference": "results/proofs/clean/print-one_slow0,results/proofs/clean/print-one_slow1",
+  "stock_questions": 2,
+  "stock_positions": 5669,
+  "result": "results/proofs/clean/print-one.json"
+ },
+ {
+  "elf_sha256": "278e96aa06f53686d4a7d0c75f6030012527efb9b0ecbc00f7a80f1764ce5581",
+  "flow": "read/chase/extra=0/told=0/calls=12/total=3072",
+  "machine": "clean",
+  "name": "clean-read-one",
+  "questions": 32,
+  "reference": "results/proofs/clean/read-one_slow0,results/proofs/clean/read-one_slow1",
+  "stock_questions": 2,
+  "stock_positions": 8664,
+  "result": "results/proofs/clean/read-one.json"
+ },
+ {
+  "elf_sha256": "bcf1a1dcd1973b7eba67b8249a3be1a3b31944aa412ad9110a404323a7e946a0",
+  "flow": "print/writes/extra=1/told=1/retries=0/prefill=0/note=0/rb=0",
+  "machine": "writes",
+  "name": "writes-print-writes",
+  "questions": 40,
+  "reference": "../t8/fw/results/proofs/print-writes_slow0,../t8/fw/results/proofs/print-writes_slow1",
+  "stock_questions": 2,
+  "stock_positions": 6699,
+  "result": "../t8/fw/results/proofs/print-writes.json"
+ },
+ {
+  "elf_sha256": "bcf1a1dcd1973b7eba67b8249a3be1a3b31944aa412ad9110a404323a7e946a0",
+  "flow": "read/writes/extra=0/told=0/calls=12/total=3072",
+  "machine": "writes",
+  "name": "writes-read-writes",
+  "questions": 40,
+  "reference": "../t8/fw/results/proofs/read-writes_slow0,../t8/fw/results/proofs/read-writes_slow1",
+  "stock_questions": 2,
+  "stock_positions": 10221,
+  "result": "../t8/fw/results/proofs/read-writes.json"
+ },
+ {
+  "elf_sha256": "ad1abcc6cec073b52e088c4d0d1752dd9908f6f77d39d950ff0d5a5e70c41fe0",
+  "flow": "print/writes/extra=1/told=1/retries=0/prefill=0/note=0/rb=0",
+  "machine": "writes",
+  "name": "r1-print-writes",
+  "questions": 40,
+  "reference": "../t8/fw/results/r1/proofs/print-writes_slow0,../t8/fw/results/r1/proofs/print-writes_slow1",
+  "stock_questions": 2,
+  "stock_positions": 7194,
+  "result": "../t8/fw/results/r1/proofs/print-writes.json"
+ },
+ {
+  "elf_sha256": "ad1abcc6cec073b52e088c4d0d1752dd9908f6f77d39d950ff0d5a5e70c41fe0",
+  "flow": "read/writes/extra=0/told=0/calls=12/total=3072",
+  "machine": "writes",
+  "name": "r1-read-writes",
+  "questions": 40,
+  "reference": "../t8/fw/results/r1/proofs/read-writes_slow0,../t8/fw/results/r1/proofs/read-writes_slow1",
+  "stock_questions": 2,
+  "stock_positions": 11176,
+  "result": "../t8/fw/results/r1/proofs/read-writes.json"
+ }
+]

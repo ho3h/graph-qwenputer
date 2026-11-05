@@ -1,0 +1,17 @@
+Loading the model. The first run also compiles the C engine.
+
+You: What does Northgate Holdings 2 Ltd own?
+  Machine: neighbours {"node": "Northgate Holdings 2 Ltd", "relation": "owns"} -> @6 Northgate Property Ltd
+@7 Northgate Property 2 Ltd
+Qwen: Northgate Property Ltd and Northgate Property 2 Ltd.
+
+You: And who owns it?
+  Machine: neighbours {"node": "Northgate Property Ltd", "relation": "owns", "direction": "in"} -> @4 Northgate Holdings 2 Ltd
+  Machine: neighbours {"node": "Northgate Property 2 Ltd", "relation": "owns", "direction": "in"} -> @4 Northgate Holdings 2 Ltd
+Qwen: Northgate Holdings 2 Ltd owns both Northgate Property Ltd and Northgate Property 2 Ltd.
+
+You: How is Priya Raman connected to Harbour Street Developments Ltd?
+  Machine: path {"from": "Priya Raman", "to": "Harbour Street Developments Ltd"} -> 3 steps: @0 Priya Raman > @4 Northgate Holdings 2 Ltd > @6 Northgate Property Ltd > @10 Harbour Street Developments Ltd
+Qwen: Priya Raman is connected to Harbour Street Developments Ltd through a chain: Priya Raman is linked to Northgate Holdings 2 Ltd, which owns Northgate Property Ltd, which in turn owns Harbour Street Developments Ltd.
+
+Ran on: executor. "executor" means the simulator ran the 11 added layers and Qwen's layers ran on the real weights. 16891 machine tokens, 64 s. Rows: <tmp>

@@ -1,0 +1,21 @@
+# Small lake food web for checking the worked examples. No name here is in foodweb.csv.
+from,relation,to
+Daphnia,eats,Green algae
+Mayfly larvae,eats,Green algae
+Mayfly larvae,eats,Leaf litter
+Freshwater mussel,eats,Green algae
+Roach,eats,Daphnia
+Roach,eats,Mayfly larvae
+Common bream,eats,Mayfly larvae
+Common bream,eats,Freshwater mussel
+Perch,eats,Daphnia
+Perch,eats,Mayfly larvae
+Perch,eats,Roach
+Pike,eats,Perch
+Pike,eats,Roach
+Grey heron,eats,Roach
+Grey heron,eats,Perch
+Eurasian otter,eats,Pike
+Eurasian otter,eats,Perch
+Red kite,scavenges,Eurasian otter
+Red kite,scavenges,Pike

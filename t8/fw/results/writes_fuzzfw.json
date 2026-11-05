@@ -1,0 +1,836 @@
+{
+ "part": "fuzzfw",
+ "seconds": 77.0,
+ "parts": {
+  "parse": {
+   "checks": 16000,
+   "match": 15670,
+   "toolong": 322,
+   "mismatches": 8
+  },
+  "legs": {
+   "checks": 6000,
+   "match": 4148,
+   "toolong": 1780,
+   "mismatches": 72
+  },
+  "cheapest": {
+   "checks": 6480,
+   "match": 6480,
+   "toolong": 0,
+   "mismatches": 0
+  },
+  "spill": {
+   "checks": 10,
+   "match": 10,
+   "toolong": 0,
+   "mismatches": 0
+  }
+ },
+ "mismatches_n": 80,
+ "mismatches": [
+  {
+   "where": "parse3#123 '\\n<function=follow>\\n<parameter=node>\\n@0\\n</tool_call></parameter>\\n<parameter=relation>\\nr\\n</parameter>\\n<parameter=steps>\\n2\\n</parameter>\\n</function>\\n<parameter=steps>\\n'",
+   "fn": "follow",
+   "text": "\n<function=follow>\n<parameter=node>\n@0\n</tool_call></parameter>\n<parameter=relation>\nr\n</parameter>\n<parameter=steps>\n2\n</parameter>\n</function>\n<parameter=steps>\n",
+   "want": "NONE @0\n</tool_call>",
+   "got": "BADARG follow",
+   "wrap": true,
+   "recorded": null,
+   "cap": 54
+  },
+  {
+   "where": "parse17#61 '\\n<function=find>\\n</tool_call><parameter=name>\\nOak\\n</parameter>\\n</function>\\n'",
+   "fn": "find",
+   "text": "\n<function=find>\n</tool_call><parameter=name>\nOak\n</parameter>\n</function>\n",
+   "want": "AMBIGUOUS 2: @0 Oak | @5 Oak",
+   "got": "BADARG find",
+   "wrap": true,
+   "recorded": null,
+   "cap": 22
+  },
+  {
+   "where": "parse22#209 '\\n<function=chase>\\n<parameter=start>\\n@1\\n</parameter>\\n<parameter=legs>\\nr 1 s t 2\\nparameter>\\n<</tool_call>=</parameter>\\n</function>\\n'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\nr 1 s t 2\nparameter>\n<</tool_call>=</parameter>\n</function>\n",
+   "want": "BADARG legs r 1 s t 2\nparameter>\n<</tool_call>=",
+   "got": "BADARG chase",
+   "wrap": true,
+   "recorded": null,
+   "cap": 48
+  },
+  {
+   "where": "parse22#373 '\\n<function=neighbours>\\n<parameter=node>\\n@2\\n</parameter>\\n<parameter=relation>\\nr<tool_call></parameter>\\n<parameter=direction>\\nin\\n</parameter>\\n</function>\\n'",
+   "fn": "neighbours",
+   "text": "\n<function=neighbours>\n<parameter=node>\n@2\n</parameter>\n<parameter=relation>\nr<tool_call></parameter>\n<parameter=direction>\nin\n</parameter>\n</function>\n",
+   "want": "NORELATION r<tool_call>",
+   "got": "NOFUNCTION ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 48
+  },
+  {
+   "where": "parse25#195 '\\n<function=neighbours>\\n<parameter=node>\\n@2\\n</parameter>\\n<parameter=relation>\\nr</tool_call></parameter>\\n<parameter=direction>\\nin\\n</parameter>\\n</function>\\n'",
+   "fn": "neighbours",
+   "text": "\n<function=neighbours>\n<parameter=node>\n@2\n</parameter>\n<parameter=relation>\nr</tool_call></parameter>\n<parameter=direction>\nin\n</parameter>\n</function>\n",
+   "want": "NORELATION r</tool_call>",
+   "got": "BADARG neighbours",
+   "wrap": true,
+   "recorded": null,
+   "cap": 48
+  },
+  {
+   "where": "parse25#266 '\\n<x x x x x x x x x x x x x x x x x x x x x x x x x x x x</function> x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x function=find>\\n<parameter=name>\\n@1 Elm\\n</parameter>\\n<parameter=has>\\nr\\n</parameter>\\n</function>\\n'",
+   "fn": "find",
+   "text": "\n<x x x x x x x x x x x x x x x x x x x x x x x x x x x x</function> x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x function=find>\n<parameter=name>\n@1 Elm\n</parameter>\n<parameter=has>\nr\n</parameter>\n</function>\n",
+   "want": "NOFUNCTION ",
+   "got": "TOOLONG",
+   "wrap": true,
+   "recorded": null,
+   "cap": 99
+  },
+  {
+   "where": "parse27#113 '\\n<function=chase>\\n<parameter=start>\\n@1\\n</parameter>\\n<parameter=<tool_call>legs>\\nr 1; s t 2\\n</parameter>\\n</function>\\n'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=<tool_call>legs>\nr 1; s t 2\n</parameter>\n</function>\n",
+   "want": "BADARG chase",
+   "got": "NOFUNCTION ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 44
+  },
+  {
+   "where": "parse27#348 '\\n<x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x function=cheapest>\\n<parameter=from>\\n@1\\n</parameter>parameter>\\n</function>\\n\\n<parameter=to>\\n@2\\n</parameter>\\n</function>\\n'",
+   "fn": "cheapest",
+   "text": "\n<x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x function=cheapest>\n<parameter=from>\n@1\n</parameter>parameter>\n</function>\n\n<parameter=to>\n@2\n</parameter>\n</function>\n",
+   "want": "NOFUNCTION ",
+   "got": "TOOLONG",
+   "wrap": true,
+   "recorded": null,
+   "cap": 94
+  },
+  {
+   "where": "legs0#2 'nope ٣; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\nnope ٣; \n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs nope ٣; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 42
+  },
+  {
+   "where": "legs2#38 's t 2;\\xa0é\\xa0٣;\\xa0'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns t 2; é ٣; \n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs s t 2; é ٣; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 48
+  },
+  {
+   "where": "legs2#46 's t  1;\\u2003é ٣;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\ns t  1; é ٣;\n</parameter>\n</function>\n",
+   "want": "NONE Nope",
+   "got": "BADARG legs s t  1; é ٣;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 48
+  },
+  {
+   "where": "legs2#64 'r 2;;s  t\\t٣;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@0\n</parameter>\n<parameter=legs>\nr 2;;s  t\t٣;\n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs r 2;;s  t\t٣;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 46
+  },
+  {
+   "where": "legs2#82 'r\\n\\xa0٣ ; nope\\xa02 ; s  t\\xa00'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\nr\n ٣ ; nope 2 ; s  t 0\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs r\n ٣ ; nope 2 ; s  t 0",
+   "wrap": true,
+   "recorded": null,
+   "cap": 49
+  },
+  {
+   "where": "legs2#96 's t\\xa02;\\xa0nope ٣; ; r\\n 1;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@0\n</parameter>\n<parameter=legs>\ns t 2; nope ٣; ; r\n 1;\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs s t 2; nope ٣; ; r\n 1;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 53
+  },
+  {
+   "where": "legs2#128 ' r\\xa01;\\t r ٣;\\xa0s  t\\n٣;\\xa0 r2;\\n'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@0\n</parameter>\n<parameter=legs>\n r 1;\t r ٣; s  t\n٣;  r2;\n\n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs  r 1;\t r ٣; s  t\n٣;  r2;\n",
+   "wrap": true,
+   "recorded": null,
+   "cap": 57
+  },
+  {
+   "where": "legs4#78 'nope ٣'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\nnope ٣\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs nope ٣",
+   "wrap": true,
+   "recorded": null,
+   "cap": 41
+  },
+  {
+   "where": "legs5#63 'r\\n\\n٣;\\nr\\n\\xa01; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\nr\n\n٣;\nr\n 1; \n</parameter>\n</function>\n",
+   "want": "AMBIGUOUS 2: @1 Oak | @4 Oak",
+   "got": "BADARG legs r\n\n٣;\nr\n 1; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 45
+  },
+  {
+   "where": "legs5#74 'nope ٣; ; s  t  0; ;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\nnope ٣; ; s  t  0; ;\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs nope ٣; ; s  t  0; ;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 50
+  },
+  {
+   "where": "legs5#104 'nope  ٣;;r\\n 1;\\t'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\nnope  ٣;;r\n 1;\t\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs nope  ٣;;r\n 1;\t",
+   "wrap": true,
+   "recorded": null,
+   "cap": 47
+  },
+  {
+   "where": "legs5#107 's t\\n٣;;s t 1; é\\n1 ;\\t'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@0\n</parameter>\n<parameter=legs>\ns t\n٣;;s t 1; é\n1 ;\t\n</parameter>\n</function>\n",
+   "want": "Stopped early on leg 1: after 0 steps at @0 Elm, no further step along this relation exists. The journey did not finish.",
+   "got": "BADARG legs s t\n٣;;s t 1; é\n1 ;\t",
+   "wrap": true,
+   "recorded": null,
+   "cap": 50
+  },
+  {
+   "where": "legs6#13 's t\\t٣ ; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns t\t٣ ; \n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs s t\t٣ ; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 42
+  },
+  {
+   "where": "legs6#109 's t ٣; s  t  2;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@0\n</parameter>\n<parameter=legs>\ns t ٣; s  t  2;\n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs s t ٣; s  t  2;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 48
+  },
+  {
+   "where": "legs7#2 's t  255;s t ٣'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns t  255;s t ٣\n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs s t  255;s t ٣",
+   "wrap": true,
+   "recorded": null,
+   "cap": 48
+  },
+  {
+   "where": "legs7#64 ' r 255; r ٣'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\n r 255; r ٣\n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs  r 255; r ٣",
+   "wrap": true,
+   "recorded": null,
+   "cap": 46
+  },
+  {
+   "where": "legs7#66 'r\\xa01;\\xa0 r\\n٣;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\nr 1;  r\n٣;\n</parameter>\n</function>\n",
+   "want": "Stopped early on leg 1: after 0 steps at @1 Oak, no further step along this relation exists. The journey did not finish.",
+   "got": "BADARG legs r 1;  r\n٣;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 45
+  },
+  {
+   "where": "legs7#92 's t\\xa0٣;\\u2003é ٣;\\u2003r 2;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\ns t ٣; é ٣; r 2;\n</parameter>\n</function>\n",
+   "want": "Stopped early on leg 1: after 0 steps at @1 Oak, no further step along this relation exists. The journey did not finish.",
+   "got": "BADARG legs s t ٣; é ٣; r 2;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 54
+  },
+  {
+   "where": "legs8#22 'é ٣;é\\t1;\\n'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@0\n</parameter>\n<parameter=legs>\né ٣;é\t1;\n\n</parameter>\n</function>\n",
+   "want": "Stopped early on leg 1: after 0 steps at @0 a b0, no further step along this relation exists. The journey did not finish.",
+   "got": "BADARG legs é ٣;é\t1;\n",
+   "wrap": true,
+   "recorded": null,
+   "cap": 44
+  },
+  {
+   "where": "legs9#134 'r\\n2; ; nope  ٣;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\nr\n2; ; nope  ٣;\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs r\n2; ; nope  ٣;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 47
+  },
+  {
+   "where": "legs10#93 ' r ٣; ; r\\n2 '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\n r ٣; ; r\n2 \n</parameter>\n</function>\n",
+   "want": "Stopped early on leg 1: after 0 steps at @1 Oak, there are 2 possible next steps, so the way on isn't unique. The journey did not finish.",
+   "got": "BADARG legs  r ٣; ; r\n2 ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 44
+  },
+  {
+   "where": "legs11#146 's t ٣;nope\\t0;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@0\n</parameter>\n<parameter=legs>\ns t ٣;nope\t0;\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs s t ٣;nope\t0;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 46
+  },
+  {
+   "where": "legs13#23 'r\\n\\t٣; nope 1'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\nr\n\t٣; nope 1\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs r\n\t٣; nope 1",
+   "wrap": true,
+   "recorded": null,
+   "cap": 43
+  },
+  {
+   "where": "legs13#38 'nope  ٣; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\nnope  ٣; \n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs nope  ٣; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 41
+  },
+  {
+   "where": "legs13#87 'r\\n\\xa02;\\xa0r ٣;\\u2003'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\nr\n 2; r ٣; \n</parameter>\n</function>\n",
+   "want": "AMBIGUOUS 2: @2 Oak | @6 Oak",
+   "got": "BADARG legs r\n 2; r ٣; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 47
+  },
+  {
+   "where": "legs14#86 's  t ٣;;s  t\\u30001; r\\n\\t1;\\xa0'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\ns  t ٣;;s  t　1; r\n\t1; \n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs s  t ٣;;s  t　1; r\n\t1; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 54
+  },
+  {
+   "where": "legs14#99 ' r\\xa0٣; r\\n1'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@0\n</parameter>\n<parameter=legs>\n r ٣; r\n1\n</parameter>\n</function>\n",
+   "want": "Stopped early on leg 1: after 1 steps at @3 Elm, no further step along this relation exists. The journey did not finish.",
+   "got": "BADARG legs  r ٣; r\n1",
+   "wrap": true,
+   "recorded": null,
+   "cap": 43
+  },
+  {
+   "where": "legs15#56 'nope\\t٣;\\t'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\nnope\t٣;\t\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs nope\t٣;\t",
+   "wrap": true,
+   "recorded": null,
+   "cap": 41
+  },
+  {
+   "where": "legs16#43 's t  1 ; r\\u3000٣;\\u2003'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns t  1 ; r　٣; \n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs s t  1 ; r　٣; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 49
+  },
+  {
+   "where": "legs16#63 'r\\n\\n1  ; s t\\u3000٣;nope\\xa01; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@0\n</parameter>\n<parameter=legs>\nr\n\n1  ; s t　٣;nope 1; \n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs r\n\n1  ; s t　٣;nope 1; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 51
+  },
+  {
+   "where": "legs16#123 's  t\\u3000٣;\\nnope 0; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns  t　٣;\nnope 0; \n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs s  t　٣;\nnope 0; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 49
+  },
+  {
+   "where": "legs18#17 ' r\\n٣'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\n r\n٣\n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs  r\n٣",
+   "wrap": true,
+   "recorded": null,
+   "cap": 40
+  },
+  {
+   "where": "legs18#36 's  t\\xa0٣;s t  2;\\u2003s  t1 ; é\\n+1;\\n'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\ns  t ٣;s t  2; s  t1 ; é\n+1;\n\n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs s  t ٣;s t  2; s  t1 ; é\n+1;\n",
+   "wrap": true,
+   "recorded": null,
+   "cap": 59
+  },
+  {
+   "where": "legs18#78 's  t\\t٣;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\ns  t\t٣;\n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs s  t\t٣;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 41
+  },
+  {
+   "where": "legs18#107 'r\\xa0٣;\\ns  t 2; ;  r\\u30000; r 0; ;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\nr ٣;\ns  t 2; ;  r　0; r 0; ;\n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs r ٣;\ns  t 2; ;  r　0; r 0; ;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 59
+  },
+  {
+   "where": "legs20#103 'r\\n٣'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\nr\n٣\n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs r\n٣",
+   "wrap": true,
+   "recorded": null,
+   "cap": 40
+  },
+  {
+   "where": "legs21#21 'é  ٣;\\t'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\né  ٣;\t\n</parameter>\n</function>\n",
+   "want": "NONE Nope",
+   "got": "BADARG legs é  ٣;\t",
+   "wrap": true,
+   "recorded": null,
+   "cap": 41
+  },
+  {
+   "where": "legs22#77 'r 1; ; r\\xa0٣'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\nr 1; ; r ٣\n</parameter>\n</function>\n",
+   "want": "AMBIGUOUS 3: @0 Oak | @4 Oak | @6 Oak",
+   "got": "BADARG legs r 1; ; r ٣",
+   "wrap": true,
+   "recorded": null,
+   "cap": 43
+  },
+  {
+   "where": "legs22#88 'é ٣'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\né ٣\n</parameter>\n</function>\n",
+   "want": "@1 Ash",
+   "got": "BADARG legs é ٣",
+   "wrap": true,
+   "recorded": null,
+   "cap": 39
+  },
+  {
+   "where": "legs22#147 'r\\n1;\\xa0nope\\xa0٣;\\u2003'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\nr\n1; nope ٣; \n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs r\n1; nope ٣; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 48
+  },
+  {
+   "where": "legs23#89 ' r ٣;;r\\n 1; ; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\n r ٣;;r\n 1; ; \n</parameter>\n</function>\n",
+   "want": "NONE Nope",
+   "got": "BADARG legs  r ٣;;r\n 1; ; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 46
+  },
+  {
+   "where": "legs23#106 's t\\n1; ; r\\n ٣ '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns t\n1; ; r\n ٣ \n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs s t\n1; ; r\n ٣ ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 47
+  },
+  {
+   "where": "legs24#102 'r\\n٣'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\nr\n٣\n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs r\n٣",
+   "wrap": true,
+   "recorded": null,
+   "cap": 40
+  },
+  {
+   "where": "legs24#108 's  t\\t٣;\\xa0r 1;\\ts  t 255;\\u2003nope\\n0'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns  t\t٣; r 1;\ts  t 255; nope\n0\n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs s  t\t٣; r 1;\ts  t 255; nope\n0",
+   "wrap": true,
+   "recorded": null,
+   "cap": 62
+  },
+  {
+   "where": "legs25#59 's t ٣;\\xa0é\\n2'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\ns t ٣; é\n2\n</parameter>\n</function>\n",
+   "want": "Stopped early on leg 1: after 1 steps at @3 Elm, no further step along this relation exists. The journey did not finish.",
+   "got": "BADARG legs s t ٣; é\n2",
+   "wrap": true,
+   "recorded": null,
+   "cap": 44
+  },
+  {
+   "where": "legs25#127 'r\\n\\xa0٣;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\nr\n ٣;\n</parameter>\n</function>\n",
+   "want": "Stopped early on leg 1: after 0 steps at @1 Oak, there are 3 possible next steps, so the way on isn't unique. The journey did not finish.",
+   "got": "BADARG legs r\n ٣;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 40
+  },
+  {
+   "where": "legs26#116 'r ٣;\\u2003nope\\u30000; s t\\xa01 ; r\\t-1'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\nr ٣; nope　0; s t 1 ; r\t-1\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs r ٣; nope　0; s t 1 ; r\t-1",
+   "wrap": true,
+   "recorded": null,
+   "cap": 57
+  },
+  {
+   "where": "legs27#112 'é 2; ;  r\\u3000٣;\\n r  1;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\né 2; ;  r　٣;\n r  1;\n</parameter>\n</function>\n",
+   "want": "NONE Nope",
+   "got": "BADARG legs é 2; ;  r　٣;\n r  1;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 52
+  },
+  {
+   "where": "legs27#135 'r\\n ٣; r\\n\\t2;\\n'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\nr\n ٣; r\n\t2;\n\n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs r\n ٣; r\n\t2;\n",
+   "wrap": true,
+   "recorded": null,
+   "cap": 47
+  },
+  {
+   "where": "legs28#1 'nope ٣'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\nnope ٣\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs nope ٣",
+   "wrap": true,
+   "recorded": null,
+   "cap": 40
+  },
+  {
+   "where": "legs28#11 'r ٣;;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@0\n</parameter>\n<parameter=legs>\nr ٣;;\n</parameter>\n</function>\n",
+   "want": "@2 Ash",
+   "got": "BADARG legs r ٣;;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 40
+  },
+  {
+   "where": "legs28#95 's t 2;\\u2003é\\xa0٣;; r\\n1'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns t 2; é ٣;; r\n1\n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs s t 2; é ٣;; r\n1",
+   "wrap": true,
+   "recorded": null,
+   "cap": 51
+  },
+  {
+   "where": "legs28#99 ' r 1 ; nope\\xa0٣;\\xa0s  t\\t2;\\n'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\n r 1 ; nope ٣; s  t\t2;\n\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs  r 1 ; nope ٣; s  t\t2;\n",
+   "wrap": true,
+   "recorded": null,
+   "cap": 51
+  },
+  {
+   "where": "legs28#126 'nope ٣;;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\nnope ٣;;\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs nope ٣;;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 41
+  },
+  {
+   "where": "legs28#129 's t ٣;;r\\n 2'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\ns t ٣;;r\n 2\n</parameter>\n</function>\n",
+   "want": "Stopped early on leg 1: after 0 steps at @1 a b1, no further step along this relation exists. The journey did not finish.",
+   "got": "BADARG legs s t ٣;;r\n 2",
+   "wrap": true,
+   "recorded": null,
+   "cap": 45
+  },
+  {
+   "where": "legs28#144 'nope  ٣;\\t r 2 ;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\nnope  ٣;\t r 2 ;\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs nope  ٣;\t r 2 ;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 47
+  },
+  {
+   "where": "legs29#125 's  t\\u3000٣ ; s t 1;;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\ns  t　٣ ; s t 1;;\n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs s  t　٣ ; s t 1;;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 46
+  },
+  {
+   "where": "legs29#139 'é ٣'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\né ٣\n</parameter>\n</function>\n",
+   "want": "Stopped early on leg 1: after 0 steps at @1 N1, no further step along this relation exists. The journey did not finish.",
+   "got": "BADARG legs é ٣",
+   "wrap": true,
+   "recorded": null,
+   "cap": 39
+  },
+  {
+   "where": "legs31#116 's t\\t٣ ; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns t\t٣ ; \n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs s t\t٣ ; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 42
+  },
+  {
+   "where": "legs32#126 'nope ٣; é\\xa00;\\u2003é\\n1;\\u2003r\\xa0007; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\nnope ٣; é 0; é\n1; r 007; \n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs nope ٣; é 0; é\n1; r 007; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 59
+  },
+  {
+   "where": "legs33#27 's t\\u3000٣;\\té 2'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\ns t　٣;\té 2\n</parameter>\n</function>\n",
+   "want": "NONE Nope",
+   "got": "BADARG legs s t　٣;\té 2",
+   "wrap": true,
+   "recorded": null,
+   "cap": 45
+  },
+  {
+   "where": "legs34#84 ' r\\t٣;;é 1 '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nNope\n</parameter>\n<parameter=legs>\n r\t٣;;é 1 \n</parameter>\n</function>\n",
+   "want": "NONE Nope",
+   "got": "BADARG legs  r\t٣;;é 1 ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 43
+  },
+  {
+   "where": "legs34#112 'nope\\n٣ ; nope\\u30000;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\nnope\n٣ ; nope　0;\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs nope\n٣ ; nope　0;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 46
+  },
+  {
+   "where": "legs36#62 'r\\n٣;\\xa0nope  0; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@1\n</parameter>\n<parameter=legs>\nr\n٣; nope  0; \n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs r\n٣; nope  0; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 47
+  },
+  {
+   "where": "legs37#45 's  t ٣; ; s t\\n1; ;  r\\t0; s  t 2; ; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns  t ٣; ; s t\n1; ;  r\t0; s  t 2; ; \n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs s  t ٣; ; s t\n1; ;  r\t0; s  t 2; ; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 62
+  },
+  {
+   "where": "legs37#66 'r\\n255;;nope ٣;\\tr\\n 1;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@0\n</parameter>\n<parameter=legs>\nr\n255;;nope ٣;\tr\n 1;\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs r\n255;;nope ٣;\tr\n 1;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 52
+  },
+  {
+   "where": "legs37#89 ' r\\n٣;;s  t 0 ; é\\xa01;é  1; ; '",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\n r\n٣;;s  t 0 ; é 1;é  1; ; \n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs  r\n٣;;s  t 0 ; é 1;é  1; ; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 57
+  },
+  {
+   "where": "legs38#92 ' r\\xa0255;\\tnope ٣;; r\\t2'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\n r 255;\tnope ٣;; r\t2\n</parameter>\n</function>\n",
+   "want": "NORELATION nope",
+   "got": "BADARG legs  r 255;\tnope ٣;; r\t2",
+   "wrap": true,
+   "recorded": null,
+   "cap": 49
+  },
+  {
+   "where": "legs38#101 's t ٣;s  t\\xa01;\\tr\\u30001; ; r\\n  2;'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns t ٣;s  t 1;\tr　1; ; r\n  2;\n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs s t ٣;s  t 1;\tr　1; ; r\n  2;",
+   "wrap": true,
+   "recorded": null,
+   "cap": 58
+  },
+  {
+   "where": "legs39#53 's t ٣'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\n@99\n</parameter>\n<parameter=legs>\ns t ٣\n</parameter>\n</function>\n",
+   "want": "NONE @99",
+   "got": "BADARG legs s t ٣",
+   "wrap": true,
+   "recorded": null,
+   "cap": 41
+  },
+  {
+   "where": "legs39#74 's  t ٣;;s  t\\xa0-1;\\xa0'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\ns  t ٣;;s  t -1; \n</parameter>\n</function>\n",
+   "want": "NORELATION s  t",
+   "got": "BADARG legs s  t ٣;;s  t -1; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 49
+  },
+  {
+   "where": "legs39#113 ' r\\u3000٣;  r 2;\\xa0 r 1;\\u2003'",
+   "fn": "chase",
+   "text": "\n<function=chase>\n<parameter=start>\nOak\n</parameter>\n<parameter=legs>\n r　٣;  r 2;  r 1; \n</parameter>\n</function>\n",
+   "want": "AMBIGUOUS 2: @4 Oak | @7 Oak",
+   "got": "BADARG legs  r　٣;  r 2;  r 1; ",
+   "wrap": true,
+   "recorded": null,
+   "cap": 51
+  }
+ ],
+ "not_fit": [],
+ "fit_graphs": 0,
+ "labels": 0
+}

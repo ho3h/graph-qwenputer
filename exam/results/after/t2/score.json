@@ -1,0 +1,873 @@
+{
+ "turns": [
+  {
+   "conv": "W1",
+   "n": 1,
+   "difficulty": "hard",
+   "kinds": [
+    "indirect_change",
+    "number_in_name"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "close",
+     {
+      "node": "Valve 18"
+     },
+     "closed @23 Valve 18"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Valve 18 is now closed.",
+   "status": "answered"
+  },
+  {
+   "conv": "W1",
+   "n": 2,
+   "difficulty": "plain",
+   "kinds": [],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "path",
+     {
+      "from": "Highfield SR",
+      "to": "DMA 05 Riverside North"
+     },
+     "9 steps: @5 Highfield SR > @6 Valve 3 > @7 Valve 5 > @11 Valve 40 > @29 Valve 44 > @55 Valve 38 > @45 Valve 33 > @24 Valve 21 > @25 PRV 6 > @26 DMA 05 Riverside North"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "The route with the fewest hops is 9 steps: Highfield SR, Valve 3, Valve 5, Valve 40, Valve 44, Valve 38, Valve 33, Valve 21, PRV 6, DMA 05 Riverside North.",
+   "status": "answered"
+  },
+  {
+   "conv": "W1",
+   "n": 3,
+   "difficulty": "hard",
+   "kinds": [
+    "pronoun_or_there"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "cheapest",
+     {
+      "from": "Highfield SR",
+      "to": "DMA 05 Riverside North"
+     },
+     "cost 6810: @5 Highfield SR > @6 Valve 3 > @7 Valve 5 > @10 Valve 12 > @15 Valve 12B > @40 Valve 27 > @42 Valve 31 > @45 Valve 33 > @24 Valve 21 > @25 PRV 6 > @26 DMA 05 Riverside North"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "The shortest pipe run is 6,810 metres, through Valve 3, Valve 5, Valve 12, Valve 12B, Valve 27, Valve 31, Valve 33, Valve 21, PRV 6, to DMA 05 Riverside North.",
+   "status": "answered"
+  },
+  {
+   "conv": "W1",
+   "n": 4,
+   "difficulty": "hard",
+   "kinds": [
+    "indirect_change",
+    "pronoun_or_there"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "reopen",
+     {
+      "node": "Valve 18"
+     },
+     "reopened @23 Valve 18"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Valve 18 is now reopened.",
+   "status": "answered"
+  },
+  {
+   "conv": "W2",
+   "n": 1,
+   "difficulty": "hard",
+   "kinds": [
+    "sounds_like_change_isnt",
+    "number_in_name",
+    "pronoun_or_there"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "neighbours",
+     {
+      "node": "PRV 14",
+      "relation": "feeds"
+     },
+     "@18 DMA 07 Mill Lane\n@19 DMA 17 Mill Road"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "PRV 14 currently supplies DMA 07 Mill Lane and DMA 17 Mill Road.",
+   "status": "answered"
+  },
+  {
+   "conv": "W2",
+   "n": 2,
+   "difficulty": "hard",
+   "kinds": [
+    "split_or_varied_name",
+    "number_in_name"
+   ],
+   "reached": true,
+   "right": false,
+   "calls": [
+    [
+     "neighbours",
+     {
+      "node": "Valve 12b",
+      "relation": "feeds"
+     },
+     "NONE Valve 12b"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Valve 12b feeds nothing.",
+   "status": "answered"
+  },
+  {
+   "conv": "W2",
+   "n": 3,
+   "difficulty": "hard",
+   "kinds": [
+    "sounds_like_change_isnt",
+    "number_in_name"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [],
+   "firmware_equal_reflib": 0,
+   "n_calls": 0,
+   "reply": "I understand. Booster 7 is still operational.",
+   "status": "answered"
+  },
+  {
+   "conv": "W2",
+   "n": 4,
+   "difficulty": "plain",
+   "kinds": [],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "find",
+     {
+      "name": "Valve 50"
+     },
+     "NONE Valve 50"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "No, there is no node called Valve 50 on the network.",
+   "status": "answered"
+  },
+  {
+   "conv": "W3",
+   "n": 1,
+   "difficulty": "plain",
+   "kinds": [],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "follow",
+     {
+      "node": "Booster 2",
+      "relation": "feeds",
+      "steps": "3"
+     },
+     "@25 PRV 6"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "PRV 6.",
+   "status": "answered"
+  },
+  {
+   "conv": "W3",
+   "n": 2,
+   "difficulty": "hard",
+   "kinds": [
+    "split_or_varied_name",
+    "reverses_relation"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "find",
+     {
+      "name": "General"
+     },
+     "NONE General"
+    ],
+    [
+     "find",
+     {
+      "name": "General Hospital"
+     },
+     "NONE General Hospital"
+    ],
+    [
+     "find",
+     {
+      "name": "Ashvale General Hospital"
+     },
+     "@32 Ashvale General Hospital"
+    ],
+    [
+     "neighbours",
+     {
+      "node": "@32 Ashvale General Hospital",
+      "relation": "feeds",
+      "direction": "in"
+     },
+     "@29 Valve 44"
+    ]
+   ],
+   "firmware_equal_reflib": 4,
+   "n_calls": 4,
+   "reply": "Valve 44 feeds the Ashvale General Hospital.",
+   "status": "answered"
+  },
+  {
+   "conv": "W3",
+   "n": 3,
+   "difficulty": "hard",
+   "kinds": [
+    "indirect_change",
+    "number_in_name"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "link",
+     {
+      "from": "Valve 31",
+      "relation": "interconnect",
+      "to": "Valve 36",
+      "weight": "640"
+     },
+     "linked @42 Valve 31 > interconnect > @49 Valve 36"
+    ],
+    [
+     "link",
+     {
+      "from": "Valve 36",
+      "relation": "interconnect",
+      "to": "Valve 31",
+      "weight": "640"
+     },
+     "linked @49 Valve 36 > interconnect > @42 Valve 31"
+    ]
+   ],
+   "firmware_equal_reflib": 2,
+   "n_calls": 2,
+   "reply": "Linked in both directions, 640 metres.",
+   "status": "answered"
+  },
+  {
+   "conv": "F1",
+   "n": 1,
+   "difficulty": "plain",
+   "kinds": [],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "neighbours",
+     {
+      "node": "Atlantic cod",
+      "relation": "eats"
+     },
+     "@6 Krill\n@13 Northern shrimp\n@17 Capelin\n@18 Polar cod\n@19 Atlantic herring\n@22 Haddock"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Atlantic cod eats Krill, Northern shrimp, Capelin, Polar cod, Atlantic herring, and Haddock.",
+   "status": "answered"
+  },
+  {
+   "conv": "F1",
+   "n": 2,
+   "difficulty": "hard",
+   "kinds": [
+    "reverses_relation"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "path",
+     {
+      "from": "Polar bear",
+      "to": "Diatoms"
+     },
+     "3 steps: @49 Polar bear > @36 Little auk > @3 Calanus glacialis > @1 Diatoms"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Diatoms are eaten by Calanus glacialis, which is eaten by Little auk, which is eaten by Polar bear.",
+   "status": "answered"
+  },
+  {
+   "conv": "F1",
+   "n": 3,
+   "difficulty": "hard",
+   "kinds": [
+    "reverses_relation",
+    "split_or_varied_name"
+   ],
+   "reached": true,
+   "right": false,
+   "calls": [
+    [
+     "neighbours",
+     {
+      "node": "Brunnich's guillemot",
+      "relation": "eats",
+      "direction": "in"
+     },
+     "NONE Brunnich's guillemot"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "NONE",
+   "status": "answered"
+  },
+  {
+   "conv": "F2",
+   "n": 1,
+   "difficulty": "hard",
+   "kinds": [
+    "sounds_like_change_isnt",
+    "reverses_relation"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "neighbours",
+     {
+      "node": "Capelin",
+      "relation": "eats",
+      "direction": "in"
+     },
+     "@16 Gonatus squid\n@21 Atlantic cod\n@22 Haddock\n@23 Saithe\n@24 Beaked redfish\n@26 Greenland halibut\n@30 Minke whale\n@31 Harp seal\n@32 Black-legged kittiwake\n@33 Brünnich's guillemot\n@34 Common guillemot\n@35 Atlantic puffin\n@37 Northern fulmar\n@43 Fin whale\n@44 Humpback whale\n@46 Beluga\n@47 Harbour porpoise"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Gonatus squid, Atlantic cod, Haddock, Saithe, Beaked redfish, Greenland halibut, Minke whale, Harp seal, Black-legged kittiwake, Brünnich's guillemot, Common guillemot, Atlantic puffin, Northern fulmar, Fin whale, Humpback whale, Beluga, and Harbour porpoise.",
+   "status": "answered"
+  },
+  {
+   "conv": "F2",
+   "n": 2,
+   "difficulty": "hard",
+   "kinds": [
+    "indirect_change"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "close",
+     {
+      "node": "Capelin"
+     },
+     "closed @17 Capelin"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Capelin has been closed.",
+   "status": "answered"
+  },
+  {
+   "conv": "F2",
+   "n": 3,
+   "difficulty": "plain",
+   "kinds": [],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "path",
+     {
+      "from": "Northern fulmar",
+      "to": "Calanus finmarchicus"
+     },
+     "3 steps: @37 Northern fulmar > @16 Gonatus squid > @6 Krill > @0 Calanus finmarchicus"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Northern fulmar eats Gonatus squid, which eats Krill, which eats Calanus finmarchicus.",
+   "status": "answered"
+  },
+  {
+   "conv": "F2",
+   "n": 4,
+   "difficulty": "hard",
+   "kinds": [
+    "indirect_change",
+    "pronoun_or_there"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "reopen",
+     {
+      "node": "Capelin"
+     },
+     "reopened @17 Capelin"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Capelin has been reopened.",
+   "status": "answered"
+  },
+  {
+   "conv": "F2",
+   "n": 5,
+   "difficulty": "hard",
+   "kinds": [
+    "indirect_change",
+    "split_or_varied_name"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "link",
+     {
+      "from": "Greenland shark",
+      "relation": "eats",
+      "to": "Hooded seal"
+     },
+     "linked @28 Greenland shark > eats > @41 Hooded seal"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Greenland shark now eats Hooded seal.",
+   "status": "answered"
+  },
+  {
+   "conv": "C1",
+   "n": 1,
+   "difficulty": "plain",
+   "kinds": [],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "neighbours",
+     {
+      "node": "Northgate Holdings 2 Ltd",
+      "relation": "owns"
+     },
+     "@6 Northgate Property Ltd\n@7 Northgate Property 2 Ltd"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Northgate Property Ltd and Northgate Property 2 Ltd.",
+   "status": "answered"
+  },
+  {
+   "conv": "C1",
+   "n": 2,
+   "difficulty": "hard",
+   "kinds": [
+    "reverses_relation",
+    "pronoun_or_there",
+    "number_in_name"
+   ],
+   "reached": true,
+   "right": false,
+   "calls": [
+    [
+     "neighbours",
+     {
+      "node": "Northgate Property Ltd",
+      "relation": "owns",
+      "direction": "in"
+     },
+     "@4 Northgate Holdings 2 Ltd"
+    ],
+    [
+     "neighbours",
+     {
+      "node": "Northgate Property 2 Ltd",
+      "relation": "owns",
+      "direction": "in"
+     },
+     "@4 Northgate Holdings 2 Ltd"
+    ]
+   ],
+   "firmware_equal_reflib": 2,
+   "n_calls": 2,
+   "reply": "Northgate Holdings 2 Ltd owns both Northgate Property Ltd and Northgate Property 2 Ltd.",
+   "status": "answered"
+  },
+  {
+   "conv": "C1",
+   "n": 3,
+   "difficulty": "plain",
+   "kinds": [],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "path",
+     {
+      "from": "Priya Raman",
+      "to": "Harbour Street Developments Ltd"
+     },
+     "3 steps: @0 Priya Raman > @4 Northgate Holdings 2 Ltd > @6 Northgate Property Ltd > @10 Harbour Street Developments Ltd"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Priya Raman is connected to Harbour Street Developments Ltd through a chain: Priya Raman is linked to Northgate Holdings 2 Ltd, which owns Northgate Property Ltd, which in turn owns Harbour Street Developments Ltd.",
+   "status": "answered"
+  },
+  {
+   "conv": "C2",
+   "n": 1,
+   "difficulty": "hard",
+   "kinds": [
+    "sounds_like_change_isnt",
+    "reverses_relation"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "neighbours",
+     {
+      "node": "Tidewell Foods Ltd",
+      "relation": "owns",
+      "direction": "in"
+     },
+     "@26 Sofia Lindqvist\n@28 Kenji Mori"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Tidewell Foods Ltd is owned by Sofia Lindqvist and Kenji Mori.",
+   "status": "cap"
+  },
+  {
+   "conv": "C2",
+   "n": 2,
+   "difficulty": "hard",
+   "kinds": [
+    "indirect_change"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "close",
+     {
+      "node": "Brightwell Foods Ltd"
+     },
+     "closed @17 Brightwell Foods Ltd"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Brightwell Foods Ltd has been closed.",
+   "status": "cap"
+  },
+  {
+   "conv": "C2",
+   "n": 3,
+   "difficulty": "plain",
+   "kinds": [],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "path",
+     {
+      "from": "Marcus Hale",
+      "to": "Brightwell Dairy Ltd"
+     },
+     "NOPATH"
+    ],
+    [
+     "neighbours",
+     {
+      "node": "Marcus Hale",
+      "relation": "director_of"
+     },
+     "NONE"
+    ],
+    [
+     "neighbours",
+     {
+      "node": "Marcus Hale",
+      "relation": "owns"
+     },
+     "@13 Harcourt Capital LLP"
+    ],
+    [
+     "neighbours",
+     {
+      "node": "Brightwell Dairy Ltd",
+      "relation": "owns",
+      "direction": "in"
+     },
+     "NONE"
+    ],
+    [
+     "neighbours",
+     {
+      "node": "Brightwell Dairy Ltd",
+      "relation": "director_of",
+      "direction": "in"
+     },
+     "NONE"
+    ],
+    [
+     "neighbours",
+     {
+      "node": "Brightwell Dairy Ltd",
+      "relation": "registered_at",
+      "direction": "in"
+     },
+     "NONE"
+    ],
+    [
+     "neighbours",
+     {
+      "node": "Marcus Hale",
+      "relation": "owns",
+      "direction": "in"
+     },
+     "NONE"
+    ],
+    [
+     "neighbours",
+     {
+      "node": "Marcus Hale",
+      "relation": "director_of",
+      "direction": "in"
+     },
+     "NONE"
+    ],
+    [
+     "neighbours",
+     {
+      "node": "Marcus Hale",
+      "relation": "owns"
+     },
+     "@13 Harcourt Capital LLP"
+    ],
+    [
+     "neighbours",
+     {
+      "node": "Harcourt Capital LLP",
+      "relation": "owns"
+     },
+     "@15 Harcourt Capital Partners 1 LP\n@16 Harcourt Capital Partners 2 LP"
+    ]
+   ],
+   "firmware_equal_reflib": 10,
+   "n_calls": 10,
+   "reply": "<tool_call>\n<function=neighbours>\n<parameter=node>\nHarcourt Capital Partners 1 LP\n</parameter>\n<parameter=relation>\nowns\n</parameter>\n</function>\n</tool_call>",
+   "status": "cap"
+  },
+  {
+   "conv": "C2",
+   "n": 4,
+   "difficulty": "hard",
+   "kinds": [
+    "indirect_change"
+   ],
+   "reached": false,
+   "right": false,
+   "calls": [],
+   "firmware_equal_reflib": 0,
+   "n_calls": 0,
+   "reply": null,
+   "status": "cap"
+  },
+  {
+   "conv": "C2",
+   "n": 5,
+   "difficulty": "plain",
+   "kinds": [],
+   "reached": false,
+   "right": false,
+   "calls": [],
+   "firmware_equal_reflib": 0,
+   "n_calls": 0,
+   "reply": null,
+   "status": "cap"
+  },
+  {
+   "conv": "C3",
+   "n": 1,
+   "difficulty": "plain",
+   "kinds": [],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "add_node",
+     {
+      "name": "Bello Solar 30 Ltd"
+     },
+     "added @89 Bello Solar 30 Ltd"
+    ],
+    [
+     "link",
+     {
+      "from": "Bello Energy Ltd",
+      "relation": "owns",
+      "to": "Bello Solar 30 Ltd",
+      "weight": "100"
+     },
+     "linked @35 Bello Energy Ltd > owns > @89 Bello Solar 30 Ltd"
+    ]
+   ],
+   "firmware_equal_reflib": 2,
+   "n_calls": 2,
+   "reply": "Added Bello Solar 30 Ltd, owned 100% by Bello Energy Ltd.",
+   "status": "answered"
+  },
+  {
+   "conv": "C3",
+   "n": 2,
+   "difficulty": "hard",
+   "kinds": [
+    "pronoun_or_there",
+    "number_in_name",
+    "reverses_relation"
+   ],
+   "reached": true,
+   "right": false,
+   "calls": [
+    [
+     "neighbours",
+     {
+      "node": "Unit 3, Riverside Park, Hull",
+      "relation": "registered_at",
+      "direction": "in"
+     },
+     "@35 Bello Energy Ltd\n@37 Bello Solar 1 Ltd\n@38 Bello Solar 2 Ltd\n@39 Bello Solar 12 Ltd\n@40 Bello Solar 21 Ltd\n@46 O'Connell Homes (Hull) Ltd"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Bello Energy Ltd, Bello Solar 1 Ltd, Bello Solar 2 Ltd, Bello Solar 12 Ltd, Bello Solar 21 Ltd, and O'Connell Homes (Hull) Ltd are registered at Unit 3, Riverside Park, Hull.",
+   "status": "answered"
+  },
+  {
+   "conv": "C3",
+   "n": 3,
+   "difficulty": "hard",
+   "kinds": [
+    "split_or_varied_name",
+    "number_in_name",
+    "pronoun_or_there",
+    "reverses_relation"
+   ],
+   "reached": true,
+   "right": true,
+   "calls": [
+    [
+     "neighbours",
+     {
+      "node": "Bello Solar 12 Ltd",
+      "relation": "director_of",
+      "direction": "in"
+     },
+     "@36 Ruth Adeyemi\n@68 Liam Byrne"
+    ]
+   ],
+   "firmware_equal_reflib": 1,
+   "n_calls": 1,
+   "reply": "Ruth Adeyemi and Liam Byrne are on the board of Bello Solar 12 Ltd.",
+   "status": "answered"
+  }
+ ],
+ "by": {
+  "all": {
+   "turns": 30,
+   "right": 24,
+   "reached": 28
+  },
+  "hard": {
+   "turns": 20,
+   "right": 15,
+   "reached": 19
+  },
+  "plain": {
+   "turns": 10,
+   "right": 9,
+   "reached": 9
+  }
+ },
+ "by_kind": {
+  "indirect_change": [
+   7,
+   8
+  ],
+  "number_in_name": [
+   5,
+   8
+  ],
+  "pronoun_or_there": [
+   5,
+   7
+  ],
+  "reverses_relation": [
+   5,
+   8
+  ],
+  "sounds_like_change_isnt": [
+   4,
+   4
+  ],
+  "split_or_varied_name": [
+   3,
+   5
+  ]
+ },
+ "calls": 42,
+ "equal_reflib": 42
+}

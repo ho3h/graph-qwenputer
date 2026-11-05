@@ -1,0 +1,14 @@
+{
+ "graph": "<repo>/host/test/tiny.graph.json",
+ "questions": "<repo>/host/test/tiny.questions.json",
+ "out": "<repo>/host/out/dev1/tiny",
+ "attn": [
+  "eager",
+  "sdpa"
+ ],
+ "ids": [
+  0,
+  14,
+  17
+ ]
+}

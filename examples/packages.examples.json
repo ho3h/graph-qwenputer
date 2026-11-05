@@ -1,0 +1,7 @@
+[
+ {"user": "What does parser depend on?", "calls": [{"fn": "neighbours", "args": {"node": "parser", "relation": "depends_on"}, "result": "@4 lexer\n@9 ast"}], "reply": "lexer and ast"},
+ {"user": "What depends on lexer?", "calls": [{"fn": "neighbours", "args": {"node": "lexer", "relation": "depends_on", "direction": "in"}, "result": "@2 parser"}], "reply": "parser"},
+ {"user": "How does compiler reach lexer? Show the shortest chain.", "calls": [{"fn": "path", "args": {"from": "compiler", "to": "lexer"}, "result": "2 steps: @1 compiler > @2 parser > @4 lexer"}], "reply": "compiler, parser, lexer"},
+ {"user": "The parser package has been removed. How does compiler reach lexer now?", "calls": [{"fn": "close", "args": {"node": "parser"}, "result": "closed @2 parser"}, {"fn": "path", "args": {"from": "compiler", "to": "lexer"}, "result": "NOPATH"}], "reply": "compiler can no longer reach lexer."},
+ {"user": "We added a new package, printer, and compiler now depends on printer.", "calls": [{"fn": "add_node", "args": {"name": "printer"}, "result": "added @12 printer"}, {"fn": "link", "args": {"from": "compiler", "relation": "depends_on", "to": "printer"}, "result": "linked @1 compiler > depends_on > @12 printer"}], "reply": "Done."}
+]

@@ -1,0 +1,37 @@
+{
+ "graph": "<repo>/host/test/tiny.graph.json",
+ "graph_sha256": "6039ff1a178fe3805102116c2d1cbbfed2fc1b1cf2627ad5a89ff2c8d178c68f",
+ "questions": "<repo>/host/test/tiny.questions.json",
+ "questions_sha256": "167be913b152c6b223b0e56b75536af702bac06f2b5886e3d0144c50716b8043",
+ "n": 22,
+ "attn": [
+  "eager",
+  "sdpa"
+ ],
+ "think": false,
+ "arm": "base",
+ "reflib_sha256": "2a406e3e25d63206064d068cbaa09fb0225387bae1f8885f614349c6d7e81b68",
+ "model": "<drive>/Models/huggingface/hub/models--Qwen--Qwen3.5-4B/snapshots/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+ "tools_sha256": "a5050209422a152aa769cc10ebf294cad471b9f12ac73863fc1b7b7d259fad52",
+ "system_prompt": "You answer questions about the graph \"tinytown\" with the graph tools. Its relations are: red eastbound; red westbound; blue northbound; blue southbound; transfer. Changing between lines uses the relation \"transfer\". A node argument is a handle such as @12 or a node's exact name.",
+ "max_calls": 12,
+ "load_seconds": 100.6,
+ "env": {
+  "PYTORCH_MPS_HIGH_WATERMARK_RATIO": "0.25",
+  "PYTORCH_MPS_LOW_WATERMARK_RATIO": "0.2"
+ },
+ "started": "2026-11-01T15:15:47-0500",
+ "finished": "2026-11-01T15:30:59-0500",
+ "summary": {
+  "eager": {
+   "n": 22,
+   "correct": 17,
+   "seconds": 458.14000000000004
+  },
+  "sdpa": {
+   "n": 22,
+   "correct": 17,
+   "seconds": 444.60999999999996
+  }
+ }
+}

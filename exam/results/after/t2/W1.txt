@@ -1,0 +1,19 @@
+Loading the model. The first run also compiles the C engine.
+
+You: A digger went through the main at Valve 18 this morning and the crew have isolated it. It won't be back before Friday.
+  Machine: close {"node": "Valve 18"} -> closed @23 Valve 18
+Qwen: Valve 18 is now closed.
+
+You: What's the route with the fewest hops from Highfield SR to DMA 05 Riverside North now?
+  Machine: path {"from": "Highfield SR", "to": "DMA 05 Riverside North"} -> 9 steps: @5 Highfield SR > @6 Valve 3 > @7 Valve 5 > @11 Valve 40 > @29 Valve 44 > @55 Valve 38 > @45 Valve 33 > @24 Valve 21 > @25 PRV 6 > @26 DMA 05 Riverside North
+Qwen: The route with the fewest hops is 9 steps: Highfield SR, Valve 3, Valve 5, Valve 40, Valve 44, Valve 38, Valve 33, Valve 21, PRV 6, DMA 05 Riverside North.
+
+You: And the shortest pipe run there, in metres?
+  Machine: cheapest {"from": "Highfield SR", "to": "DMA 05 Riverside North"} -> cost 6810: @5 Highfield SR > @6 Valve 3 > @7 Valve 5 > @10 Valve 12 > @15 Valve 12B > @40 Valve 27 > @42 Valve 31 > @45 Valve 33 > @24 Valve 21 > @25 PRV 6 > @26 DMA 05 Riverside North
+Qwen: The shortest pipe run is 6,810 metres, through Valve 3, Valve 5, Valve 12, Valve 12B, Valve 27, Valve 31, Valve 33, Valve 21, PRV 6, to DMA 05 Riverside North.
+
+You: Crew's finished at last. Water's running through it again.
+  Machine: reopen {"node": "Valve 18"} -> reopened @23 Valve 18
+Qwen: Valve 18 is now reopened.
+
+Ran on: executor. "executor" means the simulator ran the 11 added layers and Qwen's layers ran on the real weights. 32013 machine tokens, 91 s. Rows: <tmp>

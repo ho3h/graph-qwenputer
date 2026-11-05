@@ -1,0 +1,104 @@
+slow ('random/r021', 20) True 17.82
+slow ('cities/c004', 22) True 16.98
+slow ('cities/c007', 358) True 16.35
+slow ('random/r021', 22) True 138.06
+slow ('random/r014', 23) True 23.43
+slow ('cities/c017', 348) True 79.95
+batched ('cities/c021', 223) True 41.89 {}
+batched ('random/r090', 48) True 51.05 {}
+batched ('cities/c008', 125) True 46.01 {}
+batched ('cities/c013', 79) True 46.93 {}
+batched ('cities/c000', 377) True 69.01 {}
+batched ('cities/c025', 337) True 43.2 {}
+batched ('cities/c025', 389) True 43.21 {}
+batched ('random/r014', 18) True 41.48 {}
+batched ('random/r045', 19) True 24.67 {}
+batched ('cities/c020', 230) True 121.06 {}
+batched ('cities/c003', 214) True 44.16 {}
+batched ('cities/c021', 52) True 44.18 {}
+batched ('cities/c027', 213) True 34.23 {}
+batched ('cities/c004', 356) True 36.9 {}
+batched ('cities/c011', 292) True 20.95 {}
+batched ('random/r022', 48) True 14.63 {}
+batched ('cities/c020', 209) True 13.68 {}
+batched ('cities/c018', 272) True 231.89 {}
+batched ('cities/c022', 88) True 236.67 {}
+batched ('random/r040', 21) True 117.35 {}
+batched ('cities/c027', 320) True 199.29 {}
+batched ('random/r001', 18) True 196.46 {}
+batched ('cities/c022', 362) True 146.94 {}
+batched ('cities/c004', 355) True 113.01 {}
+{"slow": {"n": 6, "s": 293.7, "tokens": 1685}, "batched": {"n": 24, "s": 280.3, "tokens": 7322, "stats": {"gpu_steps": 1162, "row_steps": 7298, "prefill_s": 79.6, "step_s": 178.7, "seconds": 280.3}}}
+slow ('random/r060', 21) True 118.49
+slow ('cities/c004', 91) True 16.78
+slow ('cities/c026', 26) True 65.85
+slow ('cities/c025', 117) True 18.26
+slow ('cities/c026', 103) True 144.59
+slow ('cities/c023', 31) True 26.85
+batched ('cities/c007', 250) True 55.3 {}
+batched ('random/r052', 19) True 44.2 {}
+batched ('cities/c017', 240) True 66.07 {}
+batched ('cities/c002', 104) True 62.48 {}
+batched ('cities/c014', 287) True 55.24 {}
+batched ('cities/c022', 128) True 74.46 {}
+batched ('random/r027', 48) True 78.7 {}
+batched ('random/r040', 18) True 50.95 {}
+batched ('cities/c023', 81) True 51.09 {}
+batched ('cities/c024', 242) True 54.6 {}
+batched ('cities/c002', 286) True 47.45 {}
+batched ('cities/c016', 239) True 70.19 {}
+batched ('random/r065', 19) True 39.78 {}
+batched ('cities/c016', 393) True 29.01 {}
+batched ('random/r078', 48) True 48.42 {}
+batched ('cities/c019', 49) True 111.41 {}
+batched ('random/r038', 23) True 47.66 {}
+batched ('random/r014', 48) True 46.01 {}
+batched ('cities/c023', 94) True 109.35 {}
+batched ('random/r074', 21) True 207.29 {}
+batched ('random/r062', 21) True 190.67 {}
+batched ('random/r016', 20) True 288.22 {}
+batched ('cities/c008', 64) True 182.35 {}
+batched ('cities/c018', 49) True 134.99 {}
+{"slow": {"n": 6, "s": 391.5, "tokens": 2344}, "batched": {"n": 24, "s": 345.4, "tokens": 5703, "stats": {"gpu_steps": 1194, "row_steps": 5679, "prefill_s": 87.3, "step_s": 228.8, "seconds": 345.4}}}
+slow ('cities/c016', 275) True 38.34
+slow ('cities/c022', 150) True 20.03
+slow ('random/r041', 19) True 17.62
+slow ('cities/c015', 179) True 19.1
+slow ('cities/c026', 257) True 63.7
+slow ('cities/c001', 332) True 19.06
+batched ('random/r010', 20) True 30.05 {}
+batched ('cities/c005', 37) True 36.34 {}
+batched ('cities/c003', 7) True 53.6 {}
+batched ('cities/c024', 174) True 62.33 {}
+batched ('cities/c026', 113) True 52.88 {}
+batched ('random/r066', 19) True 31.14 {}
+batched ('random/r025', 18) True 38.26 {}
+batched ('cities/c021', 147) True 34.09 {}
+batched ('random/r034', 48) True 34.26 {}
+batched ('cities/c000', 62) True 33.75 {}
+batched ('cities/c019', 243) True 36.12 {}
+batched ('cities/c020', 62) True 33.6 {}
+batched ('cities/c011', 46) True 165.33 {}
+batched ('random/r039', 22) True 39.7 {}
+batched ('random/r034', 18) True 16.82 {}
+batched ('cities/c000', 327) True 103.8 {}
+batched ('cities/c024', 210) True 87.99 {}
+batched ('cities/c027', 77) True 21.91 {}
+batched ('cities/c006', 211) True 18.97 {}
+batched ('cities/c004', 392) True 264.66 {}
+batched ('cities/c023', 123) True 250.13 {}
+batched ('cities/c025', 316) True 223.75 {}
+batched ('cities/c026', 173) True 209.47 {}
+batched ('cities/c012', 14) True 197.37 {}
+{"slow": {"n": 6, "s": 178.2, "tokens": 977}, "batched": {"n": 24, "s": 298.7, "tokens": 6875, "stats": {"gpu_steps": 1026, "row_steps": 6851, "prefill_s": 72.0, "step_s": 214.4, "seconds": 298.7}}}
+batched ('cities/c002', 343) True 29.54 {}
+batched ('random/r075', 19) True 43.6 {}
+batched ('cities/c009', 60) True 51.58 {}
+batched ('cities/c023', 57) True 42.05 {}
+batched ('cities/c024', 110) True 29.75 {}
+batched ('cities/c013', 107) True 41.21 {}
+batched ('cities/c021', 327) True 196.21 {}
+batched ('random/r068', 22) True 185.83 {}
+{"slow": {"n": 0, "s": 0.0, "tokens": 0}, "batched": {"n": 8, "s": 201.9, "tokens": 2200, "stats": {"gpu_steps": 868, "row_steps": 2192, "prefill_s": 25.3, "step_s": 172.2, "seconds": 201.9}}}
+{'mps_allocated_gib': 23.12, 'mps_driver_gib': 24.17}
+[stage seconds 1990.2]

@@ -1,0 +1,355 @@
+## W1 first-listed calls
+$ gq.py sim water.graph.json --model META   (stdin below)
+close | Valve 18
+path | Highfield SR | DMA 05 Riverside North
+cheapest | Highfield SR | DMA 05 Riverside North
+reopen | Valve 18
+--- output
+closed @23 Valve 18
+  2,366 machine tokens, 1.0 s. Reference machine and reference library: agree.
+9 steps: @5 Highfield SR > @6 Valve 3 > @7 Valve 5 > @11 Valve 40 > @29 Valve 44 > @55 Valve 38 > @45 Valve 33 > @24 Valve 21 > @25 PRV 6 > @26 DMA 05 Riverside North
+  10,261 machine tokens, 2.4 s. Reference machine and reference library: agree.
+cost 6810: @5 Highfield SR > @6 Valve 3 > @7 Valve 5 > @10 Valve 12 > @15 Valve 12B > @40 Valve 27 > @42 Valve 31 > @45 Valve 33 > @24 Valve 21 > @25 PRV 6 > @26 DMA 05 Riverside North
+  17,555 machine tokens, 3.9 s. Reference machine and reference library: agree.
+reopened @23 Valve 18
+  1,831 machine tokens, 0.5 s. Reference machine and reference library: agree.
+
+## W2 first-listed calls
+$ gq.py sim water.graph.json --model META   (stdin below)
+neighbours | PRV 14 | feeds
+neighbours | Valve 12B | feeds
+find | Valve 50
+--- output
+@18 DMA 07 Mill Lane
+@19 DMA 17 Mill Road
+  2,695 machine tokens, 0.8 s. Reference machine and reference library: agree.
+@17 PRV 41
+  2,531 machine tokens, 0.6 s. Reference machine and reference library: agree.
+NONE Valve 50
+  1,381 machine tokens, 0.4 s. Reference machine and reference library: agree.
+
+## W2 turn 4 alternative 2
+$ gq.py sim water.graph.json --model META   (stdin below)
+neighbours | PRV 14 | feeds
+neighbours | Valve 12B | feeds
+neighbours | Valve 50 | feeds
+--- output
+@18 DMA 07 Mill Lane
+@19 DMA 17 Mill Road
+  2,695 machine tokens, 0.7 s. Reference machine and reference library: agree.
+@17 PRV 41
+  2,531 machine tokens, 0.8 s. Reference machine and reference library: agree.
+NONE Valve 50
+  2,036 machine tokens, 0.4 s. Reference machine and reference library: agree.
+
+## W3 first-listed calls
+$ gq.py sim water.graph.json --model META   (stdin below)
+follow | Booster 2 | feeds | 3
+neighbours | Ashvale General Hospital | feeds | in
+link | Valve 31 | interconnect | Valve 36 | 640
+link | Valve 36 | interconnect | Valve 31 | 640
+--- output
+@25 PRV 6
+  3,009 machine tokens, 0.5 s. Reference machine and reference library: agree.
+@29 Valve 44
+  3,294 machine tokens, 0.4 s. Reference machine and reference library: agree.
+linked @42 Valve 31 > interconnect > @49 Valve 36
+  4,331 machine tokens, 0.6 s. Reference machine and reference library: agree.
+linked @49 Valve 36 > interconnect > @42 Valve 31
+  4,356 machine tokens, 0.5 s. Reference machine and reference library: agree.
+
+## W3 turn 1 alternative 2
+$ gq.py sim water.graph.json --model META   (stdin below)
+neighbours | Booster 2 | feeds
+neighbours | Valve 18 | feeds
+neighbours | Valve 21 | feeds
+--- output
+@23 Valve 18
+  2,474 machine tokens, 0.5 s. Reference machine and reference library: agree.
+@24 Valve 21
+  2,460 machine tokens, 0.3 s. Reference machine and reference library: agree.
+@25 PRV 6
+  2,637 machine tokens, 0.4 s. Reference machine and reference library: agree.
+
+## W3 turn 3 alternative 2
+$ gq.py sim water.graph.json --model META   (stdin below)
+follow | Booster 2 | feeds | 3
+neighbours | Ashvale General Hospital | feeds | in
+link | Valve 36 | interconnect | Valve 31 | 640
+link | Valve 31 | interconnect | Valve 36 | 640
+--- output
+@25 PRV 6
+  3,009 machine tokens, 0.6 s. Reference machine and reference library: agree.
+@29 Valve 44
+  3,294 machine tokens, 0.5 s. Reference machine and reference library: agree.
+linked @49 Valve 36 > interconnect > @42 Valve 31
+  4,331 machine tokens, 0.9 s. Reference machine and reference library: agree.
+linked @42 Valve 31 > interconnect > @49 Valve 36
+  4,356 machine tokens, 0.8 s. Reference machine and reference library: agree.
+
+## F1 first-listed calls
+$ gq.py sim foodweb.graph.json --model META   (stdin below)
+neighbours | Atlantic cod | eats
+path | Polar bear | Diatoms
+neighbours | Brünnich's guillemot | eats | in
+--- output
+@6 Krill
+@13 Northern shrimp
+@17 Capelin
+@18 Polar cod
+@19 Atlantic herring
+@22 Haddock
+  3,628 machine tokens, 0.7 s. Reference machine and reference library: agree.
+3 steps: @49 Polar bear > @36 Little auk > @3 Calanus glacialis > @1 Diatoms
+  6,177 machine tokens, 0.9 s. Reference machine and reference library: agree.
+@38 Glaucous gull
+@50 Arctic fox
+  3,566 machine tokens, 0.5 s. Reference machine and reference library: agree.
+
+## F2 first-listed calls
+$ gq.py sim foodweb.graph.json --model META   (stdin below)
+neighbours | Capelin | eats | in
+close | Capelin
+path | Northern fulmar | Calanus finmarchicus
+reopen | Capelin
+link | Greenland shark | eats | Hooded seal
+--- output
+@16 Gonatus squid
+@21 Atlantic cod
+@22 Haddock
+@23 Saithe
+@24 Beaked redfish
+@26 Greenland halibut
+@30 Minke whale
+@31 Harp seal
+@32 Black-legged kittiwake
+@33 Brünnich's guillemot
+@34 Common guillemot
+@35 Atlantic puffin
+@37 Northern fulmar
+@43 Fin whale
+@44 Humpback whale
+@46 Beluga
+@47 Harbour porpoise
+  6,659 machine tokens, 1.4 s. Reference machine and reference library: agree.
+closed @17 Capelin
+  2,240 machine tokens, 0.3 s. Reference machine and reference library: agree.
+3 steps: @37 Northern fulmar > @16 Gonatus squid > @6 Krill > @0 Calanus finmarchicus
+  6,698 machine tokens, 1.3 s. Reference machine and reference library: agree.
+reopened @17 Capelin
+  1,724 machine tokens, 0.3 s. Reference machine and reference library: agree.
+linked @28 Greenland shark > eats > @41 Hooded seal
+  4,059 machine tokens, 0.6 s. Reference machine and reference library: agree.
+
+## C1 first-listed calls
+$ gq.py sim companies.graph.json --model META   (stdin below)
+neighbours | Northgate Holdings 2 Ltd | owns
+neighbours | Northgate Holdings 2 Ltd | owns | in
+path | Priya Raman | Harbour Street Developments Ltd
+--- output
+@6 Northgate Property Ltd
+@7 Northgate Property 2 Ltd
+  3,229 machine tokens, 1.2 s. Reference machine and reference library: agree.
+@3 Northgate Holdings Ltd
+  3,321 machine tokens, 0.8 s. Reference machine and reference library: agree.
+3 steps: @0 Priya Raman > @4 Northgate Holdings 2 Ltd > @6 Northgate Property Ltd > @10 Harbour Street Developments Ltd
+  7,096 machine tokens, 1.4 s. Reference machine and reference library: agree.
+
+## C2 first-listed calls
+$ gq.py sim companies.graph.json --model META   (stdin below)
+neighbours | Tidewell Foods Ltd | owns | in
+close | Brightwell Foods Ltd
+path | Marcus Hale | Brightwell Dairy Ltd
+unlink | Sofia Lindqvist | owns | Tidewell Foods Ltd
+link | Harcourt Capital LLP | owns | Tidewell Foods Ltd
+neighbours | Harcourt Capital LLP | owns
+--- output
+@26 Sofia Lindqvist
+@28 Kenji Mori
+  3,405 machine tokens, 1.0 s. Reference machine and reference library: agree.
+closed @17 Brightwell Foods Ltd
+  3,026 machine tokens, 0.6 s. Reference machine and reference library: agree.
+NOPATH
+  5,252 machine tokens, 0.6 s. Reference machine and reference library: agree.
+unlinked @26 Sofia Lindqvist > owns > @27 Tidewell Foods Ltd
+  4,470 machine tokens, 0.6 s. Reference machine and reference library: agree.
+linked @13 Harcourt Capital LLP > owns > @27 Tidewell Foods Ltd
+  4,629 machine tokens, 0.8 s. Reference machine and reference library: agree.
+@15 Harcourt Capital Partners 1 LP
+@16 Harcourt Capital Partners 2 LP
+@27 Tidewell Foods Ltd
+  3,829 machine tokens, 0.8 s. Reference machine and reference library: agree.
+
+## C2 turn 4 alternative 2
+$ gq.py sim companies.graph.json --model META   (stdin below)
+neighbours | Tidewell Foods Ltd | owns | in
+close | Brightwell Foods Ltd
+path | Marcus Hale | Brightwell Dairy Ltd
+link | Harcourt Capital LLP | owns | Tidewell Foods Ltd
+unlink | Sofia Lindqvist | owns | Tidewell Foods Ltd
+--- output
+@26 Sofia Lindqvist
+@28 Kenji Mori
+  3,405 machine tokens, 0.7 s. Reference machine and reference library: agree.
+closed @17 Brightwell Foods Ltd
+  3,026 machine tokens, 0.7 s. Reference machine and reference library: agree.
+NOPATH
+  5,252 machine tokens, 0.9 s. Reference machine and reference library: agree.
+linked @13 Harcourt Capital LLP > owns > @27 Tidewell Foods Ltd
+  4,593 machine tokens, 0.8 s. Reference machine and reference library: agree.
+unlinked @26 Sofia Lindqvist > owns > @27 Tidewell Foods Ltd
+  4,471 machine tokens, 0.8 s. Reference machine and reference library: agree.
+
+## C3 first-listed calls
+$ gq.py sim companies.graph.json --model META   (stdin below)
+add_node | Bello Solar 30 Ltd
+link | Bello Energy Ltd | owns | Bello Solar 30 Ltd | 100
+link | Bello Solar 30 Ltd | registered_at | Unit 3, Riverside Park, Hull
+neighbours | Unit 3, Riverside Park, Hull | registered_at | in
+neighbours | Bello Solar 12 Ltd | director_of | in
+--- output
+added @89 Bello Solar 30 Ltd
+  1,893 machine tokens, 0.5 s. Reference machine and reference library: agree.
+linked @35 Bello Energy Ltd > owns > @89 Bello Solar 30 Ltd
+  4,989 machine tokens, 1.0 s. Reference machine and reference library: agree.
+linked @89 Bello Solar 30 Ltd > registered_at > @82 Unit 3, Riverside Park, Hull
+  5,057 machine tokens, 1.2 s. Reference machine and reference library: agree.
+@35 Bello Energy Ltd
+@37 Bello Solar 1 Ltd
+@38 Bello Solar 2 Ltd
+@39 Bello Solar 12 Ltd
+@40 Bello Solar 21 Ltd
+@46 O'Connell Homes (Hull) Ltd
+@89 Bello Solar 30 Ltd
+  5,904 machine tokens, 0.9 s. Reference machine and reference library: agree.
+@36 Ruth Adeyemi
+@68 Liam Byrne
+  3,822 machine tokens, 0.4 s. Reference machine and reference library: agree.
+
+## C3 turn 2 alternative 2
+$ gq.py sim companies.graph.json --model META   (stdin below)
+add_node | Bello Solar 30 Ltd
+link | Bello Energy Ltd | owns | Bello Solar 30 Ltd | 100
+neighbours | Unit 3, Riverside Park, Hull | registered_at | in
+link | Bello Solar 30 Ltd | registered_at | Unit 3, Riverside Park, Hull
+--- output
+added @89 Bello Solar 30 Ltd
+  1,893 machine tokens, 0.7 s. Reference machine and reference library: agree.
+linked @35 Bello Energy Ltd > owns > @89 Bello Solar 30 Ltd
+  4,989 machine tokens, 1.4 s. Reference machine and reference library: agree.
+@35 Bello Energy Ltd
+@37 Bello Solar 1 Ltd
+@38 Bello Solar 2 Ltd
+@39 Bello Solar 12 Ltd
+@40 Bello Solar 21 Ltd
+@46 O'Connell Homes (Hull) Ltd
+  5,481 machine tokens, 0.9 s. Reference machine and reference library: agree.
+linked @89 Bello Solar 30 Ltd > registered_at > @82 Unit 3, Riverside Park, Hull
+  5,057 machine tokens, 0.8 s. Reference machine and reference library: agree.
+
+## water worked examples on their small graph
+$ gq.py sim water_small.graph.json --model META   (stdin below)
+neighbours | Regulator 2 | feeds
+neighbours | Regulator 22 | feeds | in
+close | Gate 9
+path | Fernley Tank | Greenacre Care Home
+reopen | Gate 9
+cheapest | Fernley Tank | Greenacre Care Home
+link | Gate 6C | interconnect | Gate 9 | 450
+link | Gate 9 | interconnect | Gate 6C | 450
+--- output
+@8 Area 11 Orchard
+@9 Area 12 Quarry
+  2,781 machine tokens, 0.8 s. Reference machine and reference library: agree.
+@4 Gate 6C
+@5 Gate 9
+  3,118 machine tokens, 0.6 s. Reference machine and reference library: agree.
+closed @5 Gate 9
+  2,190 machine tokens, 0.5 s. Reference machine and reference library: agree.
+4 steps: @2 Fernley Tank > @3 Gate 6 > @4 Gate 6C > @7 Regulator 22 > @11 Greenacre Care Home
+  6,403 machine tokens, 1.1 s. Reference machine and reference library: agree.
+reopened @5 Gate 9
+  1,694 machine tokens, 0.2 s. Reference machine and reference library: agree.
+cost 1270: @2 Fernley Tank > @3 Gate 6 > @5 Gate 9 > @7 Regulator 22 > @11 Greenacre Care Home
+  5,321 machine tokens, 1.0 s. Reference machine and reference library: agree.
+linked @4 Gate 6C > interconnect > @5 Gate 9
+  4,137 machine tokens, 1.1 s. Reference machine and reference library: agree.
+linked @5 Gate 9 > interconnect > @4 Gate 6C
+  4,262 machine tokens, 0.6 s. Reference machine and reference library: agree.
+
+## foodweb worked examples on their small graph
+$ gq.py sim foodweb_small.graph.json --model META   (stdin below)
+neighbours | Perch | eats
+neighbours | Roach | eats | in
+path | Eurasian otter | Green algae
+neighbours | Perch | eats | in
+close | Mayfly larvae
+path | Common bream | Green algae
+reopen | Mayfly larvae
+link | Perch | eats | Common bream
+--- output
+@0 Daphnia
+@2 Mayfly larvae
+@5 Roach
+  2,706 machine tokens, 0.5 s. Reference machine and reference library: agree.
+@7 Perch
+@8 Pike
+@9 Grey heron
+  3,017 machine tokens, 0.4 s. Reference machine and reference library: agree.
+3 steps: @10 Eurasian otter > @7 Perch > @0 Daphnia > @1 Green algae
+  5,693 machine tokens, 1.0 s. Reference machine and reference library: agree.
+@8 Pike
+@9 Grey heron
+@10 Eurasian otter
+  3,072 machine tokens, 0.5 s. Reference machine and reference library: agree.
+closed @2 Mayfly larvae
+  2,598 machine tokens, 0.6 s. Reference machine and reference library: agree.
+2 steps: @6 Common bream > @4 Freshwater mussel > @1 Green algae
+  5,072 machine tokens, 0.7 s. Reference machine and reference library: agree.
+reopened @2 Mayfly larvae
+  1,936 machine tokens, 0.3 s. Reference machine and reference library: agree.
+linked @7 Perch > eats > @6 Common bream
+  3,713 machine tokens, 0.6 s. Reference machine and reference library: agree.
+
+## companies worked examples on their small graph
+$ gq.py sim companies_small.graph.json --model META   (stdin below)
+neighbours | Alder Holdings 4 Ltd | owns
+neighbours | Juniper Leasing Ltd | owns | in
+neighbours | Juniper Leasing Ltd | director_of | in
+neighbours | Unit 9, Dockside, Swansea | registered_at | in
+close | Alder Freight Ltd
+path | Elif Kaya | Alder Freight 2 Ltd
+add_node | Alder Holdings 5 Ltd
+link | Alder Group plc | owns | Alder Holdings 5 Ltd | 100
+link | Alder Holdings 5 Ltd | registered_at | 6 Quay Lane, Cardiff
+unlink | Maria Santos | owns | Juniper Leasing Ltd
+link | Alder Group plc | owns | Juniper Leasing Ltd
+--- output
+@4 Alder Freight Ltd
+@5 Alder Freight 2 Ltd
+  3,119 machine tokens, 0.9 s. Reference machine and reference library: agree.
+@4 Alder Freight Ltd
+@7 Maria Santos
+  3,353 machine tokens, 0.7 s. Reference machine and reference library: agree.
+@2 Joao Pereira
+@7 Maria Santos
+  3,538 machine tokens, 0.9 s. Reference machine and reference library: agree.
+@4 Alder Freight Ltd
+@5 Alder Freight 2 Ltd
+@6 Juniper Leasing Ltd
+  4,139 machine tokens, 0.7 s. Reference machine and reference library: agree.
+closed @4 Alder Freight Ltd
+  2,846 machine tokens, 0.5 s. Reference machine and reference library: agree.
+2 steps: @0 Elif Kaya > @3 Alder Holdings 4 Ltd > @5 Alder Freight 2 Ltd
+  5,640 machine tokens, 1.0 s. Reference machine and reference library: agree.
+added @10 Alder Holdings 5 Ltd
+  1,930 machine tokens, 0.3 s. Reference machine and reference library: agree.
+linked @1 Alder Group plc > owns > @10 Alder Holdings 5 Ltd
+  4,815 machine tokens, 1.1 s. Reference machine and reference library: agree.
+linked @10 Alder Holdings 5 Ltd > registered_at > @8 6 Quay Lane, Cardiff
+  4,748 machine tokens, 1.3 s. Reference machine and reference library: agree.
+unlinked @7 Maria Santos > owns > @6 Juniper Leasing Ltd
+  4,277 machine tokens, 0.6 s. Reference machine and reference library: agree.
+linked @1 Alder Group plc > owns > @6 Juniper Leasing Ltd
+  4,477 machine tokens, 0.6 s. Reference machine and reference library: agree.
+

@@ -1,0 +1,22 @@
+Loading the model. The first run also compiles the C engine.
+
+You: Add a new company, Bello Solar 30 Ltd. Bello Energy Ltd owns 100% of it.
+  Machine: add_node {"name": "Bello Solar 30 Ltd"} -> added @89 Bello Solar 30 Ltd
+  Machine: link {"from": "Bello Energy Ltd", "relation": "owns", "to": "Bello Solar 30 Ltd", "weight": "100"} -> linked @35 Bello Energy Ltd > owns > @89 Bello Solar 30 Ltd
+Qwen: Added Bello Solar 30 Ltd, owned 100% by Bello Energy Ltd.
+
+You: It's registered at Unit 3, Riverside Park, Hull. Who else is there?
+  Machine: neighbours {"node": "Unit 3, Riverside Park, Hull", "relation": "registered_at", "direction": "in"} -> @35 Bello Energy Ltd
+@37 Bello Solar 1 Ltd
+@38 Bello Solar 2 Ltd
+@39 Bello Solar 12 Ltd
+@40 Bello Solar 21 Ltd
+@46 O'Connell Homes (Hull) Ltd
+Qwen: Bello Energy Ltd, Bello Solar 1 Ltd, Bello Solar 2 Ltd, Bello Solar 12 Ltd, Bello Solar 21 Ltd, and O'Connell Homes (Hull) Ltd are registered at Unit 3, Riverside Park, Hull.
+
+You: Bello Solar, the number 12 one: who's on its board?
+  Machine: neighbours {"node": "Bello Solar 12 Ltd", "relation": "director_of", "direction": "in"} -> @36 Ruth Adeyemi
+@68 Liam Byrne
+Qwen: Ruth Adeyemi and Liam Byrne are on the board of Bello Solar 12 Ltd.
+
+Ran on: executor. "executor" means the simulator ran the 11 added layers and Qwen's layers ran on the real weights. 16185 machine tokens, 76 s. Rows: <tmp>

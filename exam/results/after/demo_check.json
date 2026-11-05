@@ -1,0 +1,67 @@
+{
+ "open": {
+  "body": "@220 Borough Hall",
+  "same_as_reference": true,
+  "flags": []
+ },
+ "Wall St": {
+  "by_handle": {
+   "body": "closed @483 Wall St\n@401 Nevins St",
+   "same_as_reference": true,
+   "flags": []
+  },
+  "by_name": {
+   "body": "AMBIGUOUS 2: @482 Wall St | @483 Wall St",
+   "same_as_reference": true,
+   "flags": []
+  }
+ },
+ "Bowling Green": {
+  "by_handle": {
+   "body": "closed @223 Bowling Green\n@401 Nevins St",
+   "same_as_reference": true,
+   "flags": []
+  },
+  "by_name": {
+   "body": "closed @223 Bowling Green\n@401 Nevins St",
+   "same_as_reference": true,
+   "flags": []
+  }
+ },
+ "Borough Hall": {
+  "by_handle": {
+   "body": "closed @220 Borough Hall\n@401 Nevins St",
+   "same_as_reference": true,
+   "flags": []
+  },
+  "by_name": {
+   "body": "AMBIGUOUS 2: @219 Borough Hall | @220 Borough Hall",
+   "same_as_reference": true,
+   "flags": []
+  }
+ },
+ "Nevins St": {
+  "by_handle": {
+   "body": "closed @401 Nevins St\n@220 Borough Hall",
+   "same_as_reference": true,
+   "flags": []
+  },
+  "by_name": {
+   "body": "closed @401 Nevins St\n@220 Borough Hall",
+   "same_as_reference": true,
+   "flags": []
+  }
+ },
+ "Atlantic Av-Barclays Ctr": {
+  "by_handle": {
+   "body": "closed @181 Atlantic Av-Barclays Ctr\n@220 Borough Hall",
+   "same_as_reference": true,
+   "flags": []
+  },
+  "by_name": {
+   "body": "AMBIGUOUS 3: @181 Atlantic Av-Barclays Ctr | @182 Atlantic Av-Barclays Ctr | @183 Atlantic Av-Barclays Ctr",
+   "same_as_reference": true,
+   "flags": []
+  }
+ }
+}

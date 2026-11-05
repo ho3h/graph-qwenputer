@@ -1,0 +1,35 @@
+wexec build 82.5 319b5ad27dd4
+('cities/c004', 22) True 84.57 3.901 2916
+('random/r090', 48) True 54.79 4.52 6025
+('cities/c007', 358) True 89.79 3.72 3438
+('random/r021', 20) True 104.62 2.619 3715
+('cities/c000', 377) True 80.99 2.577 3211
+('random/r014', 23) True 106.46 4.044 5318
+('cities/c021', 223) True 63.55 2.036 2788
+('cities/c008', 125) True 64.81 3.547 4644
+('cities/c013', 79) True 65.16 2.956 3645
+('cities/c025', 337) True 51.21 2.326 3274
+('random/r014', 18) True 45.96 3.437 5021
+('cities/c025', 389) True 56.17 2.27 3018
+('cities/c020', 230) True 162.76 3.709 5189
+('cities/c003', 214) True 47.14 2.543 2991
+('cities/c021', 52) True 42.45 2.625 3237
+('random/r045', 19) True 36.55 2.248 3278
+('cities/c027', 213) True 35.71 2.523 3158
+('cities/c017', 348) True 321.59 6.267 6804
+('cities/c004', 356) True 40.81 1.725 2725
+('random/r021', 22) True 499.11 2.454 3800
+('cities/c011', 292) True 31.92 1.363 3063
+('cities/c022', 88) True 443.07 2.462 2821
+('cities/c018', 272) True 436.91 1.506 2598
+('cities/c020', 209) True 42.48 1.184 3305
+('random/r022', 48) True 58.75 1.177 3541
+('cities/c027', 320) True 412.76 2.205 2565
+('random/r001', 18) True 412.3 2.462 3013
+('cities/c004', 91) True 32.69 1.353 3281
+('random/r040', 21) True 283.27 4.801 13863
+('cities/c022', 362) True 361.71 1.849 2317
+('cities/c004', 355) True 317.23 1.648 2675
+('random/r060', 21) True 208.45 1.874 4705
+{"n": 32, "same": 32, "seconds": 773.6, "stats": {"gpu_steps": 1854, "row_steps": 9937, "prefill_s": 126.8, "step_s": 528.3, "seconds": 773.6}, "chip_tokens": 125942, "chip_seconds": 85.9, "engine": "319b5ad27dd4", "flags": [], "residue": 0, "not_saturated": 0, "shared_gpu": true, "chip_tokens_per_s": 1466.1}
+[stage seconds 856.2]

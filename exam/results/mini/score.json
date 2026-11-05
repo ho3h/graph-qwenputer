@@ -1,0 +1,73 @@
+{
+ "elf": [
+  "ad1abcc6cec073b52e088c4d0d1752dd9908f6f77d39d950ff0d5a5e70c41fe0"
+ ],
+ "every_station": {
+  "units": 496,
+  "close": 496,
+  "close_right": 496,
+  "closed": 297600,
+  "closed_right": 297600,
+  "unaffected": 295414,
+  "unaffected_right": 295414,
+  "affected": 2186,
+  "affected_right": 2186,
+  "reopen": 496,
+  "reopen_right": 496,
+  "restored": 14880,
+  "restored_right": 14880
+ },
+ "every_station_bad": [],
+ "uses": {
+  "seconds_median": 189.4
+ },
+ "blackout": {
+  "close": 496,
+  "close_same_as_reference": 496,
+  "close_equal_want": 496,
+  "during": 960,
+  "during_same_as_reference": 960,
+  "during_equal_want": 960,
+  "reopen": 496,
+  "reopen_same_as_reference": 496,
+  "reopen_equal_want": 496,
+  "final": 600,
+  "final_same_as_reference": 600,
+  "final_equal_want": 600,
+  "max_chip": 27506,
+  "seconds": 563.4
+ },
+ "blackout_differences": [],
+ "longest": {
+  "longest": 50,
+  "longest_same_as_reference": 50,
+  "longest_equal_want": 50,
+  "max_chip": 63981,
+  "seconds": 226.3,
+  "hops": [
+   49,
+   44
+  ],
+  "trip": "49 steps: @298 Far Rockaway-Mott Av > @203 Beach 25 St > @204 Beach 36 St > @205 Beach 44 St > @206 Beach 60 St > @207 Beach 67 St > @226 Broad Channel > @343 Howard Beach-JFK Airport > @175 Aqueduct-N Conduit Av > @174 Aqueduct Racetrack > @442 Rockaway Blvd > @164 88 St > @154 80 St > @330 Grant A"
+ },
+ "longest_differences": [],
+ "fuzz": {
+  "fuzz:one": 2000,
+  "fuzz:one_same_as_reference": 2000,
+  "fuzz:one_equal_want": 2000,
+  "fuzz:two": 2000,
+  "fuzz:two_same_as_reference": 2000,
+  "fuzz:two_equal_want": 2000,
+  "fuzz:three": 500,
+  "fuzz:three_same_as_reference": 500,
+  "fuzz:three_equal_want": 500,
+  "fuzz:awkward": 500,
+  "fuzz:awkward_same_as_reference": 500,
+  "fuzz:awkward_equal_want": 500,
+  "max_chip": 9159,
+  "seconds": 1680.8
+ },
+ "fuzz_differences": [],
+ "base_digest_same_as_mac": 600,
+ "base_n": 600
+}

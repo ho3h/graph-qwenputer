@@ -1,0 +1,701 @@
+{
+ "format": "x210-graph/1",
+ "name": "Ashvale water network",
+ "domain": "custom",
+ "nodes": [
+  {
+   "label": "Ashmere Intake",
+   "prop": 0,
+   "src": "Ashmere Intake"
+  },
+  {
+   "label": "Ashmere WTW",
+   "prop": 0,
+   "src": "Ashmere WTW"
+  },
+  {
+   "label": "Ashmere Borehole 2",
+   "prop": 0,
+   "src": "Ashmere Borehole 2"
+  },
+  {
+   "label": "Ashmere Borehole 3",
+   "prop": 0,
+   "src": "Ashmere Borehole 3"
+  },
+  {
+   "label": "Booster 1",
+   "prop": 0,
+   "src": "Booster 1"
+  },
+  {
+   "label": "Highfield SR",
+   "prop": 0,
+   "src": "Highfield SR"
+  },
+  {
+   "label": "Valve 3",
+   "prop": 0,
+   "src": "Valve 3"
+  },
+  {
+   "label": "Valve 5",
+   "prop": 0,
+   "src": "Valve 5"
+  },
+  {
+   "label": "Valve 8",
+   "prop": 0,
+   "src": "Valve 8"
+  },
+  {
+   "label": "PRV 4",
+   "prop": 0,
+   "src": "PRV 4"
+  },
+  {
+   "label": "Valve 12",
+   "prop": 0,
+   "src": "Valve 12"
+  },
+  {
+   "label": "Valve 40",
+   "prop": 0,
+   "src": "Valve 40"
+  },
+  {
+   "label": "DMA 03 Castle Street",
+   "prop": 0,
+   "src": "DMA 03 Castle Street"
+  },
+  {
+   "label": "DMA 13 Castle Hill",
+   "prop": 0,
+   "src": "DMA 13 Castle Hill"
+  },
+  {
+   "label": "Valve 12A",
+   "prop": 0,
+   "src": "Valve 12A"
+  },
+  {
+   "label": "Valve 12B",
+   "prop": 0,
+   "src": "Valve 12B"
+  },
+  {
+   "label": "PRV 14",
+   "prop": 0,
+   "src": "PRV 14"
+  },
+  {
+   "label": "PRV 41",
+   "prop": 0,
+   "src": "PRV 41"
+  },
+  {
+   "label": "DMA 07 Mill Lane",
+   "prop": 0,
+   "src": "DMA 07 Mill Lane"
+  },
+  {
+   "label": "DMA 17 Mill Road",
+   "prop": 0,
+   "src": "DMA 17 Mill Road"
+  },
+  {
+   "label": "DMA 14 St Mary's",
+   "prop": 0,
+   "src": "DMA 14 St Mary's"
+  },
+  {
+   "label": "DMA 15 St Mark's",
+   "prop": 0,
+   "src": "DMA 15 St Mark's"
+  },
+  {
+   "label": "Booster 2",
+   "prop": 0,
+   "src": "Booster 2"
+  },
+  {
+   "label": "Valve 18",
+   "prop": 0,
+   "src": "Valve 18"
+  },
+  {
+   "label": "Valve 21",
+   "prop": 0,
+   "src": "Valve 21"
+  },
+  {
+   "label": "PRV 6",
+   "prop": 0,
+   "src": "PRV 6"
+  },
+  {
+   "label": "DMA 05 Riverside North",
+   "prop": 0,
+   "src": "DMA 05 Riverside North"
+  },
+  {
+   "label": "DMA 06 Riverside South",
+   "prop": 0,
+   "src": "DMA 06 Riverside South"
+  },
+  {
+   "label": "PRV 24",
+   "prop": 0,
+   "src": "PRV 24"
+  },
+  {
+   "label": "Valve 44",
+   "prop": 0,
+   "src": "Valve 44"
+  },
+  {
+   "label": "DMA 25 Highfield Estate",
+   "prop": 0,
+   "src": "DMA 25 Highfield Estate"
+  },
+  {
+   "label": "DMA 26 Highfield Village",
+   "prop": 0,
+   "src": "DMA 26 Highfield Village"
+  },
+  {
+   "label": "Ashvale General Hospital",
+   "prop": 0,
+   "src": "Ashvale General Hospital"
+  },
+  {
+   "label": "Coldbrook Intake",
+   "prop": 0,
+   "src": "Coldbrook Intake"
+  },
+  {
+   "label": "Coldbrook WTW",
+   "prop": 0,
+   "src": "Coldbrook WTW"
+  },
+  {
+   "label": "Coldbrook Borehole 1",
+   "prop": 0,
+   "src": "Coldbrook Borehole 1"
+  },
+  {
+   "label": "Coldbrook SR",
+   "prop": 0,
+   "src": "Coldbrook SR"
+  },
+  {
+   "label": "Booster 7",
+   "prop": 0,
+   "src": "Booster 7"
+  },
+  {
+   "label": "Valve 30",
+   "prop": 0,
+   "src": "Valve 30"
+  },
+  {
+   "label": "Beacon Hill SR",
+   "prop": 0,
+   "src": "Beacon Hill SR"
+  },
+  {
+   "label": "Valve 27",
+   "prop": 0,
+   "src": "Valve 27"
+  },
+  {
+   "label": "PRV 16",
+   "prop": 0,
+   "src": "PRV 16"
+  },
+  {
+   "label": "Valve 31",
+   "prop": 0,
+   "src": "Valve 31"
+  },
+  {
+   "label": "DMA 11 Beacon Park",
+   "prop": 0,
+   "src": "DMA 11 Beacon Park"
+  },
+  {
+   "label": "DMA 21 Beacon Rise",
+   "prop": 0,
+   "src": "DMA 21 Beacon Rise"
+  },
+  {
+   "label": "Valve 33",
+   "prop": 0,
+   "src": "Valve 33"
+  },
+  {
+   "label": "DMA 19 Old Station Yard",
+   "prop": 0,
+   "src": "DMA 19 Old Station Yard"
+  },
+  {
+   "label": "DMA 29 Station Approach",
+   "prop": 0,
+   "src": "DMA 29 Station Approach"
+  },
+  {
+   "label": "PRV 34",
+   "prop": 0,
+   "src": "PRV 34"
+  },
+  {
+   "label": "Valve 36",
+   "prop": 0,
+   "src": "Valve 36"
+  },
+  {
+   "label": "DMA 30 Coldbrook Farm",
+   "prop": 0,
+   "src": "DMA 30 Coldbrook Farm"
+  },
+  {
+   "label": "DMA 31 Coldbrook Green",
+   "prop": 0,
+   "src": "DMA 31 Coldbrook Green"
+  },
+  {
+   "label": "Booster 12",
+   "prop": 0,
+   "src": "Booster 12"
+  },
+  {
+   "label": "Northern Foods Plant 2",
+   "prop": 0,
+   "src": "Northern Foods Plant 2"
+  },
+  {
+   "label": "Northern Foods Plant 3",
+   "prop": 0,
+   "src": "Northern Foods Plant 3"
+  },
+  {
+   "label": "Valve 38",
+   "prop": 0,
+   "src": "Valve 38"
+  },
+  {
+   "label": "DMA 22 Kingsway",
+   "prop": 0,
+   "src": "DMA 22 Kingsway"
+  },
+  {
+   "label": "DMA 23 Kings Road",
+   "prop": 0,
+   "src": "DMA 23 Kings Road"
+  },
+  {
+   "label": "Kingsway Trading Estate",
+   "prop": 0,
+   "src": "Kingsway Trading Estate"
+  }
+ ],
+ "relations": [
+  "feeds",
+  "interconnect"
+ ],
+ "edges": [
+  [
+   0,
+   0,
+   1,
+   900
+  ],
+  [
+   1,
+   0,
+   4,
+   400
+  ],
+  [
+   2,
+   0,
+   1,
+   1400
+  ],
+  [
+   3,
+   0,
+   1,
+   1650
+  ],
+  [
+   4,
+   0,
+   5,
+   2600
+  ],
+  [
+   5,
+   0,
+   6,
+   300
+  ],
+  [
+   6,
+   0,
+   7,
+   700
+  ],
+  [
+   6,
+   0,
+   8,
+   900
+  ],
+  [
+   7,
+   0,
+   9,
+   450
+  ],
+  [
+   7,
+   0,
+   10,
+   800
+  ],
+  [
+   7,
+   0,
+   11,
+   1200
+  ],
+  [
+   8,
+   0,
+   22,
+   1100
+  ],
+  [
+   9,
+   0,
+   12,
+   350
+  ],
+  [
+   9,
+   0,
+   13,
+   500
+  ],
+  [
+   10,
+   0,
+   14,
+   60
+  ],
+  [
+   10,
+   0,
+   15,
+   60
+  ],
+  [
+   11,
+   0,
+   28,
+   500
+  ],
+  [
+   11,
+   0,
+   29,
+   700
+  ],
+  [
+   14,
+   0,
+   16,
+   600
+  ],
+  [
+   15,
+   0,
+   17,
+   750
+  ],
+  [
+   15,
+   1,
+   40,
+   1400
+  ],
+  [
+   16,
+   0,
+   18,
+   300
+  ],
+  [
+   16,
+   0,
+   19,
+   420
+  ],
+  [
+   17,
+   0,
+   20,
+   380
+  ],
+  [
+   17,
+   0,
+   21,
+   510
+  ],
+  [
+   22,
+   0,
+   23,
+   650
+  ],
+  [
+   23,
+   0,
+   24,
+   900
+  ],
+  [
+   24,
+   0,
+   25,
+   300
+  ],
+  [
+   24,
+   1,
+   45,
+   800
+  ],
+  [
+   25,
+   0,
+   26,
+   350
+  ],
+  [
+   25,
+   0,
+   27,
+   400
+  ],
+  [
+   28,
+   0,
+   30,
+   320
+  ],
+  [
+   28,
+   0,
+   31,
+   460
+  ],
+  [
+   29,
+   0,
+   32,
+   280
+  ],
+  [
+   29,
+   1,
+   55,
+   1500
+  ],
+  [
+   33,
+   0,
+   34,
+   1100
+  ],
+  [
+   34,
+   0,
+   36,
+   500
+  ],
+  [
+   35,
+   0,
+   34,
+   1250
+  ],
+  [
+   36,
+   0,
+   37,
+   800
+  ],
+  [
+   36,
+   0,
+   38,
+   600
+  ],
+  [
+   37,
+   0,
+   39,
+   3100
+  ],
+  [
+   38,
+   0,
+   48,
+   650
+  ],
+  [
+   38,
+   0,
+   49,
+   400
+  ],
+  [
+   39,
+   0,
+   40,
+   250
+  ],
+  [
+   40,
+   0,
+   41,
+   600
+  ],
+  [
+   40,
+   0,
+   42,
+   1200
+  ],
+  [
+   40,
+   1,
+   15,
+   1400
+  ],
+  [
+   41,
+   0,
+   43,
+   300
+  ],
+  [
+   41,
+   0,
+   44,
+   350
+  ],
+  [
+   42,
+   0,
+   45,
+   900
+  ],
+  [
+   45,
+   0,
+   46,
+   250
+  ],
+  [
+   45,
+   0,
+   47,
+   300
+  ],
+  [
+   45,
+   1,
+   24,
+   800
+  ],
+  [
+   45,
+   1,
+   55,
+   1100
+  ],
+  [
+   48,
+   0,
+   50,
+   260
+  ],
+  [
+   48,
+   0,
+   51,
+   340
+  ],
+  [
+   49,
+   0,
+   52,
+   900
+  ],
+  [
+   52,
+   0,
+   53,
+   380
+  ],
+  [
+   52,
+   0,
+   54,
+   420
+  ],
+  [
+   52,
+   0,
+   55,
+   500
+  ],
+  [
+   55,
+   0,
+   56,
+   300
+  ],
+  [
+   55,
+   0,
+   57,
+   350
+  ],
+  [
+   55,
+   0,
+   58,
+   420
+  ],
+  [
+   55,
+   1,
+   29,
+   1500
+  ],
+  [
+   55,
+   1,
+   45,
+   1100
+  ]
+ ],
+ "splice": [],
+ "change": null,
+ "meta": {}
+}

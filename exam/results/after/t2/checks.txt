@@ -1,0 +1,42 @@
+$ python3 gq.py import water.csv -o water.graph.json --name "Ashvale water network" --both interconnect
+Note: skipped 3 row(s) that start with #, which marks a comment: row 1, 2, 3.
+water.graph.json: 59 nodes, 65 edges, 2 relations.
+
+$ python3 gq.py check water.graph.json
+water.graph.json: 59 nodes, 65 edges, 2 relations. The file is valid.
+To test the fit in the real firmware's memory: gq.py check --firmware --model DIR GRAPH
+
+$ python3 gq.py import foodweb.csv -o foodweb.graph.json --name "Barents Sea food web"
+Note: skipped 2 row(s) that start with #, which marks a comment: row 1, 2.
+foodweb.graph.json: 51 nodes, 134 edges, 2 relations.
+
+$ python3 gq.py check foodweb.graph.json
+foodweb.graph.json: 51 nodes, 134 edges, 2 relations. The file is valid.
+To test the fit in the real firmware's memory: gq.py check --firmware --model DIR GRAPH
+
+$ python3 gq.py import companies.csv -o companies.graph.json --name "Company ownership register"
+Note: skipped 2 row(s) that start with #, which marks a comment: row 1, 2.
+companies.graph.json: 89 nodes, 165 edges, 3 relations.
+
+$ python3 gq.py check companies.graph.json
+companies.graph.json: 89 nodes, 165 edges, 3 relations. The file is valid.
+To test the fit in the real firmware's memory: gq.py check --firmware --model DIR GRAPH
+
+$ PY gq.py check --firmware --model META water.graph.json
+water.graph.json: 59 nodes, 65 edges, 2 relations. The file is valid.
+The graph loads into the firmware's memory: 59 nodes, 65 edges.
+A path call between your two longest names is 46 tokens, and the firmware reads 80.
+A link call between your two longest names is 60 tokens, and the firmware reads 80.
+
+$ PY gq.py check --firmware --model META foodweb.graph.json
+foodweb.graph.json: 51 nodes, 134 edges, 2 relations. The file is valid.
+The graph loads into the firmware's memory: 51 nodes, 134 edges.
+A path call between your two longest names is 47 tokens, and the firmware reads 80.
+A link call between your two longest names is 62 tokens, and the firmware reads 80.
+
+$ PY gq.py check --firmware --model META companies.graph.json
+companies.graph.json: 89 nodes, 165 edges, 3 relations. The file is valid.
+The graph loads into the firmware's memory: 89 nodes, 165 edges.
+A path call between your two longest names is 57 tokens, and the firmware reads 80.
+A link call between your two longest names is 71 tokens, and the firmware reads 80.
+

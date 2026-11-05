@@ -1,0 +1,30 @@
+08:50:10 memguard: start pid 60917 limit 16.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python -B exam/mapped.py --arm M3 --out exam/results/after/mapped/M3.jsonl --limit 25 --deadline-s 1110
+08:50:10 memguard: 0 s, 1 procs, 0.01 GiB, peak 0.01, system free 93%
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 29443.00it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+08:51:10 memguard: 61 s, 2 procs, 10.58 GiB, peak 10.62, system free 86%
+08:52:11 memguard: 121 s, 2 procs, 9.53 GiB, peak 10.62, system free 86%
+08:53:12 memguard: 182 s, 2 procs, 9.67 GiB, peak 10.62, system free 86%
+08:54:12 memguard: 243 s, 2 procs, 9.59 GiB, peak 10.62, system free 86%
+08:55:13 memguard: 303 s, 2 procs, 10.46 GiB, peak 10.62, system free 86%
+08:56:14 memguard: 364 s, 2 procs, 9.67 GiB, peak 10.62, system free 86%
+08:57:14 memguard: 425 s, 2 procs, 9.56 GiB, peak 10.62, system free 86%
+chunk done 478
+08:58:11 memguard: end code 0, 481 s, peak 10.63 GiB
+08:58:11 memguard: start pid 62208 limit 16.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python -B exam/mapped.py --arm M3 --out exam/results/after/mapped/M3.jsonl --limit 25 --deadline-s 629
+08:58:11 memguard: 0 s, 1 procs, 0.01 GiB, peak 0.01, system free 93%
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 29311.52it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+08:59:11 memguard: 61 s, 2 procs, 10.46 GiB, peak 10.62, system free 86%
+chunk done 59
+08:59:12 memguard: end code 0, 62 s, peak 10.62 GiB
+08:59:13 memguard: start pid 62388 limit 16.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python -B exam/mapped.py --arm M3 --out exam/results/after/mapped/M3.jsonl --limit 25 --deadline-s 567
+08:59:13 memguard: 0 s, 1 procs, 0.01 GiB, peak 0.01, system free 91%
+arm finished
+08:59:14 memguard: end code 0, 1 s, peak 0.01 GiB

@@ -1,0 +1,130 @@
+13:18:04 memguard: start pid 99173 limit 32.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python -B exam/wordings.py machine --out exam/results/after/w/print --flow print-writes --stock 4 --deadline-s 1350
+13:18:04 memguard: 0 s, 1 procs, 0.00 GiB, peak 0.00, system free 93%
+[transformers] The tokenizer you are loading from '<home>/Models/x210/x210-tok' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+fast: Qwen blocks in batch, chip on the engine; load 10.7s; writes ad1abcc6 print/writes/extra=1/told=1/retries=0/prefill=0/note=0/rb=0
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+('nyc', 105): answered calls=1 correct=True 17.4s qwen=48 echo=24 chip=5310 | '@372 Lafayette Av'
+('nyc', 102): answered calls=1 correct=True 34.36s qwen=49 echo=24 chip=5070 | '@482 Wall St'
+('nyc', 101): answered calls=1 correct=True 42.87s qwen=48 echo=27 chip=5412 | '@266 Clinton-Washington Avs'
+('nyc', 103): answered calls=1 correct=True 34.47s qwen=50 echo=25 chip=5515 | '@344 Hoyt St'
+('nyc', 106): answered calls=1 correct=True 21.81s qwen=49 echo=26 chip=4934 | '@218 Bleecker St'
+13:19:04 memguard: 61 s, 1 procs, 12.77 GiB, peak 12.85, system free 85%
+('nyc', 100): answered calls=1 correct=True 60.15s qwen=53 echo=24 chip=6125 | '@241 Canal St'
+('nyc', 107): answered calls=1 correct=True 34.82s qwen=52 echo=28 chip=5121 | '@202 Beach 105 St'
+('nyc', 104): answered calls=1 correct=True 51.84s qwen=53 echo=29 chip=5930 | '@123 57 St-7 Av'
+('nyc', 108): answered calls=1 correct=True 38.43s qwen=50 echo=24 chip=5006 | '@418 Park Place'
+('nyc', 112): answered calls=1 correct=True 25.69s qwen=48 echo=24 chip=4944 | '@328 Grand St'
+('nyc', 109): answered calls=1 correct=True 42.8s qwen=51 echo=24 chip=5376 | '@319 Fulton St'
+('nyc', 111): answered calls=1 correct=True 38.76s qwen=50 echo=28 chip=5080 | '@373 Lexington Av/53 St'
+('nyc', 110): answered calls=1 correct=True 47.37s qwen=53 echo=26 chip=5771 | '@11 111 St'
+('nyc', 114): answered calls=1 correct=False 34.55s qwen=48 echo=29 chip=4785 | '@181 Atlantic Av-Barclays Ctr'
+('nyc', 113): answered calls=1 correct=True 43.31s qwen=53 echo=29 chip=5737 | '@114 5 Av/59 St'
+13:20:05 memguard: 121 s, 1 procs, 13.61 GiB, peak 13.61, system free 85%
+('nyc', 115): answered calls=1 correct=False 39.35s qwen=52 echo=35 chip=2582 | 'NORELATION K northbound'
+('nyc', 116): answered calls=1 correct=True 38.5s qwen=49 echo=25 chip=4845 | '@437 Rector St'
+('nyc', 118): answered calls=1 correct=True 34.22s qwen=49 echo=24 chip=5010 | '@431 Prospect Av'
+('nyc', 117): answered calls=1 correct=True 38.53s qwen=49 echo=25 chip=4739 | '@405 New Utrecht Av'
+('nyc', 120): answered calls=1 correct=True 34.29s qwen=49 echo=24 chip=5408 | '@365 Kings Hwy'
+('nyc', 119): answered calls=1 correct=True 38.6s qwen=50 echo=24 chip=5265 | '@452 Spring St'
+('nyc', 122): answered calls=1 correct=True 34.71s qwen=50 echo=25 chip=5304 | '@151 8 Av'
+('nyc', 121): answered calls=1 correct=True 43.45s qwen=53 echo=25 chip=5728 | '@334 Greenpoint Av'
+('nyc', 123): answered calls=1 correct=True 39.37s qwen=51 echo=29 chip=5233 | '@89 3 Av-149 St'
+('nyc', 125): answered calls=1 correct=True 34.84s qwen=51 echo=26 chip=4948 | '@149 79 St'
+('nyc', 124): answered calls=1 correct=True 43.67s qwen=54 echo=26 chip=5449 | '@38 155 St'
+13:21:05 memguard: 182 s, 1 procs, 13.62 GiB, peak 13.70, system free 85%
+('nyc', 126): answered calls=1 correct=True 39.65s qwen=52 echo=31 chip=5297 | '@106 42 St-Port Authority Bus Terminal'
+('nyc', 127): answered calls=1 correct=True 39.42s qwen=52 echo=27 chip=4854 | '@423 Pelham Pkwy'
+('nyc', 128): answered calls=1 correct=True 39.95s qwen=53 echo=29 chip=5668 | '@113 5 Av/53 St'
+('nyc', 129): answered calls=1 correct=True 39.43s qwen=49 echo=28 chip=5270 | '@466 Times Sq-42 St'
+('nyc', 130): answered calls=1 correct=True 39.66s qwen=54 echo=26 chip=5124 | '@147 77 St'
+('nyc', 131): answered calls=1 correct=True 39.84s qwen=50 echo=24 chip=5245 | '@291 East Broadway'
+('nyc', 132): answered calls=1 correct=True 40.24s qwen=52 echo=27 chip=4896 | '@208 Beach 90 St'
+('nyc', 133): answered calls=1 correct=True 35.79s qwen=52 echo=25 chip=5370 | '@165 9 Av'
+('nyc', 135): answered calls=1 correct=True 35.66s qwen=49 echo=25 chip=5730 | '@76 23 St'
+('nyc', 134): answered calls=1 correct=True 44.68s qwen=49 echo=28 chip=6112 | '@94 34 St-Herald Sq'
+('nyc', 136): answered calls=1 correct=True 40.72s qwen=48 echo=25 chip=5174 | '@86 28 St'
+('nyc', 138): answered calls=1 correct=True 36.47s qwen=49 echo=24 chip=5234 | '@310 Franklin Av'
+13:22:06 memguard: 242 s, 1 procs, 14.17 GiB, peak 14.17, system free 85%
+('nyc', 137): answered calls=1 correct=True 46.12s qwen=50 echo=30 chip=4876 | '@427 President St-Medgar Evers College'
+('nyc', 139): answered calls=1 correct=True 41.78s qwen=55 echo=25 chip=6158 | '@344 Hoyt St'
+('nyc', 140): answered calls=1 correct=True 41.31s qwen=50 echo=24 chip=5025 | '@192 Avenue U'
+('nyc', 141): answered calls=1 correct=True 41.76s qwen=50 echo=26 chip=4967 | '@115 50 St'
+('nyc', 142): answered calls=1 correct=True 41.63s qwen=50 echo=24 chip=5171 | '@328 Grand St'
+('nyc', 143): answered calls=1 correct=True 40.86s qwen=49 echo=25 chip=5245 | '@420 Parkside Av'
+('nyc', 144): answered calls=1 correct=True 41.05s qwen=49 echo=30 chip=5618 | '@345 Hoyt-Schermerhorn Sts'
+('nyc', 145): answered calls=1 correct=True 40.52s qwen=50 echo=25 chip=5667 | '@74 23 St'
+('nyc', 146): answered calls=1 correct=True 40.25s qwen=54 echo=24 chip=5368 | '@253 Chambers St'
+('nyc', 147): answered calls=1 correct=True 39.91s qwen=49 echo=24 chip=4630 | '@242 Canal St'
+('nyc', 148): answered calls=1 correct=True 39.58s qwen=48 echo=24 chip=5400 | '@428 Prince St'
+13:23:07 memguard: 303 s, 1 procs, 14.45 GiB, peak 14.45, system free 85%
+('nyc', 151): answered calls=1 correct=True 30.61s qwen=49 echo=25 chip=5200 | '@27 14 St'
+('nyc', 149): answered calls=1 correct=True 44.29s qwen=52 echo=26 chip=5248 | '@116 50 St'
+('nyc', 150): answered calls=1 correct=True 44.31s qwen=50 echo=29 chip=5139 | '@478 W 4 St-Wash Sq'
+('nyc', 153): answered calls=1 correct=True 35.24s qwen=50 echo=25 chip=5341 | '@74 23 St'
+('nyc', 152): answered calls=1 correct=True 44.24s qwen=52 echo=27 chip=5111 | '@209 Beach 98 St'
+('nyc', 154): answered calls=1 correct=True 39.87s qwen=54 echo=26 chip=5790 | '@118 51 St'
+('nyc', 155): answered calls=1 correct=True 39.8s qwen=49 echo=29 chip=4800 | '@70 21 St-Queensbridge'
+('nyc', 156): answered calls=1 correct=True 39.47s qwen=50 echo=26 chip=5708 | '@270 Cortlandt St'
+('nyc', 157): answered calls=1 correct=True 39.46s qwen=49 echo=24 chip=5335 | '@321 Gates Av'
+('nyc', 159): answered calls=1 correct=True 34.73s qwen=50 echo=24 chip=4835 | '@433 Queens Plaza'
+('nyc', 158): answered calls=1 correct=True 39.39s qwen=53 echo=23 chip=6017 | '@229 Broadway'
+('nyc', 161): answered calls=1 correct=True 35.16s qwen=49 echo=26 chip=5221 | '@280 DeKalb Av'
+13:24:07 memguard: 364 s, 1 procs, 14.63 GiB, peak 14.63, system free 85%
+('nyc', 160): answered calls=1 correct=True 44.38s qwen=54 echo=30 chip=5158 | '@41 161 St-Yankee Stadium'
+('nyc', 162): answered calls=1 correct=True 39.38s qwen=52 echo=24 chip=5248 | '@243 Canal St'
+('nyc', 163): answered calls=1 correct=True 39.53s qwen=50 echo=29 chip=5039 | '@362 Kew Gardens-Union Tpke'
+('nyc', 164): answered calls=1 correct=True 39.11s qwen=49 echo=26 chip=5194 | '@108 46 St'
+('nyc', 165): answered calls=1 correct=True 39.86s qwen=50 echo=31 chip=5255 | '@105 42 St-Bryant Pk'
+('nyc', 166): answered calls=1 correct=True 39.61s qwen=53 echo=24 chip=5840 | '@253 Chambers St'
+('nyc', 167): answered calls=1 correct=True 35.3s qwen=49 echo=28 chip=5416 | '@97 34 St-Penn Station'
+('nyc', 168): answered calls=1 correct=True 39.53s qwen=52 echo=29 chip=5489 | '@131 63 Dr-Rego Park'
+('nyc', 170): answered calls=1 correct=True 35.15s qwen=50 echo=26 chip=5068 | '@39 155 St'
+('nyc', 171): answered calls=1 correct=True 35.71s qwen=58 echo=28 chip=6241 | '@97 34 St-Penn Station'
+('nyc', 169): answered calls=1 correct=False 49.57s qwen=48 echo=52 chip=3962 | 'Stopped early on leg 1: after 0 steps at @1 103 St'
+('nyc', 172): answered calls=1 correct=True 39.27s qwen=49 echo=28 chip=4794 | '@325 Grand Central-42 St'
+13:25:08 memguard: 424 s, 1 procs, 14.51 GiB, peak 14.82, system free 93%
+('nyc', 175): answered calls=1 correct=True 30.0s qwen=49 echo=24 chip=5414 | '@215 Bergen St'
+('nyc', 173): answered calls=1 correct=True 43.27s qwen=51 echo=26 chip=5165 | '@218 Bleecker St'
+('nyc', 174): answered calls=1 correct=True 43.23s qwen=51 echo=26 chip=5178 | '@115 50 St'
+('nyc', 176): answered calls=1 correct=True 38.93s qwen=49 echo=26 chip=5422 | '@280 DeKalb Av'
+('nyc', 177): answered calls=1 correct=True 39.52s qwen=54 echo=28 chip=5637 | '@30 14 St-Union Sq'
+('nyc', 178): answered calls=1 correct=True 39.34s qwen=50 echo=29 chip=5181 | '@95 34 St-Hudson Yards'
+('nyc', 179): answered calls=1 correct=True 34.83s qwen=52 echo=24 chip=5310 | '@243 Canal St'
+('nyc', 180): answered calls=1 correct=True 39.17s qwen=49 echo=27 chip=4686 | '@233 Broadway-Lafayette St'
+('nyc', 181): answered calls=1 correct=True 38.93s qwen=49 echo=24 chip=5091 | '@330 Grant Av'
+('nyc', 183): answered calls=1 correct=True 34.64s qwen=49 echo=25 chip=5924 | '@405 New Utrecht Av'
+('nyc', 182): answered calls=1 correct=True 43.47s qwen=53 echo=25 chip=6127 | '@393 Myrtle Av'
+('nyc', 184): answered calls=1 correct=True 39.1s qwen=48 echo=29 chip=5252 | '@240 Bushwick Av-Aberdeen St'
+13:26:08 memguard: 485 s, 1 procs, 14.82 GiB, peak 14.82, system free 85%
+('nyc', 185): answered calls=1 correct=True 39.22s qwen=53 echo=26 chip=5893 | '@111 49 St'
+('nyc', 186): answered calls=1 correct=True 38.78s qwen=48 echo=25 chip=4882 | '@139 7 Av'
+('nyc', 187): answered calls=1 correct=True 39.09s qwen=54 echo=24 chip=5537 | '@274 Court St'
+('nyc', 188): answered calls=1 correct=True 38.61s qwen=49 echo=26 chip=5138 | '@475 Van Siclen Av'
+('nyc', 189): answered calls=1 correct=True 34.15s qwen=48 echo=24 chip=4721 | '@328 Grand St'
+('nyc', 191): answered calls=1 correct=True 35.11s qwen=49 echo=26 chip=5221 | '@280 DeKalb Av'
+('nyc', 190): answered calls=1 correct=True 43.89s qwen=53 echo=26 chip=5649 | '@167 96 St'
+('nyc', 192): answered calls=1 correct=True 39.78s qwen=51 echo=30 chip=5061 | '@345 Hoyt-Schermerhorn Sts'
+('nyc', 193): answered calls=1 correct=True 34.92s qwen=49 echo=25 chip=5048 | '@26 14 St'
+('nyc', 195): answered calls=1 correct=True 26.58s qwen=48 echo=26 chip=5138 | '@280 DeKalb Av'
+('nyc', 194): answered calls=1 correct=True 31.55s qwen=59 echo=26 chip=5420 | '@12 116 St'
+('nyc', 196): answered calls=1 correct=True 22.14s qwen=50 echo=24 chip=4845 | '@482 Wall St'
+('nyc', 198): answered calls=1 correct=True 12.64s qwen=49 echo=24 chip=5392 | '@220 Borough Hall'
+('nyc', 197): answered calls=1 correct=True 17.94s qwen=54 echo=31 chip=6518 | '@105 42 St-Bryant Pk'
+('nyc', 199): answered calls=1 correct=True 8.61s qwen=53 echo=25 chip=5896 | '@98 36 Av'
+Loading weights:   0%|          | 0/580 [00:00<?, ?it/s]Loading weights: 100%|██████████| 580/580 [00:00<00:00, 9592.80it/s]
+[transformers] The tokenizer you are loading from '<home>/Models/x210/x210-tok' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+13:27:09 memguard: 545 s, 2 procs, 27.11 GiB, peak 27.13, system free 89%
+13:28:09 memguard: 606 s, 2 procs, 27.13 GiB, peak 27.13, system free 82%
+stock sample ('nyc', 175): 5486 positions, mismatch None, head 0, same tokens True
+13:29:10 memguard: 666 s, 2 procs, 27.14 GiB, peak 27.14, system free 83%
+stock sample ('nyc', 100): 6201 positions, mismatch None, head 0, same tokens True
+13:30:10 memguard: 727 s, 2 procs, 27.16 GiB, peak 27.17, system free 83%
+stock sample ('nyc', 147): 4702 positions, mismatch None, head 0, same tokens True
+13:31:11 memguard: 787 s, 2 procs, 27.16 GiB, peak 27.17, system free 83%
+13:32:12 memguard: 848 s, 2 procs, 27.15 GiB, peak 27.17, system free 83%
+stock sample ('nyc', 192): 5141 positions, mismatch None, head 0, same tokens True
+{'path': 'fast', 'firmware_sha256': 'ad1abcc6cec073b52e088c4d0d1752dd9908f6f77d39d950ff0d5a5e70c41fe0', 'flow_key': 'print/writes/extra=1/told=1/retries=0/prefill=0/note=0/rb=0', 'bad': [], 'tokens': 7712}
+13:32:26 memguard: end code 0, 862 s, peak 27.17 GiB

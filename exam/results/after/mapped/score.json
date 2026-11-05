@@ -1,0 +1,54 @@
+{
+ "M1": {
+  "n": 100,
+  "finished": 90,
+  "plain_n": 100,
+  "plain_strict": 54,
+  "plain_generous": 54,
+  "stop_n": 0,
+  "stop_strict": 0,
+  "stop_generous": 0,
+  "other_n": 0,
+  "seconds": 1617.1399999999999,
+  "wrong_finished": 36
+ },
+ "M2": {
+  "n": 40,
+  "finished": 31,
+  "plain_n": 30,
+  "plain_strict": 6,
+  "plain_generous": 6,
+  "stop_n": 10,
+  "stop_strict": 0,
+  "stop_generous": 0,
+  "other_n": 0,
+  "seconds": 826.15,
+  "wrong_finished": 18
+ },
+ "M3": {
+  "n": 30,
+  "finished": 26,
+  "plain_n": 30,
+  "plain_strict": 18,
+  "plain_generous": 18,
+  "stop_n": 0,
+  "stop_strict": 0,
+  "stop_generous": 0,
+  "other_n": 0,
+  "seconds": 536.5500000000001,
+  "wrong_finished": 8
+ },
+ "M4": {
+  "n": 90,
+  "finished": 77,
+  "plain_n": 90,
+  "plain_strict": 48,
+  "plain_generous": 48,
+  "stop_n": 0,
+  "stop_strict": 0,
+  "stop_generous": 0,
+  "other_n": 0,
+  "seconds": 2424.5699999999997,
+  "wrong_finished": 29
+ }
+}

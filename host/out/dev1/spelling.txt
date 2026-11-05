@@ -1,0 +1,34 @@
+calls: 630; token ids equal the tokenizer's encoding of the call text: 630/630
+
+node arguments: 685 (resolve in the tool: 283)
+  class         count   share
+  handle          154   22.5%
+  exact           129   18.8%
+  accents           2    0.3%
+  handle+label    320   46.7%
+  partial          56    8.2%
+  other            24    3.5%
+    accents: 'Otaki' -> 'Ōtaki'  (tinytown q2 eager)
+    accents: 'Otaki' -> 'Ōtaki'  (tinytown q2 sdpa)
+    handle+label: '@4 Harbor Point' -> None  (tinytown q17 eager)
+    handle+label: '@3 Eastgate' -> None  (tinytown q17 eager)
+    handle+label: '@4 Harbor Point' -> None  (tinytown q17 eager)
+    partial: 'Eastgate station' -> 'Eastgate'  (tinytown q0 eager)
+    partial: 'Central station' -> 'Central'  (tinytown q1 eager)
+    partial: 'Otaki station' -> 'Ōtaki'  (tinytown q2 eager)
+    other: 'red eastbound' -> None  (tinytown q3 eager)
+    other: 'red' -> None  (tinytown q3 eager)
+    other: 'blue southbound' -> None  (tinytown q4 eager)
+
+relation arguments: 410 (resolve in the tool: 368)
+  class         count   share
+  exact           368   89.8%
+  partial          39    9.5%
+  other             3    0.7%
+    partial: 'out' -> 'blue southbound'  (tinytown q17 eager)
+    partial: 'out' -> 'blue southbound'  (tinytown q17 eager)
+    partial: 'red' -> 'red eastbound'  (tinytown q2 eager)
+    other: 'in' -> None  (tinytown q17 eager)
+    other: 'in' -> None  (tinytown q16 eager)
+    other: 'in' -> None  (tinytown q16 sdpa)
+

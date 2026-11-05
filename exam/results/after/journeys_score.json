@@ -1,0 +1,15 @@
+{
+"conversations": 15,
+"first_route_right": 15,
+"reached_closure_turn": 14,
+"closure_written": 14,
+"new_route_right": 14,
+"turns": 29,
+"reply_lists_every_stop_in_order": 29,
+"real_weights_conversations": 2,
+"verified_positions": 366169,
+"verify_mismatches": 0,
+"firmware": [
+"cce657b2"
+]
+}

@@ -1,0 +1,45 @@
+== eager: 50 questions
+  correct 42/49 scored
+  by kind: chase 12/17, cheapest 8/8, find 4/5, follow 7/8, neighbours 4/4, path 7/7
+  unscorable (empty gold): 1; stale gold: 0; setup mismatches: 0
+  ended: {'answered': 45, 'cap': 5}
+  calls/question: mean 3.68, histogram {1: 10, 2: 10, 3: 17, 4: 2, 5: 3, 6: 1, 7: 2, 12: 5}
+  functions: {'find': 81, 'neighbours': 45, 'follow': 32, 'path': 10, 'cheapest': 7, 'close': 2, 'unlink': 4, 'link': 1, 'chase': 2}
+  results: {'NONE': 33, 'ok': 118, 'AMBIGUOUS': 4, 'NORELATION': 11, 'END': 6, 'BADARG': 1, 'not': 3, 'MULTI': 7, 'NOPATH': 1}
+  parse errors: 0
+  seconds/question: mean 18.0, median 12.2, max 77.4; generated tokens mean 229, prompt tokens 1635-1755
+  peak MPS driver memory: 9.90 GiB
+== sdpa: 50 questions
+  correct 41/49 scored
+  by kind: chase 11/17, cheapest 8/8, find 4/5, follow 7/8, neighbours 4/4, path 7/7
+  unscorable (empty gold): 1; stale gold: 0; setup mismatches: 0
+  ended: {'answered': 44, 'cap': 6}
+  calls/question: mean 3.80, histogram {1: 10, 2: 10, 3: 17, 4: 2, 5: 3, 6: 1, 8: 1, 12: 6}
+  functions: {'find': 83, 'neighbours': 41, 'follow': 33, 'path': 9, 'cheapest': 7, 'close': 2, 'unlink': 4, 'link': 1, 'chase': 10}
+  results: {'NONE': 33, 'ok': 116, 'AMBIGUOUS': 5, 'NORELATION': 17, 'END': 6, 'BADARG': 2, 'not': 3, 'MULTI': 7, 'NOPATH': 1}
+  parse errors: 0
+  seconds/question: mean 17.7, median 11.0, max 104.9; generated tokens mean 269, prompt tokens 1635-1755
+  peak MPS driver memory: 9.84 GiB
+== agreement eager vs sdpa over 50 questions
+  identical transcripts 29/50 (58.0%); same final answer 38/50; same score 49/50
+  differs: c024 q0 at generated token 60
+  differs: c024 q1 at generated token 120
+  differs: c024 q100 at generated token 418
+  differs: c024 q101 at generated token 348
+  differs: c025 q100 at generated token 265
+  differs: c025 q400 at generated token 240
+  differs: r001 q11 at generated token 84
+  differs: r001 q23 at generated token 92
+  differs: r001 q25 at generated token 117
+  differs: r001 q40 at generated token 107
+  differs: tiny q4 at generated token 126
+  differs: tiny q5 at generated token 0
+  differs: tiny q8 at generated token 690
+  differs: tiny q9 at generated token 8
+  differs: tiny q13 at generated token 110
+  differs: tiny q14 at generated token 11
+  differs: tiny q16 at generated token 1
+  differs: tiny q17 at generated token 22
+  differs: tiny q18 at generated token 37
+  differs: tiny q19 at generated token 302
+  differs: tiny q21 at generated token 500

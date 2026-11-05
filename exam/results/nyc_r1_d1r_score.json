@@ -1,0 +1,12 @@
+{
+"n": 300,
+"counts": {
+"line_right": 300,
+"generous_right": 286,
+"strict_right": 225,
+"status_answered": 300,
+"seconds": 11593.009999999993,
+"limit_golds": 11,
+"limit_strict": 0
+}
+}

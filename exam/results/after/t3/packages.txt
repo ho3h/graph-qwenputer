@@ -1,0 +1,42 @@
+16:20:42 memguard: start pid 37206 limit 32.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python gq.py ask /tmp/t3-packages.graph.json --whole --model <home>/Models/x210/x210-tok --python /Users/tedsandt
+16:20:42 memguard: 0 s, 1 procs, 0.00 GiB, peak 0.00, system free 93%
+Loading the model. The first run also compiles the C engine.
+16:21:42 memguard: 60 s, 4 procs, 19.91 GiB, peak 20.12, system free 84%
+16:22:43 memguard: 121 s, 4 procs, 19.90 GiB, peak 20.12, system free 84%
+16:23:44 memguard: 182 s, 4 procs, 19.91 GiB, peak 20.12, system free 84%
+16:24:44 memguard: 242 s, 4 procs, 19.92 GiB, peak 20.12, system free 84%
+16:25:44 memguard: 302 s, 4 procs, 19.92 GiB, peak 20.12, system free 79%
+16:26:44 memguard: 362 s, 4 procs, 19.93 GiB, peak 20.12, system free 84%
+16:27:44 memguard: 422 s, 4 procs, 19.93 GiB, peak 20.12, system free 84%
+16:28:44 memguard: 483 s, 4 procs, 19.94 GiB, peak 20.12, system free 79%
+16:29:45 memguard: 543 s, 4 procs, 19.94 GiB, peak 20.12, system free 84%
+
+You: What does web depend on?
+  Machine: neighbours {"node": "web", "relation": "depends_on"} -> @3 router
+@4 templates
+Qwen: web depends on router and templates.
+
+You: How does app reach libc? Show the shortest chain.
+  Machine: path {"from": "app", "to": "libc"} -> 4 steps: @0 app > @2 auth > @5 crypto > @9 bignum > @12 libc
+Qwen: app, auth, crypto, bignum, libc
+
+You: The crypto package has been removed. How does auth reach libc now?
+  Machine: close {"node": "crypto"} -> closed @5 crypto
+  Machine: path {"from": "auth", "to": "libc"} -> 4 steps: @2 auth > @6 session > @7 cache > @10 hashmap > @12 libc
+Qwen: auth, session, cache, hashmap, libc
+
+You: We added a new package, logger, and web now depends on logger.
+  Machine: add_node {"name": "logger"} -> added @13 logger
+  Machine: link {"from": "web", "relation": "depends_on", "to": "logger"} -> linked @1 web > depends_on > @13 logger
+Qwen: Done.
+
+You: What does web depend on now?
+  Machine: neighbours {"node": "web", "relation": "depends_on"} -> @3 router
+@4 templates
+@13 logger
+Qwen: web now depends on router, templates, and logger.
+
+Every token on the real weights, against the simulator: 22,750 compared, 0 differ.
+
+Ran on: stock and executor in lockstep. "executor" means the simulator ran the 11 added layers and Qwen's layers ran on the real weights. 22134 machine tokens, 551 s. Rows: <tmp>
+16:30:18 memguard: end code 0, 576 s, peak 20.12 GiB

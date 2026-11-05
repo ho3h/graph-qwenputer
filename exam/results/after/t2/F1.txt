@@ -1,0 +1,20 @@
+Loading the model. The first run also compiles the C engine.
+
+You: What does Atlantic cod eat?
+  Machine: neighbours {"node": "Atlantic cod", "relation": "eats"} -> @6 Krill
+@13 Northern shrimp
+@17 Capelin
+@18 Polar cod
+@19 Atlantic herring
+@22 Haddock
+Qwen: Atlantic cod eats Krill, Northern shrimp, Capelin, Polar cod, Atlantic herring, and Haddock.
+
+You: Trace a food chain from Diatoms up to Polar bear.
+  Machine: path {"from": "Polar bear", "to": "Diatoms"} -> 3 steps: @49 Polar bear > @36 Little auk > @3 Calanus glacialis > @1 Diatoms
+Qwen: Diatoms are eaten by Calanus glacialis, which is eaten by Little auk, which is eaten by Polar bear.
+
+You: what preys on brunnichs guillemot?
+  Machine: neighbours {"node": "Brunnich's guillemot", "relation": "eats", "direction": "in"} -> NONE Brunnich's guillemot
+Qwen: NONE
+
+Ran on: executor. "executor" means the simulator ran the 11 added layers and Qwen's layers ran on the real weights. 12479 machine tokens, 52 s. Rows: <tmp>

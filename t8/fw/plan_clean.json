@@ -1,0 +1,99 @@
+[
+{
+"name": "clean-c024",
+"graph": "cities/c024",
+"calls": [
+[
+"chase",
+{
+"start": "Falcon Av/14 St station",
+"legs": "FS southbound 1"
+}
+],
+[
+"chase",
+{
+"start": "Chestnut-144 St station.",
+"legs": "Q southbound 1"
+}
+],
+[
+"find",
+{
+"name": "Falcon Av/14 St."
+}
+],
+[
+"find",
+{
+"name": "Out of Falcon Av/14 St"
+}
+],
+[
+"chase",
+{
+"start": "Falcon Av/14 St Station",
+"legs": "FS southbound 1"
+}
+],
+[
+"follow",
+{
+"node": "Falcon Av/14 St,",
+"relation": "2 northbound",
+"steps": "1"
+}
+],
+[
+"neighbours",
+{
+"node": "Chestnut-144 St station",
+"relation": "2 northbound"
+}
+],
+[
+"close",
+{
+"node": "Chestnut-144 St station"
+}
+],
+[
+"reopen",
+{
+"node": "Chestnut-144 St."
+}
+]
+]
+},
+{
+"name": "clean-r001",
+"graph": "random/r001",
+"calls": [
+[
+"find",
+{
+"name": "Moldenzo."
+}
+],
+[
+"find",
+{
+"name": "Moldenzo station"
+}
+],
+[
+"find",
+{
+"name": "Murbol."
+}
+],
+[
+"chase",
+{
+"start": "Ruskunri Dagil!",
+"legs": "minnidun 1"
+}
+]
+]
+}
+]
