@@ -1,0 +1,36 @@
+{
+ "map": "nyc-cf",
+ "rows": 244,
+ "by": {
+  "file": {
+   "right": 100
+  },
+  "all": {
+   "right": 244
+  },
+  "generated": {
+   "right": 100
+  },
+  "shared": {
+   "right": 44
+  }
+ },
+ "counts": {
+  "calls": 244,
+  "firmware_equal_reflib": 244,
+  "state_reference_equal": 244,
+  "unasked_closed": 0,
+  "more_than_one_call": 0,
+  "gold_is_station": 242,
+  "reply_names_gold": 241,
+  "reply_exact": 230,
+  "seconds": 3034.799999999997
+ },
+ "examples": {},
+ "status": {
+  "answered": 244
+ },
+ "ran_on": {
+  "executor": 244
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "close": {
+  "n": 12640,
+  "same": 12640,
+  "eq": 12640,
+  "st_ok": 12640
+ },
+ "names": {
+  "n": 2000,
+  "same": 2000,
+  "eq": 2000,
+  "st_ok": 2000,
+  "kind_AMBIGUOUS": 572,
+  "kind_NOPATH": 192,
+  "kind_station": 1236
+ },
+ "paths": {
+  "n": 500,
+  "same": 500,
+  "eq": 500,
+  "st_ok": 500
+ },
+ "station": {
+  "n": 11376,
+  "same": 11376,
+  "eq": 11376,
+  "st_ok": 11376
+ }
+}

@@ -1,0 +1,17 @@
+Loading the model. The first run also compiles the C engine.
+
+You: What's the cheapest way from Lisbon to Warsaw?
+  Machine: cheapest {"from": "Lisbon", "to": "Warsaw"} -> cost 250: @0 Lisbon > @2 Paris > @4 Berlin > @6 Warsaw
+Qwen: Lisbon, Paris, Berlin, Warsaw, for 250
+
+You: Paris airport has closed. What's the cheapest way from Lisbon to Warsaw now?
+  Machine: close {"node": "Paris"} -> closed @2 Paris
+  Machine: cheapest {"from": "Lisbon", "to": "Warsaw"} -> cost 400: @0 Lisbon > @1 Madrid > @3 Rome > @5 Athens > @6 Warsaw
+Qwen: Lisbon, Madrid, Rome, Athens, Warsaw, for 400
+
+You: Paris airport has reopened. What's the cheapest way from Lisbon to Warsaw now?
+  Machine: reopen {"node": "Paris"} -> reopened @2 Paris
+  Machine: cheapest {"from": "Lisbon", "to": "Warsaw"} -> cost 250: @0 Lisbon > @2 Paris > @4 Berlin > @6 Warsaw
+Qwen: Lisbon, Paris, Berlin, Warsaw, for 250
+
+Ran on the simulator for the added layers, with Qwen's layers on the real weights: executor. 17215 machine tokens, 28 s. Rows: <tmp>

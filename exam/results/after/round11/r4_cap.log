@@ -1,0 +1,39 @@
+09:02:57 memguard: start pid 44475 limit 6.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python t8/fw/tokrun.py ../exam/results/after/round11/attack.py --out <repo>/exam/re
+09:02:57 memguard: 0 s, 1 procs, 0.03 GiB, peak 0.03, system free 82%
+09:03:59 memguard: 62 s, 1 procs, 0.55 GiB, peak 0.64, system free 82%
+09:04:59 memguard: 122 s, 1 procs, 0.56 GiB, peak 0.64, system free 82%
+09:05:59 memguard: 182 s, 1 procs, 0.56 GiB, peak 0.64, system free 82%
+09:07:00 memguard: 243 s, 1 procs, 0.56 GiB, peak 0.64, system free 82%
+09:08:01 memguard: 304 s, 1 procs, 0.56 GiB, peak 0.64, system free 81%
+09:09:01 memguard: 364 s, 1 procs, 0.56 GiB, peak 0.64, system free 81%
+09:10:02 memguard: 424 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+09:11:02 memguard: 485 s, 1 procs, 0.49 GiB, peak 0.64, system free 82%
+09:12:02 memguard: 545 s, 1 procs, 0.49 GiB, peak 0.64, system free 83%
+09:13:02 memguard: 605 s, 1 procs, 0.49 GiB, peak 0.64, system free 83%
+09:14:03 memguard: 666 s, 1 procs, 0.49 GiB, peak 0.64, system free 82%
+09:15:03 memguard: 726 s, 1 procs, 0.49 GiB, peak 0.64, system free 82%
+09:16:03 memguard: 786 s, 1 procs, 0.49 GiB, peak 0.64, system free 82%
+09:17:04 memguard: 847 s, 1 procs, 0.49 GiB, peak 0.64, system free 82%
+09:18:05 memguard: 907 s, 1 procs, 0.49 GiB, peak 0.64, system free 83%
+09:19:05 memguard: 968 s, 1 procs, 0.49 GiB, peak 0.64, system free 82%
+09:20:06 memguard: 1029 s, 1 procs, 0.50 GiB, peak 0.64, system free 83%
+09:21:07 memguard: 1090 s, 1 procs, 0.50 GiB, peak 0.64, system free 82%
+09:22:07 memguard: 1150 s, 1 procs, 0.51 GiB, peak 0.64, system free 82%
+09:23:08 memguard: 1211 s, 1 procs, 0.51 GiB, peak 0.64, system free 82%
+09:24:09 memguard: 1271 s, 1 procs, 0.51 GiB, peak 0.64, system free 82%
+09:25:09 memguard: 1332 s, 1 procs, 0.51 GiB, peak 0.64, system free 78%
+09:26:09 memguard: 1392 s, 1 procs, 0.51 GiB, peak 0.64, system free 81%
+09:27:09 memguard: 1452 s, 1 procs, 0.51 GiB, peak 0.64, system free 78%
+09:28:10 memguard: 1513 s, 1 procs, 0.51 GiB, peak 0.64, system free 83%
+09:29:10 memguard: 1573 s, 1 procs, 0.51 GiB, peak 0.64, system free 83%
+09:30:10 memguard: 1633 s, 1 procs, 0.51 GiB, peak 0.64, system free 82%
+09:31:11 memguard: 1694 s, 1 procs, 0.51 GiB, peak 0.64, system free 83%
+09:32:12 memguard: 1755 s, 1 procs, 0.51 GiB, peak 0.64, system free 83%
+09:33:13 memguard: 1816 s, 1 procs, 0.51 GiB, peak 0.64, system free 83%
+09:34:14 memguard: 1876 s, 1 procs, 0.51 GiB, peak 0.64, system free 81%
+09:35:15 memguard: 1937 s, 1 procs, 0.51 GiB, peak 0.64, system free 82%
+09:36:15 memguard: 1998 s, 1 procs, 0.51 GiB, peak 0.64, system free 82%
+09:37:16 memguard: 2059 s, 1 procs, 0.51 GiB, peak 0.64, system free 82%
+09:38:17 memguard: 2120 s, 1 procs, 0.51 GiB, peak 0.64, system free 81%
+{"calls": 546, "diff": 2} 2106.4 finished
+09:38:18 memguard: end code 0, 2121 s, peak 0.64 GiB

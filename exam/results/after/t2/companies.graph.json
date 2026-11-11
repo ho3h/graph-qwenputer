@@ -1,0 +1,1452 @@
+{
+ "format": "x210-graph/1",
+ "name": "Company ownership register",
+ "domain": "custom",
+ "nodes": [
+  {
+   "label": "Priya Raman",
+   "prop": 0,
+   "src": "Priya Raman"
+  },
+  {
+   "label": "Northgate Group plc",
+   "prop": 0,
+   "src": "Northgate Group plc"
+  },
+  {
+   "label": "Tomasz Nowak",
+   "prop": 0,
+   "src": "Tomasz Nowak"
+  },
+  {
+   "label": "Northgate Holdings Ltd",
+   "prop": 0,
+   "src": "Northgate Holdings Ltd"
+  },
+  {
+   "label": "Northgate Holdings 2 Ltd",
+   "prop": 0,
+   "src": "Northgate Holdings 2 Ltd"
+  },
+  {
+   "label": "Northgate Holdings 3 Ltd",
+   "prop": 0,
+   "src": "Northgate Holdings 3 Ltd"
+  },
+  {
+   "label": "Northgate Property Ltd",
+   "prop": 0,
+   "src": "Northgate Property Ltd"
+  },
+  {
+   "label": "Northgate Property 2 Ltd",
+   "prop": 0,
+   "src": "Northgate Property 2 Ltd"
+  },
+  {
+   "label": "Northgate Finance Ltd",
+   "prop": 0,
+   "src": "Northgate Finance Ltd"
+  },
+  {
+   "label": "Northgate Finance (Jersey) Ltd",
+   "prop": 0,
+   "src": "Northgate Finance (Jersey) Ltd"
+  },
+  {
+   "label": "Harbour Street Developments Ltd",
+   "prop": 0,
+   "src": "Harbour Street Developments Ltd"
+  },
+  {
+   "label": "Aisha Bello",
+   "prop": 0,
+   "src": "Aisha Bello"
+  },
+  {
+   "label": "Marcus Hale",
+   "prop": 0,
+   "src": "Marcus Hale"
+  },
+  {
+   "label": "Harcourt Capital LLP",
+   "prop": 0,
+   "src": "Harcourt Capital LLP"
+  },
+  {
+   "label": "Marcus Hayes",
+   "prop": 0,
+   "src": "Marcus Hayes"
+  },
+  {
+   "label": "Harcourt Capital Partners 1 LP",
+   "prop": 0,
+   "src": "Harcourt Capital Partners 1 LP"
+  },
+  {
+   "label": "Harcourt Capital Partners 2 LP",
+   "prop": 0,
+   "src": "Harcourt Capital Partners 2 LP"
+  },
+  {
+   "label": "Brightwell Foods Ltd",
+   "prop": 0,
+   "src": "Brightwell Foods Ltd"
+  },
+  {
+   "label": "Ian Whitmore",
+   "prop": 0,
+   "src": "Ian Whitmore"
+  },
+  {
+   "label": "Brightwell Dairy Ltd",
+   "prop": 0,
+   "src": "Brightwell Dairy Ltd"
+  },
+  {
+   "label": "Brightwell Bakeries Ltd",
+   "prop": 0,
+   "src": "Brightwell Bakeries Ltd"
+  },
+  {
+   "label": "Brightwell Foods (Scotland) Ltd",
+   "prop": 0,
+   "src": "Brightwell Foods (Scotland) Ltd"
+  },
+  {
+   "label": "3 Rivers Brewing Co Ltd",
+   "prop": 0,
+   "src": "3 Rivers Brewing Co Ltd"
+  },
+  {
+   "label": "Greta Holm",
+   "prop": 0,
+   "src": "Greta Holm"
+  },
+  {
+   "label": "3 Rivers Taverns Ltd",
+   "prop": 0,
+   "src": "3 Rivers Taverns Ltd"
+  },
+  {
+   "label": "Riverside Maltings Ltd",
+   "prop": 0,
+   "src": "Riverside Maltings Ltd"
+  },
+  {
+   "label": "Sofia Lindqvist",
+   "prop": 0,
+   "src": "Sofia Lindqvist"
+  },
+  {
+   "label": "Tidewell Foods Ltd",
+   "prop": 0,
+   "src": "Tidewell Foods Ltd"
+  },
+  {
+   "label": "Kenji Mori",
+   "prop": 0,
+   "src": "Kenji Mori"
+  },
+  {
+   "label": "Tidewell Seafoods Ltd",
+   "prop": 0,
+   "src": "Tidewell Seafoods Ltd"
+  },
+  {
+   "label": "Tidewell Cold Store Ltd",
+   "prop": 0,
+   "src": "Tidewell Cold Store Ltd"
+  },
+  {
+   "label": "Lindqvist Marine AB",
+   "prop": 0,
+   "src": "Lindqvist Marine AB"
+  },
+  {
+   "label": "Lindqvist Marine UK Ltd",
+   "prop": 0,
+   "src": "Lindqvist Marine UK Ltd"
+  },
+  {
+   "label": "Mori Trading KK",
+   "prop": 0,
+   "src": "Mori Trading KK"
+  },
+  {
+   "label": "Mori Trading UK Ltd",
+   "prop": 0,
+   "src": "Mori Trading UK Ltd"
+  },
+  {
+   "label": "Bello Energy Ltd",
+   "prop": 0,
+   "src": "Bello Energy Ltd"
+  },
+  {
+   "label": "Ruth Adeyemi",
+   "prop": 0,
+   "src": "Ruth Adeyemi"
+  },
+  {
+   "label": "Bello Solar 1 Ltd",
+   "prop": 0,
+   "src": "Bello Solar 1 Ltd"
+  },
+  {
+   "label": "Bello Solar 2 Ltd",
+   "prop": 0,
+   "src": "Bello Solar 2 Ltd"
+  },
+  {
+   "label": "Bello Solar 12 Ltd",
+   "prop": 0,
+   "src": "Bello Solar 12 Ltd"
+  },
+  {
+   "label": "Bello Solar 21 Ltd",
+   "prop": 0,
+   "src": "Bello Solar 21 Ltd"
+  },
+  {
+   "label": "Bello Wind Ltd",
+   "prop": 0,
+   "src": "Bello Wind Ltd"
+  },
+  {
+   "label": "Helen O'Connell",
+   "prop": 0,
+   "src": "Helen O'Connell"
+  },
+  {
+   "label": "O'Connell Property Group Ltd",
+   "prop": 0,
+   "src": "O'Connell Property Group Ltd"
+  },
+  {
+   "label": "Daniel O'Connell",
+   "prop": 0,
+   "src": "Daniel O'Connell"
+  },
+  {
+   "label": "O'Connell Lettings Ltd",
+   "prop": 0,
+   "src": "O'Connell Lettings Ltd"
+  },
+  {
+   "label": "O'Connell Homes (Hull) Ltd",
+   "prop": 0,
+   "src": "O'Connell Homes (Hull) Ltd"
+  },
+  {
+   "label": "24 Seven Care Homes Ltd",
+   "prop": 0,
+   "src": "24 Seven Care Homes Ltd"
+  },
+  {
+   "label": "Omar Haddad",
+   "prop": 0,
+   "src": "Omar Haddad"
+  },
+  {
+   "label": "Callum Reid",
+   "prop": 0,
+   "src": "Callum Reid"
+  },
+  {
+   "label": "Hargreaves & Sons Ltd",
+   "prop": 0,
+   "src": "Hargreaves & Sons Ltd"
+  },
+  {
+   "label": "Fiona Reid",
+   "prop": 0,
+   "src": "Fiona Reid"
+  },
+  {
+   "label": "Hargreaves Haulage Ltd",
+   "prop": 0,
+   "src": "Hargreaves Haulage Ltd"
+  },
+  {
+   "label": "1st Choice Couriers Ltd",
+   "prop": 0,
+   "src": "1st Choice Couriers Ltd"
+  },
+  {
+   "label": "A1 Autos (Leeds) Ltd",
+   "prop": 0,
+   "src": "A1 Autos (Leeds) Ltd"
+  },
+  {
+   "label": "Jürgen Weiss",
+   "prop": 0,
+   "src": "Jürgen Weiss"
+  },
+  {
+   "label": "Weiss Logistik GmbH",
+   "prop": 0,
+   "src": "Weiss Logistik GmbH"
+  },
+  {
+   "label": "Weiss Logistics UK Ltd",
+   "prop": 0,
+   "src": "Weiss Logistics UK Ltd"
+  },
+  {
+   "label": "360 Pallet Services Ltd",
+   "prop": 0,
+   "src": "360 Pallet Services Ltd"
+  },
+  {
+   "label": "Cedar Trust Services Ltd",
+   "prop": 0,
+   "src": "Cedar Trust Services Ltd"
+  },
+  {
+   "label": "Redwood Nominees Ltd",
+   "prop": 0,
+   "src": "Redwood Nominees Ltd"
+  },
+  {
+   "label": "Redwood Nominees 2 Ltd",
+   "prop": 0,
+   "src": "Redwood Nominees 2 Ltd"
+  },
+  {
+   "label": "Whitmore Estates Ltd",
+   "prop": 0,
+   "src": "Whitmore Estates Ltd"
+  },
+  {
+   "label": "Whitmore Estates (No. 2) Ltd",
+   "prop": 0,
+   "src": "Whitmore Estates (No. 2) Ltd"
+  },
+  {
+   "label": "Peter Voss",
+   "prop": 0,
+   "src": "Peter Voss"
+  },
+  {
+   "label": "Voss Consulting Ltd",
+   "prop": 0,
+   "src": "Voss Consulting Ltd"
+  },
+  {
+   "label": "Anna Kowalska",
+   "prop": 0,
+   "src": "Anna Kowalska"
+  },
+  {
+   "label": "Kowalska Design Ltd",
+   "prop": 0,
+   "src": "Kowalska Design Ltd"
+  },
+  {
+   "label": "Liam Byrne",
+   "prop": 0,
+   "src": "Liam Byrne"
+  },
+  {
+   "label": "Byrne Civils Ltd",
+   "prop": 0,
+   "src": "Byrne Civils Ltd"
+  },
+  {
+   "label": "David Chen",
+   "prop": 0,
+   "src": "David Chen"
+  },
+  {
+   "label": "Chen & Chen Accountants Ltd",
+   "prop": 0,
+   "src": "Chen & Chen Accountants Ltd"
+  },
+  {
+   "label": "Daniel Chen",
+   "prop": 0,
+   "src": "Daniel Chen"
+  },
+  {
+   "label": "Nadia Haddad",
+   "prop": 0,
+   "src": "Nadia Haddad"
+  },
+  {
+   "label": "Haddad Pharmacy Group Ltd",
+   "prop": 0,
+   "src": "Haddad Pharmacy Group Ltd"
+  },
+  {
+   "label": "14 Harbour Street, Leeds",
+   "prop": 0,
+   "src": "14 Harbour Street, Leeds"
+  },
+  {
+   "label": "41 Harbour Street, Leeds",
+   "prop": 0,
+   "src": "41 Harbour Street, Leeds"
+  },
+  {
+   "label": "14 Harbour Road, Hull",
+   "prop": 0,
+   "src": "14 Harbour Road, Hull"
+  },
+  {
+   "label": "Suite 5, 100 Kings Road, London",
+   "prop": 0,
+   "src": "Suite 5, 100 Kings Road, London"
+  },
+  {
+   "label": "Suite 12, 100 Kings Road, London",
+   "prop": 0,
+   "src": "Suite 12, 100 Kings Road, London"
+  },
+  {
+   "label": "9 Leith Walk, Edinburgh",
+   "prop": 0,
+   "src": "9 Leith Walk, Edinburgh"
+  },
+  {
+   "label": "22 Esplanade, St Helier",
+   "prop": 0,
+   "src": "22 Esplanade, St Helier"
+  },
+  {
+   "label": "Unit 3, Riverside Park, Hull",
+   "prop": 0,
+   "src": "Unit 3, Riverside Park, Hull"
+  },
+  {
+   "label": "Unit 8, Riverside Park, Hull",
+   "prop": 0,
+   "src": "Unit 8, Riverside Park, Hull"
+  },
+  {
+   "label": "Unit 12, Riverside Park, Hull",
+   "prop": 0,
+   "src": "Unit 12, Riverside Park, Hull"
+  },
+  {
+   "label": "7 Mill Yard, Bradford",
+   "prop": 0,
+   "src": "7 Mill Yard, Bradford"
+  },
+  {
+   "label": "Hafenstraße 12, Hamburg",
+   "prop": 0,
+   "src": "Hafenstraße 12, Hamburg"
+  },
+  {
+   "label": "Södra Hamngatan 4, Göteborg",
+   "prop": 0,
+   "src": "Södra Hamngatan 4, Göteborg"
+  },
+  {
+   "label": "3-2-1 Marunouchi, Tokyo",
+   "prop": 0,
+   "src": "3-2-1 Marunouchi, Tokyo"
+  }
+ ],
+ "relations": [
+  "owns",
+  "director_of",
+  "registered_at"
+ ],
+ "edges": [
+  [
+   0,
+   0,
+   1,
+   62
+  ],
+  [
+   0,
+   1,
+   1,
+   1
+  ],
+  [
+   0,
+   1,
+   3,
+   1
+  ],
+  [
+   0,
+   1,
+   4,
+   1
+  ],
+  [
+   0,
+   1,
+   5,
+   1
+  ],
+  [
+   1,
+   0,
+   3,
+   100
+  ],
+  [
+   1,
+   2,
+   75,
+   1
+  ],
+  [
+   2,
+   0,
+   1,
+   38
+  ],
+  [
+   2,
+   1,
+   1,
+   1
+  ],
+  [
+   2,
+   1,
+   4,
+   1
+  ],
+  [
+   2,
+   1,
+   6,
+   1
+  ],
+  [
+   2,
+   1,
+   7,
+   1
+  ],
+  [
+   3,
+   0,
+   4,
+   100
+  ],
+  [
+   3,
+   0,
+   5,
+   100
+  ],
+  [
+   3,
+   2,
+   75,
+   1
+  ],
+  [
+   4,
+   0,
+   6,
+   100
+  ],
+  [
+   4,
+   0,
+   7,
+   100
+  ],
+  [
+   4,
+   2,
+   75,
+   1
+  ],
+  [
+   5,
+   0,
+   8,
+   100
+  ],
+  [
+   5,
+   0,
+   9,
+   100
+  ],
+  [
+   5,
+   2,
+   75,
+   1
+  ],
+  [
+   6,
+   0,
+   10,
+   80
+  ],
+  [
+   6,
+   2,
+   75,
+   1
+  ],
+  [
+   7,
+   2,
+   75,
+   1
+  ],
+  [
+   8,
+   2,
+   80,
+   1
+  ],
+  [
+   9,
+   2,
+   81,
+   1
+  ],
+  [
+   10,
+   2,
+   75,
+   1
+  ],
+  [
+   11,
+   0,
+   10,
+   20
+  ],
+  [
+   11,
+   0,
+   35,
+   75
+  ],
+  [
+   11,
+   1,
+   10,
+   1
+  ],
+  [
+   11,
+   1,
+   35,
+   1
+  ],
+  [
+   11,
+   1,
+   41,
+   1
+  ],
+  [
+   12,
+   0,
+   13,
+   55
+  ],
+  [
+   12,
+   1,
+   17,
+   1
+  ],
+  [
+   13,
+   0,
+   15,
+   100
+  ],
+  [
+   13,
+   0,
+   16,
+   100
+  ],
+  [
+   13,
+   2,
+   78,
+   1
+  ],
+  [
+   14,
+   0,
+   13,
+   45
+  ],
+  [
+   14,
+   1,
+   22,
+   1
+  ],
+  [
+   15,
+   0,
+   17,
+   70
+  ],
+  [
+   15,
+   2,
+   78,
+   1
+  ],
+  [
+   16,
+   0,
+   22,
+   60
+  ],
+  [
+   16,
+   2,
+   78,
+   1
+  ],
+  [
+   17,
+   0,
+   19,
+   100
+  ],
+  [
+   17,
+   0,
+   20,
+   100
+  ],
+  [
+   17,
+   0,
+   21,
+   100
+  ],
+  [
+   17,
+   2,
+   79,
+   1
+  ],
+  [
+   18,
+   0,
+   17,
+   30
+  ],
+  [
+   18,
+   0,
+   59,
+   100
+  ],
+  [
+   18,
+   1,
+   17,
+   1
+  ],
+  [
+   18,
+   1,
+   62,
+   1
+  ],
+  [
+   19,
+   2,
+   79,
+   1
+  ],
+  [
+   20,
+   2,
+   79,
+   1
+  ],
+  [
+   21,
+   2,
+   80,
+   1
+  ],
+  [
+   22,
+   0,
+   24,
+   100
+  ],
+  [
+   22,
+   0,
+   25,
+   100
+  ],
+  [
+   22,
+   2,
+   83,
+   1
+  ],
+  [
+   23,
+   0,
+   22,
+   40
+  ],
+  [
+   23,
+   1,
+   22,
+   1
+  ],
+  [
+   23,
+   1,
+   24,
+   1
+  ],
+  [
+   24,
+   2,
+   83,
+   1
+  ],
+  [
+   25,
+   2,
+   83,
+   1
+  ],
+  [
+   26,
+   0,
+   27,
+   60
+  ],
+  [
+   26,
+   0,
+   31,
+   100
+  ],
+  [
+   26,
+   1,
+   27,
+   1
+  ],
+  [
+   26,
+   1,
+   32,
+   1
+  ],
+  [
+   27,
+   0,
+   29,
+   100
+  ],
+  [
+   27,
+   0,
+   30,
+   100
+  ],
+  [
+   27,
+   2,
+   77,
+   1
+  ],
+  [
+   28,
+   0,
+   27,
+   40
+  ],
+  [
+   28,
+   0,
+   33,
+   100
+  ],
+  [
+   28,
+   1,
+   27,
+   1
+  ],
+  [
+   28,
+   1,
+   30,
+   1
+  ],
+  [
+   28,
+   1,
+   34,
+   1
+  ],
+  [
+   29,
+   2,
+   77,
+   1
+  ],
+  [
+   30,
+   2,
+   77,
+   1
+  ],
+  [
+   31,
+   0,
+   32,
+   100
+  ],
+  [
+   31,
+   2,
+   87,
+   1
+  ],
+  [
+   32,
+   2,
+   84,
+   1
+  ],
+  [
+   33,
+   0,
+   34,
+   100
+  ],
+  [
+   33,
+   2,
+   88,
+   1
+  ],
+  [
+   34,
+   2,
+   84,
+   1
+  ],
+  [
+   35,
+   0,
+   37,
+   100
+  ],
+  [
+   35,
+   0,
+   38,
+   100
+  ],
+  [
+   35,
+   0,
+   39,
+   100
+  ],
+  [
+   35,
+   0,
+   40,
+   100
+  ],
+  [
+   35,
+   0,
+   41,
+   100
+  ],
+  [
+   35,
+   2,
+   82,
+   1
+  ],
+  [
+   36,
+   0,
+   35,
+   25
+  ],
+  [
+   36,
+   1,
+   35,
+   1
+  ],
+  [
+   36,
+   1,
+   37,
+   1
+  ],
+  [
+   36,
+   1,
+   38,
+   1
+  ],
+  [
+   36,
+   1,
+   39,
+   1
+  ],
+  [
+   36,
+   1,
+   40,
+   1
+  ],
+  [
+   37,
+   2,
+   82,
+   1
+  ],
+  [
+   38,
+   2,
+   82,
+   1
+  ],
+  [
+   39,
+   2,
+   82,
+   1
+  ],
+  [
+   40,
+   2,
+   82,
+   1
+  ],
+  [
+   41,
+   2,
+   83,
+   1
+  ],
+  [
+   42,
+   0,
+   43,
+   50
+  ],
+  [
+   42,
+   1,
+   43,
+   1
+  ],
+  [
+   42,
+   1,
+   45,
+   1
+  ],
+  [
+   43,
+   0,
+   45,
+   100
+  ],
+  [
+   43,
+   0,
+   46,
+   100
+  ],
+  [
+   43,
+   0,
+   47,
+   65
+  ],
+  [
+   43,
+   2,
+   85,
+   1
+  ],
+  [
+   44,
+   0,
+   43,
+   50
+  ],
+  [
+   44,
+   1,
+   46,
+   1
+  ],
+  [
+   45,
+   2,
+   85,
+   1
+  ],
+  [
+   46,
+   2,
+   82,
+   1
+  ],
+  [
+   47,
+   2,
+   85,
+   1
+  ],
+  [
+   48,
+   0,
+   47,
+   35
+  ],
+  [
+   48,
+   1,
+   47,
+   1
+  ],
+  [
+   49,
+   0,
+   50,
+   70
+  ],
+  [
+   49,
+   1,
+   50,
+   1
+  ],
+  [
+   50,
+   0,
+   52,
+   100
+  ],
+  [
+   50,
+   0,
+   53,
+   100
+  ],
+  [
+   50,
+   2,
+   76,
+   1
+  ],
+  [
+   51,
+   0,
+   50,
+   30
+  ],
+  [
+   51,
+   1,
+   52,
+   1
+  ],
+  [
+   51,
+   1,
+   53,
+   1
+  ],
+  [
+   52,
+   0,
+   54,
+   100
+  ],
+  [
+   52,
+   2,
+   76,
+   1
+  ],
+  [
+   53,
+   2,
+   76,
+   1
+  ],
+  [
+   54,
+   2,
+   76,
+   1
+  ],
+  [
+   55,
+   0,
+   56,
+   100
+  ],
+  [
+   55,
+   1,
+   57,
+   1
+  ],
+  [
+   55,
+   1,
+   58,
+   1
+  ],
+  [
+   56,
+   0,
+   57,
+   100
+  ],
+  [
+   56,
+   2,
+   86,
+   1
+  ],
+  [
+   57,
+   0,
+   58,
+   100
+  ],
+  [
+   57,
+   2,
+   84,
+   1
+  ],
+  [
+   58,
+   2,
+   84,
+   1
+  ],
+  [
+   59,
+   0,
+   60,
+   100
+  ],
+  [
+   59,
+   0,
+   61,
+   100
+  ],
+  [
+   59,
+   2,
+   81,
+   1
+  ],
+  [
+   60,
+   0,
+   62,
+   100
+  ],
+  [
+   60,
+   2,
+   81,
+   1
+  ],
+  [
+   61,
+   0,
+   63,
+   100
+  ],
+  [
+   61,
+   2,
+   81,
+   1
+  ],
+  [
+   62,
+   2,
+   79,
+   1
+  ],
+  [
+   63,
+   2,
+   78,
+   1
+  ],
+  [
+   64,
+   0,
+   65,
+   100
+  ],
+  [
+   64,
+   1,
+   9,
+   1
+  ],
+  [
+   64,
+   1,
+   59,
+   1
+  ],
+  [
+   64,
+   1,
+   60,
+   1
+  ],
+  [
+   64,
+   1,
+   61,
+   1
+  ],
+  [
+   64,
+   1,
+   62,
+   1
+  ],
+  [
+   64,
+   1,
+   63,
+   1
+  ],
+  [
+   65,
+   2,
+   78,
+   1
+  ],
+  [
+   66,
+   0,
+   67,
+   100
+  ],
+  [
+   66,
+   1,
+   8,
+   1
+  ],
+  [
+   66,
+   1,
+   9,
+   1
+  ],
+  [
+   67,
+   2,
+   85,
+   1
+  ],
+  [
+   68,
+   0,
+   69,
+   100
+  ],
+  [
+   68,
+   1,
+   39,
+   1
+  ],
+  [
+   68,
+   1,
+   41,
+   1
+  ],
+  [
+   69,
+   2,
+   83,
+   1
+  ],
+  [
+   70,
+   0,
+   71,
+   50
+  ],
+  [
+   70,
+   1,
+   54,
+   1
+  ],
+  [
+   71,
+   2,
+   76,
+   1
+  ],
+  [
+   72,
+   0,
+   71,
+   50
+  ],
+  [
+   73,
+   0,
+   74,
+   100
+  ],
+  [
+   73,
+   1,
+   74,
+   1
+  ],
+  [
+   74,
+   2,
+   85,
+   1
+  ]
+ ],
+ "splice": [],
+ "change": null,
+ "meta": {}
+}

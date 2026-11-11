@@ -1,0 +1,19 @@
+{
+ "what": "ids of the 100 two-train reasoning-off 'Qwen alone' replies that reached alone.py's 40-token limit, by re-tokenizing the saved reply",
+ "limit": 40,
+ "rows": 100,
+ "max_tokens_seen": 40,
+ "cut_ids": [
+  108,
+  119,
+  125,
+  130,
+  134,
+  145,
+  154,
+  179,
+  183,
+  185,
+  194
+ ]
+}

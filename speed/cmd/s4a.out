@@ -1,0 +1,5 @@
+{"graph": "random/r021", "id": 20, "dense_s": 4.462, "block_s": 4.064, "logit_elems_differ": 0, "argmax_same": true, "states_differ": 0}
+{"graph": "cities/c004", "id": 22, "dense_s": 4.757, "block_s": 4.79, "logit_elems_differ": 0, "argmax_same": true, "states_differ": 0}
+{"graph": "cities/c007", "id": 358, "dense_s": 3.789, "block_s": 3.706, "logit_elems_differ": 0, "argmax_same": true, "states_differ": 0}
+{"graph": "random/r021", "id": 22, "dense_s": 3.056, "block_s": 2.604, "logit_elems_differ": 0, "argmax_same": true, "states_differ": 0}
+[stage seconds 34.2]

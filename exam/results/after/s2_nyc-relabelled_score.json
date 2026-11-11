@@ -1,0 +1,94 @@
+{
+ "map": "nyc-relabelled",
+ "rows": 300,
+ "by": {
+  "file": {
+   "right": 98,
+   "none": 2
+  },
+  "all": {
+   "right": 296,
+   "none": 4
+  },
+  "generated": {
+   "right": 98,
+   "none": 2
+  },
+  "shared": {
+   "right": 100
+  }
+ },
+ "counts": {
+  "calls": 300,
+  "firmware_equal_reflib": 300,
+  "state_reference_equal": 300,
+  "unasked_closed": 0,
+  "more_than_one_call": 0,
+  "gold_is_station": 292,
+  "reply_names_gold": 288,
+  "reply_exact": 287,
+  "seconds": 4637.700000000003
+ },
+ "examples": {
+  "none": [
+   [
+    "nyc-relabelled:115",
+    "Start at Zununger Av station. Ride the M train 3 stops southbound, then change to the L and ride the L train 3",
+    [
+     {
+      "start": "Zuninger Av",
+      "legs": "M southbound 3; L southbound 3"
+     }
+    ],
+    "NONE Zuninger Av",
+    "@186 Kuponman-Vunpal Av",
+    "NONE"
+   ],
+   [
+    "nyc-relabelled:171",
+    "Start at Zununger Av station. Ride the Z train 2 stops southbound, then change to the F and ride the F train 1",
+    [
+     {
+      "start": "Zuninger Av",
+      "legs": "Z southbound 2; F southbound 1"
+     }
+    ],
+    "NONE Zuninger Av",
+    "@6 Banzenkun Junction",
+    "Zuninger Av"
+   ],
+   [
+    "nyc-relabelled:900023",
+    "Start at Firgolnon Sq station. Ride the 3 train 3 stops southbound, then change to the 2 and ride the 2 train ",
+    [
+     {
+      "start": "Figgolnon Sq",
+      "legs": "3 southbound 3; 2 southbound 1"
+     }
+    ],
+    "NONE Figgolnon Sq",
+    "@460 Zanal St",
+    "NONE"
+   ],
+   [
+    "nyc-relabelled:900075",
+    "Start at Zununger Av station. Ride the M train 2 stops northbound, then change to the J and ride the J train 3",
+    [
+     {
+      "start": "Zuninger Av",
+      "legs": "M northbound 2; J northbound 3"
+     }
+    ],
+    "NONE Zuninger Av",
+    "@211 Lise-Lapi Pl",
+    "Zuninger Av"
+   ]
+  ]
+ },
+ "status": {
+  "answered": 300
+ },
+ "ran_on": {
+  "executor": 300
+ }
+}

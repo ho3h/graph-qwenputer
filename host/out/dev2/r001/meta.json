@@ -1,0 +1,37 @@
+{
+ "graph": "<repo>/data/dev/random/r001.graph.json",
+ "graph_sha256": "7b59be6c05b34db58896bcdf6b3a31ebaf78be5fc732ad29a131b0b269ffddfa",
+ "questions": "<repo>/data/dev/random/r001.questions.json",
+ "questions_sha256": "098c4ff020adfde31a577f27a45bc230f340acbee6f9934fa1f9091880cc719c",
+ "n": 12,
+ "attn": [
+  "eager",
+  "sdpa"
+ ],
+ "think": false,
+ "arm": "base",
+ "reflib_sha256": "2a406e3e25d63206064d068cbaa09fb0225387bae1f8885f614349c6d7e81b68",
+ "model": "<drive>/Models/huggingface/hub/models--Qwen--Qwen3.5-4B/snapshots/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+ "tools_sha256": "a5050209422a152aa769cc10ebf294cad471b9f12ac73863fc1b7b7d259fad52",
+ "system_prompt": "You answer questions about the graph \"r001\" with the graph tools. Its relations are: minnidun; tifun. Changing between lines uses the relation \"tifun\". A node argument is a handle such as @12 or a node's exact name.",
+ "max_calls": 12,
+ "load_seconds": 100.6,
+ "env": {
+  "PYTORCH_MPS_HIGH_WATERMARK_RATIO": "0.25",
+  "PYTORCH_MPS_LOW_WATERMARK_RATIO": "0.2"
+ },
+ "started": "2026-11-01T15:39:49-0500",
+ "finished": "2026-11-01T15:45:54-0500",
+ "summary": {
+  "eager": {
+   "n": 12,
+   "correct": 10,
+   "seconds": 171.79000000000002
+  },
+  "sdpa": {
+   "n": 12,
+   "correct": 10,
+   "seconds": 190.15
+  }
+ }
+}

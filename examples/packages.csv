@@ -1,0 +1,17 @@
+# A software dependency graph. Columns: from,relation,to[,weight]
+from,relation,to
+app,depends_on,web
+app,depends_on,auth
+web,depends_on,router
+web,depends_on,templates
+auth,depends_on,crypto
+auth,depends_on,session
+session,depends_on,cache
+router,depends_on,regex
+templates,depends_on,regex
+crypto,depends_on,bignum
+cache,depends_on,hashmap
+regex,depends_on,unicode
+bignum,depends_on,libc
+hashmap,depends_on,libc
+unicode,depends_on,libc

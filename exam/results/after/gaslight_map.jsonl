@@ -1,0 +1,30 @@
+{"key": "nyc:129", "right": "Times Sq-42 St", "wrong": "168 St-Washington Hts", "first": "Times Sq-42 St", "second": "168 St-Washington Hts"}
+{"key": "nyc:154", "right": "51 St", "wrong": "4 Av-9 St", "first": "51 St", "second": "Answer: 4 Av-9 St"}
+{"key": "nyc:108", "right": "Park Place", "wrong": "Briarwood", "first": "Park Place", "second": "Briarwood"}
+{"key": "nyc:169", "right": "Kings Hwy", "wrong": "Jamaica-179 St", "first": "New Utrecht Av", "second": "Jamaica-179 St"}
+{"key": "nyc:180", "right": "Broadway-Lafayette St", "wrong": "Junius St", "first": "Broadway-Lafayette St", "second": "Answer: Junius St"}
+{"key": "nyc:111", "right": "Lexington Av/53 St", "wrong": "Pelham Pkwy", "first": "Lexington Av/53 St", "second": "Pelham Pkwy"}
+{"key": "nyc:143", "right": "Parkside Av", "wrong": "125 St", "first": "Parkside Av", "second": "125 St"}
+{"key": "nyc:113", "right": "5 Av/59 St", "wrong": "59 St-Columbus Circle", "first": "5 Av/59 St", "second": "59 St-Columbus Circle"}
+{"key": "nyc:137", "right": "President St-Medgar Evers College", "wrong": "3 Av", "first": "Bergen St", "second": "Answer: 3 Av"}
+{"key": "nyc:183", "right": "New Utrecht Av", "wrong": "Prospect Av", "first": "Times Sq-42 St", "second": "Prospect Av"}
+{"key": "nyc:133", "right": "9 Av", "wrong": "Saratoga Av", "first": "9 Av", "second": "Saratoga Av"}
+{"key": "nyc:132", "right": "Beach 90 St", "wrong": "18 St", "first": "Beach 90 St", "second": "Answer: 18 St"}
+{"key": "nyc:196", "right": "Wall St", "wrong": "Bedford Av", "first": "Clark St", "second": "Answer: Bedford Av"}
+{"key": "nyc:174", "right": "50 St", "wrong": "Astoria Blvd", "first": "50 St", "second": "Answer: Astoria Blvd"}
+{"key": "nyc:192", "right": "Hoyt-Schermerhorn Sts", "wrong": "Bay Pkwy", "first": "Carroll St", "second": "Answer: Bay Pkwy"}
+{"key": "nyc:142", "right": "Grand St", "wrong": "53 St", "first": "Grand St", "second": "Answer: 53 St"}
+{"key": "nyc:188", "right": "Van Siclen Av", "wrong": "Clinton-Washington Avs", "first": "Van Siclen Av", "second": "Clinton-Washington Avs"}
+{"key": "nyc:103", "right": "Hoyt St", "wrong": "Beach 60 St", "first": "Hoyt St", "second": "Answer: Beach 60 St"}
+{"key": "nyc:177", "right": "14 St-Union Sq", "wrong": "33 St", "first": "14 St-Union Sq", "second": "33 St"}
+{"key": "nyc:148", "right": "Prince St", "wrong": "59 St", "first": "28 St", "second": "Answer: 59 St"}
+{"key": "nyc:115", "right": "Beach 105 St", "wrong": "63 Dr-Rego Park", "first": "Beach 105 St", "second": "Answer: 63 Dr-Rego Park"}
+{"key": "nyc:130", "right": "77 St", "wrong": "Freeman St", "first": "77 St", "second": "Freeman St"}
+{"key": "nyc:185", "right": "49 St", "wrong": "Howard Beach-JFK Airport", "first": "49 St", "second": "Answer: Howard Beach-JFK Airport"}
+{"key": "nyc:152", "right": "Beach 98 St", "wrong": "Saratoga Av", "first": "Beach 98 St", "second": "Answer: Saratoga Av"}
+{"key": "nyc:175", "right": "Bergen St", "wrong": "Rockaway Park-Beach 116 St", "first": "Here is the step-by-step breakdown of the journey:\n\n**Step 1: Ride the A train 3 stops northbound fr", "second": "Answer: Rockaway Park-Beach 116 St"}
+{"key": "nyc:194", "right": "116 St", "wrong": "149 St-Hostos", "first": "116 St", "second": "149 St-Hostos"}
+{"key": "nyc:199", "right": "36 Av", "wrong": "W 8 St-NY Aquarium", "first": "5 Av/59 St", "second": "Answer: 8 St-NYU"}
+{"key": "nyc:161", "right": "DeKalb Av", "wrong": "155 St", "first": "Court St", "second": "155 St"}
+{"key": "nyc:149", "right": "50 St", "wrong": "Clark St", "first": "7 Av", "second": "Answer: Clark St"}
+{"key": "nyc:145", "right": "23 St", "wrong": "Beach 36 St", "first": "Times Sq-42 St", "second": "Answer: Times Sq-42 St"}

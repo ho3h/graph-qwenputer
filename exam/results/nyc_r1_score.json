@@ -1,0 +1,32 @@
+{
+"name": "nyc",
+"D2m": {
+"base": 600,
+"base_right": 600,
+"units_finished": 20,
+"edit_lines": 40,
+"edit_lines_right": 40,
+"chip": 98075030,
+"unaffected": 11736,
+"unaffected_right": 11736,
+"affected": 264,
+"affected_right": 264,
+"restored": 12000,
+"restored_right": 12000
+},
+"affected_kinds": {
+"station": 135,
+"Stopped": 57,
+"CLOSED": 72
+},
+"D2m_pass": true,
+"D4m": {
+"path": 500,
+"right": 500,
+"chip": 15006707,
+"max_chip": 58798
+},
+"D4m_pass": true,
+"bad_n": 0,
+"bad": []
+}

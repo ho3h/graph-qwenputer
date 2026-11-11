@@ -1,0 +1,19 @@
+Loading the model. The first run also compiles the C engine.
+
+You: Starting at Booster 2, where do you get to after three hops along feeds?
+  Machine: follow {"node": "Booster 2", "relation": "feeds", "steps": "3"} -> @25 PRV 6
+Qwen: PRV 6.
+
+You: The hospital, the General one in Ashvale: which asset feeds it?
+  Machine: find {"name": "General"} -> NONE General
+  Machine: find {"name": "General Hospital"} -> NONE General Hospital
+  Machine: find {"name": "Ashvale General Hospital"} -> @32 Ashvale General Hospital
+  Machine: neighbours {"node": "@32 Ashvale General Hospital", "relation": "feeds", "direction": "in"} -> @29 Valve 44
+Qwen: Valve 44 feeds the Ashvale General Hospital.
+
+You: A new cross-connection between Valve 31 and Valve 36 went live this morning, 640 metres.
+  Machine: link {"from": "Valve 31", "relation": "interconnect", "to": "Valve 36", "weight": "640"} -> linked @42 Valve 31 > interconnect > @49 Valve 36
+  Machine: link {"from": "Valve 36", "relation": "interconnect", "to": "Valve 31", "weight": "640"} -> linked @49 Valve 36 > interconnect > @42 Valve 31
+Qwen: Linked in both directions, 640 metres.
+
+Ran on: executor. "executor" means the simulator ran the 11 added layers and Qwen's layers ran on the real weights. 19989 machine tokens, 84 s. Rows: <tmp>

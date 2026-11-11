@@ -1,0 +1,33 @@
+{
+ "d1m_same_200": {
+  "n": 200,
+  "same_call_text": 200
+ },
+ "d1m_new": {
+  "n": 100,
+  "right": 100,
+  "ids_from": 910000
+ },
+ "d1m_chip_tokens": {
+  "median": 5321.5,
+  "max": 6999
+ },
+ "d1m_qwen_tokens": {
+  "median": 50.0
+ },
+ "reach_r1_machine_exams_not_compared_on_frozen_window": {
+  "gates": 24,
+  "channels": 243,
+  "reads": 0,
+  "writes": 0
+ },
+ "d1r_counts": {
+  "line_right": 300,
+  "generous_right": 286,
+  "strict_right": 225,
+  "status_answered": 300,
+  "seconds": 11593.009999999993,
+  "limit_golds": 11,
+  "limit_strict": 0
+ }
+}

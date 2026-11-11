@@ -1,0 +1,4 @@
+{"blocking_s": 9.54, "non_blocking_encode_s": 0.0, "non_blocking_s": 0.06, "bytes_same_on_2": true}
+{"blocking_s": 0.09, "non_blocking_encode_s": 0.0, "non_blocking_s": 0.05, "bytes_same_on_2": true}
+{"blocking_s": 0.08, "non_blocking_encode_s": 0.0, "non_blocking_s": 0.05, "bytes_same_on_2": true}
+[stage seconds 13.5]

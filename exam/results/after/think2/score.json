@@ -1,0 +1,96 @@
+{
+ "A": {
+  "n": 7,
+  "right": 0,
+  "wrong": 0,
+  "unfinished": 7,
+  "strict_right": 0,
+  "strict_wrong": 0,
+  "strict_unfinished": 7,
+  "generous": 0,
+  "never_closed_reasoning": 7,
+  "hit_cap": 7,
+  "unfinished_repeating": 6,
+  "seconds": 4275.7,
+  "new_tokens": 57344,
+  "median_thought_tokens": null,
+  "median_new_tokens": 8192,
+  "right_share_of_finished": null,
+  "right_share": 0.0,
+  "unfinished_share": 1.0,
+  "decode_and_cap": [
+   [
+    "precise",
+    8192
+   ]
+  ],
+  "first_and_last_id": [
+   100,
+   106
+  ],
+  "without_103_and_108": {
+   "right": 0,
+   "wrong": 0,
+   "unfinished": 6
+  },
+  "stopped_with_the_right_name_but_not_marked_right": [],
+  "reasoning_off_same_questions": {
+   "right": 0,
+   "wrong": 7,
+   "unfinished": 0
+  },
+  "reasoning_off_prompt": "the question alone, 40-token limit",
+  "off_to_on": {
+   "wrong to unfinished": 7
+  }
+ },
+ "P": {
+  "n": 28,
+  "right": 26,
+  "wrong": 0,
+  "unfinished": 2,
+  "strict_right": 26,
+  "strict_wrong": 0,
+  "strict_unfinished": 2,
+  "generous": 27,
+  "never_closed_reasoning": 1,
+  "hit_cap": 2,
+  "unfinished_repeating": 0,
+  "seconds": 8643.9,
+  "new_tokens": 128177,
+  "median_thought_tokens": 4146,
+  "median_new_tokens": 4372.0,
+  "right_share_of_finished": 1.0,
+  "right_share": 0.929,
+  "unfinished_share": 0.071,
+  "decode_and_cap": [
+   [
+    "precise",
+    8192
+   ]
+  ],
+  "first_and_last_id": [
+   100,
+   127
+  ],
+  "without_103_and_108": {
+   "right": 24,
+   "wrong": 0,
+   "unfinished": 2
+  },
+  "stopped_with_the_right_name_but_not_marked_right": [],
+  "reasoning_off_same_questions": {
+   "right": 16,
+   "wrong": 10,
+   "unfinished": 2
+  },
+  "reasoning_off_prompt": "the map and the list-each-stop instruction, 1,024-token limit",
+  "off_to_on": {
+   "right to right": 16,
+   "unfinished to right": 1,
+   "unfinished to unfinished": 1,
+   "wrong to right": 9,
+   "wrong to unfinished": 1
+  }
+ }
+}

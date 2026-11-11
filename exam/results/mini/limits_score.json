@@ -1,0 +1,629 @@
+{
+ "search": {
+  "1": 6886,
+  "8": 6880
+ },
+ "units": {
+  "chain": {
+   "n": 1024,
+   "e": 1023,
+   "counts": {
+    "path": 41,
+    "path_same_as_reference": 41,
+    "path_equal_reflib": 41,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     659,
+     234357
+    ],
+    [
+     844,
+     299648
+    ],
+    [
+     948,
+     336194
+    ],
+    [
+     994,
+     351528
+    ],
+    [
+     1004,
+     354897
+    ],
+    [
+     1011,
+     357221
+    ],
+    [
+     1013,
+     357885
+    ],
+    [
+     1023,
+     360976
+    ]
+   ],
+   "max_chip": 360976,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "ring": {
+   "n": 1024,
+   "e": 1024,
+   "counts": {
+    "path": 41,
+    "path_same_as_reference": 41,
+    "path_equal_reflib": 41,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     940,
+     332449
+    ],
+    [
+     1001,
+     353591
+    ],
+    [
+     1023,
+     360976
+    ],
+    [
+     1023,
+     361015
+    ],
+    [
+     1023,
+     361015
+    ],
+    [
+     1023,
+     361043
+    ],
+    [
+     1023,
+     361095
+    ],
+    [
+     1023,
+     361102
+    ]
+   ],
+   "max_chip": 361102,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "star": {
+   "n": 1024,
+   "e": 2046,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     2,
+     51411
+    ],
+    [
+     2,
+     52804
+    ],
+    [
+     2,
+     52879
+    ],
+    [
+     2,
+     53775
+    ],
+    [
+     2,
+     54544
+    ],
+    [
+     2,
+     54938
+    ],
+    [
+     2,
+     55055
+    ],
+    [
+     2,
+     55305
+    ]
+   ],
+   "max_chip": 55305,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "tree": {
+   "n": 1023,
+   "e": 2044,
+   "counts": {
+    "path": 41,
+    "path_same_as_reference": 41,
+    "path_equal_reflib": 41,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     18,
+     53248
+    ],
+    [
+     18,
+     53273
+    ],
+    [
+     18,
+     57102
+    ],
+    [
+     18,
+     64296
+    ],
+    [
+     18,
+     64310
+    ],
+    [
+     18,
+     64365
+    ],
+    [
+     18,
+     64662
+    ],
+    [
+     18,
+     64872
+    ]
+   ],
+   "max_chip": 64872,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "grid": {
+   "n": 1024,
+   "e": 3968,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     39,
+     108230
+    ],
+    [
+     42,
+     109186
+    ],
+    [
+     43,
+     106566
+    ],
+    [
+     55,
+     115119
+    ],
+    [
+     56,
+     115009
+    ],
+    [
+     57,
+     115380
+    ],
+    [
+     58,
+     115484
+    ],
+    [
+     59,
+     116525
+    ]
+   ],
+   "max_chip": 116525,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "sf0064": {
+   "n": 64,
+   "e": 340,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     3,
+     6294
+    ],
+    [
+     3,
+     7212
+    ],
+    [
+     4,
+     6040
+    ],
+    [
+     4,
+     7332
+    ],
+    [
+     4,
+     7369
+    ],
+    [
+     4,
+     8557
+    ],
+    [
+     4,
+     8953
+    ],
+    [
+     4,
+     8979
+    ]
+   ],
+   "max_chip": 8979,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "sf0128": {
+   "n": 128,
+   "e": 722,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     4,
+     10575
+    ],
+    [
+     4,
+     13449
+    ],
+    [
+     4,
+     13951
+    ],
+    [
+     4,
+     14427
+    ],
+    [
+     4,
+     14619
+    ],
+    [
+     5,
+     15508
+    ],
+    [
+     5,
+     16763
+    ],
+    [
+     5,
+     16795
+    ]
+   ],
+   "max_chip": 16795,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "sf0256": {
+   "n": 256,
+   "e": 1466,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     4,
+     14383
+    ],
+    [
+     4,
+     17905
+    ],
+    [
+     4,
+     21030
+    ],
+    [
+     5,
+     21198
+    ],
+    [
+     5,
+     26073
+    ],
+    [
+     5,
+     27906
+    ],
+    [
+     5,
+     30720
+    ],
+    [
+     5,
+     31588
+    ]
+   ],
+   "max_chip": 31588,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "sf0512": {
+   "n": 512,
+   "e": 3010,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     4,
+     38397
+    ],
+    [
+     4,
+     39112
+    ],
+    [
+     4,
+     43373
+    ],
+    [
+     5,
+     44766
+    ],
+    [
+     5,
+     50656
+    ],
+    [
+     5,
+     54680
+    ],
+    [
+     5,
+     59927
+    ],
+    [
+     6,
+     57790
+    ]
+   ],
+   "max_chip": 59927,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "sf1024": {
+   "n": 1024,
+   "e": 6086,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     5,
+     54778
+    ],
+    [
+     5,
+     75556
+    ],
+    [
+     5,
+     76132
+    ],
+    [
+     5,
+     78232
+    ],
+    [
+     5,
+     100990
+    ],
+    [
+     6,
+     110048
+    ],
+    [
+     6,
+     121632
+    ],
+    [
+     6,
+     122140
+    ]
+   ],
+   "max_chip": 122140,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "densest": {
+   "n": 1024,
+   "e": 6880,
+   "counts": {
+    "path": 40,
+    "path_same_as_reference": 40,
+    "path_equal_reflib": 40,
+    "chase": 40,
+    "chase_same_as_reference": 40,
+    "chase_equal_reflib": 40,
+    "close": 5,
+    "close_same_as_reference": 5,
+    "closed": 100,
+    "closed_same_as_reference": 100,
+    "closed_equal_reflib": 100
+   },
+   "tokens_by_hops": [
+    [
+     5,
+     77115
+    ],
+    [
+     5,
+     77935
+    ],
+    [
+     6,
+     39818
+    ],
+    [
+     7,
+     149184
+    ],
+    [
+     7,
+     149815
+    ],
+    [
+     7,
+     150272
+    ],
+    [
+     7,
+     150411
+    ],
+    [
+     7,
+     150975
+    ]
+   ],
+   "max_chip": 150975,
+   "first_refusal": null,
+   "differences": [],
+   "done": true
+  },
+  "edits": {
+   "n": null,
+   "e": null,
+   "counts": {
+    "link": 300,
+    "link_same_as_reference": 300
+   },
+   "tokens_by_hops": [],
+   "max_chip": 0,
+   "first_refusal": [
+    0,
+    "BADARG link"
+   ],
+   "differences": [],
+   "done": true
+  }
+ }
+}

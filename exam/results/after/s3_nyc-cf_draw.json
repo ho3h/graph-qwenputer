@@ -1,0 +1,1537 @@
+{
+"seed": 20261104,
+"conversations": [
+{
+"key": "nyc-cf:129",
+"graph": "nyc-cf-b",
+"node": 476,
+"label": "Vernon Blvd-Jackson Av",
+"changed": true,
+"wording": "{X} is out of action today.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "Vernon Blvd-Jackson Av is out of action today. Start at 50 St station. Ride the 1 train 1 stop southbound, then change to the 7 and ride the 7 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 2 steps at @326 Grand Central-42 St, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+476
+]
+},
+{
+"user": "Vernon Blvd-Jackson Av is open again now. Start at 50 St station. Ride the 1 train 1 stop southbound, then change to the 7 and ride the 7 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@476 Vernon Blvd-Jackson Av",
+"wants": [
+"reopen",
+476
+]
+}
+]
+},
+{
+"key": "nyc-cf:167",
+"graph": "nyc-cf-b",
+"node": 433,
+"label": "Queens Plaza",
+"changed": true,
+"wording": "Flooding has closed {X}.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "Flooding has closed Queens Plaza. Start at Lexington Av/59 St station. Ride the R train 1 stop northbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @374 Lexington Av/59 St, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+433
+]
+},
+{
+"user": "Repairs are done and Queens Plaza is back. Start at Lexington Av/59 St station. Ride the R train 1 stop northbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@113 5 Av/53 St",
+"wants": [
+"reopen",
+433
+]
+}
+]
+},
+{
+"key": "nyc-cf:112",
+"graph": "nyc-cf-b",
+"node": 470,
+"label": "Union St",
+"changed": false,
+"wording": "No trains are calling at {X} right now.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "No trains are calling at Union St right now. Start at 36 St station. Ride the D train 1 stop northbound, then change to the Q and ride the Q train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@357 Jay St-MetroTech",
+"wants": [
+"close",
+470
+]
+},
+{
+"user": "Trains are stopping at Union St once more. Start at 36 St station. Ride the D train 1 stop northbound, then change to the Q and ride the Q train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@357 Jay St-MetroTech",
+"wants": [
+"reopen",
+470
+]
+}
+]
+},
+{
+"key": "nyc-cf:159",
+"graph": "nyc-cf-b",
+"node": 171,
+"label": "Alabama Av",
+"changed": true,
+"wording": "A signal failure means {X} is being skipped.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "A signal failure means Alabama Av is being skipped. Start at Utica Av station. Ride the C train 3 stops southbound, then change to the Z and ride the Z train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @230 Broadway Junction, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+171
+]
+},
+{
+"user": "Alabama Av has been reopened. Start at Utica Av station. Ride the C train 3 stops southbound, then change to the Z and ride the Z train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@409 Norwood Av",
+"wants": [
+"reopen",
+171
+]
+}
+]
+},
+{
+"key": "nyc-cf:176",
+"graph": "nyc-cf-b",
+"node": 123,
+"label": "57 St-7 Av",
+"changed": true,
+"wording": "{X} has been taken out of service for repairs.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "57 St-7 Av has been taken out of service for repairs. Start at 49 St station. Ride the R train 1 stop northbound, then change to the Q and ride the Q train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @111 49 St, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+123
+]
+},
+{
+"user": "Service at 57 St-7 Av has resumed. Start at 49 St station. Ride the R train 1 stop northbound, then change to the Q and ride the Q train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@143 72 St",
+"wants": [
+"reopen",
+123
+]
+}
+]
+},
+{
+"key": "nyc-cf:172",
+"graph": "nyc-cf-b",
+"node": 110,
+"label": "47-50 Sts-Rockefeller Ctr",
+"changed": true,
+"wording": "They've shut {X} after a fire.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "They've shut 47-50 Sts-Rockefeller Ctr after a fire. Start at 135 St station. Ride the C train 1 stop southbound, then change to the D and ride the D train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 2 steps at @137 7 Av, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+110
+]
+},
+{
+"user": "47-50 Sts-Rockefeller Ctr is open again now. Start at 135 St station. Ride the C train 1 stop southbound, then change to the D and ride the D train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@110 47-50 Sts-Rockefeller Ctr",
+"wants": [
+"reopen",
+110
+]
+}
+]
+},
+{
+"key": "nyc-cf:108",
+"graph": "nyc-cf-b",
+"node": 293,
+"label": "Eastern Pkwy-Brooklyn Museum",
+"changed": true,
+"wording": "You can't get on or off at {X} this week.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "You can't get on or off at Eastern Pkwy-Brooklyn Museum this week. Start at Court Sq-23 St station. Ride the E train 3 stops northbound, then change to the R and ride the R train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @134 67 Av, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+293
+]
+},
+{
+"user": "Repairs are done and Eastern Pkwy-Brooklyn Museum is back. Start at Court Sq-23 St station. Ride the E train 3 stops northbound, then change to the R and ride the R train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@490 Woodhaven Blvd",
+"wants": [
+"reopen",
+293
+]
+}
+]
+},
+{
+"key": "nyc-cf:105",
+"graph": "nyc-cf-b",
+"node": 248,
+"label": "Carroll St",
+"changed": true,
+"wording": "Trains won't stop at {X} until Friday.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "Trains won't stop at Carroll St until Friday. Start at York St station. Ride the F train 3 stops southbound, then change to the G and ride the G train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 2 steps at @215 Bergen St, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+248
+]
+},
+{
+"user": "Trains are stopping at Carroll St once more. Start at York St station. Ride the F train 3 stops southbound, then change to the G and ride the G train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@319 Fulton St",
+"wants": [
+"reopen",
+248
+]
+}
+]
+},
+{
+"key": "nyc-cf:123",
+"graph": "nyc-cf-b",
+"node": 236,
+"label": "Brooklyn Bridge-City Hall",
+"changed": true,
+"wording": "{X} is closed for track work.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "Brooklyn Bridge-City Hall is closed for track work. Start at Canal St station. Ride the Z train 2 stops southbound, then change to the 4 and ride the 4 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @320 Fulton St, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+236
+]
+},
+{
+"user": "Brooklyn Bridge-City Hall has been reopened. Start at Canal St station. Ride the Z train 2 stops southbound, then change to the 4 and ride the 4 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@28 14 St-Union Sq",
+"wants": [
+"reopen",
+236
+]
+}
+]
+},
+{
+"key": "nyc-cf:118",
+"graph": "nyc-cf-b",
+"node": 0,
+"label": "1 Av",
+"changed": true,
+"wording": "Crews have closed off {X} overnight.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Crews have closed off 1 Av overnight. Start at Bowling Green station. Ride the 4 train 3 stops northbound, then change to the 6 and ride the 6 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @242 Canal St, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+0
+]
+},
+{
+"user": "Service at 1 Av has resumed. Start at Bowling Green station. Ride the 4 train 3 stops northbound, then change to the 6 and ride the 6 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@218 Bleecker St",
+"wants": [
+"reopen",
+0
+]
+}
+]
+},
+{
+"key": "nyc-cf:192",
+"graph": "nyc-cf-b",
+"node": 185,
+"label": "Avenue I",
+"changed": false,
+"wording": "{X} is out of action today.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "Avenue I is out of action today. Start at 57 St-7 Av station. Ride the Q train 1 stop southbound, then change to the 2 and ride the 2 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@167 96 St",
+"wants": [
+"close",
+185
+]
+},
+{
+"user": "Avenue I is open again now. Start at 57 St-7 Av station. Ride the Q train 1 stop southbound, then change to the 2 and ride the 2 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@167 96 St",
+"wants": [
+"reopen",
+185
+]
+}
+]
+},
+{
+"key": "nyc-cf:160",
+"graph": "nyc-cf-b",
+"node": 476,
+"label": "Vernon Blvd-Jackson Av",
+"changed": true,
+"wording": "Flooding has closed {X}.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "Flooding has closed Vernon Blvd-Jackson Av. Start at 86 St station. Ride the 5 train 2 stops southbound, then change to the 7 and ride the 7 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @325 Grand Central-42 St, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+476
+]
+},
+{
+"user": "Repairs are done and Vernon Blvd-Jackson Av is back. Start at 86 St station. Ride the 5 train 2 stops southbound, then change to the 7 and ride the 7 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@476 Vernon Blvd-Jackson Av",
+"wants": [
+"reopen",
+476
+]
+}
+]
+},
+{
+"key": "nyc-cf:197",
+"graph": "nyc-cf-b",
+"node": 297,
+"label": "Euclid Av",
+"changed": true,
+"wording": "No trains are calling at {X} right now.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "No trains are calling at Euclid Av right now. Start at 80 St station. Ride the A train 3 stops northbound, then change to the L and ride the L train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 1 steps at @147 77 St, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+297
+]
+},
+{
+"user": "Trains are stopping at Euclid Av once more. Start at 80 St station. Ride the A train 3 stops northbound, then change to the L and ride the L train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@240 Bushwick Av-Aberdeen St",
+"wants": [
+"reopen",
+297
+]
+}
+]
+},
+{
+"key": "nyc-cf:164",
+"graph": "nyc-cf-b",
+"node": 494,
+"label": "York St",
+"changed": true,
+"wording": "A signal failure means {X} is being skipped.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "A signal failure means York St is being skipped. Start at Fulton St station. Ride the G train 2 stops southbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @356 Jay St-MetroTech, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+494
+]
+},
+{
+"user": "York St has been reopened. Start at Fulton St station. Ride the G train 2 stops southbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@494 York St",
+"wants": [
+"reopen",
+494
+]
+}
+]
+},
+{
+"key": "nyc-cf:111",
+"graph": "nyc-cf-b",
+"node": 312,
+"label": "Franklin Av-Medgar Evers College",
+"changed": true,
+"wording": "{X} has been taken out of service for repairs.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Franklin Av-Medgar Evers College has been taken out of service for repairs. Start at Nostrand Av station. Ride the 3 train 3 stops northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @411 Nostrand Av, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+312
+]
+},
+{
+"user": "Service at Franklin Av-Medgar Evers College has resumed. Start at Nostrand Av station. Ride the 3 train 3 stops northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@427 President St-Medgar Evers College",
+"wants": [
+"reopen",
+312
+]
+}
+]
+},
+{
+"key": "nyc-cf:179",
+"graph": "nyc-cf-b",
+"node": 222,
+"label": "Bowery",
+"changed": true,
+"wording": "They've shut {X} after a fire.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "They've shut Bowery after a fire. Start at 85 St-Forest Pkwy station. Ride the Z train 3 stops southbound, then change to the N and ride the N train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 1 steps at @282 Delancey St-Essex St, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+222
+]
+},
+{
+"user": "Bowery is open again now. Start at 85 St-Forest Pkwy station. Ride the Z train 3 stops southbound, then change to the N and ride the N train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@428 Prince St",
+"wants": [
+"reopen",
+222
+]
+}
+]
+},
+{
+"key": "nyc-cf:196",
+"graph": "nyc-cf-b",
+"node": 444,
+"label": "Roosevelt Island",
+"changed": false,
+"wording": "You can't get on or off at {X} this week.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "You can't get on or off at Roosevelt Island this week. Start at 138 St-Grand Concourse station. Ride the 5 train 2 stops southbound, then change to the 6 and ride the 6 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@2 103 St",
+"wants": [
+"close",
+444
+]
+},
+{
+"user": "Repairs are done and Roosevelt Island is back. Start at 138 St-Grand Concourse station. Ride the 5 train 2 stops southbound, then change to the 6 and ride the 6 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@2 103 St",
+"wants": [
+"reopen",
+444
+]
+}
+]
+},
+{
+"key": "nyc-cf:100",
+"graph": "nyc-cf-b",
+"node": 420,
+"label": "Parkside Av",
+"changed": false,
+"wording": "Trains won't stop at {X} until Friday.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "Trains won't stop at Parkside Av until Friday. Start at Shepherd Av station. Ride the N train 2 stops northbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@328 Grand St",
+"wants": [
+"close",
+420
+]
+},
+{
+"user": "Trains are stopping at Parkside Av once more. Start at Shepherd Av station. Ride the N train 2 stops northbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@328 Grand St",
+"wants": [
+"reopen",
+420
+]
+}
+]
+},
+{
+"key": "nyc-cf:190",
+"graph": "nyc-cf-b",
+"node": 479,
+"label": "W 8 St-NY Aquarium",
+"changed": true,
+"wording": "{X} is closed for track work.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "W 8 St-NY Aquarium is closed for track work. Start at Bay Pkwy station. Ride the D train 3 stops southbound, then change to the Q and ride the Q train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @268 Coney Island-Stillwell Av, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+479
+]
+},
+{
+"user": "W 8 St-NY Aquarium has been reopened. Start at Bay Pkwy station. Ride the D train 3 stops southbound, then change to the Q and ride the Q train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@225 Brighton Beach",
+"wants": [
+"reopen",
+479
+]
+}
+]
+},
+{
+"key": "nyc-cf:104",
+"graph": "nyc-cf-b",
+"node": 106,
+"label": "42 St-Port Authority Bus Terminal",
+"changed": true,
+"wording": "Crews have closed off {X} overnight.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Crews have closed off 42 St-Port Authority Bus Terminal overnight. Start at Cathedral Pkwy (110 St) station. Ride the B train 2 stops northbound, then change to the A and ride the A train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @127 59 St-Columbus Circle, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+106
+]
+},
+{
+"user": "Service at 42 St-Port Authority Bus Terminal has resumed. Start at Cathedral Pkwy (110 St) station. Ride the B train 2 stops northbound, then change to the A and ride the A train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@106 42 St-Port Authority Bus Terminal",
+"wants": [
+"reopen",
+106
+]
+}
+]
+},
+{
+"key": "nyc-cf:178",
+"graph": "nyc-cf-b",
+"node": 323,
+"label": "Grand Army Plaza",
+"changed": true,
+"wording": "{X} is out of action today.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "Grand Army Plaza is out of action today. Start at Sterling St station. Ride the 5 train 2 stops northbound, then change to the 3 and ride the 3 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @131 63 Dr-Rego Park, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+323
+]
+},
+{
+"user": "Grand Army Plaza is open again now. Start at Sterling St station. Ride the 5 train 2 stops northbound, then change to the 3 and ride the 3 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@323 Grand Army Plaza",
+"wants": [
+"reopen",
+323
+]
+}
+]
+},
+{
+"key": "nyc-cf:117",
+"graph": "nyc-cf-b",
+"node": 236,
+"label": "Brooklyn Bridge-City Hall",
+"changed": true,
+"wording": "Flooding has closed {X}.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "Flooding has closed Brooklyn Bridge-City Hall. Start at Canal St station. Ride the A train 2 stops southbound, then change to the 4 and ride the 4 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @318 Fulton St, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+236
+]
+},
+{
+"user": "Repairs are done and Brooklyn Bridge-City Hall is back. Start at Canal St station. Ride the A train 2 stops southbound, then change to the 4 and ride the 4 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@236 Brooklyn Bridge-City Hall",
+"wants": [
+"reopen",
+236
+]
+}
+]
+},
+{
+"key": "nyc-cf:180",
+"graph": "nyc-cf-b",
+"node": 236,
+"label": "Brooklyn Bridge-City Hall",
+"changed": true,
+"wording": "No trains are calling at {X} right now.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "No trains are calling at Brooklyn Bridge-City Hall right now. Start at 14 St-Union Sq station. Ride the 5 train 2 stops southbound, then change to the 2 and ride the 2 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @28 14 St-Union Sq, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+236
+]
+},
+{
+"user": "Trains are stopping at Brooklyn Bridge-City Hall once more. Start at 14 St-Union Sq station. Ride the 5 train 2 stops southbound, then change to the 2 and ride the 2 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@418 Park Place",
+"wants": [
+"reopen",
+236
+]
+}
+]
+},
+{
+"key": "nyc-cf:170",
+"graph": "nyc-cf-b",
+"node": 419,
+"label": "Parkchester",
+"changed": false,
+"wording": "A signal failure means {X} is being skipped.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "A signal failure means Parkchester is being skipped. Start at Broadway-Lafayette St station. Ride the F train 2 stops northbound, then change to the 3 and ride the 3 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@96 34 St-Penn Station",
+"wants": [
+"close",
+419
+]
+},
+{
+"user": "Parkchester has been reopened. Start at Broadway-Lafayette St station. Ride the F train 2 stops northbound, then change to the 3 and ride the 3 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@96 34 St-Penn Station",
+"wants": [
+"reopen",
+419
+]
+}
+]
+},
+{
+"key": "nyc-cf:103",
+"graph": "nyc-cf-b",
+"node": 233,
+"label": "Broadway-Lafayette St",
+"changed": true,
+"wording": "{X} has been taken out of service for repairs.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Broadway-Lafayette St has been taken out of service for repairs. Start at 14 St station. Ride the F train 1 stop southbound, then change to the B and ride the B train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @478 W 4 St-Wash Sq, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+233
+]
+},
+{
+"user": "Service at Broadway-Lafayette St has resumed. Start at 14 St station. Ride the F train 1 stop southbound, then change to the B and ride the B train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@328 Grand St",
+"wants": [
+"reopen",
+233
+]
+}
+]
+},
+{
+"key": "nyc-cf:153",
+"graph": "nyc-cf-b",
+"node": 201,
+"label": "Baychester Av",
+"changed": false,
+"wording": "They've shut {X} after a fire.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "They've shut Baychester Av after a fire. Start at W 4 St-Wash Sq station. Ride the F train 1 stop northbound, then change to the 3 and ride the 3 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@253 Chambers St",
+"wants": [
+"close",
+201
+]
+},
+{
+"user": "Baychester Av is open again now. Start at W 4 St-Wash Sq station. Ride the F train 1 stop northbound, then change to the 3 and ride the 3 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@253 Chambers St",
+"wants": [
+"reopen",
+201
+]
+}
+]
+},
+{
+"key": "nyc-cf:186",
+"graph": "nyc-cf-b",
+"node": 109,
+"label": "46 St-Bliss St",
+"changed": false,
+"wording": "You can't get on or off at {X} this week.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "You can't get on or off at 46 St-Bliss St this week. Start at Van Siclen Av station. Ride the 7 train 2 stops southbound, then change to the G and ride the G train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@397 Nassau Av",
+"wants": [
+"close",
+109
+]
+},
+{
+"user": "Repairs are done and 46 St-Bliss St is back. Start at Van Siclen Av station. Ride the 7 train 2 stops southbound, then change to the G and ride the G train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@397 Nassau Av",
+"wants": [
+"reopen",
+109
+]
+}
+]
+},
+{
+"key": "nyc-cf:110",
+"graph": "nyc-cf-b",
+"node": 130,
+"label": "62 St",
+"changed": false,
+"wording": "Trains won't stop at {X} until Friday.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "Trains won't stop at 62 St until Friday. Start at 57 St-7 Av station. Ride the R train 3 stops northbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@113 5 Av/53 St",
+"wants": [
+"close",
+130
+]
+},
+{
+"user": "Trains are stopping at 62 St once more. Start at 57 St-7 Av station. Ride the R train 3 stops northbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@113 5 Av/53 St",
+"wants": [
+"reopen",
+130
+]
+}
+]
+},
+{
+"key": "nyc-cf:139",
+"graph": "nyc-cf-b",
+"node": 54,
+"label": "176 St",
+"changed": false,
+"wording": "{X} is closed for track work.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "176 St is closed for track work. Start at 7 Av station. Ride the D train 1 stop northbound, then change to the C and ride the C train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@160 86 St",
+"wants": [
+"close",
+54
+]
+},
+{
+"user": "176 St has been reopened. Start at 7 Av station. Ride the D train 1 stop northbound, then change to the C and ride the C train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@160 86 St",
+"wants": [
+"reopen",
+54
+]
+}
+]
+},
+{
+"key": "nyc-cf:157",
+"graph": "nyc-cf-b",
+"node": 442,
+"label": "Rockaway Blvd",
+"changed": false,
+"wording": "Crews have closed off {X} overnight.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Crews have closed off Rockaway Blvd overnight. Start at Brooklyn Bridge-City Hall station. Ride the 5 train 1 stop northbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@153 8 St-NYU",
+"wants": [
+"close",
+442
+]
+},
+{
+"user": "Service at Rockaway Blvd has resumed. Start at Brooklyn Bridge-City Hall station. Ride the 5 train 1 stop northbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@153 8 St-NYU",
+"wants": [
+"reopen",
+442
+]
+}
+]
+},
+{
+"key": "nyc-cf:113",
+"graph": "nyc-cf-b",
+"node": 462,
+"label": "Sutter Av-Rutland Rd",
+"changed": false,
+"wording": "{X} is out of action today.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "Sutter Av-Rutland Rd is out of action today. Start at W 4 St-Wash Sq station. Ride the F train 3 stops southbound, then change to the J and ride the J train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@157 85 St-Forest Pkwy",
+"wants": [
+"close",
+462
+]
+},
+{
+"user": "Sutter Av-Rutland Rd is open again now. Start at W 4 St-Wash Sq station. Ride the F train 3 stops southbound, then change to the J and ride the J train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@157 85 St-Forest Pkwy",
+"wants": [
+"reopen",
+462
+]
+}
+]
+},
+{
+"key": "nyc-cf:130",
+"graph": "nyc-cf-b",
+"node": 108,
+"label": "46 St",
+"changed": false,
+"wording": "Flooding has closed {X}.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "Flooding has closed 46 St. Start at Bowery station. Ride the Z train 1 stop northbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@233 Broadway-Lafayette St",
+"wants": [
+"close",
+108
+]
+},
+{
+"user": "Repairs are done and 46 St is back. Start at Bowery station. Ride the Z train 1 stop northbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@233 Broadway-Lafayette St",
+"wants": [
+"reopen",
+108
+]
+}
+]
+},
+{
+"key": "nyc-cf:115",
+"graph": "nyc-cf-b",
+"node": 480,
+"label": "WTC Cortlandt",
+"changed": false,
+"wording": "No trains are calling at {X} right now.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "No trains are calling at WTC Cortlandt right now. Start at 110 St-Malcolm X Plaza station. Ride the 3 train 2 stops southbound, then change to the 1 and ride the 1 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@115 50 St",
+"wants": [
+"close",
+480
+]
+},
+{
+"user": "Trains are stopping at WTC Cortlandt once more. Start at 110 St-Malcolm X Plaza station. Ride the 3 train 2 stops southbound, then change to the 1 and ride the 1 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@115 50 St",
+"wants": [
+"reopen",
+480
+]
+}
+]
+},
+{
+"key": "nyc-cf:150",
+"graph": "nyc-cf-b",
+"node": 298,
+"label": "Far Rockaway-Mott Av",
+"changed": false,
+"wording": "A signal failure means {X} is being skipped.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "A signal failure means Far Rockaway-Mott Av is being skipped. Start at 77 St station. Ride the A train 1 stop northbound, then change to the C and ride the C train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@474 Van Siclen Av",
+"wants": [
+"close",
+298
+]
+},
+{
+"user": "Far Rockaway-Mott Av has been reopened. Start at 77 St station. Ride the A train 1 stop northbound, then change to the C and ride the C train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@474 Van Siclen Av",
+"wants": [
+"reopen",
+298
+]
+}
+]
+},
+{
+"key": "nyc-cf:166",
+"graph": "nyc-cf-b",
+"node": 261,
+"label": "City Hall",
+"changed": false,
+"wording": "{X} has been taken out of service for repairs.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "City Hall has been taken out of service for repairs. Start at 25 Av station. Ride the D train 2 stops southbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@399 Neptune Av",
+"wants": [
+"close",
+261
+]
+},
+{
+"user": "Service at City Hall has resumed. Start at 25 Av station. Ride the D train 2 stops southbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@399 Neptune Av",
+"wants": [
+"reopen",
+261
+]
+}
+]
+},
+{
+"key": "nyc-cf:175",
+"graph": "nyc-cf-b",
+"node": 284,
+"label": "Dongan Hills",
+"changed": false,
+"wording": "They've shut {X} after a fire.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "They've shut Dongan Hills after a fire. Start at 138 St-Grand Concourse station. Ride the 4 train 3 stops southbound, then change to the 6 and ride the 6 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@118 51 St",
+"wants": [
+"close",
+284
+]
+},
+{
+"user": "Dongan Hills is open again now. Start at 138 St-Grand Concourse station. Ride the 4 train 3 stops southbound, then change to the 6 and ride the 6 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@118 51 St",
+"wants": [
+"reopen",
+284
+]
+}
+]
+},
+{
+"key": "nyc-cf:187",
+"graph": "nyc-cf-b",
+"node": 479,
+"label": "W 8 St-NY Aquarium",
+"changed": false,
+"wording": "You can't get on or off at {X} this week.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "You can't get on or off at W 8 St-NY Aquarium this week. Start at Vernon Blvd-Jackson Av station. Ride the 7 train 3 stops southbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@253 Chambers St",
+"wants": [
+"close",
+479
+]
+},
+{
+"user": "Repairs are done and W 8 St-NY Aquarium is back. Start at Vernon Blvd-Jackson Av station. Ride the 7 train 3 stops southbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@253 Chambers St",
+"wants": [
+"reopen",
+479
+]
+}
+]
+},
+{
+"key": "nyc-cf:127",
+"graph": "nyc-cf-b",
+"node": 114,
+"label": "5 Av/59 St",
+"changed": false,
+"wording": "Trains won't stop at {X} until Friday.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "Trains won't stop at 5 Av/59 St until Friday. Start at Norwood Av station. Ride the Z train 3 stops southbound, then change to the L and ride the L train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@338 Halsey St",
+"wants": [
+"close",
+114
+]
+},
+{
+"user": "Trains are stopping at 5 Av/59 St once more. Start at Norwood Av station. Ride the Z train 3 stops southbound, then change to the L and ride the L train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@338 Halsey St",
+"wants": [
+"reopen",
+114
+]
+}
+]
+},
+{
+"key": "nyc-cf:165",
+"graph": "nyc-cf-b",
+"node": 4,
+"label": "103 St-Corona Plaza",
+"changed": false,
+"wording": "{X} is closed for track work.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "103 St-Corona Plaza is closed for track work. Start at 116 St station. Ride the 2 train 2 stops southbound, then change to the 1 and ride the 1 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@15 116 St-Columbia University",
+"wants": [
+"close",
+4
+]
+},
+{
+"user": "103 St-Corona Plaza has been reopened. Start at 116 St station. Ride the 2 train 2 stops southbound, then change to the 1 and ride the 1 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@15 116 St-Columbia University",
+"wants": [
+"reopen",
+4
+]
+}
+]
+},
+{
+"key": "nyc-cf:193",
+"graph": "nyc-cf-b",
+"node": 212,
+"label": "Bedford Park Blvd-Lehman College",
+"changed": false,
+"wording": "Crews have closed off {X} overnight.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Crews have closed off Bedford Park Blvd-Lehman College overnight. Start at Grand Army Plaza station. Ride the 3 train 2 stops northbound, then change to the B and ride the B train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@328 Grand St",
+"wants": [
+"close",
+212
+]
+},
+{
+"user": "Service at Bedford Park Blvd-Lehman College has resumed. Start at Grand Army Plaza station. Ride the 3 train 2 stops northbound, then change to the B and ride the B train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@328 Grand St",
+"wants": [
+"reopen",
+212
+]
+}
+]
+}
+],
+"plain": [
+{
+"key": "nyc-cf:174",
+"graph": "nyc-cf-b",
+"node": 345,
+"label": "Hoyt-Schermerhorn Sts",
+"wording": "The newsstand at {X} has closed for good.",
+"on_route": true,
+"turns": [
+{
+"user": "The newsstand at Hoyt-Schermerhorn Sts has closed for good. Start at Nostrand Av station. Ride the A train 2 stops northbound, then change to the R and ride the R train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@486 Whitehall St-South Ferry",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:143",
+"graph": "nyc-cf-b",
+"node": 373,
+"label": "Lexington Av/53 St",
+"wording": "The elevator at {X} is out of order, but trains still stop there.",
+"on_route": true,
+"turns": [
+{
+"user": "The elevator at Lexington Av/53 St is out of order, but trains still stop there. Start at 46 St station. Ride the R train 3 stops northbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@373 Lexington Av/53 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:102",
+"graph": "nyc-cf-b",
+"node": 287,
+"label": "E 143 St-St Mary's St",
+"wording": "The coffee cart outside {X} shut down last month.",
+"on_route": false,
+"turns": [
+{
+"user": "The coffee cart outside E 143 St-St Mary's St shut down last month. Start at 50 St station. Ride the E train 1 stop northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@34 145 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:146",
+"graph": "nyc-cf-b",
+"node": 223,
+"label": "Bowling Green",
+"wording": "{X} was closed in 1998 and reopened in 2001.",
+"on_route": true,
+"turns": [
+{
+"user": "Bowling Green was closed in 1998 and reopened in 2001. Start at Parkchester station. Ride the 5 train 3 stops southbound, then change to the 2 and ride the 2 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@344 Hoyt St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:169",
+"graph": "nyc-cf-b",
+"node": 274,
+"label": "Court St",
+"wording": "There's talk of shutting {X} some day.",
+"on_route": true,
+"turns": [
+{
+"user": "There's talk of shutting Court St some day. Start at Hoyt-Schermerhorn Sts station. Ride the A train 1 stop northbound, then change to the Q and ride the Q train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@438 Rector St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:171",
+"graph": "nyc-cf-b",
+"node": 111,
+"label": "49 St",
+"wording": "My office near {X} is closed on Mondays.",
+"on_route": true,
+"turns": [
+{
+"user": "My office near 49 St is closed on Mondays. Start at 110 St-Malcolm X Plaza station. Ride the 2 train 3 stops southbound, then change to the R and ride the R train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@111 49 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:183",
+"graph": "nyc-cf-b",
+"node": 236,
+"label": "Brooklyn Bridge-City Hall",
+"wording": "The museum by {X} closes at six.",
+"on_route": true,
+"turns": [
+{
+"user": "The museum by Brooklyn Bridge-City Hall closes at six. Start at Chambers St station. Ride the 3 train 2 stops southbound, then change to the 5 and ride the 5 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@28 14 St-Union Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:134",
+"graph": "nyc-cf-b",
+"node": 108,
+"label": "46 St",
+"wording": "One entrance at {X} is closed, but the station is open.",
+"on_route": true,
+"turns": [
+{
+"user": "One entrance at 46 St is closed, but the station is open. Start at Lexington Av/53 St station. Ride the E train 3 stops northbound, then change to the R and ride the R train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@108 46 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:189",
+"graph": "nyc-cf-b",
+"node": 418,
+"label": "Park Place",
+"wording": "Is it true they might close {X}? I doubt it.",
+"on_route": true,
+"turns": [
+{
+"user": "Is it true they might close Park Place? I doubt it. Start at W 4 St-Wash Sq station. Ride the F train 1 stop northbound, then change to the 3 and ride the 3 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@316 Fulton St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:198",
+"graph": "nyc-cf-b",
+"node": 297,
+"label": "Euclid Av",
+"wording": "The pharmacy at {X} went out of business.",
+"on_route": true,
+"turns": [
+{
+"user": "The pharmacy at Euclid Av went out of business. Start at 80 St station. Ride the A train 3 stops northbound, then change to the Z and ride the Z train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@321 Gates Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:106",
+"graph": "nyc-cf-b",
+"node": 401,
+"label": "Nevins St",
+"wording": "The newsstand at {X} has closed for good.",
+"on_route": false,
+"turns": [
+{
+"user": "The newsstand at Nevins St has closed for good. Start at 135 St station. Ride the B train 3 stops northbound, then change to the 4 and ride the 4 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@49 170 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:155",
+"graph": "nyc-cf-b",
+"node": 222,
+"label": "Bowery",
+"wording": "The elevator at {X} is out of order, but trains still stop there.",
+"on_route": true,
+"turns": [
+{
+"user": "The elevator at Bowery is out of order, but trains still stop there. Start at York St station. Ride the F train 2 stops northbound, then change to the Z and ride the Z train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@244 Canal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:138",
+"graph": "nyc-cf-b",
+"node": 24,
+"label": "138 St-Grand Concourse",
+"wording": "The coffee cart outside {X} shut down last month.",
+"on_route": true,
+"turns": [
+{
+"user": "The coffee cart outside 138 St-Grand Concourse shut down last month. Start at 174-175 Sts station. Ride the B train 3 stops southbound, then change to the 4 and ride the 4 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@24 138 St-Grand Concourse",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:191",
+"graph": "nyc-cf-b",
+"node": 330,
+"label": "Grant Av",
+"wording": "{X} was closed in 1998 and reopened in 2001.",
+"on_route": false,
+"turns": [
+{
+"user": "Grant Av was closed in 1998 and reopened in 2001. Start at 49 St station. Ride the N train 1 stop southbound, then change to the 2 and ride the 2 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@96 34 St-Penn Station",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:158",
+"graph": "nyc-cf-b",
+"node": 113,
+"label": "5 Av/53 St",
+"wording": "There's talk of shutting {X} some day.",
+"on_route": true,
+"turns": [
+{
+"user": "There's talk of shutting 5 Av/53 St some day. Start at 42 St-Bryant Pk station. Ride the F train 3 stops northbound, then change to the E and ride the E train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@116 50 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:107",
+"graph": "nyc-cf-b",
+"node": 345,
+"label": "Hoyt-Schermerhorn Sts",
+"wording": "My office near {X} is closed on Mondays.",
+"on_route": true,
+"turns": [
+{
+"user": "My office near Hoyt-Schermerhorn Sts is closed on Mondays. Start at East Broadway station. Ride the F train 3 stops southbound, then change to the G and ride the G train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@345 Hoyt-Schermerhorn Sts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:151",
+"graph": "nyc-cf-b",
+"node": 341,
+"label": "High St",
+"wording": "The museum by {X} closes at six.",
+"on_route": true,
+"turns": [
+{
+"user": "The museum by High St closes at six. Start at Bergen St station. Ride the F train 1 stop northbound, then change to the A and ride the A train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@318 Fulton St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:168",
+"graph": "nyc-cf-b",
+"node": 428,
+"label": "Prince St",
+"wording": "One entrance at {X} is closed, but the station is open.",
+"on_route": true,
+"turns": [
+{
+"user": "One entrance at Prince St is closed, but the station is open. Start at Canal St station. Ride the R train 3 stops northbound, then change to the L and ride the L train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@210 Bedford Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:132",
+"graph": "nyc-cf-b",
+"node": 347,
+"label": "Hunters Point Av",
+"wording": "Is it true they might close {X}? I doubt it.",
+"on_route": false,
+"turns": [
+{
+"user": "Is it true they might close Hunters Point Av? I doubt it. Start at Borough Hall station. Ride the 2 train 3 stops northbound, then change to the C and ride the C train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@243 Canal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:109",
+"graph": "nyc-cf-b",
+"node": 410,
+"label": "Norwood-205 St",
+"wording": "The pharmacy at {X} went out of business.",
+"on_route": false,
+"turns": [
+{
+"user": "The pharmacy at Norwood-205 St went out of business. Start at 57 St-7 Av station. Ride the N train 3 stops northbound, then change to the 7 and ride the 7 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@109 46 St-Bliss St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:122",
+"graph": "nyc-cf-b",
+"node": 299,
+"label": "Flatbush Av-Brooklyn College",
+"wording": "The newsstand at {X} has closed for good.",
+"on_route": false,
+"turns": [
+{
+"user": "The newsstand at Flatbush Av-Brooklyn College has closed for good. Start at Bowery station. Ride the Z train 3 stops southbound, then change to the 5 and ride the 5 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@419 Parkchester",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:161",
+"graph": "nyc-cf-b",
+"node": 238,
+"label": "Burke Av",
+"wording": "The elevator at {X} is out of order, but trains still stop there.",
+"on_route": false,
+"turns": [
+{
+"user": "The elevator at Burke Av is out of order, but trains still stop there. Start at Park Place station. Ride the 2 train 2 stops northbound, then change to the F and ride the F train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@233 Broadway-Lafayette St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:140",
+"graph": "nyc-cf-b",
+"node": 362,
+"label": "Kew Gardens-Union Tpke",
+"wording": "The coffee cart outside {X} shut down last month.",
+"on_route": false,
+"turns": [
+{
+"user": "The coffee cart outside Kew Gardens-Union Tpke shut down last month. Start at Prince St station. Ride the R train 2 stops northbound, then change to the L and ride the L train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@128 6 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:154",
+"graph": "nyc-cf-b",
+"node": 402,
+"label": "New Dorp",
+"wording": "{X} was closed in 1998 and reopened in 2001.",
+"on_route": false,
+"turns": [
+{
+"user": "New Dorp was closed in 1998 and reopened in 2001. Start at Jamaica-Van Wyck station. Ride the E train 2 stops southbound, then change to the F and ride the F train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@145 75 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:120",
+"graph": "nyc-cf-b",
+"node": 288,
+"label": "E 149 St",
+"wording": "There's talk of shutting {X} some day.",
+"on_route": false,
+"turns": [
+{
+"user": "There's talk of shutting E 149 St some day. Start at Whitehall St-South Ferry station. Ride the Q train 2 stops southbound, then change to the A and ride the A train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@412 Nostrand Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:128",
+"graph": "nyc-cf-b",
+"node": 468,
+"label": "Tottenville",
+"wording": "My office near {X} is closed on Mondays.",
+"on_route": false,
+"turns": [
+{
+"user": "My office near Tottenville is closed on Mondays. Start at 72 St station. Ride the 1 train 2 stops southbound, then change to the A and ride the A train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@33 145 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:181",
+"graph": "nyc-cf-b",
+"node": 155,
+"label": "81 St-Museum of Natural History",
+"wording": "The museum by {X} closes at six.",
+"on_route": false,
+"turns": [
+{
+"user": "The museum by 81 St-Museum of Natural History closes at six. Start at Broadway-Lafayette St station. Ride the F train 2 stops southbound, then change to the Z and ride the Z train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@255 Chambers St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:145",
+"graph": "nyc-cf-b",
+"node": 184,
+"label": "Avenue H",
+"wording": "One entrance at {X} is closed, but the station is open.",
+"on_route": false,
+"turns": [
+{
+"user": "One entrance at Avenue H is closed, but the station is open. Start at 34 St-Herald Sq station. Ride the D train 3 stops northbound, then change to the E and ride the E train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@116 50 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:194",
+"graph": "nyc-cf-b",
+"node": 407,
+"label": "Newkirk Plaza",
+"wording": "Is it true they might close {X}? I doubt it.",
+"on_route": false,
+"turns": [
+{
+"user": "Is it true they might close Newkirk Plaza? I doubt it. Start at 2 Av station. Ride the F train 3 stops northbound, then change to the 2 and ride the 2 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@141 72 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:147",
+"graph": "nyc-cf-b",
+"node": 468,
+"label": "Tottenville",
+"wording": "The pharmacy at {X} went out of business.",
+"on_route": false,
+"turns": [
+{
+"user": "The pharmacy at Tottenville went out of business. Start at Fulton St station. Ride the A train 2 stops southbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@215 Bergen St",
+"wants": null
+}
+]
+}
+]
+}

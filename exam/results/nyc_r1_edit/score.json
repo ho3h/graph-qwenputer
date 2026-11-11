@@ -1,0 +1,209 @@
+{
+ "n": 70,
+ "turns": {
+  "close": {
+   "turns": 40,
+   "right": 40,
+   "closes": 40,
+   "reopens": 0,
+   "not_closed_or_already": 0,
+   "right_close": 40,
+   "right_reopen": 0,
+   "other_node_written": 0,
+   "name_read": 0,
+   "toolong": 0,
+   "calls": 40,
+   "reply_given": 40,
+   "reply_names_gold": 30
+  },
+  "close, answer moves": {
+   "turns": 20,
+   "right": 20,
+   "closes": 20,
+   "reopens": 0,
+   "not_closed_or_already": 0,
+   "right_close": 20,
+   "right_reopen": 0,
+   "other_node_written": 0,
+   "name_read": 0,
+   "toolong": 0,
+   "calls": 20,
+   "reply_given": 20,
+   "reply_names_gold": 10
+  },
+  "close, answer stays": {
+   "turns": 20,
+   "right": 20,
+   "closes": 20,
+   "reopens": 0,
+   "not_closed_or_already": 0,
+   "right_close": 20,
+   "right_reopen": 0,
+   "other_node_written": 0,
+   "name_read": 0,
+   "toolong": 0,
+   "calls": 20,
+   "reply_given": 20,
+   "reply_names_gold": 20
+  },
+  "reopen": {
+   "turns": 40,
+   "right": 35,
+   "closes": 0,
+   "reopens": 33,
+   "not_closed_or_already": 0,
+   "right_close": 0,
+   "right_reopen": 33,
+   "other_node_written": 0,
+   "name_read": 0,
+   "toolong": 2,
+   "calls": 42,
+   "reply_given": 38,
+   "reply_names_gold": 35,
+   "limit": 1,
+   "loud": 3,
+   "silent": 1
+  },
+  "trap": {
+   "turns": 30,
+   "silent": 5,
+   "closes": 14,
+   "reopens": 0,
+   "not_closed_or_already": 0,
+   "right_close": 14,
+   "right_reopen": 0,
+   "other_node_written": 0,
+   "name_read": 0,
+   "toolong": 0,
+   "calls": 30,
+   "reply_given": 30,
+   "reply_names_gold": 24,
+   "right": 24,
+   "limit": 1
+  }
+ },
+ "state": {
+  "status_answered": 68,
+  "ran_on_stock and executor in lockstep": 2,
+  "reference_equal_all": 70,
+  "stock_equal_all": 2,
+  "conversations": 40,
+  "closed_state_changed": 40,
+  "reopened_state_changed": 33,
+  "close_changed_only_that_bit": 40,
+  "closed_and_reopened": 33,
+  "closed_and_reopened_and_returned": 33,
+  "returned_word_for_word": 33,
+  "ran_on_executor": 68,
+  "status_budget": 2,
+  "traps": 30,
+  "trap_state_changed": 14,
+  "trap_false_close": 14,
+  "trap_on_route": 15,
+  "trap_false_close_on_route": 6,
+  "trap_answer_wrong_after_false_close": 6
+ },
+ "by_wording": {
+  "{X} is out of action today.": {
+   "n": 4,
+   "wrote": 4
+  },
+  "{X} is open again now.": {
+   "n": 8,
+   "wrote": 8
+  },
+  "Flooding has closed {X}.": {
+   "n": 4,
+   "wrote": 4
+  },
+  "Repairs are done and {X} is back.": {
+   "n": 8,
+   "wrote": 8
+  },
+  "No trains are calling at {X} right now.": {
+   "n": 4,
+   "wrote": 4
+  },
+  "Trains are stopping at {X} once more.": {
+   "n": 8,
+   "wrote": 2
+  },
+  "A signal failure means {X} is being skipped.": {
+   "n": 4,
+   "wrote": 4
+  },
+  "{X} has been reopened.": {
+   "n": 8,
+   "wrote": 8
+  },
+  "{X} has been taken out of service for repairs.": {
+   "n": 4,
+   "wrote": 4
+  },
+  "Service at {X} has resumed.": {
+   "n": 8,
+   "wrote": 7
+  },
+  "They've shut {X} after a fire.": {
+   "n": 4,
+   "wrote": 4
+  },
+  "You can't get on or off at {X} this week.": {
+   "n": 4,
+   "wrote": 4
+  },
+  "Trains won't stop at {X} until Friday.": {
+   "n": 4,
+   "wrote": 4
+  },
+  "{X} is closed for track work.": {
+   "n": 4,
+   "wrote": 4
+  },
+  "Crews have closed off {X} overnight.": {
+   "n": 4,
+   "wrote": 4
+  },
+  "The newsstand at {X} has closed for good.": {
+   "n": 3,
+   "wrote": 3
+  },
+  "The elevator at {X} is out of order, but trains still stop there.": {
+   "n": 3,
+   "wrote": 0
+  },
+  "The coffee cart outside {X} shut down last month.": {
+   "n": 3,
+   "wrote": 3
+  },
+  "{X} was closed in 1998 and reopened in 2001.": {
+   "n": 3,
+   "wrote": 0
+  },
+  "There's talk of shutting {X} some day.": {
+   "n": 3,
+   "wrote": 2
+  },
+  "My office near {X} is closed on Mondays.": {
+   "n": 3,
+   "wrote": 0
+  },
+  "The museum by {X} closes at six.": {
+   "n": 3,
+   "wrote": 0
+  },
+  "One entrance at {X} is closed, but the station is open.": {
+   "n": 3,
+   "wrote": 3
+  },
+  "Is it true they might close {X}? I doubt it.": {
+   "n": 3,
+   "wrote": 0
+  },
+  "The pharmacy at {X} went out of business.": {
+   "n": 3,
+   "wrote": 3
+  }
+ },
+ "state_not_only_that_bit": []
+}

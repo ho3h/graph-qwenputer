@@ -1,0 +1,188 @@
+12:08:32 memguard: start pid 58292 limit 32.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python -B exam/think.py --arm P --decode precise --cap 8192 --out <repo>/exam/resul
+12:08:32 memguard: 0 s, 1 procs, 0.01 GiB, peak 0.01, system free 92%
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 9965.27it/s]
+start 100 12:08:37
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+12:09:32 memguard: 60 s, 2 procs, 10.47 GiB, peak 10.62, system free 84%
+12:10:33 memguard: 121 s, 2 procs, 10.46 GiB, peak 10.62, system free 84%
+12:11:33 memguard: 181 s, 2 procs, 10.46 GiB, peak 10.62, system free 85%
+12:12:33 memguard: 241 s, 2 procs, 10.46 GiB, peak 10.62, system free 85%
+12:13:34 memguard: 302 s, 2 procs, 10.46 GiB, peak 10.62, system free 85%
+12:14:34 memguard: 362 s, 2 procs, 10.46 GiB, peak 10.62, system free 84%
+12:15:35 memguard: 423 s, 2 procs, 10.46 GiB, peak 10.62, system free 85%
+start 101 12:16:07
+12:16:35 memguard: 483 s, 2 procs, 10.47 GiB, peak 10.63, system free 84%
+12:17:35 memguard: 543 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+12:18:35 memguard: 603 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+start 102 12:18:44
+12:19:36 memguard: 664 s, 2 procs, 10.47 GiB, peak 10.63, system free 85%
+12:20:36 memguard: 724 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+12:21:36 memguard: 784 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+12:22:37 memguard: 845 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+12:23:38 memguard: 906 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+12:24:39 memguard: 967 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+12:25:39 memguard: 1027 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+12:26:39 memguard: 1087 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+start 103 12:27:13
+12:27:39 memguard: 1147 s, 2 procs, 10.47 GiB, peak 10.63, system free 85%
+start 104 12:28:38
+12:28:40 memguard: 1208 s, 2 procs, 10.62 GiB, peak 10.63, system free 84%
+12:29:40 memguard: 1268 s, 2 procs, 10.47 GiB, peak 10.63, system free 85%
+12:30:40 memguard: 1329 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+12:31:41 memguard: 1389 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+12:32:41 memguard: 1449 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+12:33:42 memguard: 1510 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+12:34:43 memguard: 1571 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+start 105 12:35:17
+12:35:44 memguard: 1632 s, 2 procs, 10.47 GiB, peak 10.63, system free 84%
+12:36:45 memguard: 1693 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+12:37:45 memguard: 1753 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+12:38:46 memguard: 1814 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+12:39:46 memguard: 1874 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+12:40:47 memguard: 1935 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+12:41:47 memguard: 1995 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+start 106 12:42:36
+12:42:47 memguard: 2055 s, 2 procs, 10.47 GiB, peak 10.63, system free 84%
+12:43:48 memguard: 2116 s, 2 procs, 10.47 GiB, peak 10.63, system free 85%
+12:44:49 memguard: 2177 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+start 107 12:45:04
+12:45:50 memguard: 2238 s, 2 procs, 10.47 GiB, peak 10.63, system free 84%
+12:46:50 memguard: 2298 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+12:47:51 memguard: 2359 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+12:48:51 memguard: 2419 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+12:49:52 memguard: 2480 s, 2 procs, 10.46 GiB, peak 10.63, system free 85%
+start 108 12:50:03
+12:50:52 memguard: 2540 s, 2 procs, 10.47 GiB, peak 10.63, system free 84%
+12:51:53 memguard: 2601 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+12:52:53 memguard: 2661 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+12:53:53 memguard: 2721 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+start 109 12:54:26
+12:54:54 memguard: 2782 s, 2 procs, 9.56 GiB, peak 10.63, system free 85%
+12:55:54 memguard: 2842 s, 2 procs, 9.55 GiB, peak 10.63, system free 85%
+12:56:54 memguard: 2902 s, 2 procs, 9.55 GiB, peak 10.63, system free 85%
+12:57:55 memguard: 2963 s, 2 procs, 9.55 GiB, peak 10.63, system free 85%
+12:58:55 memguard: 3023 s, 2 procs, 9.58 GiB, peak 10.63, system free 85%
+12:59:55 memguard: 3084 s, 2 procs, 10.58 GiB, peak 10.63, system free 85%
+13:00:55 memguard: 3144 s, 2 procs, 10.58 GiB, peak 10.63, system free 85%
+start 110 13:01:17
+13:01:57 memguard: 3205 s, 2 procs, 9.47 GiB, peak 10.63, system free 86%
+13:02:57 memguard: 3265 s, 2 procs, 9.46 GiB, peak 10.63, system free 85%
+13:03:57 memguard: 3325 s, 2 procs, 9.46 GiB, peak 10.63, system free 85%
+13:04:57 memguard: 3385 s, 2 procs, 9.49 GiB, peak 10.63, system free 85%
+start 111 13:05:07
+13:05:57 memguard: 3445 s, 2 procs, 9.50 GiB, peak 10.63, system free 85%
+13:06:58 memguard: 3506 s, 2 procs, 9.49 GiB, peak 10.63, system free 85%
+13:07:58 memguard: 3566 s, 2 procs, 9.49 GiB, peak 10.63, system free 85%
+13:08:59 memguard: 3627 s, 2 procs, 9.52 GiB, peak 10.63, system free 85%
+13:10:00 memguard: 3688 s, 2 procs, 9.58 GiB, peak 10.63, system free 85%
+start 112 13:10:30
+13:11:00 memguard: 3748 s, 2 procs, 9.56 GiB, peak 10.63, system free 85%
+13:12:00 memguard: 3808 s, 2 procs, 9.55 GiB, peak 10.63, system free 85%
+13:13:01 memguard: 3869 s, 2 procs, 9.55 GiB, peak 10.63, system free 85%
+13:14:01 memguard: 3929 s, 2 procs, 9.55 GiB, peak 10.63, system free 85%
+start 113 13:14:41
+13:15:02 memguard: 3990 s, 2 procs, 9.50 GiB, peak 10.63, system free 85%
+13:16:03 memguard: 4051 s, 2 procs, 9.49 GiB, peak 10.63, system free 85%
+13:17:04 memguard: 4112 s, 2 procs, 9.49 GiB, peak 10.63, system free 85%
+13:18:04 memguard: 4172 s, 2 procs, 9.49 GiB, peak 10.63, system free 85%
+start 114 13:18:07
+13:19:05 memguard: 4233 s, 2 procs, 10.47 GiB, peak 10.63, system free 84%
+13:20:06 memguard: 4294 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+13:21:07 memguard: 4355 s, 2 procs, 10.46 GiB, peak 10.63, system free 84%
+start 115 13:21:13
+13:22:08 memguard: 4416 s, 2 procs, 9.53 GiB, peak 10.63, system free 85%
+13:23:08 memguard: 4476 s, 2 procs, 9.52 GiB, peak 10.63, system free 85%
+13:24:09 memguard: 4537 s, 2 procs, 9.52 GiB, peak 10.63, system free 85%
+13:25:10 memguard: 4598 s, 2 procs, 9.52 GiB, peak 10.63, system free 85%
+13:26:10 memguard: 4658 s, 2 procs, 9.59 GiB, peak 10.63, system free 85%
+13:27:10 memguard: 4718 s, 2 procs, 10.59 GiB, peak 10.63, system free 84%
+13:28:11 memguard: 4779 s, 2 procs, 10.59 GiB, peak 10.63, system free 85%
+start 116 13:28:31
+13:29:11 memguard: 4840 s, 2 procs, 10.50 GiB, peak 10.65, system free 85%
+13:30:12 memguard: 4900 s, 2 procs, 10.49 GiB, peak 10.65, system free 85%
+13:31:12 memguard: 4960 s, 2 procs, 10.49 GiB, peak 10.65, system free 85%
+13:32:13 memguard: 5021 s, 2 procs, 10.49 GiB, peak 10.65, system free 85%
+13:33:13 memguard: 5081 s, 2 procs, 10.49 GiB, peak 10.65, system free 84%
+13:34:14 memguard: 5142 s, 2 procs, 10.49 GiB, peak 10.65, system free 83%
+13:35:15 memguard: 5203 s, 2 procs, 10.49 GiB, peak 10.65, system free 84%
+start 117 13:35:50
+13:36:16 memguard: 5264 s, 2 procs, 9.53 GiB, peak 10.65, system free 85%
+13:37:17 memguard: 5325 s, 2 procs, 9.52 GiB, peak 10.65, system free 85%
+13:38:17 memguard: 5385 s, 2 procs, 9.52 GiB, peak 10.65, system free 85%
+13:39:17 memguard: 5445 s, 2 procs, 9.52 GiB, peak 10.65, system free 86%
+13:40:18 memguard: 5506 s, 2 procs, 9.59 GiB, peak 10.65, system free 86%
+13:41:19 memguard: 5567 s, 2 procs, 10.59 GiB, peak 10.65, system free 84%
+start 118 13:42:10
+13:42:19 memguard: 5627 s, 2 procs, 10.47 GiB, peak 10.65, system free 83%
+13:43:20 memguard: 5688 s, 2 procs, 10.47 GiB, peak 10.65, system free 85%
+13:44:20 memguard: 5748 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+13:45:21 memguard: 5809 s, 2 procs, 10.46 GiB, peak 10.65, system free 85%
+13:46:22 memguard: 5870 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+13:47:22 memguard: 5930 s, 2 procs, 10.46 GiB, peak 10.65, system free 85%
+13:48:23 memguard: 5991 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+13:49:24 memguard: 6052 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+start 119 13:50:07
+13:50:24 memguard: 6112 s, 2 procs, 9.50 GiB, peak 10.65, system free 85%
+start 120 13:51:03
+13:51:25 memguard: 6173 s, 2 procs, 10.47 GiB, peak 10.65, system free 85%
+13:52:25 memguard: 6233 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+13:53:26 memguard: 6294 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+13:54:26 memguard: 6354 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+start 121 13:55:07
+13:55:27 memguard: 6415 s, 2 procs, 9.47 GiB, peak 10.65, system free 85%
+13:56:28 memguard: 6476 s, 2 procs, 9.46 GiB, peak 10.65, system free 85%
+13:57:29 memguard: 6537 s, 2 procs, 9.46 GiB, peak 10.65, system free 85%
+13:58:30 memguard: 6598 s, 2 procs, 9.46 GiB, peak 10.65, system free 85%
+13:59:31 memguard: 6659 s, 2 procs, 9.52 GiB, peak 10.65, system free 85%
+14:00:31 memguard: 6720 s, 2 procs, 9.59 GiB, peak 10.65, system free 85%
+14:01:32 memguard: 6780 s, 2 procs, 10.59 GiB, peak 10.65, system free 84%
+14:02:32 memguard: 6841 s, 2 procs, 10.59 GiB, peak 10.65, system free 84%
+14:03:33 memguard: 6901 s, 2 procs, 10.59 GiB, peak 10.65, system free 84%
+start 122 14:03:39
+14:04:34 memguard: 6962 s, 2 procs, 9.56 GiB, peak 10.65, system free 84%
+14:05:34 memguard: 7022 s, 2 procs, 9.47 GiB, peak 10.65, system free 84%
+14:06:35 memguard: 7083 s, 2 procs, 9.49 GiB, peak 10.65, system free 84%
+14:07:36 memguard: 7144 s, 2 procs, 9.56 GiB, peak 10.65, system free 84%
+14:08:36 memguard: 7204 s, 2 procs, 9.62 GiB, peak 10.65, system free 85%
+14:09:37 memguard: 7265 s, 2 procs, 10.62 GiB, peak 10.65, system free 84%
+14:10:38 memguard: 7326 s, 2 procs, 10.62 GiB, peak 10.65, system free 84%
+start 123 14:11:02
+14:11:38 memguard: 7386 s, 2 procs, 10.47 GiB, peak 10.65, system free 84%
+14:12:39 memguard: 7447 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+14:13:39 memguard: 7507 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+14:14:39 memguard: 7567 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+start 124 14:15:30
+14:15:40 memguard: 7628 s, 2 procs, 10.47 GiB, peak 10.65, system free 84%
+14:16:41 memguard: 7689 s, 2 procs, 10.47 GiB, peak 10.65, system free 83%
+14:17:42 memguard: 7750 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+14:18:42 memguard: 7810 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+14:19:43 memguard: 7871 s, 2 procs, 10.46 GiB, peak 10.65, system free 84%
+chunk done 7885
+14:20:03 memguard: end code 0, 7891 s, peak 10.65 GiB
+14:20:03 memguard: start pid 85646 limit 32.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python -B exam/think.py --arm P --decode precise --cap 8192 --out <repo>/exam/resul
+14:20:03 memguard: 0 s, 1 procs, 0.01 GiB, peak 0.01, system free 92%
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 9934.88it/s]
+start 125 14:20:10
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.
+14:21:04 memguard: 60 s, 2 procs, 10.47 GiB, peak 10.62, system free 84%
+start 126 14:21:30
+14:22:04 memguard: 121 s, 2 procs, 9.53 GiB, peak 10.62, system free 84%
+14:23:05 memguard: 182 s, 2 procs, 9.52 GiB, peak 10.62, system free 85%
+14:24:05 memguard: 242 s, 2 procs, 9.52 GiB, peak 10.62, system free 85%
+14:25:06 memguard: 303 s, 2 procs, 9.52 GiB, peak 10.62, system free 85%
+start 127 14:25:20
+14:26:06 memguard: 363 s, 2 procs, 10.47 GiB, peak 10.62, system free 84%
+14:27:07 memguard: 424 s, 2 procs, 10.46 GiB, peak 10.62, system free 84%
+14:28:07 memguard: 484 s, 2 procs, 10.46 GiB, peak 10.62, system free 84%
+14:29:08 memguard: 545 s, 2 procs, 10.46 GiB, peak 10.62, system free 84%
+14:30:09 memguard: 606 s, 2 procs, 10.46 GiB, peak 10.62, system free 84%
+14:31:09 memguard: 666 s, 2 procs, 10.46 GiB, peak 10.62, system free 84%
+14:32:10 memguard: 727 s, 2 procs, 10.46 GiB, peak 10.62, system free 84%
+DEADLINE
+14:32:50 memguard: end code 3, 766 s, peak 10.62 GiB

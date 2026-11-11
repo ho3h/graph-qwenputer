@@ -1,0 +1,396 @@
+{
+"seed": 20261108,
+"conversations": [
+{
+"key": "nyc-j:0",
+"graph": "nyc",
+"from": "Bowling Green",
+"to": "Mets-Willets Point",
+"closed": 374,
+"routes": [
+"14 steps: @223 Bowling Green > @483 Wall St > @317 Fulton St > @236 Brooklyn Bridge-City Hall > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @374 Lexington Av/59 St > @433 Queens Plaza > @352 Jackson Hts-Roosevelt Av > @144 74 St-Broadway > @136 69 St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point",
+"15 steps: @223 Bowling Green > @483 Wall St > @317 Fulton St > @236 Brooklyn Bridge-City Hall > @28 14 St-Union Sq > @325 Grand Central-42 St > @118 51 St > @373 Lexington Av/53 St > @273 Court Sq-23 St > @433 Queens Plaza > @352 Jackson Hts-Roosevelt Av > @144 74 St-Broadway > @136 69 St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Bowling Green to Mets-Willets Point?",
+"gold": "14 steps: @223 Bowling Green > @483 Wall St > @317 Fulton St > @236 Brooklyn Bridge-City Hall > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @374 Lexington Av/59 St > @433 Queens Plaza > @352 Jackson Hts-Roosevelt Av > @144 74 St-Broadway > @136 69 St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point",
+"wants": null
+},
+{
+"user": "Lexington Av/59 St is closed. What's the route now?",
+"gold": "15 steps: @223 Bowling Green > @483 Wall St > @317 Fulton St > @236 Brooklyn Bridge-City Hall > @28 14 St-Union Sq > @325 Grand Central-42 St > @118 51 St > @373 Lexington Av/53 St > @273 Court Sq-23 St > @433 Queens Plaza > @352 Jackson Hts-Roosevelt Av > @144 74 St-Broadway > @136 69 St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point",
+"wants": [
+"close",
+374
+]
+}
+]
+},
+{
+"key": "nyc-j:1",
+"graph": "nyc",
+"from": "Bedford Av",
+"to": "WTC Cortlandt",
+"closed": 128,
+"routes": [
+"7 steps: @210 Bedford Av > @0 1 Av > @87 3 Av > @29 14 St-Union Sq > @128 6 Av > @25 14 St > @253 Chambers St > @480 WTC Cortlandt",
+"10 steps: @210 Bedford Av > @0 1 Av > @87 3 Av > @29 14 St-Union Sq > @28 14 St-Union Sq > @236 Brooklyn Bridge-City Hall > @317 Fulton St > @316 Fulton St > @418 Park Place > @253 Chambers St > @480 WTC Cortlandt"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Bedford Av to WTC Cortlandt?",
+"gold": "7 steps: @210 Bedford Av > @0 1 Av > @87 3 Av > @29 14 St-Union Sq > @128 6 Av > @25 14 St > @253 Chambers St > @480 WTC Cortlandt",
+"wants": null
+},
+{
+"user": "Flooding has shut 6 Av. What's the route now?",
+"gold": "10 steps: @210 Bedford Av > @0 1 Av > @87 3 Av > @29 14 St-Union Sq > @28 14 St-Union Sq > @236 Brooklyn Bridge-City Hall > @317 Fulton St > @316 Fulton St > @418 Park Place > @253 Chambers St > @480 WTC Cortlandt",
+"wants": [
+"close",
+128
+]
+}
+]
+},
+{
+"key": "nyc-j:2",
+"graph": "nyc",
+"from": "Coney Island-Stillwell Av",
+"to": "Flushing-Main St",
+"closed": 374,
+"routes": [
+"25 steps: @268 Coney Island-Stillwell Av > @479 W 8 St-NY Aquarium > @414 Ocean Pkwy > @225 Brighton Beach > @447 Sheepshead Bay > @363 Kings Hwy > @407 Newkirk Plaza > @259 Church Av > @432 Prospect Park > @138 7 Av > @182 Atlantic Av-Barclays Ctr > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @374 Lexington Av/59 St > @433 Queens Plaza > @352 Jackson Hts-Roosevelt Av > @144 74 St-Broadway > @136 69 St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point > @302 Flushing-Main St",
+"25 steps: @268 Coney Island-Stillwell Av > @479 W 8 St-NY Aquarium > @414 Ocean Pkwy > @225 Brighton Beach > @447 Sheepshead Bay > @363 Kings Hwy > @407 Newkirk Plaza > @259 Church Av > @432 Prospect Park > @138 7 Av > @182 Atlantic Av-Barclays Ctr > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @94 34 St-Herald Sq > @466 Times Sq-42 St > @123 57 St-7 Av > @114 5 Av/59 St > @433 Queens Plaza > @352 Jackson Hts-Roosevelt Av > @144 74 St-Broadway > @136 69 St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point > @302 Flushing-Main St"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Coney Island-Stillwell Av to Flushing-Main St?",
+"gold": "25 steps: @268 Coney Island-Stillwell Av > @479 W 8 St-NY Aquarium > @414 Ocean Pkwy > @225 Brighton Beach > @447 Sheepshead Bay > @363 Kings Hwy > @407 Newkirk Plaza > @259 Church Av > @432 Prospect Park > @138 7 Av > @182 Atlantic Av-Barclays Ctr > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @374 Lexington Av/59 St > @433 Queens Plaza > @352 Jackson Hts-Roosevelt Av > @144 74 St-Broadway > @136 69 St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point > @302 Flushing-Main St",
+"wants": null
+},
+{
+"user": "Trains are skipping Lexington Av/59 St today. What's the route now?",
+"gold": "25 steps: @268 Coney Island-Stillwell Av > @479 W 8 St-NY Aquarium > @414 Ocean Pkwy > @225 Brighton Beach > @447 Sheepshead Bay > @363 Kings Hwy > @407 Newkirk Plaza > @259 Church Av > @432 Prospect Park > @138 7 Av > @182 Atlantic Av-Barclays Ctr > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @94 34 St-Herald Sq > @466 Times Sq-42 St > @123 57 St-7 Av > @114 5 Av/59 St > @433 Queens Plaza > @352 Jackson Hts-Roosevelt Av > @144 74 St-Broadway > @136 69 St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point > @302 Flushing-Main St",
+"wants": [
+"close",
+374
+]
+}
+]
+},
+{
+"key": "nyc-j:3",
+"graph": "nyc",
+"from": "Howard Beach-JFK Airport",
+"to": "Pelham Bay Park",
+"closed": 345,
+"routes": [
+"30 steps: @343 Howard Beach-JFK Airport > @175 Aqueduct-N Conduit Av > @174 Aqueduct Racetrack > @442 Rockaway Blvd > @164 88 St > @154 80 St > @330 Grant Av > @297 Euclid Av > @230 Broadway Junction > @471 Utica Av > @412 Nostrand Av > @345 Hoyt-Schermerhorn Sts > @356 Jay St-MetroTech > @357 Jay St-MetroTech > @280 DeKalb Av > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @88 3 Av-138 St > @348 Hunts Point Av > @419 Parkchester > @249 Castle Hill Av > @495 Zerega Av > @485 Westchester Sq-E Tremont Av > @386 Middletown Rd > @237 Buhre Av > @422 Pelham Bay Park",
+"29 steps: @343 Howard Beach-JFK Airport > @175 Aqueduct-N Conduit Av > @174 Aqueduct Racetrack > @442 Rockaway Blvd > @164 88 St > @154 80 St > @330 Grant Av > @297 Euclid Av > @230 Broadway Junction > @471 Utica Av > @412 Nostrand Av > @356 Jay St-MetroTech > @357 Jay St-MetroTech > @280 DeKalb Av > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @88 3 Av-138 St > @348 Hunts Point Av > @419 Parkchester > @249 Castle Hill Av > @495 Zerega Av > @485 Westchester Sq-E Tremont Av > @386 Middletown Rd > @237 Buhre Av > @422 Pelham Bay Park"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Howard Beach-JFK Airport to Pelham Bay Park?",
+"gold": "30 steps: @343 Howard Beach-JFK Airport > @175 Aqueduct-N Conduit Av > @174 Aqueduct Racetrack > @442 Rockaway Blvd > @164 88 St > @154 80 St > @330 Grant Av > @297 Euclid Av > @230 Broadway Junction > @471 Utica Av > @412 Nostrand Av > @345 Hoyt-Schermerhorn Sts > @356 Jay St-MetroTech > @357 Jay St-MetroTech > @280 DeKalb Av > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @88 3 Av-138 St > @348 Hunts Point Av > @419 Parkchester > @249 Castle Hill Av > @495 Zerega Av > @485 Westchester Sq-E Tremont Av > @386 Middletown Rd > @237 Buhre Av > @422 Pelham Bay Park",
+"wants": null
+},
+{
+"user": "Hoyt-Schermerhorn Sts is closed. What's the route now?",
+"gold": "29 steps: @343 Howard Beach-JFK Airport > @175 Aqueduct-N Conduit Av > @174 Aqueduct Racetrack > @442 Rockaway Blvd > @164 88 St > @154 80 St > @330 Grant Av > @297 Euclid Av > @230 Broadway Junction > @471 Utica Av > @412 Nostrand Av > @356 Jay St-MetroTech > @357 Jay St-MetroTech > @280 DeKalb Av > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @88 3 Av-138 St > @348 Hunts Point Av > @419 Parkchester > @249 Castle Hill Av > @495 Zerega Av > @485 Westchester Sq-E Tremont Av > @386 Middletown Rd > @237 Buhre Av > @422 Pelham Bay Park",
+"wants": [
+"close",
+345
+]
+}
+]
+},
+{
+"key": "nyc-j:4",
+"graph": "nyc",
+"from": "Far Rockaway-Mott Av",
+"to": "Wakefield-241 St",
+"closed": 24,
+"routes": [
+"49 steps: @298 Far Rockaway-Mott Av > @203 Beach 25 St > @204 Beach 36 St > @205 Beach 44 St > @206 Beach 60 St > @207 Beach 67 St > @226 Broad Channel > @343 Howard Beach-JFK Airport > @175 Aqueduct-N Conduit Av > @174 Aqueduct Racetrack > @442 Rockaway Blvd > @164 88 St > @154 80 St > @330 Grant Av > @297 Euclid Av > @230 Broadway Junction > @471 Utica Av > @412 Nostrand Av > @345 Hoyt-Schermerhorn Sts > @356 Jay St-MetroTech > @357 Jay St-MetroTech > @280 DeKalb Av > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @24 138 St-Grand Concourse > @35 149 St-Hostos > @89 3 Av-149 St > @351 Jackson Av > @430 Prospect Av > @349 Intervale Av > @449 Simpson St > @314 Freeman St > @51 174 St > @484 West Farms Sq-E Tremont Av > @289 E 180 St > @234 Bronx Park East > @423 Pelham Pkwy > @172 Allerton Av > @238 Burke Av > @335 Gun Hill Rd > @72 219 St > @73 225 St > @80 233 St > @400 Nereid Av > @481 Wakefield-241 St",
+"48 steps: @298 Far Rockaway-Mott Av > @203 Beach 25 St > @204 Beach 36 St > @205 Beach 44 St > @206 Beach 60 St > @207 Beach 67 St > @226 Broad Channel > @343 Howard Beach-JFK Airport > @175 Aqueduct-N Conduit Av > @174 Aqueduct Racetrack > @442 Rockaway Blvd > @164 88 St > @154 80 St > @330 Grant Av > @297 Euclid Av > @230 Broadway Junction > @471 Utica Av > @412 Nostrand Av > @345 Hoyt-Schermerhorn Sts > @356 Jay St-MetroTech > @357 Jay St-MetroTech > @280 DeKalb Av > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @35 149 St-Hostos > @89 3 Av-149 St > @351 Jackson Av > @430 Prospect Av > @349 Intervale Av > @449 Simpson St > @314 Freeman St > @51 174 St > @484 West Farms Sq-E Tremont Av > @289 E 180 St > @234 Bronx Park East > @423 Pelham Pkwy > @172 Allerton Av > @238 Burke Av > @335 Gun Hill Rd > @72 219 St > @73 225 St > @80 233 St > @400 Nereid Av > @481 Wakefield-241 St"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Far Rockaway-Mott Av to Wakefield-241 St?",
+"gold": "49 steps: @298 Far Rockaway-Mott Av > @203 Beach 25 St > @204 Beach 36 St > @205 Beach 44 St > @206 Beach 60 St > @207 Beach 67 St > @226 Broad Channel > @343 Howard Beach-JFK Airport > @175 Aqueduct-N Conduit Av > @174 Aqueduct Racetrack > @442 Rockaway Blvd > @164 88 St > @154 80 St > @330 Grant Av > @297 Euclid Av > @230 Broadway Junction > @471 Utica Av > @412 Nostrand Av > @345 Hoyt-Schermerhorn Sts > @356 Jay St-MetroTech > @357 Jay St-MetroTech > @280 DeKalb Av > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @24 138 St-Grand Concourse > @35 149 St-Hostos > @89 3 Av-149 St > @351 Jackson Av > @430 Prospect Av > @349 Intervale Av > @449 Simpson St > @314 Freeman St > @51 174 St > @484 West Farms Sq-E Tremont Av > @289 E 180 St > @234 Bronx Park East > @423 Pelham Pkwy > @172 Allerton Av > @238 Burke Av > @335 Gun Hill Rd > @72 219 St > @73 225 St > @80 233 St > @400 Nereid Av > @481 Wakefield-241 St",
+"wants": null
+},
+{
+"user": "Flooding has shut 138 St-Grand Concourse. What's the route now?",
+"gold": "48 steps: @298 Far Rockaway-Mott Av > @203 Beach 25 St > @204 Beach 36 St > @205 Beach 44 St > @206 Beach 60 St > @207 Beach 67 St > @226 Broad Channel > @343 Howard Beach-JFK Airport > @175 Aqueduct-N Conduit Av > @174 Aqueduct Racetrack > @442 Rockaway Blvd > @164 88 St > @154 80 St > @330 Grant Av > @297 Euclid Av > @230 Broadway Junction > @471 Utica Av > @412 Nostrand Av > @345 Hoyt-Schermerhorn Sts > @356 Jay St-MetroTech > @357 Jay St-MetroTech > @280 DeKalb Av > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @35 149 St-Hostos > @89 3 Av-149 St > @351 Jackson Av > @430 Prospect Av > @349 Intervale Av > @449 Simpson St > @314 Freeman St > @51 174 St > @484 West Farms Sq-E Tremont Av > @289 E 180 St > @234 Bronx Park East > @423 Pelham Pkwy > @172 Allerton Av > @238 Burke Av > @335 Gun Hill Rd > @72 219 St > @73 225 St > @80 233 St > @400 Nereid Av > @481 Wakefield-241 St",
+"wants": [
+"close",
+24
+]
+}
+]
+},
+{
+"key": "nyc-j:5",
+"graph": "nyc",
+"from": "Inwood-207 St",
+"to": "Coney Island-Stillwell Av",
+"closed": 106,
+"routes": [
+"25 steps: @350 Inwood-207 St > @286 Dyckman St > @63 190 St > @60 181 St > @53 175 St > @46 168 St > @33 145 St > @20 125 St > @127 59 St-Columbus Circle > @106 42 St-Port Authority Bus Terminal > @466 Times Sq-42 St > @94 34 St-Herald Sq > @30 14 St-Union Sq > @245 Canal St > @183 Atlantic Av-Barclays Ctr > @182 Atlantic Av-Barclays Ctr > @138 7 Av > @432 Prospect Park > @259 Church Av > @407 Newkirk Plaza > @363 Kings Hwy > @447 Sheepshead Bay > @225 Brighton Beach > @414 Ocean Pkwy > @479 W 8 St-NY Aquarium > @268 Coney Island-Stillwell Av",
+"26 steps: @350 Inwood-207 St > @286 Dyckman St > @63 190 St > @60 181 St > @53 175 St > @46 168 St > @33 145 St > @20 125 St > @127 59 St-Columbus Circle > @97 34 St-Penn Station > @26 14 St > @477 W 4 St-Wash Sq > @478 W 4 St-Wash Sq > @233 Broadway-Lafayette St > @328 Grand St > @183 Atlantic Av-Barclays Ctr > @182 Atlantic Av-Barclays Ctr > @138 7 Av > @432 Prospect Park > @259 Church Av > @407 Newkirk Plaza > @363 Kings Hwy > @447 Sheepshead Bay > @225 Brighton Beach > @414 Ocean Pkwy > @479 W 8 St-NY Aquarium > @268 Coney Island-Stillwell Av"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Inwood-207 St to Coney Island-Stillwell Av?",
+"gold": "25 steps: @350 Inwood-207 St > @286 Dyckman St > @63 190 St > @60 181 St > @53 175 St > @46 168 St > @33 145 St > @20 125 St > @127 59 St-Columbus Circle > @106 42 St-Port Authority Bus Terminal > @466 Times Sq-42 St > @94 34 St-Herald Sq > @30 14 St-Union Sq > @245 Canal St > @183 Atlantic Av-Barclays Ctr > @182 Atlantic Av-Barclays Ctr > @138 7 Av > @432 Prospect Park > @259 Church Av > @407 Newkirk Plaza > @363 Kings Hwy > @447 Sheepshead Bay > @225 Brighton Beach > @414 Ocean Pkwy > @479 W 8 St-NY Aquarium > @268 Coney Island-Stillwell Av",
+"wants": null
+},
+{
+"user": "Trains are skipping 42 St-Port Authority Bus Terminal today. What's the route now?",
+"gold": "26 steps: @350 Inwood-207 St > @286 Dyckman St > @63 190 St > @60 181 St > @53 175 St > @46 168 St > @33 145 St > @20 125 St > @127 59 St-Columbus Circle > @97 34 St-Penn Station > @26 14 St > @477 W 4 St-Wash Sq > @478 W 4 St-Wash Sq > @233 Broadway-Lafayette St > @328 Grand St > @183 Atlantic Av-Barclays Ctr > @182 Atlantic Av-Barclays Ctr > @138 7 Av > @432 Prospect Park > @259 Church Av > @407 Newkirk Plaza > @363 Kings Hwy > @447 Sheepshead Bay > @225 Brighton Beach > @414 Ocean Pkwy > @479 W 8 St-NY Aquarium > @268 Coney Island-Stillwell Av",
+"wants": [
+"close",
+106
+]
+}
+]
+},
+{
+"key": "nyc-j:6",
+"graph": "nyc",
+"from": "Astoria-Ditmars Blvd",
+"to": "Canarsie-Rockaway Pkwy",
+"closed": 312,
+"routes": [
+"24 steps: @179 Astoria-Ditmars Blvd > @178 Astoria Blvd > @90 30 Av > @229 Broadway > @98 36 Av > @101 39 Av-Dutch Kills > @435 Queensboro Plaza > @374 Lexington Av/59 St > @124 59 St > @325 Grand Central-42 St > @28 14 St-Union Sq > @30 14 St-Union Sq > @245 Canal St > @183 Atlantic Av-Barclays Ctr > @181 Atlantic Av-Barclays Ctr > @312 Franklin Av-Medgar Evers College > @276 Crown Hts-Utica Av > @462 Sutter Av-Rutland Rd > @445 Saratoga Av > @440 Rockaway Av > @361 Junius St > @377 Livonia Av > @404 New Lots Av > @290 East 105 St > @247 Canarsie-Rockaway Pkwy",
+"23 steps: @179 Astoria-Ditmars Blvd > @178 Astoria Blvd > @90 30 Av > @229 Broadway > @98 36 Av > @101 39 Av-Dutch Kills > @435 Queensboro Plaza > @374 Lexington Av/59 St > @124 59 St > @325 Grand Central-42 St > @28 14 St-Union Sq > @30 14 St-Union Sq > @245 Canal St > @183 Atlantic Av-Barclays Ctr > @181 Atlantic Av-Barclays Ctr > @276 Crown Hts-Utica Av > @462 Sutter Av-Rutland Rd > @445 Saratoga Av > @440 Rockaway Av > @361 Junius St > @377 Livonia Av > @404 New Lots Av > @290 East 105 St > @247 Canarsie-Rockaway Pkwy"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Astoria-Ditmars Blvd to Canarsie-Rockaway Pkwy?",
+"gold": "24 steps: @179 Astoria-Ditmars Blvd > @178 Astoria Blvd > @90 30 Av > @229 Broadway > @98 36 Av > @101 39 Av-Dutch Kills > @435 Queensboro Plaza > @374 Lexington Av/59 St > @124 59 St > @325 Grand Central-42 St > @28 14 St-Union Sq > @30 14 St-Union Sq > @245 Canal St > @183 Atlantic Av-Barclays Ctr > @181 Atlantic Av-Barclays Ctr > @312 Franklin Av-Medgar Evers College > @276 Crown Hts-Utica Av > @462 Sutter Av-Rutland Rd > @445 Saratoga Av > @440 Rockaway Av > @361 Junius St > @377 Livonia Av > @404 New Lots Av > @290 East 105 St > @247 Canarsie-Rockaway Pkwy",
+"wants": null
+},
+{
+"user": "Franklin Av-Medgar Evers College is closed. What's the route now?",
+"gold": "23 steps: @179 Astoria-Ditmars Blvd > @178 Astoria Blvd > @90 30 Av > @229 Broadway > @98 36 Av > @101 39 Av-Dutch Kills > @435 Queensboro Plaza > @374 Lexington Av/59 St > @124 59 St > @325 Grand Central-42 St > @28 14 St-Union Sq > @30 14 St-Union Sq > @245 Canal St > @183 Atlantic Av-Barclays Ctr > @181 Atlantic Av-Barclays Ctr > @276 Crown Hts-Utica Av > @462 Sutter Av-Rutland Rd > @445 Saratoga Av > @440 Rockaway Av > @361 Junius St > @377 Livonia Av > @404 New Lots Av > @290 East 105 St > @247 Canarsie-Rockaway Pkwy",
+"wants": [
+"close",
+312
+]
+}
+]
+},
+{
+"key": "nyc-j:7",
+"graph": "nyc",
+"from": "Bay Ridge-95 St",
+"to": "Brooklyn Bridge-City Hall",
+"closed": 198,
+"routes": [
+"9 steps: @199 Bay Ridge-95 St > @163 86 St > @148 77 St > @198 Bay Ridge Av > @125 59 St > @100 36 St > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @242 Canal St > @236 Brooklyn Bridge-City Hall",
+"8 steps: @199 Bay Ridge-95 St > @163 86 St > @148 77 St > @125 59 St > @100 36 St > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @242 Canal St > @236 Brooklyn Bridge-City Hall"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Bay Ridge-95 St to Brooklyn Bridge-City Hall?",
+"gold": "9 steps: @199 Bay Ridge-95 St > @163 86 St > @148 77 St > @198 Bay Ridge Av > @125 59 St > @100 36 St > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @242 Canal St > @236 Brooklyn Bridge-City Hall",
+"wants": null
+},
+{
+"user": "Flooding has shut Bay Ridge Av. What's the route now?",
+"gold": "8 steps: @199 Bay Ridge-95 St > @163 86 St > @148 77 St > @125 59 St > @100 36 St > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @242 Canal St > @236 Brooklyn Bridge-City Hall",
+"wants": [
+"close",
+198
+]
+}
+]
+},
+{
+"key": "nyc-j:8",
+"graph": "nyc",
+"from": "Forest Hills-71 Av",
+"to": "Whitehall St-South Ferry",
+"closed": 374,
+"routes": [
+"12 steps: @306 Forest Hills-71 Av > @352 Jackson Hts-Roosevelt Av > @433 Queens Plaza > @374 Lexington Av/59 St > @124 59 St > @325 Grand Central-42 St > @28 14 St-Union Sq > @30 14 St-Union Sq > @245 Canal St > @280 DeKalb Av > @357 Jay St-MetroTech > @274 Court St > @486 Whitehall St-South Ferry",
+"12 steps: @306 Forest Hills-71 Av > @352 Jackson Hts-Roosevelt Av > @433 Queens Plaza > @114 5 Av/59 St > @123 57 St-7 Av > @466 Times Sq-42 St > @94 34 St-Herald Sq > @30 14 St-Union Sq > @245 Canal St > @280 DeKalb Av > @357 Jay St-MetroTech > @274 Court St > @486 Whitehall St-South Ferry"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Forest Hills-71 Av to Whitehall St-South Ferry?",
+"gold": "12 steps: @306 Forest Hills-71 Av > @352 Jackson Hts-Roosevelt Av > @433 Queens Plaza > @374 Lexington Av/59 St > @124 59 St > @325 Grand Central-42 St > @28 14 St-Union Sq > @30 14 St-Union Sq > @245 Canal St > @280 DeKalb Av > @357 Jay St-MetroTech > @274 Court St > @486 Whitehall St-South Ferry",
+"wants": null
+},
+{
+"user": "Trains are skipping Lexington Av/59 St today. What's the route now?",
+"gold": "12 steps: @306 Forest Hills-71 Av > @352 Jackson Hts-Roosevelt Av > @433 Queens Plaza > @114 5 Av/59 St > @123 57 St-7 Av > @466 Times Sq-42 St > @94 34 St-Herald Sq > @30 14 St-Union Sq > @245 Canal St > @280 DeKalb Av > @357 Jay St-MetroTech > @274 Court St > @486 Whitehall St-South Ferry",
+"wants": [
+"close",
+374
+]
+}
+]
+},
+{
+"key": "nyc-j:9",
+"graph": "nyc",
+"from": "Prospect Park",
+"to": "Van Cortlandt Park-242 St",
+"closed": 46,
+"routes": [
+"22 steps: @432 Prospect Park > @138 7 Av > @182 Atlantic Av-Barclays Ctr > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @94 34 St-Herald Sq > @466 Times Sq-42 St > @106 42 St-Port Authority Bus Terminal > @127 59 St-Columbus Circle > @20 125 St > @33 145 St > @46 168 St > @47 168 St-Washington Hts > @59 181 St > @64 191 St > @285 Dyckman St > @68 207 St > @71 215 St > @381 Marble Hill-225 St > @79 231 St > @81 238 St > @472 Van Cortlandt Park-242 St",
+"27 steps: @432 Prospect Park > @138 7 Av > @182 Atlantic Av-Barclays Ctr > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @94 34 St-Herald Sq > @466 Times Sq-42 St > @463 Times Sq-42 St > @141 72 St > @167 96 St > @1 103 St > @250 Cathedral Pkwy (110 St) > @15 116 St-Columbia University > @17 125 St > @23 137 St-City College > @31 145 St > @40 157 St > @47 168 St-Washington Hts > @59 181 St > @64 191 St > @285 Dyckman St > @68 207 St > @71 215 St > @381 Marble Hill-225 St > @79 231 St > @81 238 St > @472 Van Cortlandt Park-242 St"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Prospect Park to Van Cortlandt Park-242 St?",
+"gold": "22 steps: @432 Prospect Park > @138 7 Av > @182 Atlantic Av-Barclays Ctr > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @94 34 St-Herald Sq > @466 Times Sq-42 St > @106 42 St-Port Authority Bus Terminal > @127 59 St-Columbus Circle > @20 125 St > @33 145 St > @46 168 St > @47 168 St-Washington Hts > @59 181 St > @64 191 St > @285 Dyckman St > @68 207 St > @71 215 St > @381 Marble Hill-225 St > @79 231 St > @81 238 St > @472 Van Cortlandt Park-242 St",
+"wants": null
+},
+{
+"user": "168 St is closed. What's the route now?",
+"gold": "27 steps: @432 Prospect Park > @138 7 Av > @182 Atlantic Av-Barclays Ctr > @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @94 34 St-Herald Sq > @466 Times Sq-42 St > @463 Times Sq-42 St > @141 72 St > @167 96 St > @1 103 St > @250 Cathedral Pkwy (110 St) > @15 116 St-Columbia University > @17 125 St > @23 137 St-City College > @31 145 St > @40 157 St > @47 168 St-Washington Hts > @59 181 St > @64 191 St > @285 Dyckman St > @68 207 St > @71 215 St > @381 Marble Hill-225 St > @79 231 St > @81 238 St > @472 Van Cortlandt Park-242 St",
+"wants": [
+"close",
+46
+]
+}
+]
+},
+{
+"key": "nyc-j:10",
+"graph": "nyc",
+"from": "Sutphin Blvd-Archer Av-JFK Airport",
+"to": "Bowling Green",
+"closed": 374,
+"routes": [
+"13 steps: @460 Sutphin Blvd-Archer Av-JFK Airport > @355 Jamaica-Van Wyck > @362 Kew Gardens-Union Tpke > @306 Forest Hills-71 Av > @352 Jackson Hts-Roosevelt Av > @433 Queens Plaza > @374 Lexington Av/59 St > @124 59 St > @325 Grand Central-42 St > @28 14 St-Union Sq > @236 Brooklyn Bridge-City Hall > @317 Fulton St > @483 Wall St > @223 Bowling Green",
+"14 steps: @460 Sutphin Blvd-Archer Av-JFK Airport > @355 Jamaica-Van Wyck > @362 Kew Gardens-Union Tpke > @306 Forest Hills-71 Av > @352 Jackson Hts-Roosevelt Av > @433 Queens Plaza > @273 Court Sq-23 St > @373 Lexington Av/53 St > @118 51 St > @325 Grand Central-42 St > @28 14 St-Union Sq > @236 Brooklyn Bridge-City Hall > @317 Fulton St > @483 Wall St > @223 Bowling Green"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Sutphin Blvd-Archer Av-JFK Airport to Bowling Green?",
+"gold": "13 steps: @460 Sutphin Blvd-Archer Av-JFK Airport > @355 Jamaica-Van Wyck > @362 Kew Gardens-Union Tpke > @306 Forest Hills-71 Av > @352 Jackson Hts-Roosevelt Av > @433 Queens Plaza > @374 Lexington Av/59 St > @124 59 St > @325 Grand Central-42 St > @28 14 St-Union Sq > @236 Brooklyn Bridge-City Hall > @317 Fulton St > @483 Wall St > @223 Bowling Green",
+"wants": null
+},
+{
+"user": "Flooding has shut Lexington Av/59 St. What's the route now?",
+"gold": "14 steps: @460 Sutphin Blvd-Archer Av-JFK Airport > @355 Jamaica-Van Wyck > @362 Kew Gardens-Union Tpke > @306 Forest Hills-71 Av > @352 Jackson Hts-Roosevelt Av > @433 Queens Plaza > @273 Court Sq-23 St > @373 Lexington Av/53 St > @118 51 St > @325 Grand Central-42 St > @28 14 St-Union Sq > @236 Brooklyn Bridge-City Hall > @317 Fulton St > @483 Wall St > @223 Bowling Green",
+"wants": [
+"close",
+374
+]
+}
+]
+},
+{
+"key": "nyc-j:11",
+"graph": "nyc",
+"from": "Jamaica-179 St",
+"to": "Rockaway Park-Beach 116 St",
+"closed": 171,
+"routes": [
+"29 steps: @354 Jamaica-179 St > @48 169 St > @421 Parsons Blvd > @459 Sutphin Blvd > @224 Briarwood > @362 Kew Gardens-Union Tpke > @355 Jamaica-Van Wyck > @460 Sutphin Blvd-Archer Av-JFK Airport > @16 121 St > @6 104 St > @491 Woodhaven Blvd > @146 75 St-Elderts Ln > @275 Crescent St > @409 Norwood Av > @475 Van Siclen Av > @171 Alabama Av > @231 Broadway Junction > @230 Broadway Junction > @297 Euclid Av > @330 Grant Av > @154 80 St > @164 88 St > @442 Rockaway Blvd > @175 Aqueduct-N Conduit Av > @343 Howard Beach-JFK Airport > @226 Broad Channel > @208 Beach 90 St > @209 Beach 98 St > @202 Beach 105 St > @443 Rockaway Park-Beach 116 St",
+"28 steps: @354 Jamaica-179 St > @48 169 St > @421 Parsons Blvd > @459 Sutphin Blvd > @224 Briarwood > @362 Kew Gardens-Union Tpke > @355 Jamaica-Van Wyck > @460 Sutphin Blvd-Archer Av-JFK Airport > @16 121 St > @6 104 St > @491 Woodhaven Blvd > @146 75 St-Elderts Ln > @275 Crescent St > @409 Norwood Av > @475 Van Siclen Av > @231 Broadway Junction > @230 Broadway Junction > @297 Euclid Av > @330 Grant Av > @154 80 St > @164 88 St > @442 Rockaway Blvd > @175 Aqueduct-N Conduit Av > @343 Howard Beach-JFK Airport > @226 Broad Channel > @208 Beach 90 St > @209 Beach 98 St > @202 Beach 105 St > @443 Rockaway Park-Beach 116 St"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Jamaica-179 St to Rockaway Park-Beach 116 St?",
+"gold": "29 steps: @354 Jamaica-179 St > @48 169 St > @421 Parsons Blvd > @459 Sutphin Blvd > @224 Briarwood > @362 Kew Gardens-Union Tpke > @355 Jamaica-Van Wyck > @460 Sutphin Blvd-Archer Av-JFK Airport > @16 121 St > @6 104 St > @491 Woodhaven Blvd > @146 75 St-Elderts Ln > @275 Crescent St > @409 Norwood Av > @475 Van Siclen Av > @171 Alabama Av > @231 Broadway Junction > @230 Broadway Junction > @297 Euclid Av > @330 Grant Av > @154 80 St > @164 88 St > @442 Rockaway Blvd > @175 Aqueduct-N Conduit Av > @343 Howard Beach-JFK Airport > @226 Broad Channel > @208 Beach 90 St > @209 Beach 98 St > @202 Beach 105 St > @443 Rockaway Park-Beach 116 St",
+"wants": null
+},
+{
+"user": "Trains are skipping Alabama Av today. What's the route now?",
+"gold": "28 steps: @354 Jamaica-179 St > @48 169 St > @421 Parsons Blvd > @459 Sutphin Blvd > @224 Briarwood > @362 Kew Gardens-Union Tpke > @355 Jamaica-Van Wyck > @460 Sutphin Blvd-Archer Av-JFK Airport > @16 121 St > @6 104 St > @491 Woodhaven Blvd > @146 75 St-Elderts Ln > @275 Crescent St > @409 Norwood Av > @475 Van Siclen Av > @231 Broadway Junction > @230 Broadway Junction > @297 Euclid Av > @330 Grant Av > @154 80 St > @164 88 St > @442 Rockaway Blvd > @175 Aqueduct-N Conduit Av > @343 Howard Beach-JFK Airport > @226 Broad Channel > @208 Beach 90 St > @209 Beach 98 St > @202 Beach 105 St > @443 Rockaway Park-Beach 116 St",
+"wants": [
+"close",
+171
+]
+}
+]
+},
+{
+"key": "nyc-j:12",
+"graph": "nyc",
+"from": "Times Sq-42 St",
+"to": "Coney Island-Stillwell Av",
+"closed": 432,
+"routes": [
+"15 steps: @466 Times Sq-42 St > @94 34 St-Herald Sq > @30 14 St-Union Sq > @245 Canal St > @183 Atlantic Av-Barclays Ctr > @182 Atlantic Av-Barclays Ctr > @138 7 Av > @432 Prospect Park > @259 Church Av > @407 Newkirk Plaza > @363 Kings Hwy > @447 Sheepshead Bay > @225 Brighton Beach > @414 Ocean Pkwy > @479 W 8 St-NY Aquarium > @268 Coney Island-Stillwell Av",
+"14 steps: @466 Times Sq-42 St > @94 34 St-Herald Sq > @30 14 St-Union Sq > @245 Canal St > @183 Atlantic Av-Barclays Ctr > @182 Atlantic Av-Barclays Ctr > @138 7 Av > @259 Church Av > @407 Newkirk Plaza > @363 Kings Hwy > @447 Sheepshead Bay > @225 Brighton Beach > @414 Ocean Pkwy > @479 W 8 St-NY Aquarium > @268 Coney Island-Stillwell Av"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Times Sq-42 St to Coney Island-Stillwell Av?",
+"gold": "15 steps: @466 Times Sq-42 St > @94 34 St-Herald Sq > @30 14 St-Union Sq > @245 Canal St > @183 Atlantic Av-Barclays Ctr > @182 Atlantic Av-Barclays Ctr > @138 7 Av > @432 Prospect Park > @259 Church Av > @407 Newkirk Plaza > @363 Kings Hwy > @447 Sheepshead Bay > @225 Brighton Beach > @414 Ocean Pkwy > @479 W 8 St-NY Aquarium > @268 Coney Island-Stillwell Av",
+"wants": null
+},
+{
+"user": "Prospect Park is closed. What's the route now?",
+"gold": "14 steps: @466 Times Sq-42 St > @94 34 St-Herald Sq > @30 14 St-Union Sq > @245 Canal St > @183 Atlantic Av-Barclays Ctr > @182 Atlantic Av-Barclays Ctr > @138 7 Av > @259 Church Av > @407 Newkirk Plaza > @363 Kings Hwy > @447 Sheepshead Bay > @225 Brighton Beach > @414 Ocean Pkwy > @479 W 8 St-NY Aquarium > @268 Coney Island-Stillwell Av",
+"wants": [
+"close",
+432
+]
+}
+]
+},
+{
+"key": "nyc-j:13",
+"graph": "nyc",
+"from": "Grand Central-42 St",
+"to": "Flushing-Main St",
+"closed": 144,
+"routes": [
+"10 steps: @325 Grand Central-42 St > @124 59 St > @374 Lexington Av/59 St > @433 Queens Plaza > @352 Jackson Hts-Roosevelt Av > @144 74 St-Broadway > @136 69 St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point > @302 Flushing-Main St",
+"11 steps: @326 Grand Central-42 St > @476 Vernon Blvd-Jackson Av > @347 Hunters Point Av > @271 Court Sq > @434 Queensboro Plaza > @92 33 St-Rawson St > @104 40 St-Lowery St > @109 46 St-Bliss St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point > @302 Flushing-Main St"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Grand Central-42 St to Flushing-Main St?",
+"gold": "10 steps: @325 Grand Central-42 St > @124 59 St > @374 Lexington Av/59 St > @433 Queens Plaza > @352 Jackson Hts-Roosevelt Av > @144 74 St-Broadway > @136 69 St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point > @302 Flushing-Main St",
+"wants": null
+},
+{
+"user": "Flooding has shut 74 St-Broadway. What's the route now?",
+"gold": "11 steps: @326 Grand Central-42 St > @476 Vernon Blvd-Jackson Av > @347 Hunters Point Av > @271 Court Sq > @434 Queensboro Plaza > @92 33 St-Rawson St > @104 40 St-Lowery St > @109 46 St-Bliss St > @129 61 St-Woodside > @360 Junction Blvd > @384 Mets-Willets Point > @302 Flushing-Main St",
+"wants": [
+"close",
+144
+]
+}
+]
+},
+{
+"key": "nyc-j:14",
+"graph": "nyc",
+"from": "Atlantic Av-Barclays Ctr",
+"to": "Wakefield-241 St",
+"closed": 449,
+"routes": [
+"28 steps: @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @24 138 St-Grand Concourse > @35 149 St-Hostos > @89 3 Av-149 St > @351 Jackson Av > @430 Prospect Av > @349 Intervale Av > @449 Simpson St > @314 Freeman St > @51 174 St > @484 West Farms Sq-E Tremont Av > @289 E 180 St > @234 Bronx Park East > @423 Pelham Pkwy > @172 Allerton Av > @238 Burke Av > @335 Gun Hill Rd > @72 219 St > @73 225 St > @80 233 St > @400 Nereid Av > @481 Wakefield-241 St",
+"27 steps: @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @24 138 St-Grand Concourse > @35 149 St-Hostos > @89 3 Av-149 St > @351 Jackson Av > @430 Prospect Av > @349 Intervale Av > @314 Freeman St > @51 174 St > @484 West Farms Sq-E Tremont Av > @289 E 180 St > @234 Bronx Park East > @423 Pelham Pkwy > @172 Allerton Av > @238 Burke Av > @335 Gun Hill Rd > @72 219 St > @73 225 St > @80 233 St > @400 Nereid Av > @481 Wakefield-241 St"
+],
+"turns": [
+{
+"user": "What's the route with the fewest stops from Atlantic Av-Barclays Ctr to Wakefield-241 St?",
+"gold": "28 steps: @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @24 138 St-Grand Concourse > @35 149 St-Hostos > @89 3 Av-149 St > @351 Jackson Av > @430 Prospect Av > @349 Intervale Av > @449 Simpson St > @314 Freeman St > @51 174 St > @484 West Farms Sq-E Tremont Av > @289 E 180 St > @234 Bronx Park East > @423 Pelham Pkwy > @172 Allerton Av > @238 Burke Av > @335 Gun Hill Rd > @72 219 St > @73 225 St > @80 233 St > @400 Nereid Av > @481 Wakefield-241 St",
+"wants": null
+},
+{
+"user": "Trains are skipping Simpson St today. What's the route now?",
+"gold": "27 steps: @183 Atlantic Av-Barclays Ctr > @245 Canal St > @30 14 St-Union Sq > @28 14 St-Union Sq > @325 Grand Central-42 St > @124 59 St > @159 86 St > @19 125 St > @24 138 St-Grand Concourse > @35 149 St-Hostos > @89 3 Av-149 St > @351 Jackson Av > @430 Prospect Av > @349 Intervale Av > @314 Freeman St > @51 174 St > @484 West Farms Sq-E Tremont Av > @289 E 180 St > @234 Bronx Park East > @423 Pelham Pkwy > @172 Allerton Av > @238 Burke Av > @335 Gun Hill Rd > @72 219 St > @73 225 St > @80 233 St > @400 Nereid Av > @481 Wakefield-241 St",
+"wants": [
+"close",
+449
+]
+}
+]
+}
+],
+"plain": []
+}

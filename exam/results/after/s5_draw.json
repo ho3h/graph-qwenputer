@@ -1,0 +1,40 @@
+{
+"seed": "exam/AFTER.md S5, mechanical",
+"conversations": [
+{
+"key": "nyc-relabelled:walk",
+"graph": "nyc-relabelled-b",
+"from": "Rifel Blvd",
+"to": "Lendertil-Selkin Sq",
+"closed": "385",
+"routes": [
+"10 steps: @325 Rifel Blvd > @308 Punkize St > @495 Zurkurben Sq > @260 Nerzir St > @124 Fusar Blvd > @81 Fadurso St > @388 Tanbi Blvd > @385 Surpol Sq > @426 Velbi Av > @248 Murfunle Hts > @194 Lendertil-Selkin Sq",
+"14 steps: @325 Rifel Blvd > @308 Punkize St > @207 Lirtennu Blvd > @256 Neltel Park > @257 Neltel Park > @192 Lelkilmal Sq > @113 Forlitel-Lasulnul Park > @447 Volkon Av > @201 Libur St > @199 Libur St > @136 Gibermer St > @397 Tiburder-Sogortul Blvd > @483 Zirfu Hts > @248 Murfunle Hts > @194 Lendertil-Selkin Sq",
+"10 steps: @325 Rifel Blvd > @308 Punkize St > @495 Zurkurben Sq > @260 Nerzir St > @124 Fusar Blvd > @81 Fadurso St > @388 Tanbi Blvd > @385 Surpol Sq > @426 Velbi Av > @248 Murfunle Hts > @194 Lendertil-Selkin Sq"
+],
+"turns": [
+{
+"user": "Start at Rifel Blvd station. Ride the 4 train 5 stops southbound, then change to the 3 and ride the 3 train 5 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@194 Lendertil-Selkin Sq",
+"wants": null
+},
+{
+"user": "What's the route with the fewest stops from Rifel Blvd to Lendertil-Selkin Sq?",
+"gold": "10 steps: @325 Rifel Blvd > @308 Punkize St > @495 Zurkurben Sq > @260 Nerzir St > @124 Fusar Blvd > @81 Fadurso St > @388 Tanbi Blvd > @385 Surpol Sq > @426 Velbi Av > @248 Murfunle Hts > @194 Lendertil-Selkin Sq",
+"wants": null
+},
+{
+"user": "Flooding has shut Surpol Sq. What's the route now?",
+"gold": "14 steps: @325 Rifel Blvd > @308 Punkize St > @207 Lirtennu Blvd > @256 Neltel Park > @257 Neltel Park > @192 Lelkilmal Sq > @113 Forlitel-Lasulnul Park > @447 Volkon Av > @201 Libur St > @199 Libur St > @136 Gibermer St > @397 Tiburder-Sogortul Blvd > @483 Zirfu Hts > @248 Murfunle Hts > @194 Lendertil-Selkin Sq",
+"wants": null
+},
+{
+"user": "Repairs are done and Surpol Sq is back. What's the route now?",
+"gold": "10 steps: @325 Rifel Blvd > @308 Punkize St > @495 Zurkurben Sq > @260 Nerzir St > @124 Fusar Blvd > @81 Fadurso St > @388 Tanbi Blvd > @385 Surpol Sq > @426 Velbi Av > @248 Murfunle Hts > @194 Lendertil-Selkin Sq",
+"wants": null
+}
+]
+}
+],
+"plain": []
+}

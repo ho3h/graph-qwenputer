@@ -1,0 +1,169 @@
+{
+ "n": 38,
+ "turns": {
+  "close": {
+   "turns": 38,
+   "loud": 33,
+   "closes": 1,
+   "reopens": 0,
+   "not_closed_or_already": 0,
+   "right_close": 0,
+   "right_reopen": 0,
+   "other_node_written": 1,
+   "name_read": 0,
+   "toolong": 3,
+   "calls": 63,
+   "reply_given": 17,
+   "reply_names_gold": 2,
+   "silent": 3,
+   "right": 2
+  },
+  "close, answer moves": {
+   "turns": 20,
+   "loud": 17,
+   "closes": 1,
+   "reopens": 0,
+   "not_closed_or_already": 0,
+   "right_close": 0,
+   "right_reopen": 0,
+   "other_node_written": 1,
+   "name_read": 0,
+   "toolong": 3,
+   "calls": 38,
+   "reply_given": 9,
+   "reply_names_gold": 0,
+   "silent": 3
+  },
+  "close, answer stays": {
+   "turns": 18,
+   "loud": 16,
+   "closes": 0,
+   "reopens": 0,
+   "not_closed_or_already": 0,
+   "right_close": 0,
+   "right_reopen": 0,
+   "other_node_written": 0,
+   "name_read": 0,
+   "toolong": 0,
+   "calls": 25,
+   "reply_given": 8,
+   "reply_names_gold": 2,
+   "right": 2
+  },
+  "reopen": {
+   "turns": 17,
+   "right": 6,
+   "closes": 0,
+   "reopens": 1,
+   "not_closed_or_already": 0,
+   "right_close": 0,
+   "right_reopen": 0,
+   "other_node_written": 1,
+   "name_read": 0,
+   "toolong": 1,
+   "calls": 21,
+   "reply_given": 17,
+   "reply_names_gold": 6,
+   "loud": 11
+  },
+  "trap": {}
+ },
+ "state": {
+  "status_budget": 17,
+  "ran_on_executor": 38,
+  "reference_equal_all": 38,
+  "stock_equal_all": 0,
+  "conversations": 38,
+  "closed_state_changed": 1,
+  "reopened_state_changed": 1,
+  "closed_and_reopened": 1,
+  "closed_and_reopened_and_returned": 1,
+  "returned_word_for_word": 38,
+  "status_answered": 17,
+  "status_cap": 4,
+  "close_changed_only_that_bit": 0
+ },
+ "by_wording": {
+  "{X} is out of action today.": {
+   "n": 4,
+   "wrote": 0
+  },
+  "Flooding has closed {X}.": {
+   "n": 4,
+   "wrote": 0
+  },
+  "No trains are calling at {X} right now.": {
+   "n": 4,
+   "wrote": 0
+  },
+  "Trains are stopping at {X} once more.": {
+   "n": 3,
+   "wrote": 0
+  },
+  "A signal failure means {X} is being skipped.": {
+   "n": 4,
+   "wrote": 0
+  },
+  "{X} has been taken out of service for repairs.": {
+   "n": 4,
+   "wrote": 0
+  },
+  "Service at {X} has resumed.": {
+   "n": 5,
+   "wrote": 0
+  },
+  "They've shut {X} after a fire.": {
+   "n": 4,
+   "wrote": 0
+  },
+  "You can't get on or off at {X} this week.": {
+   "n": 4,
+   "wrote": 0
+  },
+  "Trains won't stop at {X} until Friday.": {
+   "n": 4,
+   "wrote": 0
+  },
+  "{X} is closed for track work.": {
+   "n": 3,
+   "wrote": 0
+  },
+  "Crews have closed off {X} overnight.": {
+   "n": 3,
+   "wrote": 0
+  },
+  "Repairs are done and {X} is back.": {
+   "n": 5,
+   "wrote": 0
+  },
+  "{X} is open again now.": {
+   "n": 3,
+   "wrote": 0
+  },
+  "{X} has been reopened.": {
+   "n": 1,
+   "wrote": 0
+  }
+ },
+ "state_not_only_that_bit": [
+  {
+   "key": "nyc:195",
+   "changed": {
+    "n_closed": [
+     [
+      0,
+      0,
+      1
+     ]
+    ],
+    "closed_bits": [
+     [
+      5,
+      0,
+      2097152
+     ]
+    ]
+   }
+  }
+ ]
+}

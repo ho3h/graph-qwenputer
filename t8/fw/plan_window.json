@@ -1,0 +1,359 @@
+[
+{
+"name": "win00",
+"graph": "random/r089",
+"calls": [
+[
+"chase",
+{
+"start": "@142",
+"legs": "kun 3; bor 3",
+"closed": "@267"
+}
+]
+]
+},
+{
+"name": "win01",
+"graph": "cities/c022",
+"calls": [
+[
+"chase",
+{
+"start": "Vance Rd-Bellamy College",
+"legs": "1 northbound 2"
+}
+]
+]
+},
+{
+"name": "win02",
+"graph": "random/r054",
+"calls": [
+[
+"chase",
+{
+"start": "@85",
+"legs": "lan 3; zulusbur 4; zulusbur 2",
+"closed": "@37"
+}
+]
+]
+},
+{
+"name": "win03",
+"graph": "random/r073",
+"calls": [
+[
+"chase",
+{
+"start": "@89",
+"legs": "fanpun 1; far 3; lena 4"
+}
+]
+]
+},
+{
+"name": "win04",
+"graph": "random/r095",
+"calls": [
+[
+"chase",
+{
+"start": "Rileve",
+"legs": "sezefil 1; tul 6"
+}
+]
+]
+},
+{
+"name": "win05",
+"graph": "random/r089",
+"calls": [
+[
+"chase",
+{
+"start": "@591",
+"legs": "kun 3; ril 1; bor 3"
+}
+]
+]
+},
+{
+"name": "win06",
+"graph": "cities/c023",
+"calls": [
+[
+"chase",
+{
+"start": "Cedar-242 St",
+"legs": "2 southbound 3"
+}
+]
+]
+},
+{
+"name": "win07",
+"graph": "cities/c010",
+"calls": [
+[
+"chase",
+{
+"start": "Kingsley Av/74 St",
+"legs": "Q southbound 3"
+}
+]
+]
+},
+{
+"name": "win08",
+"graph": "random/r034",
+"calls": [
+[
+"chase",
+{
+"start": "Vora",
+"legs": "polfunfir 4; daku 1"
+}
+]
+]
+},
+{
+"name": "win09",
+"graph": "cities/c013",
+"calls": [
+[
+"chase",
+{
+"start": "Ivy Junction",
+"legs": "GS northbound 2"
+}
+]
+]
+},
+{
+"name": "win10",
+"graph": "random/r086",
+"calls": [
+[
+"chase",
+{
+"start": "@20",
+"legs": "sida 4; sida 3"
+}
+]
+]
+},
+{
+"name": "win11",
+"graph": "cities/c026",
+"calls": [
+[
+"chase",
+{
+"start": "Elm Av-Norwood College",
+"legs": "GS northbound 8"
+}
+]
+]
+},
+{
+"name": "win12",
+"graph": "cities/c025",
+"calls": [
+[
+"chase",
+{
+"start": "Newbury Blvd-Ivy College",
+"legs": "4 northbound 1; SI northbound 1; SI southbound 8"
+}
+]
+]
+},
+{
+"name": "win13",
+"graph": "random/r084",
+"calls": [
+[
+"chase",
+{
+"start": "@389",
+"legs": "zerpille 3; zerpille 4; sennis 2",
+"closed": "@21"
+}
+]
+]
+},
+{
+"name": "win14",
+"graph": "random/r082",
+"calls": [
+[
+"chase",
+{
+"start": "Kasreski",
+"legs": "vomo 1; gu 1; nulbiso 2"
+}
+]
+]
+},
+{
+"name": "win15",
+"graph": "random/r053",
+"calls": [
+[
+"chase",
+{
+"start": "@68",
+"legs": "menrun 1; zulbi 3",
+"closed": "@103"
+}
+]
+]
+},
+{
+"name": "win16",
+"graph": "cities/c013",
+"calls": [
+[
+"chase",
+{
+"start": "Grant Sq-Bellamy College",
+"legs": "F southbound 2"
+}
+]
+]
+},
+{
+"name": "win17",
+"graph": "cities/c003",
+"calls": [
+[
+"chase",
+{
+"start": "Union Pkwy-Crescent College",
+"legs": "R northbound 3"
+}
+]
+]
+},
+{
+"name": "win18",
+"graph": "random/r094",
+"calls": [
+[
+"chase",
+{
+"start": "@710",
+"legs": "pisa 3; pisa 4"
+}
+]
+]
+},
+{
+"name": "win19",
+"graph": "cities/c022",
+"calls": [
+[
+"chase",
+{
+"start": "Rowan Av/96 St",
+"legs": "5 southbound 2"
+}
+]
+]
+},
+{
+"name": "win20",
+"graph": "cities/c027",
+"calls": [
+[
+"chase",
+{
+"start": "River St",
+"legs": "GS northbound 3"
+}
+]
+]
+},
+{
+"name": "win21",
+"graph": "random/r034",
+"calls": [
+[
+"chase",
+{
+"start": "Pilmafel",
+"legs": "musi 1; balka 8; roskassin 4; daku 1"
+}
+]
+]
+},
+{
+"name": "win22",
+"graph": "cities/c012",
+"calls": [
+[
+"chase",
+{
+"start": "E 219 St",
+"legs": "B southbound 2"
+}
+]
+]
+},
+{
+"name": "win23",
+"graph": "cities/c018",
+"calls": [
+[
+"chase",
+{
+"start": "149 St",
+"legs": "R northbound 1"
+}
+]
+]
+},
+{
+"name": "win24",
+"graph": "random/r011",
+"calls": [
+[
+"chase",
+{
+"start": "@2",
+"legs": "por 4; por 1",
+"closed": "@6"
+}
+]
+]
+},
+{
+"name": "win25",
+"graph": "cities/c001",
+"calls": [
+[
+"chase",
+{
+"start": "Davenport-239 St",
+"legs": "Z northbound 3; G southbound 1"
+}
+]
+]
+},
+{
+"name": "win26",
+"graph": "random/r070",
+"calls": [
+[
+"chase",
+{
+"start": "@136",
+"legs": "ri 3; ri 4; lelvupe 4; lelvupe 4",
+"closed": "@163"
+}
+]
+]
+}
+]

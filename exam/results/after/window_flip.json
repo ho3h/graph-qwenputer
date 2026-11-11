@@ -1,0 +1,72 @@
+{
+ "engine": "3f943a9e305c",
+ "elf_sha256": "ad1abcc6cec073b52e088c4d0d1752dd9908f6f77d39d950ff0d5a5e70c41fe0",
+ "jobs": [],
+ "flips": [
+  {
+   "position": 12623,
+   "what": "kept",
+   "bit": 13,
+   "positions_differing": 1,
+   "first_i": 12623,
+   "caught_exactly_there": true
+  },
+  {
+   "position": 15922,
+   "what": "low digest",
+   "bit": 12,
+   "positions_differing": 1,
+   "first_i": 15922,
+   "caught_exactly_there": true
+  },
+  {
+   "position": 9938,
+   "what": "kept",
+   "bit": 15,
+   "positions_differing": 1,
+   "first_i": 9938,
+   "caught_exactly_there": true
+  },
+  {
+   "position": 16537,
+   "what": "kept",
+   "bit": 4,
+   "positions_differing": 1,
+   "first_i": 16537,
+   "caught_exactly_there": true
+  },
+  {
+   "position": 8208,
+   "what": "kept",
+   "bit": 4,
+   "positions_differing": 1,
+   "first_i": 8208,
+   "caught_exactly_there": true
+  },
+  {
+   "position": 10819,
+   "what": "low digest",
+   "bit": 15,
+   "positions_differing": 1,
+   "first_i": 10819,
+   "caught_exactly_there": true
+  },
+  {
+   "position": 11593,
+   "what": "kept",
+   "bit": 13,
+   "positions_differing": 1,
+   "first_i": 11593,
+   "caught_exactly_there": true
+  },
+  {
+   "position": 6700,
+   "what": "kept",
+   "bit": 15,
+   "positions_differing": 1,
+   "first_i": 6700,
+   "caught_exactly_there": true
+  }
+ ],
+ "caught": 8
+}

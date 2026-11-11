@@ -1,0 +1,17 @@
+{
+ "graph": "<repo>/host/test/tiny.graph.json",
+ "questions": "<repo>/host/test/tiny.questions.json",
+ "out": "<repo>/host/out/dev2-repeat/tiny",
+ "attn": [
+  "eager",
+  "sdpa"
+ ],
+ "ids": [
+  5,
+  9,
+  14,
+  16,
+  17
+ ],
+ "arm": "base"
+}

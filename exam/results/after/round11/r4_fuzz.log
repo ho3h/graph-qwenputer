@@ -1,0 +1,25 @@
+08:51:12 memguard: start pid 36675 limit 6.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python t8/fw/tokrun.py ../exam/results/after/round11/attack.py --out <repo>/exam/re
+08:51:12 memguard: 0 s, 1 procs, 0.01 GiB, peak 0.01, system free 85%
+08:52:12 memguard: 60 s, 1 procs, 0.54 GiB, peak 0.64, system free 83%
+08:53:13 memguard: 121 s, 1 procs, 0.47 GiB, peak 0.64, system free 93%
+08:54:13 memguard: 181 s, 1 procs, 0.47 GiB, peak 0.64, system free 82%
+08:55:14 memguard: 242 s, 1 procs, 0.47 GiB, peak 0.64, system free 82%
+08:56:14 memguard: 302 s, 1 procs, 0.47 GiB, peak 0.64, system free 82%
+08:57:14 memguard: 362 s, 1 procs, 0.47 GiB, peak 0.64, system free 82%
+08:58:15 memguard: 423 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+08:59:16 memguard: 484 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+09:00:16 memguard: 544 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+09:01:17 memguard: 605 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+09:02:17 memguard: 665 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+09:03:18 memguard: 726 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+09:04:18 memguard: 786 s, 1 procs, 0.47 GiB, peak 0.64, system free 82%
+09:05:19 memguard: 847 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+09:06:19 memguard: 907 s, 1 procs, 0.47 GiB, peak 0.64, system free 81%
+09:07:20 memguard: 968 s, 1 procs, 0.48 GiB, peak 0.64, system free 81%
+09:08:20 memguard: 1029 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+09:09:21 memguard: 1089 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+09:10:22 memguard: 1150 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+09:11:22 memguard: 1210 s, 1 procs, 0.48 GiB, peak 0.64, system free 82%
+deadline at 25
+{"calls": 717, "diff": 0} 1215.0 finished
+09:11:41 memguard: end code 0, 1229 s, peak 0.64 GiB

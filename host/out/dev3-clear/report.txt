@@ -1,0 +1,36 @@
+== eager: 50 questions
+  correct 42/49 scored
+  by kind: chase 12/17, cheapest 8/8, find 4/5, follow 7/8, neighbours 4/4, path 7/7
+  unscorable (empty gold): 1; stale gold: 0; setup mismatches: 0
+  ended: {'answered': 46, 'cap': 3, 'budget': 1}
+  calls/question: mean 2.92, histogram {1: 18, 2: 13, 3: 11, 4: 1, 5: 1, 6: 1, 7: 1, 11: 1, 12: 3}
+  functions: {'find': 54, 'neighbours': 39, 'follow': 28, 'path': 9, 'cheapest': 8, 'close': 2, 'unlink': 1, 'link': 1, 'chase': 4}
+  results: {'NONE': 46, 'ok': 82, 'AMBIGUOUS': 3, 'END': 5, 'NORELATION': 1, 'MULTI': 7, 'leg:MULTI': 1, 'NOPATH': 1}
+  parse errors: 0
+  seconds/question: mean 14.7, median 9.5, max 177.1; generated tokens mean 200, prompt tokens 1537-1657
+  peak MPS driver memory: 9.84 GiB
+== sdpa: 50 questions
+  correct 42/49 scored
+  by kind: chase 12/17, cheapest 8/8, find 4/5, follow 7/8, neighbours 4/4, path 7/7
+  unscorable (empty gold): 1; stale gold: 0; setup mismatches: 0
+  ended: {'answered': 46, 'cap': 4}
+  calls/question: mean 2.88, histogram {1: 18, 2: 14, 3: 11, 4: 1, 6: 1, 7: 1, 12: 4}
+  functions: {'find': 51, 'neighbours': 39, 'follow': 30, 'path': 9, 'cheapest': 8, 'close': 2, 'unlink': 1, 'link': 1, 'chase': 3}
+  results: {'NONE': 40, 'ok': 85, 'AMBIGUOUS': 3, 'END': 6, 'leg:END': 1, 'NORELATION': 1, 'MULTI': 7, 'NOPATH': 1}
+  parse errors: 0
+  seconds/question: mean 11.4, median 8.7, max 66.8; generated tokens mean 169, prompt tokens 1537-1657
+  peak MPS driver memory: 9.84 GiB
+== agreement eager vs sdpa over 50 questions
+  identical transcripts 38/50 (76.0%); same final answer 43/50; same score 50/50
+  differs: c024 q101 at generated token 311
+  differs: c025 q0 at generated token 80
+  differs: c025 q1 at generated token 21
+  differs: c025 q100 at generated token 298
+  differs: r001 q11 at generated token 167
+  differs: r001 q44 at generated token 101
+  differs: tiny q7 at generated token 155
+  differs: tiny q12 at generated token 68
+  differs: tiny q13 at generated token 0
+  differs: tiny q15 at generated token 95
+  differs: tiny q16 at generated token 0
+  differs: tiny q18 at generated token 95

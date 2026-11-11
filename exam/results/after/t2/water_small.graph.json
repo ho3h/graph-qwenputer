@@ -1,0 +1,160 @@
+{
+ "format": "x210-graph/1",
+ "name": "Ashvale water network",
+ "domain": "custom",
+ "nodes": [
+  {
+   "label": "Fernley WTW",
+   "prop": 0,
+   "src": "Fernley WTW"
+  },
+  {
+   "label": "Lift Pump 4",
+   "prop": 0,
+   "src": "Lift Pump 4"
+  },
+  {
+   "label": "Fernley Tank",
+   "prop": 0,
+   "src": "Fernley Tank"
+  },
+  {
+   "label": "Gate 6",
+   "prop": 0,
+   "src": "Gate 6"
+  },
+  {
+   "label": "Gate 6C",
+   "prop": 0,
+   "src": "Gate 6C"
+  },
+  {
+   "label": "Gate 9",
+   "prop": 0,
+   "src": "Gate 9"
+  },
+  {
+   "label": "Regulator 2",
+   "prop": 0,
+   "src": "Regulator 2"
+  },
+  {
+   "label": "Regulator 22",
+   "prop": 0,
+   "src": "Regulator 22"
+  },
+  {
+   "label": "Area 11 Orchard",
+   "prop": 0,
+   "src": "Area 11 Orchard"
+  },
+  {
+   "label": "Area 12 Quarry",
+   "prop": 0,
+   "src": "Area 12 Quarry"
+  },
+  {
+   "label": "Area 31 Orchard Rise",
+   "prop": 0,
+   "src": "Area 31 Orchard Rise"
+  },
+  {
+   "label": "Greenacre Care Home",
+   "prop": 0,
+   "src": "Greenacre Care Home"
+  }
+ ],
+ "relations": [
+  "feeds",
+  "interconnect"
+ ],
+ "edges": [
+  [
+   0,
+   0,
+   1,
+   500
+  ],
+  [
+   1,
+   0,
+   2,
+   1800
+  ],
+  [
+   2,
+   0,
+   3,
+   220
+  ],
+  [
+   3,
+   0,
+   4,
+   40
+  ],
+  [
+   3,
+   0,
+   5,
+   610
+  ],
+  [
+   4,
+   0,
+   6,
+   380
+  ],
+  [
+   4,
+   0,
+   7,
+   900
+  ],
+  [
+   5,
+   0,
+   7,
+   290
+  ],
+  [
+   5,
+   1,
+   6,
+   700
+  ],
+  [
+   6,
+   0,
+   8,
+   300
+  ],
+  [
+   6,
+   0,
+   9,
+   260
+  ],
+  [
+   6,
+   1,
+   5,
+   700
+  ],
+  [
+   7,
+   0,
+   10,
+   340
+  ],
+  [
+   7,
+   0,
+   11,
+   150
+  ]
+ ],
+ "splice": [],
+ "change": null,
+ "meta": {}
+}

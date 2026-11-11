@@ -1,0 +1,676 @@
+{
+"seed": 20261104,
+"conversations": [
+{
+"key": "nyc-t3:0",
+"graph": "nyc-t",
+"labels": {
+"a": "174-175 Sts",
+"d": "Central Av",
+"new": [
+"Tolland Park",
+"Sorrel Rd",
+"Sable Park",
+"Orchard Rd",
+"Thistle Av"
+]
+},
+"turns": [
+{
+"user": "A new T train starts today, with five brand-new stations: Tolland Park, Sorrel Rd, Sable Park, Orchard Rd, Thistle Av. Northbound it runs 174-175 Sts, Tolland Park, Sorrel Rd, Sable Park, Orchard Rd, Thistle Av, Central Av.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Tolland Park",
+"Sorrel Rd",
+"Sable Park",
+"Orchard Rd",
+"Thistle Av"
+],
+[
+[
+"174-175 Sts",
+"Tolland Park"
+],
+[
+"Tolland Park",
+"Sorrel Rd"
+],
+[
+"Sorrel Rd",
+"Sable Park"
+],
+[
+"Sable Park",
+"Orchard Rd"
+],
+[
+"Orchard Rd",
+"Thistle Av"
+],
+[
+"Thistle Av",
+"Central Av"
+]
+]
+]
+},
+{
+"user": "Start at 174-175 Sts station. Ride the T train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@498 Sable Park",
+"wants": null
+},
+{
+"user": "What's the next stop after Tolland Park on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Sorrel Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t3:1",
+"graph": "nyc-t",
+"labels": {
+"a": "W 8 St-NY Aquarium",
+"d": "World Trade Center",
+"new": [
+"Merrow Rd",
+"Northam Park",
+"Sable Av",
+"Northam Sq",
+"Merrow Park"
+]
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds five new stations: Merrow Rd, Northam Park, Sable Av, Northam Sq, Merrow Park. Going northbound, its stops are W 8 St-NY Aquarium, then Merrow Rd, then Northam Park, then Sable Av, then Northam Sq, then Merrow Park, then World Trade Center.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Merrow Rd",
+"Northam Park",
+"Sable Av",
+"Northam Sq",
+"Merrow Park"
+],
+[
+[
+"W 8 St-NY Aquarium",
+"Merrow Rd"
+],
+[
+"Merrow Rd",
+"Northam Park"
+],
+[
+"Northam Park",
+"Sable Av"
+],
+[
+"Sable Av",
+"Northam Sq"
+],
+[
+"Northam Sq",
+"Merrow Park"
+],
+[
+"Merrow Park",
+"World Trade Center"
+]
+]
+]
+},
+{
+"user": "Start at W 8 St-NY Aquarium station. Ride the T train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@498 Sable Av",
+"wants": null
+},
+{
+"user": "What's the next stop after Merrow Rd on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Northam Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t3:2",
+"graph": "nyc-t",
+"labels": {
+"a": "5 Av/59 St",
+"d": "Beach 44 St",
+"new": [
+"Thistle St",
+"Rowan Sq",
+"Rowan Av",
+"Hawthorn Sq",
+"Juniper Rd"
+]
+},
+"turns": [
+{
+"user": "A new T train starts today, with five brand-new stations: Thistle St, Rowan Sq, Rowan Av, Hawthorn Sq, Juniper Rd. Northbound it runs 5 Av/59 St, Thistle St, Rowan Sq, Rowan Av, Hawthorn Sq, Juniper Rd, Beach 44 St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Thistle St",
+"Rowan Sq",
+"Rowan Av",
+"Hawthorn Sq",
+"Juniper Rd"
+],
+[
+[
+"5 Av/59 St",
+"Thistle St"
+],
+[
+"Thistle St",
+"Rowan Sq"
+],
+[
+"Rowan Sq",
+"Rowan Av"
+],
+[
+"Rowan Av",
+"Hawthorn Sq"
+],
+[
+"Hawthorn Sq",
+"Juniper Rd"
+],
+[
+"Juniper Rd",
+"Beach 44 St"
+]
+]
+]
+},
+{
+"user": "Start at 5 Av/59 St station. Ride the T train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@498 Rowan Av",
+"wants": null
+},
+{
+"user": "What's the next stop after Thistle St on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Rowan Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t3:3",
+"graph": "nyc-t",
+"labels": {
+"a": "238 St",
+"d": "Bronx Park East",
+"new": [
+"Hawthorn St",
+"Tolland Sq",
+"Ivory Sq",
+"Merrow Av",
+"Orchard Park"
+]
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds five new stations: Hawthorn St, Tolland Sq, Ivory Sq, Merrow Av, Orchard Park. Going northbound, its stops are 238 St, then Hawthorn St, then Tolland Sq, then Ivory Sq, then Merrow Av, then Orchard Park, then Bronx Park East.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Hawthorn St",
+"Tolland Sq",
+"Ivory Sq",
+"Merrow Av",
+"Orchard Park"
+],
+[
+[
+"238 St",
+"Hawthorn St"
+],
+[
+"Hawthorn St",
+"Tolland Sq"
+],
+[
+"Tolland Sq",
+"Ivory Sq"
+],
+[
+"Ivory Sq",
+"Merrow Av"
+],
+[
+"Merrow Av",
+"Orchard Park"
+],
+[
+"Orchard Park",
+"Bronx Park East"
+]
+]
+]
+},
+{
+"user": "Start at 238 St station. Ride the T train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@498 Ivory Sq",
+"wants": null
+},
+{
+"user": "What's the next stop after Hawthorn St on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Tolland Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t3:4",
+"graph": "nyc-t",
+"labels": {
+"a": "Mt Eden Av",
+"d": "110 St",
+"new": [
+"Sorrel St",
+"Ivory Av",
+"Northam St",
+"Northam Av",
+"Juniper Park"
+]
+},
+"turns": [
+{
+"user": "A new T train starts today, with five brand-new stations: Sorrel St, Ivory Av, Northam St, Northam Av, Juniper Park. Northbound it runs Mt Eden Av, Sorrel St, Ivory Av, Northam St, Northam Av, Juniper Park, 110 St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Sorrel St",
+"Ivory Av",
+"Northam St",
+"Northam Av",
+"Juniper Park"
+],
+[
+[
+"Mt Eden Av",
+"Sorrel St"
+],
+[
+"Sorrel St",
+"Ivory Av"
+],
+[
+"Ivory Av",
+"Northam St"
+],
+[
+"Northam St",
+"Northam Av"
+],
+[
+"Northam Av",
+"Juniper Park"
+],
+[
+"Juniper Park",
+"110 St"
+]
+]
+]
+},
+{
+"user": "Start at Mt Eden Av station. Ride the T train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@498 Northam St",
+"wants": null
+},
+{
+"user": "What's the next stop after Sorrel St on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Ivory Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t3:5",
+"graph": "nyc-t",
+"labels": {
+"a": "65 St",
+"d": "Pleasant Plains",
+"new": [
+"Thistle Sq",
+"Kestrel Park",
+"Tolland St",
+"Merrow St",
+"Orchard Sq"
+]
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds five new stations: Thistle Sq, Kestrel Park, Tolland St, Merrow St, Orchard Sq. Going northbound, its stops are 65 St, then Thistle Sq, then Kestrel Park, then Tolland St, then Merrow St, then Orchard Sq, then Pleasant Plains.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Thistle Sq",
+"Kestrel Park",
+"Tolland St",
+"Merrow St",
+"Orchard Sq"
+],
+[
+[
+"65 St",
+"Thistle Sq"
+],
+[
+"Thistle Sq",
+"Kestrel Park"
+],
+[
+"Kestrel Park",
+"Tolland St"
+],
+[
+"Tolland St",
+"Merrow St"
+],
+[
+"Merrow St",
+"Orchard Sq"
+],
+[
+"Orchard Sq",
+"Pleasant Plains"
+]
+]
+]
+},
+{
+"user": "Start at 65 St station. Ride the T train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@498 Tolland St",
+"wants": null
+},
+{
+"user": "What's the next stop after Thistle Sq on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Kestrel Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t3:6",
+"graph": "nyc-t",
+"labels": {
+"a": "Crescent St",
+"d": "Whitehall St-South Ferry",
+"new": [
+"Sable Rd",
+"Orchard Av",
+"Juniper Sq",
+"Rowan Rd",
+"Corbin Rd"
+]
+},
+"turns": [
+{
+"user": "A new T train starts today, with five brand-new stations: Sable Rd, Orchard Av, Juniper Sq, Rowan Rd, Corbin Rd. Northbound it runs Crescent St, Sable Rd, Orchard Av, Juniper Sq, Rowan Rd, Corbin Rd, Whitehall St-South Ferry.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Sable Rd",
+"Orchard Av",
+"Juniper Sq",
+"Rowan Rd",
+"Corbin Rd"
+],
+[
+[
+"Crescent St",
+"Sable Rd"
+],
+[
+"Sable Rd",
+"Orchard Av"
+],
+[
+"Orchard Av",
+"Juniper Sq"
+],
+[
+"Juniper Sq",
+"Rowan Rd"
+],
+[
+"Rowan Rd",
+"Corbin Rd"
+],
+[
+"Corbin Rd",
+"Whitehall St-South Ferry"
+]
+]
+]
+},
+{
+"user": "Start at Crescent St station. Ride the T train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@498 Juniper Sq",
+"wants": null
+},
+{
+"user": "What's the next stop after Sable Rd on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Orchard Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t3:7",
+"graph": "nyc-t",
+"labels": {
+"a": "Union St",
+"d": "High St",
+"new": [
+"Sorrel Sq",
+"Lumen Park",
+"Pewter Park",
+"Ember Park",
+"Kestrel St"
+]
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds five new stations: Sorrel Sq, Lumen Park, Pewter Park, Ember Park, Kestrel St. Going northbound, its stops are Union St, then Sorrel Sq, then Lumen Park, then Pewter Park, then Ember Park, then Kestrel St, then High St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Sorrel Sq",
+"Lumen Park",
+"Pewter Park",
+"Ember Park",
+"Kestrel St"
+],
+[
+[
+"Union St",
+"Sorrel Sq"
+],
+[
+"Sorrel Sq",
+"Lumen Park"
+],
+[
+"Lumen Park",
+"Pewter Park"
+],
+[
+"Pewter Park",
+"Ember Park"
+],
+[
+"Ember Park",
+"Kestrel St"
+],
+[
+"Kestrel St",
+"High St"
+]
+]
+]
+},
+{
+"user": "Start at Union St station. Ride the T train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@498 Pewter Park",
+"wants": null
+},
+{
+"user": "What's the next stop after Sorrel Sq on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Lumen Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t3:8",
+"graph": "nyc-t",
+"labels": {
+"a": "33 St-Rawson St",
+"d": "Beach 105 St",
+"new": [
+"Kestrel Sq",
+"Ivory Rd",
+"Ivory St",
+"Pewter Sq",
+"Hawthorn Rd"
+]
+},
+"turns": [
+{
+"user": "A new T train starts today, with five brand-new stations: Kestrel Sq, Ivory Rd, Ivory St, Pewter Sq, Hawthorn Rd. Northbound it runs 33 St-Rawson St, Kestrel Sq, Ivory Rd, Ivory St, Pewter Sq, Hawthorn Rd, Beach 105 St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Kestrel Sq",
+"Ivory Rd",
+"Ivory St",
+"Pewter Sq",
+"Hawthorn Rd"
+],
+[
+[
+"33 St-Rawson St",
+"Kestrel Sq"
+],
+[
+"Kestrel Sq",
+"Ivory Rd"
+],
+[
+"Ivory Rd",
+"Ivory St"
+],
+[
+"Ivory St",
+"Pewter Sq"
+],
+[
+"Pewter Sq",
+"Hawthorn Rd"
+],
+[
+"Hawthorn Rd",
+"Beach 105 St"
+]
+]
+]
+},
+{
+"user": "Start at 33 St-Rawson St station. Ride the T train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@498 Ivory St",
+"wants": null
+},
+{
+"user": "What's the next stop after Kestrel Sq on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Ivory Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t3:9",
+"graph": "nyc-t",
+"labels": {
+"a": "Bay Ridge-95 St",
+"d": "Freeman St",
+"new": [
+"Thistle Rd",
+"Hawthorn Park",
+"Kestrel Av",
+"Kestrel Rd",
+"Ivory Park"
+]
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds five new stations: Thistle Rd, Hawthorn Park, Kestrel Av, Kestrel Rd, Ivory Park. Going northbound, its stops are Bay Ridge-95 St, then Thistle Rd, then Hawthorn Park, then Kestrel Av, then Kestrel Rd, then Ivory Park, then Freeman St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Thistle Rd",
+"Hawthorn Park",
+"Kestrel Av",
+"Kestrel Rd",
+"Ivory Park"
+],
+[
+[
+"Bay Ridge-95 St",
+"Thistle Rd"
+],
+[
+"Thistle Rd",
+"Hawthorn Park"
+],
+[
+"Hawthorn Park",
+"Kestrel Av"
+],
+[
+"Kestrel Av",
+"Kestrel Rd"
+],
+[
+"Kestrel Rd",
+"Ivory Park"
+],
+[
+"Ivory Park",
+"Freeman St"
+]
+]
+]
+},
+{
+"user": "Start at Bay Ridge-95 St station. Ride the T train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@498 Kestrel Av",
+"wants": null
+},
+{
+"user": "What's the next stop after Thistle Rd on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Hawthorn Park",
+"wants": null
+}
+]
+}
+],
+"plain": []
+}

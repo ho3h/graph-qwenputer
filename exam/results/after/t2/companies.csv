@@ -1,0 +1,168 @@
+# Beneficial-ownership extract for a compliance team.
+# owns: weight is the percentage stake. director_of: person to company. registered_at: company to its registered office.
+from,relation,to,weight
+Priya Raman,owns,Northgate Group plc,62
+Tomasz Nowak,owns,Northgate Group plc,38
+Northgate Group plc,owns,Northgate Holdings Ltd,100
+Northgate Holdings Ltd,owns,Northgate Holdings 2 Ltd,100
+Northgate Holdings Ltd,owns,Northgate Holdings 3 Ltd,100
+Northgate Holdings 2 Ltd,owns,Northgate Property Ltd,100
+Northgate Holdings 2 Ltd,owns,Northgate Property 2 Ltd,100
+Northgate Holdings 3 Ltd,owns,Northgate Finance Ltd,100
+Northgate Holdings 3 Ltd,owns,Northgate Finance (Jersey) Ltd,100
+Northgate Property Ltd,owns,Harbour Street Developments Ltd,80
+Aisha Bello,owns,Harbour Street Developments Ltd,20
+Marcus Hale,owns,Harcourt Capital LLP,55
+Marcus Hayes,owns,Harcourt Capital LLP,45
+Harcourt Capital LLP,owns,Harcourt Capital Partners 1 LP,100
+Harcourt Capital LLP,owns,Harcourt Capital Partners 2 LP,100
+Harcourt Capital Partners 1 LP,owns,Brightwell Foods Ltd,70
+Ian Whitmore,owns,Brightwell Foods Ltd,30
+Brightwell Foods Ltd,owns,Brightwell Dairy Ltd,100
+Brightwell Foods Ltd,owns,Brightwell Bakeries Ltd,100
+Brightwell Foods Ltd,owns,Brightwell Foods (Scotland) Ltd,100
+Harcourt Capital Partners 2 LP,owns,3 Rivers Brewing Co Ltd,60
+Greta Holm,owns,3 Rivers Brewing Co Ltd,40
+3 Rivers Brewing Co Ltd,owns,3 Rivers Taverns Ltd,100
+3 Rivers Brewing Co Ltd,owns,Riverside Maltings Ltd,100
+Sofia Lindqvist,owns,Tidewell Foods Ltd,60
+Kenji Mori,owns,Tidewell Foods Ltd,40
+Tidewell Foods Ltd,owns,Tidewell Seafoods Ltd,100
+Tidewell Foods Ltd,owns,Tidewell Cold Store Ltd,100
+Sofia Lindqvist,owns,Lindqvist Marine AB,100
+Lindqvist Marine AB,owns,Lindqvist Marine UK Ltd,100
+Kenji Mori,owns,Mori Trading KK,100
+Mori Trading KK,owns,Mori Trading UK Ltd,100
+Aisha Bello,owns,Bello Energy Ltd,75
+Ruth Adeyemi,owns,Bello Energy Ltd,25
+Bello Energy Ltd,owns,Bello Solar 1 Ltd,100
+Bello Energy Ltd,owns,Bello Solar 2 Ltd,100
+Bello Energy Ltd,owns,Bello Solar 12 Ltd,100
+Bello Energy Ltd,owns,Bello Solar 21 Ltd,100
+Bello Energy Ltd,owns,Bello Wind Ltd,100
+Helen O'Connell,owns,O'Connell Property Group Ltd,50
+Daniel O'Connell,owns,O'Connell Property Group Ltd,50
+O'Connell Property Group Ltd,owns,O'Connell Lettings Ltd,100
+O'Connell Property Group Ltd,owns,O'Connell Homes (Hull) Ltd,100
+O'Connell Property Group Ltd,owns,24 Seven Care Homes Ltd,65
+Omar Haddad,owns,24 Seven Care Homes Ltd,35
+Callum Reid,owns,Hargreaves & Sons Ltd,70
+Fiona Reid,owns,Hargreaves & Sons Ltd,30
+Hargreaves & Sons Ltd,owns,Hargreaves Haulage Ltd,100
+Hargreaves & Sons Ltd,owns,1st Choice Couriers Ltd,100
+Hargreaves Haulage Ltd,owns,A1 Autos (Leeds) Ltd,100
+Jürgen Weiss,owns,Weiss Logistik GmbH,100
+Weiss Logistik GmbH,owns,Weiss Logistics UK Ltd,100
+Weiss Logistics UK Ltd,owns,360 Pallet Services Ltd,100
+Ian Whitmore,owns,Cedar Trust Services Ltd,100
+Cedar Trust Services Ltd,owns,Redwood Nominees Ltd,100
+Cedar Trust Services Ltd,owns,Redwood Nominees 2 Ltd,100
+Redwood Nominees Ltd,owns,Whitmore Estates Ltd,100
+Redwood Nominees 2 Ltd,owns,Whitmore Estates (No. 2) Ltd,100
+Peter Voss,owns,Voss Consulting Ltd,100
+Anna Kowalska,owns,Kowalska Design Ltd,100
+Liam Byrne,owns,Byrne Civils Ltd,100
+David Chen,owns,Chen & Chen Accountants Ltd,50
+Daniel Chen,owns,Chen & Chen Accountants Ltd,50
+Nadia Haddad,owns,Haddad Pharmacy Group Ltd,100
+Priya Raman,director_of,Northgate Group plc
+Priya Raman,director_of,Northgate Holdings Ltd
+Priya Raman,director_of,Northgate Holdings 2 Ltd
+Priya Raman,director_of,Northgate Holdings 3 Ltd
+Tomasz Nowak,director_of,Northgate Group plc
+Tomasz Nowak,director_of,Northgate Holdings 2 Ltd
+Tomasz Nowak,director_of,Northgate Property Ltd
+Tomasz Nowak,director_of,Northgate Property 2 Ltd
+Anna Kowalska,director_of,Northgate Finance Ltd
+Anna Kowalska,director_of,Northgate Finance (Jersey) Ltd
+Peter Voss,director_of,Northgate Finance (Jersey) Ltd
+Peter Voss,director_of,Cedar Trust Services Ltd
+Peter Voss,director_of,Redwood Nominees Ltd
+Peter Voss,director_of,Redwood Nominees 2 Ltd
+Peter Voss,director_of,Whitmore Estates Ltd
+Peter Voss,director_of,Whitmore Estates (No. 2) Ltd
+Marcus Hale,director_of,Brightwell Foods Ltd
+Ian Whitmore,director_of,Brightwell Foods Ltd
+Ian Whitmore,director_of,Whitmore Estates Ltd
+Marcus Hayes,director_of,3 Rivers Brewing Co Ltd
+Greta Holm,director_of,3 Rivers Brewing Co Ltd
+Greta Holm,director_of,3 Rivers Taverns Ltd
+Sofia Lindqvist,director_of,Tidewell Foods Ltd
+Kenji Mori,director_of,Tidewell Foods Ltd
+Kenji Mori,director_of,Tidewell Cold Store Ltd
+Sofia Lindqvist,director_of,Lindqvist Marine UK Ltd
+Kenji Mori,director_of,Mori Trading UK Ltd
+Aisha Bello,director_of,Bello Energy Ltd
+Aisha Bello,director_of,Bello Wind Ltd
+Aisha Bello,director_of,Harbour Street Developments Ltd
+Ruth Adeyemi,director_of,Bello Energy Ltd
+Ruth Adeyemi,director_of,Bello Solar 1 Ltd
+Ruth Adeyemi,director_of,Bello Solar 2 Ltd
+Ruth Adeyemi,director_of,Bello Solar 12 Ltd
+Ruth Adeyemi,director_of,Bello Solar 21 Ltd
+Liam Byrne,director_of,Bello Solar 12 Ltd
+Liam Byrne,director_of,Bello Wind Ltd
+Helen O'Connell,director_of,O'Connell Property Group Ltd
+Helen O'Connell,director_of,O'Connell Lettings Ltd
+Daniel O'Connell,director_of,O'Connell Homes (Hull) Ltd
+Omar Haddad,director_of,24 Seven Care Homes Ltd
+Nadia Haddad,director_of,Haddad Pharmacy Group Ltd
+Callum Reid,director_of,Hargreaves & Sons Ltd
+Fiona Reid,director_of,Hargreaves Haulage Ltd
+Fiona Reid,director_of,1st Choice Couriers Ltd
+David Chen,director_of,A1 Autos (Leeds) Ltd
+Jürgen Weiss,director_of,Weiss Logistics UK Ltd
+Jürgen Weiss,director_of,360 Pallet Services Ltd
+Northgate Group plc,registered_at,"14 Harbour Street, Leeds"
+Northgate Holdings Ltd,registered_at,"14 Harbour Street, Leeds"
+Northgate Holdings 2 Ltd,registered_at,"14 Harbour Street, Leeds"
+Northgate Holdings 3 Ltd,registered_at,"14 Harbour Street, Leeds"
+Northgate Property Ltd,registered_at,"14 Harbour Street, Leeds"
+Northgate Property 2 Ltd,registered_at,"14 Harbour Street, Leeds"
+Harbour Street Developments Ltd,registered_at,"14 Harbour Street, Leeds"
+Hargreaves & Sons Ltd,registered_at,"41 Harbour Street, Leeds"
+Hargreaves Haulage Ltd,registered_at,"41 Harbour Street, Leeds"
+A1 Autos (Leeds) Ltd,registered_at,"41 Harbour Street, Leeds"
+1st Choice Couriers Ltd,registered_at,"41 Harbour Street, Leeds"
+Chen & Chen Accountants Ltd,registered_at,"41 Harbour Street, Leeds"
+Tidewell Foods Ltd,registered_at,"14 Harbour Road, Hull"
+Tidewell Seafoods Ltd,registered_at,"14 Harbour Road, Hull"
+Tidewell Cold Store Ltd,registered_at,"14 Harbour Road, Hull"
+Harcourt Capital LLP,registered_at,"Suite 5, 100 Kings Road, London"
+Harcourt Capital Partners 1 LP,registered_at,"Suite 5, 100 Kings Road, London"
+Harcourt Capital Partners 2 LP,registered_at,"Suite 5, 100 Kings Road, London"
+Voss Consulting Ltd,registered_at,"Suite 5, 100 Kings Road, London"
+Brightwell Foods Ltd,registered_at,"Suite 12, 100 Kings Road, London"
+Brightwell Dairy Ltd,registered_at,"Suite 12, 100 Kings Road, London"
+Brightwell Bakeries Ltd,registered_at,"Suite 12, 100 Kings Road, London"
+Brightwell Foods (Scotland) Ltd,registered_at,"9 Leith Walk, Edinburgh"
+Northgate Finance (Jersey) Ltd,registered_at,"22 Esplanade, St Helier"
+Cedar Trust Services Ltd,registered_at,"22 Esplanade, St Helier"
+Redwood Nominees Ltd,registered_at,"22 Esplanade, St Helier"
+Redwood Nominees 2 Ltd,registered_at,"22 Esplanade, St Helier"
+Northgate Finance Ltd,registered_at,"9 Leith Walk, Edinburgh"
+Bello Energy Ltd,registered_at,"Unit 3, Riverside Park, Hull"
+Bello Solar 1 Ltd,registered_at,"Unit 3, Riverside Park, Hull"
+Bello Solar 2 Ltd,registered_at,"Unit 3, Riverside Park, Hull"
+Bello Solar 12 Ltd,registered_at,"Unit 3, Riverside Park, Hull"
+Bello Solar 21 Ltd,registered_at,"Unit 3, Riverside Park, Hull"
+O'Connell Homes (Hull) Ltd,registered_at,"Unit 3, Riverside Park, Hull"
+3 Rivers Brewing Co Ltd,registered_at,"Unit 8, Riverside Park, Hull"
+3 Rivers Taverns Ltd,registered_at,"Unit 8, Riverside Park, Hull"
+Riverside Maltings Ltd,registered_at,"Unit 8, Riverside Park, Hull"
+Bello Wind Ltd,registered_at,"Unit 8, Riverside Park, Hull"
+Weiss Logistics UK Ltd,registered_at,"Unit 12, Riverside Park, Hull"
+360 Pallet Services Ltd,registered_at,"Unit 12, Riverside Park, Hull"
+Lindqvist Marine UK Ltd,registered_at,"Unit 12, Riverside Park, Hull"
+Mori Trading UK Ltd,registered_at,"Unit 12, Riverside Park, Hull"
+O'Connell Property Group Ltd,registered_at,"7 Mill Yard, Bradford"
+O'Connell Lettings Ltd,registered_at,"7 Mill Yard, Bradford"
+24 Seven Care Homes Ltd,registered_at,"7 Mill Yard, Bradford"
+Haddad Pharmacy Group Ltd,registered_at,"7 Mill Yard, Bradford"
+Weiss Logistik GmbH,registered_at,"Hafenstraße 12, Hamburg"
+Lindqvist Marine AB,registered_at,"Södra Hamngatan 4, Göteborg"
+Mori Trading KK,registered_at,"3-2-1 Marunouchi, Tokyo"
+Whitmore Estates Ltd,registered_at,"Suite 12, 100 Kings Road, London"
+Whitmore Estates (No. 2) Ltd,registered_at,"Suite 5, 100 Kings Road, London"
+Byrne Civils Ltd,registered_at,"Unit 8, Riverside Park, Hull"
+Kowalska Design Ltd,registered_at,"7 Mill Yard, Bradford"

@@ -1,0 +1,13 @@
+{
+"n": 100,
+"counts": {
+"line_right": 95,
+"generous_right": 94,
+"strict_right": 76,
+"status_answered": 99,
+"seconds": 4421.4400000000005,
+"line_loud": 2,
+"line_limit": 3,
+"status_budget": 1
+}
+}

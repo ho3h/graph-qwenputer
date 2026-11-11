@@ -1,0 +1,132 @@
+{
+"seed": 20261104,
+"conversations": [
+{
+"key": "nyc-r3:0",
+"graph": "nyc-t",
+"labels": {
+"a": "Cortelyou Rd",
+"b": "Gannet Sq",
+"c": "Bracken Rd",
+"d": "Old Town"
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds two new stations: Gannet Sq and Bracken Rd. Going northbound, its stops are Cortelyou Rd, then Gannet Sq, then Bracken Rd, then Old Town.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Gannet Sq",
+"Bracken Rd"
+],
+[
+[
+"Cortelyou Rd",
+"Gannet Sq"
+],
+[
+"Gannet Sq",
+"Bracken Rd"
+],
+[
+"Bracken Rd",
+"Old Town"
+]
+]
+]
+},
+{
+"user": "What's the route with the fewest stops from Cortelyou Rd to Bracken Rd?",
+"gold": "2 steps: @269 Cortelyou Rd > @496 Gannet Sq > @497 Bracken Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-r3:1",
+"graph": "nyc-t",
+"labels": {
+"a": "Huguenot",
+"b": "Sedge Av",
+"c": "Plover St",
+"d": "90 St-Elmhurst Av"
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds two new stations: Sedge Av and Plover St. Going northbound, its stops are Huguenot, then Sedge Av, then Plover St, then 90 St-Elmhurst Av.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Sedge Av",
+"Plover St"
+],
+[
+[
+"Huguenot",
+"Sedge Av"
+],
+[
+"Sedge Av",
+"Plover St"
+],
+[
+"Plover St",
+"90 St-Elmhurst Av"
+]
+]
+]
+},
+{
+"user": "What's the route with the fewest stops from Huguenot to Plover St?",
+"gold": "2 steps: @346 Huguenot > @496 Sedge Av > @497 Plover St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-r3:2",
+"graph": "nyc-t",
+"labels": {
+"a": "190 St",
+"b": "Yarrow Park",
+"c": "Tansy Rd",
+"d": "Beverley Rd"
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds two new stations: Yarrow Park and Tansy Rd. Going northbound, its stops are 190 St, then Yarrow Park, then Tansy Rd, then Beverley Rd.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Yarrow Park",
+"Tansy Rd"
+],
+[
+[
+"190 St",
+"Yarrow Park"
+],
+[
+"Yarrow Park",
+"Tansy Rd"
+],
+[
+"Tansy Rd",
+"Beverley Rd"
+]
+]
+]
+},
+{
+"user": "What's the route with the fewest stops from 190 St to Tansy Rd?",
+"gold": "2 steps: @63 190 St > @496 Yarrow Park > @497 Tansy Rd",
+"wants": null
+}
+]
+}
+],
+"plain": []
+}

@@ -1,0 +1,65 @@
+# Ashvale district water network, from the asset register.
+# feeds: normal direction of flow. interconnect: emergency cross-connection, usable either way.
+# weight: pipe length in metres.
+from,relation,to,weight
+Ashmere Intake,feeds,Ashmere WTW,900
+Ashmere Borehole 2,feeds,Ashmere WTW,1400
+Ashmere Borehole 3,feeds,Ashmere WTW,1650
+Ashmere WTW,feeds,Booster 1,400
+Booster 1,feeds,Highfield SR,2600
+Highfield SR,feeds,Valve 3,300
+Valve 3,feeds,Valve 5,700
+Valve 3,feeds,Valve 8,900
+Valve 5,feeds,PRV 4,450
+Valve 5,feeds,Valve 12,800
+Valve 5,feeds,Valve 40,1200
+PRV 4,feeds,DMA 03 Castle Street,350
+PRV 4,feeds,DMA 13 Castle Hill,500
+Valve 12,feeds,Valve 12A,60
+Valve 12,feeds,Valve 12B,60
+Valve 12A,feeds,PRV 14,600
+Valve 12B,feeds,PRV 41,750
+PRV 14,feeds,DMA 07 Mill Lane,300
+PRV 14,feeds,DMA 17 Mill Road,420
+PRV 41,feeds,DMA 14 St Mary's,380
+PRV 41,feeds,DMA 15 St Mark's,510
+Valve 8,feeds,Booster 2,1100
+Booster 2,feeds,Valve 18,650
+Valve 18,feeds,Valve 21,900
+Valve 21,feeds,PRV 6,300
+PRV 6,feeds,DMA 05 Riverside North,350
+PRV 6,feeds,DMA 06 Riverside South,400
+Valve 40,feeds,PRV 24,500
+Valve 40,feeds,Valve 44,700
+PRV 24,feeds,DMA 25 Highfield Estate,320
+PRV 24,feeds,DMA 26 Highfield Village,460
+Valve 44,feeds,Ashvale General Hospital,280
+Coldbrook Intake,feeds,Coldbrook WTW,1100
+Coldbrook Borehole 1,feeds,Coldbrook WTW,1250
+Coldbrook WTW,feeds,Coldbrook SR,500
+Coldbrook SR,feeds,Booster 7,800
+Coldbrook SR,feeds,Valve 30,600
+Booster 7,feeds,Beacon Hill SR,3100
+Beacon Hill SR,feeds,Valve 27,250
+Valve 27,feeds,PRV 16,600
+Valve 27,feeds,Valve 31,1200
+PRV 16,feeds,DMA 11 Beacon Park,300
+PRV 16,feeds,DMA 21 Beacon Rise,350
+Valve 31,feeds,Valve 33,900
+Valve 33,feeds,DMA 19 Old Station Yard,250
+Valve 33,feeds,DMA 29 Station Approach,300
+Valve 30,feeds,PRV 34,650
+Valve 30,feeds,Valve 36,400
+PRV 34,feeds,DMA 30 Coldbrook Farm,260
+PRV 34,feeds,DMA 31 Coldbrook Green,340
+Valve 36,feeds,Booster 12,900
+Booster 12,feeds,Northern Foods Plant 2,380
+Booster 12,feeds,Northern Foods Plant 3,420
+Booster 12,feeds,Valve 38,500
+Valve 38,feeds,DMA 22 Kingsway,300
+Valve 38,feeds,DMA 23 Kings Road,350
+Valve 38,feeds,Kingsway Trading Estate,420
+Valve 44,interconnect,Valve 38,1500
+Valve 33,interconnect,Valve 21,800
+Valve 33,interconnect,Valve 38,1100
+Valve 12B,interconnect,Valve 27,1400

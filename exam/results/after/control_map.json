@@ -1,0 +1,53 @@
+{
+ "counts": {
+  "n": 600,
+  "same_as_reference": 600,
+  "equal_new_york": 0,
+  "kind:NORELATION": 435,
+  "kind:NONE": 123,
+  "kind:Stopped": 36,
+  "kind:station": 6
+ },
+ "examples": [
+  [
+   {
+    "start": "@79",
+    "legs": "1 northbound 1"
+   },
+   "@81 238 St",
+   "NORELATION 1 northbound"
+  ],
+  [
+   {
+    "start": "@69",
+    "legs": "G northbound 1"
+   },
+   "@272 Court Sq",
+   "NORELATION G northbound"
+  ],
+  [
+   {
+    "start": "@24",
+    "legs": "4 southbound 1"
+   },
+   "@19 125 St",
+   "NORELATION 4 southbound"
+  ],
+  [
+   {
+    "start": "@109",
+    "legs": "7 northbound 1"
+   },
+   "@129 61 St-Woodside",
+   "NORELATION 7 northbound"
+  ],
+  [
+   {
+    "start": "@173",
+    "legs": "SI northbound 1"
+   },
+   "@296 Eltingville",
+   "NONE @173"
+  ]
+ ]
+}

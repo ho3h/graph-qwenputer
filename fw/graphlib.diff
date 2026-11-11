@@ -1,0 +1,431 @@
+--- rvc/graphlib.c	2026-11-01 19:29:23
++++ fw/graphlib.c	2026-11-02 00:44:49
+@@ -11,6 +11,13 @@
+ // from the bridge's capture (row i at 0x8000 + 16 i holds the call's i-th token) in Qwen's native tool-call text, and
+ // the result goes out inside the response wrapping of SPEC section 6, as qwenputer's env/calc firmware does it.
+ // The graph is boot data read at run time (DROM at 0x21000, see boot.py; graph-op build also the coprocessor).
++//
++// fw/ copy of rvc/graphlib.c (see fw/DEVLOG.md and fw/graphlib.diff): general firmware changes only, no new instruction and
++// not one output byte changed. Each is on by default and can be switched off for measuring (-DFW_NO_x):
++//   PUT       putchar sets only a0 and a7; a label prints through a pointer
++//   PARSE     a call in the template's exact token shape is read from the rows, only names and values copied
++//   LEGS      chase parses its legs in one pass
++//   CHEAPEST  cheapest stops when the target is finalised; a tight loop while nothing is closed or edited
+ #include "rt.h"
+ 
+ typedef unsigned int u32;
+@@ -221,7 +228,16 @@
+ #endif
+ 
+ // ---------------------------------------------------------------- output
++#ifdef FW_NO_PUT
+ static void put(u32 c) { rv_ecall2(1, c, 0, 0); }
++#else
++// The machine's putchar reads a7 and a0 only, and touches nothing else.
++static inline __attribute__((always_inline)) void put(u32 c) {
++    register u32 r_a0 __asm__("a0") = c;
++    register u32 r_a7 __asm__("a7") = 1;
++    __asm__ volatile("ecall" : : "r"(r_a0), "r"(r_a7));
++}
++#endif
+ static void put_s(const char *s) { while (*s) put((u8)*s++); }
+ static void put_span(const u8 *p, u32 n) { for (u32 i = 0; i < n; i++) put(p[i]); }
+ static void put_num(u32 v) {
+@@ -230,7 +246,14 @@
+     do { b[n++] = (char)('0' + v % 10); v /= 10; } while (v);
+     while (n) put((u8)b[--n]);
+ }
++#if defined(NO_GRAPH_OPS) && !defined(FW_NO_PUT)
++static void put_lab(u32 h) {
++    const u8 *p = LABDATA + LABOFF[h], *e = LABDATA + LABOFF[h + 1];
++    while (p != e) put(*p++);
++}
++#else
+ static void put_lab(u32 h) { for (u32 i = 0, n = lab_len(h); i < n; i++) put(lab_byte(h, i)); }
++#endif
+ static void put_fmt(u32 h) { put('@'); put_num(h); put(' '); put_lab(h); }
+ // ---------------------------------------------------------------- strings (Python str.strip whitespace, UTF-8)
+ typedef struct { const u8 *p; u32 n; } Span;
+@@ -255,8 +278,12 @@
+     if (n >= 3 && ws_at(p + n - 3, 3) == 3) return 3;
+     return 0;
+ }
++static inline u32 plain(u32 c) { return c - 33u < 95u; }  // 33..127: no whitespace character starts or ends here
+ static Span trim(Span s) {
+     u32 k;
++#ifndef FW_NO_LEGS
++    if (s.n && plain(s.p[0]) && plain(s.p[s.n - 1])) return s;
++#endif
+     while ((k = ws_at(s.p, s.n))) s.p += k, s.n -= k;
+     while ((k = ws_end(s.p, s.n))) s.n -= k;
+     return s;
+@@ -590,6 +617,7 @@
+     if (h == END) return;
+     if (walk(&h, r, n, 0)) put_fmt(h);
+ }
++#ifdef FW_NO_LEGS
+ static void f_chase(Span start, Span legs) {
+     u32 lr[MAX_LEGS], ln[MAX_LEGS], np = 0;
+     // pass 1: count the non-empty parts
+@@ -620,7 +648,39 @@
+             if (!n) { put_s("BADARG legs "); put_span(legs.p, legs.n); return; }
+             lr[np] = r;
+             ln[np++] = n;
++        }
++#else
++static void f_chase(Span start, Span legs) {
++    u32 lr[MAX_LEGS], ln[MAX_LEGS], np = 0, err = 0;  // err: the first bad leg's answer (1 BADARG, 2 NORELATION)
++    Span bad_rel = {0, 0};
++    // one pass over the parts. A wrong leg count outranks a bad leg, so a bad leg is remembered and the parts still counted.
++    for (u32 i = 0, b = 0; i <= legs.n; i++)
++        if (i == legs.n || legs.p[i] == ';') {
++            Span p = trim((Span){legs.p + b, i - b});
++            b = i + 1;
++            if (!p.n) continue;
++            if (++np > MAX_LEGS || err) continue;
++            // (.+?)\s+(\d+), fullmatch: trailing digits, the whitespace run before them, a relation without '\n'
++            u32 ds = p.n, k;
++            while (ds && is_digit(p.p[ds - 1])) ds--;
++            u32 ws = ds;
++            while ((k = ws_end(p.p, ws))) ws -= k;
++            int bad = ds == p.n || ws == ds || ws == 0;
++            for (u32 j = 0; j < ws && !bad; j++) bad = p.p[j] == '\n';
++            if (bad) { err = 1; continue; }
++            Span rs = trim((Span){p.p, ws});
++            u32 r = rel_lookup(rs);
++            if (r == END) { err = 2; bad_rel = rs; continue; }
++            u32 n = 0;  // only ASCII digits here: parse_int's value, saturated
++            for (u32 j = ds; j < p.n; j++)
++                if (n <= MAX_STEPS) n = n * 10 + (p.p[j] - '0');
++            if (n < 1 || n > MAX_STEPS) { err = 1; continue; }
++            lr[np - 1] = r;
++            ln[np - 1] = n;
+         }
++    if (np < 1 || np > MAX_LEGS || err == 1) { put_s("BADARG legs "); put_span(legs.p, legs.n); return; }
++    if (err) { put_s("NORELATION "); put_span(bad_rel.p, bad_rel.n); return; }
++#endif
+     u32 h = node_or_print(start);
+     if (h == END) return;
+     for (u32 i = 0; i < np; i++) {
+@@ -839,12 +899,86 @@
+     best_set(y, cy);
+     w2[y] = (u16)rlx_x;
+     hq_push(&Q, cy << 12 | y);
++}
++#if defined(NO_GRAPH_OPS) && !defined(FW_NO_CHEAPEST)
++// Nothing closed and no edits: Dijkstra over each node's whole list, in the list's order (the general search visits the same
++// entries in the same order). The queue is the same bounded key order; if it would spill, return 0 and the general search,
++// which handles a spill, starts over. Nothing has been printed by then. cst[y]: 0 not reached, 1 reached, 2 reached at the
++// saturated cost, 3 finalised.
++static u8 cst[MAXN] __attribute__((aligned(4)));
++static int cheapest_tight(u32 a, u32 b) {
++    const u16 *off = OFF_[0], *wt = W_[0];
++    const u32 *ent = ENT_[0];
++    u32 *hp = wk.heap, n = 1, cb = END;
++    for (u32 *p = (u32 *)cst, *e = (u32 *)(cst + ((N + 3) & ~3u)); p != e; p++) *p = 0;
++    cst[a] = 1; scratch[a] = 0; w2[a] = 0xFFFFu; hp[0] = a;
++    while (n) {
++        u32 key = hp[0], k = hp[--n], i = 0;
++        if (n) {  // the hole sinks to k's place
++            for (;;) {
++                u32 c = 2 * i + 1;
++                if (c >= n) break;
++                u32 av = hp[c];
++                if (c + 1 < n) { u32 bv = hp[c + 1]; if (bv < av) { c++; av = bv; } }
++                if (av >= k) break;
++                hp[i] = av;
++                i = c;
++            }
++            hp[i] = k;
++        }
++        u32 x = key & 0xFFFu;
++        if (cst[x] == 3) continue;
++        cst[x] = 3;
++        u32 cx = key >> 12;
++        if (x == b) { cb = cx; break; }
++        for (u32 j = off[x], e = off[x + 1]; j < e; j++) {
++            u32 y = ent[j] & 0xFFFu, s = cst[y];
++            if (s == 3) continue;
++            u32 cy = cx + wt[j];
++            if (cy > WSAT) cy = WSAT;
++            if (s) {
++                u32 by = s == 2 ? WSAT : scratch[y];
++                if (cy == by && x < w2[y]) w2[y] = (u16)x;
++                if (cy >= by) continue;
++            }
++            if (cy >= WSAT) {
++                cst[y] = 2;
++            } else {
++                if (s != 1) cst[y] = 1;
++                scratch[y] = (u16)cy;
++            }
++            w2[y] = (u16)x;
++            if (n == HEAPMAX) return 0;
++            u32 kk = cy << 12 | y, h = n++;
++            while (h) {
++                u32 p = (h - 1) >> 1, pv = hp[p];
++                if (pv <= kk) break;
++                hp[h] = pv;
++                h = p;
++            }
++            hp[h] = kk;
++        }
++    }
++    if (cb == END) { put_s("NOPATH"); return 1; }
++    if (cb > MAXW) { put_s("OVERFLOW"); return 1; }
++    u32 m = 0;  // the path backwards, into the queue's space (the search is over)
++    for (u32 y = b; y != 0xFFFFu; y = w2[y]) wk.q[m++] = (u16)y;
++    put_s("cost "); put_num(cb); put_s(": ");
++    for (u32 i = m; i > 0; i--) {
++        if (i != m) put_s(" > ");
++        put_fmt(wk.q[i - 1]);
++    }
++    return 1;
+ }
++#endif
+ static void f_cheapest(Span from, Span to) {
+     u32 a = node_or_print(from);
+     if (a == END) return;
+     u32 b = node_or_print(to);
+     if (b == END) return;
++#if defined(NO_GRAPH_OPS) && !defined(FW_NO_CHEAPEST)
++    if (!(n_closed | n_add | n_dead) && cheapest_tight(a, b)) return;
++#endif
+     clear_bits(mark); clear_bits(done); clear_bits(over);
+     Q = (Hq){wk.heap, 0, HEAPMAX, 0, END, mark, done};
+     SETB(mark, a); best_set(a, 0); w2[a] = 0xFFFFu; hq_push(&Q, a);
+@@ -853,6 +987,9 @@
+         u32 x = key & 0xFFFu;
+         if (BIT(done, x)) continue;
+         SETB(done, x);
++#ifndef FW_NO_CHEAPEST
++        if (x == b) break;  // finalised: a finalised node is never touched again, and neither are those before it
++#endif
+         rlx_x = x; rlx_c = key >> 12;
+         RIt it;
+         rit_init(&it, x, 0);
+@@ -1056,7 +1193,173 @@
+         return 1;
+     }
+     return 0;
++}
++#endif
++
++#if defined(BRIDGE) && !defined(FW_NO_PARSE)
++// ---------------------------------------------------------------- the common case, read in place
++// A call in the template's exact token shape (every one of Qwen's 1,358 saved calls but one):
++//   \n < function =NAME.. > \n ( < parameter =KEY.. > \n VALUE.. \n </ parameter > \n )* </ function > \n
++// NAME and KEY rows hold no '<', '>' or '\n', and VALUE rows no '<'. For such text parse_call's regexes can only find
++// what this walk finds, so the spans are the slow path's. Anything else, including a full row and row 80 in use, returns 0
++// with nothing printed, and the slow path decides. Template rows are compared as words, in place; only NAME, KEY and VALUE
++// bytes reach cb. Rows are word aligned and NUL padded, and a token ends at its first NUL, as in gather.
++#define MAXP 6u
++#define CHR4(a, b, c, d) ((u32)(a) | (u32)(b) << 8 | (u32)(c) << 16 | (u32)(d) << 24)
++#define W0(r) (((const u32 *)(r))[0])
++#define W1(r) (((const u32 *)(r))[1])
++#define H4(r) (((const u16 *)(r))[4])
++#define IS_NL(r) (W0(r) == '\n')
++#define IS_LT(r) (W0(r) == '<')
++#define IS_GT(r) (W0(r) == '>')
++#define IS_CL(r) (W0(r) == CHR4('<', '/', 0, 0))
++#define IS_FUNCTION(r) (W0(r) == CHR4('f', 'u', 'n', 'c') && W1(r) == CHR4('t', 'i', 'o', 'n') && !(r)[8])
++#define IS_PARAMETER(r) (W0(r) == CHR4('p', 'a', 'r', 'a') && W1(r) == CHR4('m', 'e', 't', 'e') && H4(r) == 'r')
++typedef struct { Span fn; u32 np; Span k[MAXP], v[MAXP]; } Parsed;
++
++// One row's bytes into o (at fixed offsets, so no address arithmetic per byte): the count, or END for a refused byte or a
++// full row. A name row entered at byte 1 has r[15] == 0 (checked by the caller), so byte 14 from there ends it.
++#define NAME_BAD(c) (((c) | 2u) == '>' || (c) == '\n')
++#define VAL_BAD(c) ((c) == '<')
++#define COPY_ROW(fname, BAD)                                                                       \
++    static __attribute__((noinline)) u32 fname(const u8 *r, u8 *o) {                               \
++        u32 c;                                                                                     \
++        c = r[0];  if (!c) return 0;  if (BAD(c)) return END; o[0] = (u8)c;                        \
++        c = r[1];  if (!c) return 1;  if (BAD(c)) return END; o[1] = (u8)c;                        \
++        c = r[2];  if (!c) return 2;  if (BAD(c)) return END; o[2] = (u8)c;                        \
++        c = r[3];  if (!c) return 3;  if (BAD(c)) return END; o[3] = (u8)c;                        \
++        c = r[4];  if (!c) return 4;  if (BAD(c)) return END; o[4] = (u8)c;                        \
++        c = r[5];  if (!c) return 5;  if (BAD(c)) return END; o[5] = (u8)c;                        \
++        c = r[6];  if (!c) return 6;  if (BAD(c)) return END; o[6] = (u8)c;                        \
++        c = r[7];  if (!c) return 7;  if (BAD(c)) return END; o[7] = (u8)c;                        \
++        c = r[8];  if (!c) return 8;  if (BAD(c)) return END; o[8] = (u8)c;                        \
++        c = r[9];  if (!c) return 9;  if (BAD(c)) return END; o[9] = (u8)c;                        \
++        c = r[10]; if (!c) return 10; if (BAD(c)) return END; o[10] = (u8)c;                       \
++        c = r[11]; if (!c) return 11; if (BAD(c)) return END; o[11] = (u8)c;                       \
++        c = r[12]; if (!c) return 12; if (BAD(c)) return END; o[12] = (u8)c;                       \
++        c = r[13]; if (!c) return 13; if (BAD(c)) return END; o[13] = (u8)c;                       \
++        c = r[14]; if (!c) return 14; if (BAD(c)) return END; o[14] = (u8)c;                       \
++        return r[15] ? END : 15;                                                                   \
++    }
++COPY_ROW(copy_name, NAME_BAD)
++COPY_ROW(copy_val, VAL_BAD)
++
++// =NAME.. up to the row ">": *rp on the "=" row before, on the ">" row after. NAME is not empty.
++static int name_rows(const u8 **rp, u8 **op, Span *name) {
++    const u8 *r = *rp;
++    u8 *o = *op;
++    if (r[0] != '=' || r[15]) return 0;
++    u32 n = copy_name(r + 1, o);
++    if (n == END) return 0;
++    o += n;
++    for (;;) {
++        r += 16;
++        if (IS_GT(r)) break;
++        n = copy_name(r, o);
++        if (n == END || !n) return 0;
++        o += n;
++    }
++    if (o == *op) return 0;
++    *name = (Span){*op, (u32)(o - *op)};
++    *rp = r;
++    *op = o;
++    return 1;
+ }
++static int fast_parse(Parsed *P) {
++    const u8 *r = CAP_ROW(1);
++    u8 *o = cb;
++    u32 np = 0;
++    if (CAP_ROW(80)[0]) return 0;  // the window's last row in use: the slow path knows what that means
++    if (!IS_NL(r) || !IS_LT(r + 16) || !IS_FUNCTION(r + 32)) return 0;
++    r += 48;
++    if (!name_rows(&r, &o, &P->fn) || !IS_NL(r + 16)) return 0;
++    r += 32;
++    for (;;) {
++        if (IS_LT(r)) {
++            if (!IS_PARAMETER(r + 16) || np == MAXP) return 0;
++            r += 32;
++            if (!name_rows(&r, &o, &P->k[np]) || !IS_NL(r + 16)) return 0;
++            r += 32;
++            u8 *vs = o;
++            while (!(IS_NL(r) && IS_CL(r + 16))) {
++                u32 n = copy_val(r, o);
++                if (n == END || !n) return 0;
++                o += n;
++                r += 16;
++            }
++            P->v[np++] = (Span){vs, (u32)(o - vs)};
++            if (!IS_PARAMETER(r + 32) || !IS_GT(r + 48) || !IS_NL(r + 64)) return 0;
++            r += 80;
++        } else if (IS_CL(r)) {
++            if (!IS_FUNCTION(r + 16) || !IS_GT(r + 32) || !IS_NL(r + 48) || r[64]) return 0;
++            P->np = np;
++            return 1;
++        } else {
++            return 0;
++        }
++    }
++}
++// The same answers as the loops over FN and PARAMS, by length and bytes. KEY_x index SLOT's second dimension.
++#define EQ2(p, a, b) ((p)[0] == (a) && (p)[1] == (b))
++#define EQ3(p, a, b, c) (EQ2(p, a, b) && (p)[2] == (c))
++#define EQ4(p, a, b, c, d) (EQ3(p, a, b, c) && (p)[3] == (d))
++static u32 fn_index(Span s) {
++    const u8 *p = s.p;
++    switch (s.n) {
++    case 4:
++        if (EQ4(p, 'f', 'i', 'n', 'd')) return 0;
++        if (EQ4(p, 'p', 'a', 't', 'h')) return 4;
++        if (EQ4(p, 'l', 'i', 'n', 'k')) return 8;
++        break;
++    case 5:
++        if (EQ4(p, 'c', 'h', 'a', 's') && p[4] == 'e') return 2;
++        if (EQ4(p, 'c', 'l', 'o', 's') && p[4] == 'e') return 6;
++        break;
++    case 6:
++        if (EQ4(p, 'f', 'o', 'l', 'l') && EQ2(p + 4, 'o', 'w')) return 1;
++        if (EQ4(p, 'r', 'e', 'o', 'p') && EQ2(p + 4, 'e', 'n')) return 7;
++        if (EQ4(p, 'u', 'n', 'l', 'i') && EQ2(p + 4, 'n', 'k')) return 9;
++        break;
++    case 8:
++        if (EQ4(p, 'c', 'h', 'e', 'a') && EQ4(p + 4, 'p', 'e', 's', 't')) return 5;
++        break;
++    case 10:
++        if (EQ4(p, 'n', 'e', 'i', 'g') && EQ4(p + 4, 'h', 'b', 'o', 'u') && EQ2(p + 8, 'r', 's')) return 3;
++        break;
++    }
++    return NFN;
++}
++enum { K_NAME, K_HAS, K_NODE, K_RELATION, K_STEPS, K_START, K_LEGS, K_DIRECTION, K_FRM, K_TO, K_WEIGHT, NKEY };
++static const u8 SLOT[NFN][NKEY] = {  // PARAMS as a table: the parameter's position, 15 when the function has no such key
++    {0, 1, 15, 15, 15, 15, 15, 15, 15, 15, 15},  {15, 15, 0, 1, 2, 15, 15, 15, 15, 15, 15},
++    {15, 15, 15, 15, 15, 0, 1, 15, 15, 15, 15},  {15, 15, 0, 1, 15, 15, 15, 2, 15, 15, 15},
++    {15, 15, 15, 15, 15, 15, 15, 15, 0, 1, 15},  {15, 15, 15, 15, 15, 15, 15, 15, 0, 1, 15},
++    {15, 15, 0, 15, 15, 15, 15, 15, 15, 15, 15}, {15, 15, 0, 15, 15, 15, 15, 15, 15, 15, 15},
++    {15, 15, 15, 1, 15, 15, 15, 15, 0, 2, 3},    {15, 15, 15, 1, 15, 15, 15, 15, 0, 2, 15}};
++static u32 key_index(Span s) {
++    const u8 *p = s.p;
++    switch (s.n) {
++    case 2: if (EQ2(p, 't', 'o')) return K_TO; break;
++    case 3:
++        if (EQ3(p, 'h', 'a', 's')) return K_HAS;
++        if (EQ3(p, 'f', 'r', 'm')) return K_FRM;
++        break;
++    case 4:
++        if (EQ4(p, 'n', 'o', 'd', 'e')) return K_NODE;
++        if (EQ4(p, 'n', 'a', 'm', 'e')) return K_NAME;
++        if (EQ4(p, 'f', 'r', 'o', 'm')) return K_FRM;
++        if (EQ4(p, 'l', 'e', 'g', 's')) return K_LEGS;
++        break;
++    case 5:
++        if (EQ4(p, 's', 't', 'e', 'p') && p[4] == 's') return K_STEPS;
++        if (EQ4(p, 's', 't', 'a', 'r') && p[4] == 't') return K_START;
++        break;
++    case 6: if (EQ4(p, 'w', 'e', 'i', 'g') && EQ2(p + 4, 'h', 't')) return K_WEIGHT; break;
++    case 8: if (EQ4(p, 'r', 'e', 'l', 'a') && EQ4(p + 4, 't', 'i', 'o', 'n')) return K_RELATION; break;
++    case 9: if (EQ4(p, 'd', 'i', 'r', 'e') && EQ4(p + 4, 'c', 't', 'i', 'o') && p[8] == 'n') return K_DIRECTION; break;
++    }
++    return NKEY;
++}
+ #endif
+ 
+ #ifndef BRIDGE
+@@ -1068,7 +1371,25 @@
+ }
+ #endif
+ 
++static void dispatch(u32 f, u32 got, Span *v);
+ static void call(void) {
++#if defined(BRIDGE) && !defined(FW_NO_PARSE)
++    Parsed P;
++    if (fast_parse(&P)) {
++        u32 f = fn_index(P.fn), got = 0;
++        if (f == NFN) { put_s("NOFUNCTION "); put_span(P.fn.p, P.fn.n); return; }
++        Span v[MAXARGS];
++        for (u32 j = 0; j < P.np; j++) {
++            u32 kid = key_index(P.k[j]), i = kid == NKEY ? 15 : SLOT[f][kid];
++            if (i == 15) { put_s("BADARG "); put_s(FN[f]); return; }
++            v[i] = P.v[j];
++            got |= 1u << i;
++        }
++        if ((got & REQUIRED[f]) != REQUIRED[f]) { put_s("BADARG "); put_s(FN[f]); return; }
++        dispatch(f, got, v);
++        return;
++    }
++#endif
+ #ifdef BRIDGE
+     u32 full = 0;
+     if (!gather(&full)) { put_s("TOOLONG"); return; }
+@@ -1107,6 +1428,9 @@
+         got |= 1u << i;
+     }
+     if ((got & REQUIRED[f]) != REQUIRED[f]) { put_s("BADARG "); put_s(FN[f]); return; }
++    dispatch(f, got, v);
++}
++static void dispatch(u32 f, u32 got, Span *v) {
+     switch (f) {
+     case 0: f_find(v[0], got >> 1 & 1, v[1]); break;
+     case 1: f_follow(v[0], v[1], v[2]); break;
+@@ -1152,10 +1476,14 @@
+         // The bridge's printable tokens are the bytes and these four specials (bridge.SPECIALS), so <|im_end|> and
+         // <|im_start|> cannot be printed: the template's turn markers are newlines here, as in env/calc.
+         enum { TOOL_RESPONSE = 256, TOOL_RESPONSE_END, THINK, THINK_END };
++#ifdef FW_ONELINE  // item 4's measurement only: the result and nothing around it. Changes the response, so never the default.
++        call();
++#else
+         put('\n'); put(TOOL_RESPONSE); put('\n');
+         call();
+         put('\n'); put(TOOL_RESPONSE_END); put('\n');
+         put(THINK); put('\n'); put('\n'); put(THINK_END); put('\n');
++#endif
+ #else
+         call();
+ #endif

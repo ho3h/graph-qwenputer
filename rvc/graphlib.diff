@@ -1,0 +1,154 @@
+--- cop/graphlib.c	2026-11-01 15:21:32
++++ rvc/graphlib.c	2026-11-01 19:29:23
+@@ -6,6 +6,10 @@
+ // coprocessor state persist between calls, so close/reopen sequences work like the circuit's.
+ //
+ // Call format in the text buffer: fn NUL (key NUL value NUL)* NUL. Values are the argument strings, unchanged.
++//
++// rvc/ copy of cop/graphlib.c, changed only under -DBRIDGE (see rvc/DEVLOG.md and rvc/graphlib.diff): the call comes
++// from the bridge's capture (row i at 0x8000 + 16 i holds the call's i-th token) in Qwen's native tool-call text, and
++// the result goes out inside the response wrapping of SPEC section 6, as qwenputer's env/calc firmware does it.
+ // The graph is boot data read at run time (DROM at 0x21000, see boot.py; graph-op build also the coprocessor).
+ #include "rt.h"
+ 
+@@ -15,8 +19,10 @@
+ typedef unsigned char u8;
+ 
+ #define END 0xFFFFFFFFu
++#ifndef BRIDGE
+ #define TEXT ((const u8 *)0x8000)
+ #define TEXT_LEN 2048u
++#endif
+ #define BOOTB ((const u8 *)0x21000)
+ #define HDR ((const u32 *)0x21000)
+ #define MAXW 65535u
+@@ -988,26 +994,111 @@
+     {"frm", "to", 0, 0},    {"node", 0, 0, 0},                {"node", 0, 0, 0},
+     {"frm", "relation", "to", "weight"},                      {"frm", "relation", "to", 0}};
+ static const u8 REQUIRED[NFN] = {1, 7, 3, 3, 3, 3, 1, 1, 7, 7};  // bit i: parameter i is required
++
++#ifdef BRIDGE
++// ---------------------------------------------------------------- the capture (host/tools.py parse_call, in C)
++#define CAP_ROWS 80u
++#define CAP_ROW(i) ((const u8 *)0x8000 + 16u * (i))
++#define CAP_BYTES (CAP_ROWS * 16u)
++static u8 cb[CAP_BYTES];  // the captured call, its tokens' bytes end to end
++static u32 cn, cpos, cend;
++
++// Copies the rows. Returns 0 when a token might be cut: a row keeps a token's first 16 bytes, so a full row is refused.
++// Row CAP_ROWS holds the last token of a longer call, so a call of more than CAP_ROWS tokens has lost its middle.
++static int gather(u32 *full) {
++    u32 n = 0, i;
++    for (i = 1; i <= CAP_ROWS; i++) {
++        const u8 *r = CAP_ROW(i);
++        u32 k = 0, c = r[0];
++        if (!c) break;
++        do {
++            cb[n++] = (u8)c;
++            if (++k == 16) { cn = n; return 0; }
++            c = r[k];
++        } while (c);
++    }
++    cn = n;
++    *full = i > CAP_ROWS;
++    return 1;
++}
++static u32 at(u32 i, const char *lit, u32 lim) {  // length of lit when cb[i..lim) starts with it, else 0
++    u32 k = 0;
++    for (; lit[k]; k++)
++        if (i + k >= lim || cb[i + k] != (u8)lit[k]) return 0;
++    return k;
++}
++static u32 find_lit(u32 i, const char *lit, u32 lim) {  // first position of lit at or after i, or END
++    for (; i < lim; i++)
++        if (cb[i] == (u8)lit[0] && at(i, lit, lim)) return i;
++    return END;
++}
++// tag([^>\n]*)> at i: the name, and the position after '>'
++static int named_at(u32 i, const char *tag, u32 lim, Span *name, u32 *after) {
++    u32 k = at(i, tag, lim);
++    if (!k) return 0;
++    u32 a = i + k, j = a;
++    while (j < lim && cb[j] != '>' && cb[j] != '\n') j++;
++    if (j >= lim || cb[j] != '>') return 0;
++    *name = (Span){cb + a, j - a};
++    *after = j + 1;
++    return 1;
++}
++static int next_param(Span *key, Span *val) {  // <parameter=NAME>(.*?)</parameter>, one template newline dropped each side
++    for (u32 i = cpos; i < cend; i++) {
++        u32 a;
++        if (cb[i] != '<' || !named_at(i, "<parameter=", cend, key, &a)) continue;
++        u32 j = find_lit(a, "</parameter>", cend);
++        if (j == END) return 0;
++        cpos = j + 12;
++        if (a < j && cb[a] == '\n') a++;
++        if (a < j && cb[j - 1] == '\n') j--;
++        *val = (Span){cb + a, j - a};
++        return 1;
++    }
++    return 0;
++}
++#endif
+ 
++#ifndef BRIDGE
+ static Span field(u32 *pos) {
+     u32 b = *pos, i = b;
+     while (i < TEXT_LEN && TEXT[i]) i++;
+     *pos = i + 1;
+     return (Span){TEXT + b, i - b};
+ }
++#endif
+ 
+ static void call(void) {
++#ifdef BRIDGE
++    u32 full = 0;
++    if (!gather(&full)) { put_s("TOOLONG"); return; }
++    Span fn = {cb, 0};  // no <function=...> answers NOFUNCTION with an empty name
++    cpos = cend = cn;
++    for (u32 i = 0; i < cn; i++) {
++        u32 a;
++        if (cb[i] == '<' && named_at(i, "<function=", cn, &fn, &a)) { cpos = a; break; }
++    }
++    u32 e = find_lit(cpos, "</function>", cn);
++    if (e != END) cend = e;
++    else if (full) { put_s("TOOLONG"); return; }
++#else
+     u32 pos = 0;
+     Span fn = field(&pos);
++#endif
+     u32 f = 0;
+     while (f < NFN && !eq_lit(fn, FN[f])) f++;
+     if (f == NFN) { put_s("NOFUNCTION "); put_span(fn.p, fn.n); return; }
+     Span v[MAXARGS];
+     u32 got = 0;
+     for (;;) {
++#ifdef BRIDGE
++        Span k, val;
++        if (!next_param(&k, &val)) break;
++#else
+         Span k = field(&pos);
+         if (!k.n) break;
+         Span val = field(&pos);
++#endif
+         if (eq_lit(k, "from")) k = (Span){(const u8 *)"frm", 3};
+         u32 i = 0;
+         while (i < MAXARGS && !(PARAMS[f][i] && eq_lit(k, PARAMS[f][i]))) i++;
+@@ -1056,6 +1147,17 @@
+     init();
+     for (;;) {
+         rv_ecall2(93, 0, 0, 0);  // park; the next GO resumes here with a call in the text buffer
++#ifdef BRIDGE
++        // \n<tool_response>\nRESULT\n</tool_response>\n<think>\n\n</think>\n, and the bridge echoes HALT as \n.
++        // The bridge's printable tokens are the bytes and these four specials (bridge.SPECIALS), so <|im_end|> and
++        // <|im_start|> cannot be printed: the template's turn markers are newlines here, as in env/calc.
++        enum { TOOL_RESPONSE = 256, TOOL_RESPONSE_END, THINK, THINK_END };
++        put('\n'); put(TOOL_RESPONSE); put('\n');
+         call();
++        put('\n'); put(TOOL_RESPONSE_END); put('\n');
++        put(THINK); put('\n'); put('\n'); put(THINK_END); put('\n');
++#else
++        call();
++#endif
+     }
+ }

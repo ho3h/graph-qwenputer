@@ -1,0 +1,116 @@
+{
+"seed": 20261104,
+"conversations": [
+{
+"key": "nyc-rec:0",
+"graph": "nyc",
+"turns": [
+{
+"user": "New York is adding one new subway line that links two existing stations directly. Which two far-apart stations should it connect to save riders the most stops? Answer with the two station names.",
+"gold": "open",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-rec:1",
+"graph": "nyc",
+"turns": [
+{
+"user": "If you could build one new express link between two subway stations in New York, which two would save riders the most stops? Answer with the two station names.",
+"gold": "open",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-rec:2",
+"graph": "nyc",
+"turns": [
+{
+"user": "The MTA can add a single new direct connection between two stations. Which pair would cut the most stops from people's trips? Answer with the two station names.",
+"gold": "open",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-rec:3",
+"graph": "nyc",
+"turns": [
+{
+"user": "Pick two New York subway stations that are many stops apart and should be joined by a new line. Answer with the two station names.",
+"gold": "open",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-rec:4",
+"graph": "nyc",
+"turns": [
+{
+"user": "Which two New York stations are poorly connected today, and would most benefit from a new direct line between them? Answer with the two station names.",
+"gold": "open",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-rec:5",
+"graph": "nyc",
+"turns": [
+{
+"user": "You're planning New York's next subway line. It runs directly between two existing stations. Which two do you choose, to save the most stops overall? Answer with the two station names.",
+"gold": "open",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-rec:6",
+"graph": "nyc",
+"turns": [
+{
+"user": "Use the subway map to suggest one new direct line between two stations that would shorten trips the most. Answer with the two station names.",
+"gold": "open",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-rec:7",
+"graph": "nyc",
+"turns": [
+{
+"user": "Where should a new New York subway line go, as a direct link between two existing stations? Answer with the two station names.",
+"gold": "open",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-rec:8",
+"graph": "nyc",
+"turns": [
+{
+"user": "Find two stations far apart on the map, and propose a new direct line between them. Answer with the two station names.",
+"gold": "open",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-rec:9",
+"graph": "nyc",
+"turns": [
+{
+"user": "A new line connects two existing stations with no stops between. Name the two stations you'd pick to help the most riders.",
+"gold": "open",
+"wants": null
+}
+]
+}
+],
+"plain": []
+}

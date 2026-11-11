@@ -1,0 +1,26 @@
+{
+ "args": {
+  "start": "High St",
+  "legs": "A northbound 1; 5 southbound 3",
+  "closed": "Bowling Green"
+ },
+ "stream": 8042,
+ "owned_right": 7979,
+ "owned_wrong": 0,
+ "table_bytes": 131072,
+ "image_bytes": 52519,
+ "bytes_differing": 0,
+ "state_after_run": {
+  "n_closed": 1,
+  "closed": [
+   223
+  ],
+  "n_add": 0,
+  "n_dead": 0,
+  "n_edits": 0,
+  "dead": [],
+  "sha": "4dd3494a9cc7f3dd"
+ },
+ "line": "<|im_end|>\n<|im_start|>user\n<tool_response>\nclosed @223 Bowling Green\n@401 Nevins St\n</tool_response><|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+ "seconds": 146
+}

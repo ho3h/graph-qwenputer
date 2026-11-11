@@ -1,0 +1,20 @@
+{
+ "graph": "<repo>/data/dev/cities/c025.graph.json",
+ "questions": "<repo>/data/dev/cities/c025.questions.json",
+ "out": "<repo>/host/out/dev2/c025",
+ "attn": [
+  "eager",
+  "sdpa"
+ ],
+ "ids": [
+  0,
+  1,
+  100,
+  101,
+  200,
+  201,
+  400,
+  401
+ ],
+ "arm": "base"
+}

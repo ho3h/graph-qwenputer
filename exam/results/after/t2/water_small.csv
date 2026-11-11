@@ -1,0 +1,15 @@
+# Small network for checking the worked examples. No name here is in water.csv.
+from,relation,to,weight
+Fernley WTW,feeds,Lift Pump 4,500
+Lift Pump 4,feeds,Fernley Tank,1800
+Fernley Tank,feeds,Gate 6,220
+Gate 6,feeds,Gate 6C,40
+Gate 6,feeds,Gate 9,610
+Gate 6C,feeds,Regulator 2,380
+Gate 6C,feeds,Regulator 22,900
+Gate 9,feeds,Regulator 22,290
+Regulator 2,feeds,Area 11 Orchard,300
+Regulator 2,feeds,Area 12 Quarry,260
+Regulator 22,feeds,Area 31 Orchard Rise,340
+Regulator 22,feeds,Greenacre Care Home,150
+Gate 9,interconnect,Regulator 2,700

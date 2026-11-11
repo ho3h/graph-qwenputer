@@ -1,0 +1,28 @@
+Loading the model. The first run also compiles the C engine.
+
+You: What does web depend on?
+  Machine: neighbours {"node": "web", "relation": "depends_on"} -> @3 router
+@4 templates
+Qwen: web depends on router and templates.
+
+You: How does app reach libc? Show the shortest chain.
+  Machine: path {"from": "app", "to": "libc"} -> 4 steps: @0 app > @2 auth > @5 crypto > @9 bignum > @12 libc
+Qwen: app, auth, crypto, bignum, libc
+
+You: The crypto package has been removed. How does auth reach libc now?
+  Machine: close {"node": "crypto"} -> closed @5 crypto
+  Machine: path {"from": "auth", "to": "libc"} -> 4 steps: @2 auth > @6 session > @7 cache > @10 hashmap > @12 libc
+Qwen: auth, session, cache, hashmap, libc
+
+You: We added a new package, logger, and web now depends on logger.
+  Machine: add_node {"name": "logger"} -> added @13 logger
+  Machine: link {"from": "web", "relation": "depends_on", "to": "logger"} -> linked @1 web > depends_on > @13 logger
+Qwen: Done.
+
+You: What does web depend on now?
+  Machine: neighbours {"node": "web", "relation": "depends_on"} -> @3 router
+@4 templates
+@13 logger
+Qwen: web now depends on router, templates, and logger.
+
+Ran on the simulator for the added layers, with Qwen's layers on the real weights: executor. 22134 machine tokens, 41 s. Rows: <tmp>

@@ -1,0 +1,29 @@
+{
+"elf": "cce657b2",
+"exam": {
+"n": 321674,
+"same": 321674,
+"eq": 321674
+},
+"affected": 2186,
+"affected_right": 2186,
+"fuzz_calls": 24000,
+"fuzz_sequences": 2000,
+"fuzz_same": 24000,
+"fuzz_eq_reflib": 24000,
+"limits_calls": 2338,
+"limits_same": 2338,
+"edits_first_full": null,
+"fns": {
+"add_node": 8042,
+"cheapest": 443,
+"find": 1773,
+"neighbours": 1332,
+"link": 4954,
+"close": 1846,
+"reopen": 1313,
+"path": 827,
+"chase": 1281,
+"unlink": 2189
+}
+}

@@ -1,0 +1,14 @@
+{"V0": {"linear": 0.2139, "full": 0.0585, "rotary": 0.0187, "norm": 0.0026, "head": 0.0314, "argmax": 0.0034}, "V2": {"linear": 0.2182, "full": 0.0605, "rotary": 0.0064, "norm": 0.0022, "head": 0.0145, "argmax": 0.0018}}
+{"V0": {"encode": 0.0457, "wait": 0.1695, "total": 0.2152}, "V2": {"encode": 0.0681, "wait": 0.1026, "total": 0.1706}}
+V0 1 {"s_per_step": 0.2067, "tokens_per_s": 4.8, "row0_elems_differ": 0, "rowlast_elems_differ": 0, "argmax_steps_differ": 0}
+V0 2 {"s_per_step": 0.264, "tokens_per_s": 7.6, "row0_elems_differ": 2990515, "rowlast_elems_differ": 2990515, "argmax_steps_differ": 0}
+V0 4 {"s_per_step": 0.3005, "tokens_per_s": 13.3, "row0_elems_differ": 2990515, "rowlast_elems_differ": 2990515, "argmax_steps_differ": 0}
+V0 8 {"s_per_step": 0.3533, "tokens_per_s": 22.6, "row0_elems_differ": 2990515, "rowlast_elems_differ": 2990515, "argmax_steps_differ": 0}
+V0 16 {"s_per_step": 0.5042, "tokens_per_s": 31.7, "row0_elems_differ": 3053596, "rowlast_elems_differ": 3053596, "argmax_steps_differ": 0}
+V2 1 {"s_per_step": 0.1768, "tokens_per_s": 5.7, "row0_elems_differ": 0, "rowlast_elems_differ": 0, "argmax_steps_differ": 0}
+V2 2 {"s_per_step": 0.2321, "tokens_per_s": 8.6, "row0_elems_differ": 2990514, "rowlast_elems_differ": 2990514, "argmax_steps_differ": 0}
+V2 4 {"s_per_step": 0.3049, "tokens_per_s": 13.1, "row0_elems_differ": 2990514, "rowlast_elems_differ": 2990514, "argmax_steps_differ": 0}
+V2 8 {"s_per_step": 0.3632, "tokens_per_s": 22.0, "row0_elems_differ": 2990514, "rowlast_elems_differ": 2990514, "argmax_steps_differ": 0}
+V2 16 {"s_per_step": 0.5207, "tokens_per_s": 30.7, "row0_elems_differ": 3053595, "rowlast_elems_differ": 3053595, "argmax_steps_differ": 0}
+mem {'mps_allocated_gib': 21.89, 'mps_driver_gib': 22.85}
+[stage seconds 71.4]

@@ -1,0 +1,144 @@
+{
+ "machine": "writes",
+ "delivery": "normal",
+ "firmware": "<repo>/t8/fw/build_r1/writes.elf",
+ "firmware_sha256": "ad1abcc6cec073b52e088c4d0d1752dd9908f6f77d39d950ff0d5a5e70c41fe0",
+ "ckpt": "<home>/Models/x210/x210-tok",
+ "flow": {
+  "name": "print-writes",
+  "mode": "print",
+  "tools": "writes",
+  "extra": true,
+  "told": true,
+  "retries": 0,
+  "turn": 768,
+  "max_calls": 12,
+  "total": 3072,
+  "prefill_retry": false,
+  "note": null,
+  "limit_stop": false,
+  "cap": null,
+  "lazy_echo": false,
+  "readback": 0
+ },
+ "flow_key": "print/writes/extra=1/told=1/retries=0/prefill=0/note=0/rb=0",
+ "path": "fast",
+ "ran_on": "fast: Qwen blocks in batch, chip on the engine",
+ "proof": {
+  "elf_sha256": "ad1abcc6cec073b52e088c4d0d1752dd9908f6f77d39d950ff0d5a5e70c41fe0",
+  "flow": "print/writes/extra=1/told=1/retries=0/prefill=0/note=0/rb=0",
+  "machine": "writes",
+  "name": "r1-print-writes",
+  "questions": 40,
+  "reference": "../t8/fw/results/r1/proofs/print-writes_slow0,../t8/fw/results/r1/proofs/print-writes_slow1",
+  "stock_questions": 2,
+  "stock_positions": 7194,
+  "result": "../t8/fw/results/r1/proofs/print-writes.json"
+ },
+ "rows": 8,
+ "questions": 100,
+ "load_seconds": 10.7,
+ "started": "2026-11-03T13:18:15-0500",
+ "shared_gpu": "unknown: ioreg shows other jobs unless stated",
+ "engine": "3f943a9e305c",
+ "stats": {
+  "gpu_steps": 979,
+  "row_steps": 7612,
+  "prefill_s": 255.4,
+  "step_s": 60.2,
+  "seconds": 517.0,
+  "left": 0
+ },
+ "bad": [],
+ "tokens": 7712,
+ "stock_sample": {
+  "seed": 20261103,
+  "asked": 4,
+  "limit_s": 1500,
+  "load_s": 9.5,
+  "questions": [
+   {
+    "tag": [
+     "nyc",
+     175
+    ],
+    "status": "answered",
+    "positions": 5486,
+    "mismatch": null,
+    "head_mismatch": 0,
+    "lock": null,
+    "same_tokens": true,
+    "differ": [],
+    "end_state": {
+     "small": 0,
+     "big": 0,
+     "first": null
+    },
+    "seconds": 71.27
+   },
+   {
+    "tag": [
+     "nyc",
+     100
+    ],
+    "status": "answered",
+    "positions": 6201,
+    "mismatch": null,
+    "head_mismatch": 0,
+    "lock": null,
+    "same_tokens": true,
+    "differ": [],
+    "end_state": {
+     "small": 0,
+     "big": 0,
+     "first": null
+    },
+    "seconds": 85.31
+   },
+   {
+    "tag": [
+     "nyc",
+     147
+    ],
+    "status": "answered",
+    "positions": 4702,
+    "mismatch": null,
+    "head_mismatch": 0,
+    "lock": null,
+    "same_tokens": true,
+    "differ": [],
+    "end_state": {
+     "small": 0,
+     "big": 0,
+     "first": null
+    },
+    "seconds": 73.41
+   },
+   {
+    "tag": [
+     "nyc",
+     192
+    ],
+    "status": "answered",
+    "positions": 5141,
+    "mismatch": null,
+    "head_mismatch": 0,
+    "lock": null,
+    "same_tokens": true,
+    "differ": [],
+    "end_state": {
+     "small": 0,
+     "big": 0,
+     "first": null
+    },
+    "seconds": 85.4
+   }
+  ],
+  "positions": 21530,
+  "mismatches": 0,
+  "head_mismatch": 0,
+  "token_differences": 0,
+  "seconds": 322.6,
+  "passed": true
+ }
+}

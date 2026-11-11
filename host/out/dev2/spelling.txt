@@ -1,0 +1,36 @@
+calls: 374; token ids equal the tokenizer's encoding of the call text: 374/374
+
+trailing words after a canonical name: {'station': 24, '3 southbound': 10}
+
+node arguments: 417 (resolve in the tool: 359)
+  class         count   share
+  handle          150   36.0%
+  exact           126   30.2%
+  accents           2    0.5%
+  handle+label     83   19.9%
+  label+suffix     24    5.8%
+  partial          32    7.7%
+    accents: 'Otaki' -> 'Ōtaki'  (tinytown q2 eager)
+    accents: 'Otaki' -> 'Ōtaki'  (tinytown q2 sdpa)
+    handle+label: '@0 Central' -> 'Central'  (tinytown q1 eager)
+    handle+label: '@1 Central' -> 'Central'  (tinytown q1 eager)
+    handle+label: '@4 Harbor Point' -> 'Harbor Point'  (tinytown q3 eager)
+    label+suffix: 'Eastgate station' -> 'Eastgate'  (tinytown q0 eager)
+    label+suffix: 'Central station' -> 'Central'  (tinytown q1 eager)
+    label+suffix: 'Eastgate station' -> 'Eastgate'  (tinytown q0 sdpa)
+    partial: 'Otaki station' -> 'Ōtaki'  (tinytown q2 eager)
+    partial: 'Otaki station' -> 'Ōtaki'  (tinytown q2 eager)
+    partial: 'Otaki station' -> 'Ōtaki'  (tinytown q2 eager)
+
+relation arguments: 195 (resolve in the tool: 167)
+  class         count   share
+  exact           167   85.6%
+  label+suffix     10    5.1%
+  partial          18    9.2%
+    label+suffix: 'transfer 3 southbound' -> 'transfer'  (c025 q100 eager)
+    label+suffix: 'transfer 3 southbound' -> 'transfer'  (c025 q100 sdpa)
+    label+suffix: 'transfer 3 southbound' -> 'transfer'  (c025 q100 sdpa)
+    partial: 'red' -> 'red eastbound'  (tinytown q2 eager)
+    partial: 'blue' -> 'blue northbound'  (tinytown q2 eager)
+    partial: 'eastbound' -> 'red eastbound'  (tinytown q2 eager)
+

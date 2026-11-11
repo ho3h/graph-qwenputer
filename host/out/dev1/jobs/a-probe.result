@@ -1,0 +1,15 @@
+{
+ "ok": true,
+ "summary": {
+  "eager": {
+   "n": 3,
+   "correct": 2,
+   "seconds": 62.129999999999995
+  },
+  "sdpa": {
+   "n": 3,
+   "correct": 3,
+   "seconds": 29.28
+  }
+ }
+}

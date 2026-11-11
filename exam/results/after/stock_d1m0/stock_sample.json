@@ -1,0 +1,1914 @@
+{
+ "seed": 20261106,
+ "asked": 100,
+ "limit_s": 11550.0,
+ "load_s": 7.5,
+ "questions": [
+  {
+   "tag": [
+    "nyc",
+    177
+   ],
+   "status": "answered",
+   "positions": 5718,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 96.55
+  },
+  {
+   "tag": [
+    "nyc",
+    900048
+   ],
+   "status": "answered",
+   "positions": 6046,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 96.81
+  },
+  {
+   "tag": [
+    "nyc",
+    900082
+   ],
+   "status": "answered",
+   "positions": 5193,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 86.14
+  },
+  {
+   "tag": [
+    "nyc",
+    910040
+   ],
+   "status": "answered",
+   "positions": 5783,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 100.8
+  },
+  {
+   "tag": [
+    "nyc",
+    165
+   ],
+   "status": "answered",
+   "positions": 5335,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 92.75
+  },
+  {
+   "tag": [
+    "nyc",
+    900002
+   ],
+   "status": "answered",
+   "positions": 5398,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 95.59
+  },
+  {
+   "tag": [
+    "nyc",
+    120
+   ],
+   "status": "answered",
+   "positions": 5480,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 96.31
+  },
+  {
+   "tag": [
+    "nyc",
+    910053
+   ],
+   "status": "answered",
+   "positions": 6367,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 109.7
+  },
+  {
+   "tag": [
+    "nyc",
+    910091
+   ],
+   "status": "answered",
+   "positions": 5044,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 88.72
+  },
+  {
+   "tag": [
+    "nyc",
+    189
+   ],
+   "status": "answered",
+   "positions": 4792,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 80.98
+  },
+  {
+   "tag": [
+    "nyc",
+    161
+   ],
+   "status": "answered",
+   "positions": 5295,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 88.56
+  },
+  {
+   "tag": [
+    "nyc",
+    910012
+   ],
+   "status": "answered",
+   "positions": 5773,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 95.59
+  },
+  {
+   "tag": [
+    "nyc",
+    910088
+   ],
+   "status": "answered",
+   "positions": 6265,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 102.32
+  },
+  {
+   "tag": [
+    "nyc",
+    910098
+   ],
+   "status": "answered",
+   "positions": 5495,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 90.3
+  },
+  {
+   "tag": [
+    "nyc",
+    910010
+   ],
+   "status": "answered",
+   "positions": 5338,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 88.96
+  },
+  {
+   "tag": [
+    "nyc",
+    900097
+   ],
+   "status": "answered",
+   "positions": 5216,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 86.26
+  },
+  {
+   "tag": [
+    "nyc",
+    900085
+   ],
+   "status": "answered",
+   "positions": 5421,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 90.05
+  },
+  {
+   "tag": [
+    "nyc",
+    139
+   ],
+   "status": "answered",
+   "positions": 6237,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 102.14
+  },
+  {
+   "tag": [
+    "nyc",
+    137
+   ],
+   "status": "answered",
+   "positions": 4955,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 82.82
+  },
+  {
+   "tag": [
+    "nyc",
+    187
+   ],
+   "status": "answered",
+   "positions": 5614,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 92.5
+  },
+  {
+   "tag": [
+    "nyc",
+    151
+   ],
+   "status": "answered",
+   "positions": 5273,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 87.26
+  },
+  {
+   "tag": [
+    "nyc",
+    910014
+   ],
+   "status": "answered",
+   "positions": 5296,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 87.69
+  },
+  {
+   "tag": [
+    "nyc",
+    910066
+   ],
+   "status": "answered",
+   "positions": 5166,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 85.46
+  },
+  {
+   "tag": [
+    "nyc",
+    900024
+   ],
+   "status": "answered",
+   "positions": 5453,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 90.31
+  },
+  {
+   "tag": [
+    "nyc",
+    146
+   ],
+   "status": "answered",
+   "positions": 5445,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 89.71
+  },
+  {
+   "tag": [
+    "nyc",
+    900077
+   ],
+   "status": "answered",
+   "positions": 5349,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 88.37
+  },
+  {
+   "tag": [
+    "nyc",
+    910065
+   ],
+   "status": "answered",
+   "positions": 5176,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 85.81
+  },
+  {
+   "tag": [
+    "nyc",
+    910011
+   ],
+   "status": "answered",
+   "positions": 5207,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 86.54
+  },
+  {
+   "tag": [
+    "nyc",
+    910016
+   ],
+   "status": "answered",
+   "positions": 4755,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 79.38
+  },
+  {
+   "tag": [
+    "nyc",
+    176
+   ],
+   "status": "answered",
+   "positions": 5496,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 90.58
+  },
+  {
+   "tag": [
+    "nyc",
+    910073
+   ],
+   "status": "answered",
+   "positions": 5873,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 96.64
+  },
+  {
+   "tag": [
+    "nyc",
+    910005
+   ],
+   "status": "answered",
+   "positions": 5836,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 95.48
+  },
+  {
+   "tag": [
+    "nyc",
+    107
+   ],
+   "status": "answered",
+   "positions": 5200,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 86.34
+  },
+  {
+   "tag": [
+    "nyc",
+    900089
+   ],
+   "status": "answered",
+   "positions": 5138,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 85.8
+  },
+  {
+   "tag": [
+    "nyc",
+    900021
+   ],
+   "status": "answered",
+   "positions": 5762,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 94.97
+  },
+  {
+   "tag": [
+    "nyc",
+    186
+   ],
+   "status": "answered",
+   "positions": 4954,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 82.72
+  },
+  {
+   "tag": [
+    "nyc",
+    147
+   ],
+   "status": "answered",
+   "positions": 4702,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 78.68
+  },
+  {
+   "tag": [
+    "nyc",
+    910019
+   ],
+   "status": "answered",
+   "positions": 5245,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 87.38
+  },
+  {
+   "tag": [
+    "nyc",
+    900015
+   ],
+   "status": "answered",
+   "positions": 6409,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 104.53
+  },
+  {
+   "tag": [
+    "nyc",
+    900017
+   ],
+   "status": "answered",
+   "positions": 5194,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 85.98
+  },
+  {
+   "tag": [
+    "nyc",
+    910046
+   ],
+   "status": "answered",
+   "positions": 6249,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 103.21
+  },
+  {
+   "tag": [
+    "nyc",
+    900012
+   ],
+   "status": "answered",
+   "positions": 5089,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 84.45
+  },
+  {
+   "tag": [
+    "nyc",
+    910081
+   ],
+   "status": "answered",
+   "positions": 5053,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 84.02
+  },
+  {
+   "tag": [
+    "nyc",
+    126
+   ],
+   "status": "answered",
+   "positions": 5379,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 88.8
+  },
+  {
+   "tag": [
+    "nyc",
+    900069
+   ],
+   "status": "answered",
+   "positions": 5464,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 89.93
+  },
+  {
+   "tag": [
+    "nyc",
+    109
+   ],
+   "status": "answered",
+   "positions": 5450,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 89.35
+  },
+  {
+   "tag": [
+    "nyc",
+    114
+   ],
+   "status": "answered",
+   "positions": 6545,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 105.6
+  },
+  {
+   "tag": [
+    "nyc",
+    910055
+   ],
+   "status": "answered",
+   "positions": 5575,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 91.1
+  },
+  {
+   "tag": [
+    "nyc",
+    900027
+   ],
+   "status": "answered",
+   "positions": 4905,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 81.2
+  },
+  {
+   "tag": [
+    "nyc",
+    910002
+   ],
+   "status": "answered",
+   "positions": 5224,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 85.84
+  },
+  {
+   "tag": [
+    "nyc",
+    900057
+   ],
+   "status": "answered",
+   "positions": 5606,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 91.58
+  },
+  {
+   "tag": [
+    "nyc",
+    152
+   ],
+   "status": "answered",
+   "positions": 5189,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 85.84
+  },
+  {
+   "tag": [
+    "nyc",
+    110
+   ],
+   "status": "answered",
+   "positions": 5849,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 95.26
+  },
+  {
+   "tag": [
+    "nyc",
+    184
+   ],
+   "status": "answered",
+   "positions": 5328,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 87.12
+  },
+  {
+   "tag": [
+    "nyc",
+    900019
+   ],
+   "status": "answered",
+   "positions": 5037,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 83.07
+  },
+  {
+   "tag": [
+    "nyc",
+    910037
+   ],
+   "status": "answered",
+   "positions": 5925,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 95.65
+  },
+  {
+   "tag": [
+    "nyc",
+    910041
+   ],
+   "status": "answered",
+   "positions": 5645,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 91.37
+  },
+  {
+   "tag": [
+    "nyc",
+    900098
+   ],
+   "status": "answered",
+   "positions": 5464,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 88.74
+  },
+  {
+   "tag": [
+    "nyc",
+    105
+   ],
+   "status": "answered",
+   "positions": 5381,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 87.39
+  },
+  {
+   "tag": [
+    "nyc",
+    119
+   ],
+   "status": "answered",
+   "positions": 5338,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 87.05
+  },
+  {
+   "tag": [
+    "nyc",
+    148
+   ],
+   "status": "answered",
+   "positions": 5471,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 89.31
+  },
+  {
+   "tag": [
+    "nyc",
+    118
+   ],
+   "status": "answered",
+   "positions": 5082,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 83.14
+  },
+  {
+   "tag": [
+    "nyc",
+    900056
+   ],
+   "status": "answered",
+   "positions": 5376,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 87.39
+  },
+  {
+   "tag": [
+    "nyc",
+    910000
+   ],
+   "status": "answered",
+   "positions": 5713,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 92.09
+  },
+  {
+   "tag": [
+    "nyc",
+    910056
+   ],
+   "status": "answered",
+   "positions": 5329,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 86.54
+  },
+  {
+   "tag": [
+    "nyc",
+    900051
+   ],
+   "status": "answered",
+   "positions": 5603,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 90.12
+  },
+  {
+   "tag": [
+    "nyc",
+    910022
+   ],
+   "status": "answered",
+   "positions": 5009,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 82.15
+  },
+  {
+   "tag": [
+    "nyc",
+    900031
+   ],
+   "status": "answered",
+   "positions": 5072,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 82.76
+  },
+  {
+   "tag": [
+    "nyc",
+    112
+   ],
+   "status": "answered",
+   "positions": 5015,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 81.77
+  },
+  {
+   "tag": [
+    "nyc",
+    910020
+   ],
+   "status": "answered",
+   "positions": 5414,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 87.36
+  },
+  {
+   "tag": [
+    "nyc",
+    140
+   ],
+   "status": "answered",
+   "positions": 5098,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 82.95
+  },
+  {
+   "tag": [
+    "nyc",
+    104
+   ],
+   "status": "answered",
+   "positions": 6011,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 96.55
+  },
+  {
+   "tag": [
+    "nyc",
+    103
+   ],
+   "status": "answered",
+   "positions": 5589,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 90.15
+  },
+  {
+   "tag": [
+    "nyc",
+    108
+   ],
+   "status": "answered",
+   "positions": 5079,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 82.85
+  },
+  {
+   "tag": [
+    "nyc",
+    900028
+   ],
+   "status": "answered",
+   "positions": 5232,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 87.66
+  },
+  {
+   "tag": [
+    "nyc",
+    900065
+   ],
+   "status": "answered",
+   "positions": 6255,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 103.59
+  },
+  {
+   "tag": [
+    "nyc",
+    910092
+   ],
+   "status": "answered",
+   "positions": 4836,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 82.18
+  },
+  {
+   "tag": [
+    "nyc",
+    900001
+   ],
+   "status": "answered",
+   "positions": 5458,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 88.99
+  },
+  {
+   "tag": [
+    "nyc",
+    910031
+   ],
+   "status": "answered",
+   "positions": 5672,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 91.2
+  },
+  {
+   "tag": [
+    "nyc",
+    156
+   ],
+   "status": "answered",
+   "positions": 5783,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 92.35
+  },
+  {
+   "tag": [
+    "nyc",
+    900006
+   ],
+   "status": "answered",
+   "positions": 6047,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 97.46
+  },
+  {
+   "tag": [
+    "nyc",
+    145
+   ],
+   "status": "answered",
+   "positions": 5741,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 93.06
+  },
+  {
+   "tag": [
+    "nyc",
+    910070
+   ],
+   "status": "answered",
+   "positions": 5797,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 97.34
+  },
+  {
+   "tag": [
+    "nyc",
+    910008
+   ],
+   "status": "answered",
+   "positions": 5407,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 91.33
+  },
+  {
+   "tag": [
+    "nyc",
+    910052
+   ],
+   "status": "answered",
+   "positions": 5553,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 90.35
+  },
+  {
+   "tag": [
+    "nyc",
+    900047
+   ],
+   "status": "answered",
+   "positions": 5698,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 91.65
+  },
+  {
+   "tag": [
+    "nyc",
+    910024
+   ],
+   "status": "answered",
+   "positions": 6121,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 96.57
+  },
+  {
+   "tag": [
+    "nyc",
+    162
+   ],
+   "status": "answered",
+   "positions": 5323,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 84.94
+  },
+  {
+   "tag": [
+    "nyc",
+    910048
+   ],
+   "status": "answered",
+   "positions": 6079,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 95.97
+  },
+  {
+   "tag": [
+    "nyc",
+    910082
+   ],
+   "status": "answered",
+   "positions": 5097,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 82.0
+  },
+  {
+   "tag": [
+    "nyc",
+    900059
+   ],
+   "status": "answered",
+   "positions": 4945,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 79.68
+  },
+  {
+   "tag": [
+    "nyc",
+    910044
+   ],
+   "status": "answered",
+   "positions": 5928,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 94.55
+  },
+  {
+   "tag": [
+    "nyc",
+    153
+   ],
+   "status": "answered",
+   "positions": 5415,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 86.42
+  },
+  {
+   "tag": [
+    "nyc",
+    900060
+   ],
+   "status": "answered",
+   "positions": 5531,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 89.14
+  },
+  {
+   "tag": [
+    "nyc",
+    900053
+   ],
+   "status": "answered",
+   "positions": 4920,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 78.82
+  },
+  {
+   "tag": [
+    "nyc",
+    900066
+   ],
+   "status": "answered",
+   "positions": 5636,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 90.14
+  },
+  {
+   "tag": [
+    "nyc",
+    900090
+   ],
+   "status": "answered",
+   "positions": 5308,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 84.85
+  },
+  {
+   "tag": [
+    "nyc",
+    172
+   ],
+   "status": "answered",
+   "positions": 4870,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 78.61
+  },
+  {
+   "tag": [
+    "nyc",
+    133
+   ],
+   "status": "answered",
+   "positions": 5446,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 86.56
+  },
+  {
+   "tag": [
+    "nyc",
+    900035
+   ],
+   "status": "answered",
+   "positions": 5017,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 80.51
+  }
+ ],
+ "positions": 545365,
+ "mismatches": 0,
+ "head_mismatch": 0,
+ "token_differences": 0,
+ "seconds": 9155.8,
+ "passed": true
+}

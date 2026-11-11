@@ -1,0 +1,1466 @@
+{
+"seed": 20261108,
+"conversations": [
+{
+"key": "nyc-t2:0",
+"graph": "nyc-t",
+"labels": {
+"a": "61 St-Woodside",
+"b": "Cinder Park",
+"c": "Larkmoor Sq",
+"d": "Beverly Rd"
+},
+"turns": [
+{
+"user": "A new T train starts today, with two brand-new stations, Cinder Park and Larkmoor Sq. Northbound it runs 61 St-Woodside, Cinder Park, Larkmoor Sq, Beverly Rd.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Cinder Park",
+"Larkmoor Sq"
+],
+[
+[
+"61 St-Woodside",
+"Cinder Park"
+],
+[
+"Cinder Park",
+"Larkmoor Sq"
+],
+[
+"Larkmoor Sq",
+"Beverly Rd"
+]
+]
+]
+},
+{
+"user": "Start at 61 St-Woodside station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Larkmoor Sq",
+"wants": null
+},
+{
+"user": "What's the next stop after Cinder Park on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Larkmoor Sq",
+"wants": null
+},
+{
+"user": "The T train has been cancelled.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"61 St-Woodside",
+"Cinder Park"
+],
+[
+"Cinder Park",
+"Larkmoor Sq"
+],
+[
+"Larkmoor Sq",
+"Beverly Rd"
+]
+]
+]
+},
+{
+"user": "Start at 61 St-Woodside station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @129 61 St-Woodside, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:1",
+"graph": "nyc-t",
+"labels": {
+"a": "Roosevelt Island",
+"b": "Foxglove St",
+"c": "Willow Gate",
+"d": "Junius St"
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds two new stations: Foxglove St and Willow Gate. Going northbound, its stops are Roosevelt Island, then Foxglove St, then Willow Gate, then Junius St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Foxglove St",
+"Willow Gate"
+],
+[
+[
+"Roosevelt Island",
+"Foxglove St"
+],
+[
+"Foxglove St",
+"Willow Gate"
+],
+[
+"Willow Gate",
+"Junius St"
+]
+]
+]
+},
+{
+"user": "Start at Roosevelt Island station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Willow Gate",
+"wants": null
+},
+{
+"user": "What's the next stop after Foxglove St on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Willow Gate",
+"wants": null
+},
+{
+"user": "They've scrapped the T line.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Roosevelt Island",
+"Foxglove St"
+],
+[
+"Foxglove St",
+"Willow Gate"
+],
+[
+"Willow Gate",
+"Junius St"
+]
+]
+]
+},
+{
+"user": "Start at Roosevelt Island station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @444 Roosevelt Island, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:2",
+"graph": "nyc-t",
+"labels": {
+"a": "Mosholu Pkwy",
+"b": "Kestrel Av",
+"c": "Maple Quay",
+"d": "Ocean Pkwy"
+},
+"turns": [
+{
+"user": "They've built Kestrel Av and Maple Quay, two new stations, for the new T train: northbound from Mosholu Pkwy to Kestrel Av to Maple Quay to Ocean Pkwy.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Kestrel Av",
+"Maple Quay"
+],
+[
+[
+"Mosholu Pkwy",
+"Kestrel Av"
+],
+[
+"Kestrel Av",
+"Maple Quay"
+],
+[
+"Maple Quay",
+"Ocean Pkwy"
+]
+]
+]
+},
+{
+"user": "Start at Mosholu Pkwy station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Maple Quay",
+"wants": null
+},
+{
+"user": "What's the next stop after Kestrel Av on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Maple Quay",
+"wants": null
+},
+{
+"user": "The T is gone, it never worked out.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Mosholu Pkwy",
+"Kestrel Av"
+],
+[
+"Kestrel Av",
+"Maple Quay"
+],
+[
+"Maple Quay",
+"Ocean Pkwy"
+]
+]
+]
+},
+{
+"user": "Start at Mosholu Pkwy station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @391 Mosholu Pkwy, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:3",
+"graph": "nyc-t",
+"labels": {
+"a": "169 St",
+"b": "Ember Lane",
+"c": "Thistle Row",
+"d": "Shepherd Av"
+},
+"turns": [
+{
+"user": "Say hello to the T, and to its new stations Ember Lane and Thistle Row. Its northbound route is 169 St, Ember Lane, Thistle Row, Shepherd Av.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Ember Lane",
+"Thistle Row"
+],
+[
+[
+"169 St",
+"Ember Lane"
+],
+[
+"Ember Lane",
+"Thistle Row"
+],
+[
+"Thistle Row",
+"Shepherd Av"
+]
+]
+]
+},
+{
+"user": "Start at 169 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Thistle Row",
+"wants": null
+},
+{
+"user": "What's the next stop after Ember Lane on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Thistle Row",
+"wants": null
+},
+{
+"user": "The T train no longer exists.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"169 St",
+"Ember Lane"
+],
+[
+"Ember Lane",
+"Thistle Row"
+],
+[
+"Thistle Row",
+"Shepherd Av"
+]
+]
+]
+},
+{
+"user": "Start at 169 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @48 169 St, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:4",
+"graph": "nyc-t",
+"labels": {
+"a": "Wilson Av",
+"b": "Yarrow St",
+"c": "Orchard Reach",
+"d": "Beach 98 St"
+},
+"turns": [
+{
+"user": "A new T train starts today, with two brand-new stations, Yarrow St and Orchard Reach. Northbound it runs Wilson Av, Yarrow St, Orchard Reach, Beach 98 St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Yarrow St",
+"Orchard Reach"
+],
+[
+[
+"Wilson Av",
+"Yarrow St"
+],
+[
+"Yarrow St",
+"Orchard Reach"
+],
+[
+"Orchard Reach",
+"Beach 98 St"
+]
+]
+]
+},
+{
+"user": "Start at Wilson Av station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Orchard Reach",
+"wants": null
+},
+{
+"user": "What's the next stop after Yarrow St on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Orchard Reach",
+"wants": null
+},
+{
+"user": "The T train has been cancelled.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Wilson Av",
+"Yarrow St"
+],
+[
+"Yarrow St",
+"Orchard Reach"
+],
+[
+"Orchard Reach",
+"Beach 98 St"
+]
+]
+]
+},
+{
+"user": "Start at Wilson Av station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @488 Wilson Av, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:5",
+"graph": "nyc-t",
+"labels": {
+"a": "Bronx Park East",
+"b": "Calder Park",
+"c": "Valemont St",
+"d": "Hoyt St"
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds two new stations: Calder Park and Valemont St. Going northbound, its stops are Bronx Park East, then Calder Park, then Valemont St, then Hoyt St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Calder Park",
+"Valemont St"
+],
+[
+[
+"Bronx Park East",
+"Calder Park"
+],
+[
+"Calder Park",
+"Valemont St"
+],
+[
+"Valemont St",
+"Hoyt St"
+]
+]
+]
+},
+{
+"user": "Start at Bronx Park East station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Valemont St",
+"wants": null
+},
+{
+"user": "What's the next stop after Calder Park on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Valemont St",
+"wants": null
+},
+{
+"user": "They've scrapped the T line.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Bronx Park East",
+"Calder Park"
+],
+[
+"Calder Park",
+"Valemont St"
+],
+[
+"Valemont St",
+"Hoyt St"
+]
+]
+]
+},
+{
+"user": "Start at Bronx Park East station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @234 Bronx Park East, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:6",
+"graph": "nyc-t",
+"labels": {
+"a": "Court Sq-23 St",
+"b": "Poplar Heights",
+"c": "Dovetail Av",
+"d": "Jackson Hts-Roosevelt Av"
+},
+"turns": [
+{
+"user": "They've built Poplar Heights and Dovetail Av, two new stations, for the new T train: northbound from Court Sq-23 St to Poplar Heights to Dovetail Av to Jackson Hts-Roosevelt Av.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Poplar Heights",
+"Dovetail Av"
+],
+[
+[
+"Court Sq-23 St",
+"Poplar Heights"
+],
+[
+"Poplar Heights",
+"Dovetail Av"
+],
+[
+"Dovetail Av",
+"Jackson Hts-Roosevelt Av"
+]
+]
+]
+},
+{
+"user": "Start at Court Sq-23 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Dovetail Av",
+"wants": null
+},
+{
+"user": "What's the next stop after Poplar Heights on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Dovetail Av",
+"wants": null
+},
+{
+"user": "The T is gone, it never worked out.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Court Sq-23 St",
+"Poplar Heights"
+],
+[
+"Poplar Heights",
+"Dovetail Av"
+],
+[
+"Dovetail Av",
+"Jackson Hts-Roosevelt Av"
+]
+]
+]
+},
+{
+"user": "Start at Court Sq-23 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @273 Court Sq-23 St, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:7",
+"graph": "nyc-t",
+"labels": {
+"a": "176 St",
+"b": "Quaybrook Rd",
+"c": "Myrtle Cross",
+"d": "Van Cortlandt Park-242 St"
+},
+"turns": [
+{
+"user": "Say hello to the T, and to its new stations Quaybrook Rd and Myrtle Cross. Its northbound route is 176 St, Quaybrook Rd, Myrtle Cross, Van Cortlandt Park-242 St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Quaybrook Rd",
+"Myrtle Cross"
+],
+[
+[
+"176 St",
+"Quaybrook Rd"
+],
+[
+"Quaybrook Rd",
+"Myrtle Cross"
+],
+[
+"Myrtle Cross",
+"Van Cortlandt Park-242 St"
+]
+]
+]
+},
+{
+"user": "Start at 176 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Myrtle Cross",
+"wants": null
+},
+{
+"user": "What's the next stop after Quaybrook Rd on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Myrtle Cross",
+"wants": null
+},
+{
+"user": "The T train no longer exists.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"176 St",
+"Quaybrook Rd"
+],
+[
+"Quaybrook Rd",
+"Myrtle Cross"
+],
+[
+"Myrtle Cross",
+"Van Cortlandt Park-242 St"
+]
+]
+]
+},
+{
+"user": "Start at 176 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @54 176 St, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:8",
+"graph": "nyc-t",
+"labels": {
+"a": "Van Cortlandt Park-242 St",
+"b": "Marlow Heights",
+"c": "Wrenfield Av",
+"d": "Pelham Bay Park"
+},
+"turns": [
+{
+"user": "A new T train starts today, with two brand-new stations, Marlow Heights and Wrenfield Av. Northbound it runs Van Cortlandt Park-242 St, Marlow Heights, Wrenfield Av, Pelham Bay Park.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Marlow Heights",
+"Wrenfield Av"
+],
+[
+[
+"Van Cortlandt Park-242 St",
+"Marlow Heights"
+],
+[
+"Marlow Heights",
+"Wrenfield Av"
+],
+[
+"Wrenfield Av",
+"Pelham Bay Park"
+]
+]
+]
+},
+{
+"user": "Start at Van Cortlandt Park-242 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Wrenfield Av",
+"wants": null
+},
+{
+"user": "What's the next stop after Marlow Heights on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Wrenfield Av",
+"wants": null
+},
+{
+"user": "The T train has been cancelled.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Van Cortlandt Park-242 St",
+"Marlow Heights"
+],
+[
+"Marlow Heights",
+"Wrenfield Av"
+],
+[
+"Wrenfield Av",
+"Pelham Bay Park"
+]
+]
+]
+},
+{
+"user": "Start at Van Cortlandt Park-242 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @472 Van Cortlandt Park-242 St, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:9",
+"graph": "nyc-t",
+"labels": {
+"a": "Buhre Av",
+"b": "Hollis Bend",
+"c": "Bramble Junction",
+"d": "Parkchester"
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds two new stations: Hollis Bend and Bramble Junction. Going northbound, its stops are Buhre Av, then Hollis Bend, then Bramble Junction, then Parkchester.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Hollis Bend",
+"Bramble Junction"
+],
+[
+[
+"Buhre Av",
+"Hollis Bend"
+],
+[
+"Hollis Bend",
+"Bramble Junction"
+],
+[
+"Bramble Junction",
+"Parkchester"
+]
+]
+]
+},
+{
+"user": "Start at Buhre Av station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Bramble Junction",
+"wants": null
+},
+{
+"user": "What's the next stop after Hollis Bend on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Bramble Junction",
+"wants": null
+},
+{
+"user": "They've scrapped the T line.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Buhre Av",
+"Hollis Bend"
+],
+[
+"Hollis Bend",
+"Bramble Junction"
+],
+[
+"Bramble Junction",
+"Parkchester"
+]
+]
+]
+},
+{
+"user": "Start at Buhre Av station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @237 Buhre Av, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:10",
+"graph": "nyc-t",
+"labels": {
+"a": "Sheepshead Bay",
+"b": "Pinecrest Plaza",
+"c": "Rowan Terrace",
+"d": "Alabama Av"
+},
+"turns": [
+{
+"user": "They've built Pinecrest Plaza and Rowan Terrace, two new stations, for the new T train: northbound from Sheepshead Bay to Pinecrest Plaza to Rowan Terrace to Alabama Av.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Pinecrest Plaza",
+"Rowan Terrace"
+],
+[
+[
+"Sheepshead Bay",
+"Pinecrest Plaza"
+],
+[
+"Pinecrest Plaza",
+"Rowan Terrace"
+],
+[
+"Rowan Terrace",
+"Alabama Av"
+]
+]
+]
+},
+{
+"user": "Start at Sheepshead Bay station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Rowan Terrace",
+"wants": null
+},
+{
+"user": "What's the next stop after Pinecrest Plaza on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Rowan Terrace",
+"wants": null
+},
+{
+"user": "The T is gone, it never worked out.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Sheepshead Bay",
+"Pinecrest Plaza"
+],
+[
+"Pinecrest Plaza",
+"Rowan Terrace"
+],
+[
+"Rowan Terrace",
+"Alabama Av"
+]
+]
+]
+},
+{
+"user": "Start at Sheepshead Bay station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @447 Sheepshead Bay, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:11",
+"graph": "nyc-t",
+"labels": {
+"a": "Clifton",
+"b": "Corran Sq",
+"c": "Laurel Point",
+"d": "Shepherd Av"
+},
+"turns": [
+{
+"user": "Say hello to the T, and to its new stations Corran Sq and Laurel Point. Its northbound route is Clifton, Corran Sq, Laurel Point, Shepherd Av.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Corran Sq",
+"Laurel Point"
+],
+[
+[
+"Clifton",
+"Corran Sq"
+],
+[
+"Corran Sq",
+"Laurel Point"
+],
+[
+"Laurel Point",
+"Shepherd Av"
+]
+]
+]
+},
+{
+"user": "Start at Clifton station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Laurel Point",
+"wants": null
+},
+{
+"user": "What's the next stop after Corran Sq on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Laurel Point",
+"wants": null
+},
+{
+"user": "The T train no longer exists.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Clifton",
+"Corran Sq"
+],
+[
+"Corran Sq",
+"Laurel Point"
+],
+[
+"Laurel Point",
+"Shepherd Av"
+]
+]
+]
+},
+{
+"user": "Start at Clifton station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @265 Clifton, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:12",
+"graph": "nyc-t",
+"labels": {
+"a": "Aqueduct-N Conduit Av",
+"b": "Heron Quay",
+"c": "Ivy Reach",
+"d": "E 143 St-St Mary's St"
+},
+"turns": [
+{
+"user": "A new T train starts today, with two brand-new stations, Heron Quay and Ivy Reach. Northbound it runs Aqueduct-N Conduit Av, Heron Quay, Ivy Reach, E 143 St-St Mary's St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Heron Quay",
+"Ivy Reach"
+],
+[
+[
+"Aqueduct-N Conduit Av",
+"Heron Quay"
+],
+[
+"Heron Quay",
+"Ivy Reach"
+],
+[
+"Ivy Reach",
+"E 143 St-St Mary's St"
+]
+]
+]
+},
+{
+"user": "Start at Aqueduct-N Conduit Av station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Ivy Reach",
+"wants": null
+},
+{
+"user": "What's the next stop after Heron Quay on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Ivy Reach",
+"wants": null
+},
+{
+"user": "The T train has been cancelled.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Aqueduct-N Conduit Av",
+"Heron Quay"
+],
+[
+"Heron Quay",
+"Ivy Reach"
+],
+[
+"Ivy Reach",
+"E 143 St-St Mary's St"
+]
+]
+]
+},
+{
+"user": "Start at Aqueduct-N Conduit Av station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @175 Aqueduct-N Conduit Av, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:13",
+"graph": "nyc-t",
+"labels": {
+"a": "183 St",
+"b": "Sable Point",
+"c": "Birchwood Gate",
+"d": "Franklin Av-Medgar Evers College"
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds two new stations: Sable Point and Birchwood Gate. Going northbound, its stops are 183 St, then Sable Point, then Birchwood Gate, then Franklin Av-Medgar Evers College.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Sable Point",
+"Birchwood Gate"
+],
+[
+[
+"183 St",
+"Sable Point"
+],
+[
+"Sable Point",
+"Birchwood Gate"
+],
+[
+"Birchwood Gate",
+"Franklin Av-Medgar Evers College"
+]
+]
+]
+},
+{
+"user": "Start at 183 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Birchwood Gate",
+"wants": null
+},
+{
+"user": "What's the next stop after Sable Point on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Birchwood Gate",
+"wants": null
+},
+{
+"user": "They've scrapped the T line.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"183 St",
+"Sable Point"
+],
+[
+"Sable Point",
+"Birchwood Gate"
+],
+[
+"Birchwood Gate",
+"Franklin Av-Medgar Evers College"
+]
+]
+]
+},
+{
+"user": "Start at 183 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @62 183 St, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:14",
+"graph": "nyc-t",
+"labels": {
+"a": "Grand Army Plaza",
+"b": "Fernhill St",
+"c": "Ashgrove Pkwy",
+"d": "Sutphin Blvd-Archer Av-JFK Airport"
+},
+"turns": [
+{
+"user": "They've built Fernhill St and Ashgrove Pkwy, two new stations, for the new T train: northbound from Grand Army Plaza to Fernhill St to Ashgrove Pkwy to Sutphin Blvd-Archer Av-JFK Airport.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Fernhill St",
+"Ashgrove Pkwy"
+],
+[
+[
+"Grand Army Plaza",
+"Fernhill St"
+],
+[
+"Fernhill St",
+"Ashgrove Pkwy"
+],
+[
+"Ashgrove Pkwy",
+"Sutphin Blvd-Archer Av-JFK Airport"
+]
+]
+]
+},
+{
+"user": "Start at Grand Army Plaza station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Ashgrove Pkwy",
+"wants": null
+},
+{
+"user": "What's the next stop after Fernhill St on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Ashgrove Pkwy",
+"wants": null
+},
+{
+"user": "The T is gone, it never worked out.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Grand Army Plaza",
+"Fernhill St"
+],
+[
+"Fernhill St",
+"Ashgrove Pkwy"
+],
+[
+"Ashgrove Pkwy",
+"Sutphin Blvd-Archer Av-JFK Airport"
+]
+]
+]
+},
+{
+"user": "Start at Grand Army Plaza station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @323 Grand Army Plaza, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:15",
+"graph": "nyc-t",
+"labels": {
+"a": "Sutter Av",
+"b": "Tamarind Sq",
+"c": "Elder Bay",
+"d": "Whitlock Av"
+},
+"turns": [
+{
+"user": "Say hello to the T, and to its new stations Tamarind Sq and Elder Bay. Its northbound route is Sutter Av, Tamarind Sq, Elder Bay, Whitlock Av.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Tamarind Sq",
+"Elder Bay"
+],
+[
+[
+"Sutter Av",
+"Tamarind Sq"
+],
+[
+"Tamarind Sq",
+"Elder Bay"
+],
+[
+"Elder Bay",
+"Whitlock Av"
+]
+]
+]
+},
+{
+"user": "Start at Sutter Av station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Elder Bay",
+"wants": null
+},
+{
+"user": "What's the next stop after Tamarind Sq on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Elder Bay",
+"wants": null
+},
+{
+"user": "The T train no longer exists.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Sutter Av",
+"Tamarind Sq"
+],
+[
+"Tamarind Sq",
+"Elder Bay"
+],
+[
+"Elder Bay",
+"Whitlock Av"
+]
+]
+]
+},
+{
+"user": "Start at Sutter Av station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @461 Sutter Av, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:16",
+"graph": "nyc-t",
+"labels": {
+"a": "15 St-Prospect Park",
+"b": "Clover Sq",
+"c": "Juniper Bay",
+"d": "Sutter Av"
+},
+"turns": [
+{
+"user": "A new T train starts today, with two brand-new stations, Clover Sq and Juniper Bay. Northbound it runs 15 St-Prospect Park, Clover Sq, Juniper Bay, Sutter Av.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Clover Sq",
+"Juniper Bay"
+],
+[
+[
+"15 St-Prospect Park",
+"Clover Sq"
+],
+[
+"Clover Sq",
+"Juniper Bay"
+],
+[
+"Juniper Bay",
+"Sutter Av"
+]
+]
+]
+},
+{
+"user": "Start at 15 St-Prospect Park station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Juniper Bay",
+"wants": null
+},
+{
+"user": "What's the next stop after Clover Sq on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Juniper Bay",
+"wants": null
+},
+{
+"user": "The T train has been cancelled.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"15 St-Prospect Park",
+"Clover Sq"
+],
+[
+"Clover Sq",
+"Juniper Bay"
+],
+[
+"Juniper Bay",
+"Sutter Av"
+]
+]
+]
+},
+{
+"user": "Start at 15 St-Prospect Park station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @37 15 St-Prospect Park, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:17",
+"graph": "nyc-t",
+"labels": {
+"a": "Ralph Av",
+"b": "Aster Row",
+"c": "Gorse Av",
+"d": "190 St"
+},
+"turns": [
+{
+"user": "The T line has opened, and it adds two new stations: Aster Row and Gorse Av. Going northbound, its stops are Ralph Av, then Aster Row, then Gorse Av, then 190 St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Aster Row",
+"Gorse Av"
+],
+[
+[
+"Ralph Av",
+"Aster Row"
+],
+[
+"Aster Row",
+"Gorse Av"
+],
+[
+"Gorse Av",
+"190 St"
+]
+]
+]
+},
+{
+"user": "Start at Ralph Av station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Gorse Av",
+"wants": null
+},
+{
+"user": "What's the next stop after Aster Row on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Gorse Av",
+"wants": null
+},
+{
+"user": "They've scrapped the T line.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Ralph Av",
+"Aster Row"
+],
+[
+"Aster Row",
+"Gorse Av"
+],
+[
+"Gorse Av",
+"190 St"
+]
+]
+]
+},
+{
+"user": "Start at Ralph Av station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @436 Ralph Av, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:18",
+"graph": "nyc-t",
+"labels": {
+"a": "Marble Hill-225 St",
+"b": "Mossbank Park",
+"c": "Nettle Cross",
+"d": "34 St-Hudson Yards"
+},
+"turns": [
+{
+"user": "They've built Mossbank Park and Nettle Cross, two new stations, for the new T train: northbound from Marble Hill-225 St to Mossbank Park to Nettle Cross to 34 St-Hudson Yards.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Mossbank Park",
+"Nettle Cross"
+],
+[
+[
+"Marble Hill-225 St",
+"Mossbank Park"
+],
+[
+"Mossbank Park",
+"Nettle Cross"
+],
+[
+"Nettle Cross",
+"34 St-Hudson Yards"
+]
+]
+]
+},
+{
+"user": "Start at Marble Hill-225 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Nettle Cross",
+"wants": null
+},
+{
+"user": "What's the next stop after Mossbank Park on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Nettle Cross",
+"wants": null
+},
+{
+"user": "The T is gone, it never worked out.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Marble Hill-225 St",
+"Mossbank Park"
+],
+[
+"Mossbank Park",
+"Nettle Cross"
+],
+[
+"Nettle Cross",
+"34 St-Hudson Yards"
+]
+]
+]
+},
+{
+"user": "Start at Marble Hill-225 St station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @381 Marble Hill-225 St, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-t2:19",
+"graph": "nyc-t",
+"labels": {
+"a": "Eltingville",
+"b": "Saffron Hill",
+"c": "Linden Cross",
+"d": "183 St"
+},
+"turns": [
+{
+"user": "Say hello to the T, and to its new stations Saffron Hill and Linden Cross. Its northbound route is Eltingville, Saffron Hill, Linden Cross, 183 St.",
+"gold": "built",
+"wants": [
+"build",
+[
+"Saffron Hill",
+"Linden Cross"
+],
+[
+[
+"Eltingville",
+"Saffron Hill"
+],
+[
+"Saffron Hill",
+"Linden Cross"
+],
+[
+"Linden Cross",
+"183 St"
+]
+]
+]
+},
+{
+"user": "Start at Eltingville station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@497 Linden Cross",
+"wants": null
+},
+{
+"user": "What's the next stop after Saffron Hill on the T train going northbound? Answer with the station name only.",
+"gold": "@497 Linden Cross",
+"wants": null
+},
+{
+"user": "The T train no longer exists.",
+"gold": "removed",
+"wants": [
+"unlinks",
+[
+[
+"Eltingville",
+"Saffron Hill"
+],
+[
+"Saffron Hill",
+"Linden Cross"
+],
+[
+"Linden Cross",
+"183 St"
+]
+]
+]
+},
+{
+"user": "Start at Eltingville station. Ride the T train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @296 Eltingville, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+}
+],
+"plain": []
+}

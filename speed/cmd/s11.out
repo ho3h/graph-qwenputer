@@ -1,0 +1,3 @@
+head {"2": {"elems": 0, "batched_s": 0.0059, "rowwise_s": 0.0151}, "4": {"elems": 0, "batched_s": 0.0058, "rowwise_s": 0.0161}, "8": {"elems": 0, "batched_s": 0.0035, "rowwise_s": 0.0509}, "12": {"elems": 0, "batched_s": 0.0035, "rowwise_s": 0.0896}, "15": {"elems": 0, "batched_s": 0.0031, "rowwise_s": 0.1187}}
+{"8": {"l2": 0, "gated_mean": 0, "state_sum": 0}, "9": {"l2": 0, "gated_mean": 0, "state_sum": 0}, "12": {"l2": 0, "gated_mean": 0, "state_sum": 0}, "15": {"l2": 0, "gated_mean": 0, "state_sum": 0}, "16": {"l2": 3500, "gated_mean": 3585, "state_sum": 0}}
+[stage seconds 41.3]

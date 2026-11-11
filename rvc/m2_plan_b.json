@@ -1,0 +1,96 @@
+[
+{
+"graph": "cities/c024",
+"calls": [
+[
+"chase",
+{
+"start": "@68",
+"legs": "FS southbound 1"
+}
+],
+[
+"chase",
+{
+"start": "@56",
+"legs": "Q southbound 1"
+}
+],
+[
+"chase",
+{
+"start": "@31",
+"legs": "SI southbound 1"
+}
+]
+]
+},
+{
+"graph": "cities/c025",
+"calls": [
+[
+"chase",
+{
+"start": "@141",
+"legs": "1 southbound 1"
+}
+],
+[
+"chase",
+{
+"start": "@75",
+"legs": "1 southbound 1"
+}
+]
+]
+},
+{
+"graph": "random/r001",
+"calls": [
+[
+"follow",
+{
+"node": "Moldenzo",
+"relation": "minnidun",
+"steps": "1"
+}
+],
+[
+"follow",
+{
+"node": "@1",
+"relation": "tifun",
+"steps": "1"
+}
+],
+[
+"path",
+{
+"from": "@5",
+"to": "@2"
+}
+],
+[
+"path",
+{
+"from": "Moldenzo",
+"to": "@1"
+}
+],
+[
+"neighbours",
+{
+"node": "@5",
+"relation": "tifun"
+}
+],
+[
+"cheapest",
+{
+"from": "@6",
+"to": "@4"
+}
+]
+]
+}
+]

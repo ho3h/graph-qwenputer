@@ -1,0 +1,3606 @@
+{
+"seed": "20261103:nyc-relabelled:d1m",
+"conversations": [
+{
+"key": "nyc-relabelled:165",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Nertur St station. Ride the F train 2 stops southbound, then change to the G and ride the G train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@216 Lolrerben Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:159",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Razesu Hts station. Ride the M train 3 stops southbound, then change to the 1 and ride the 1 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@30 Burrinol Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:199",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Penluldo Sq station. Ride the A train 3 stops southbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@488 Zulvanlar Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:168",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Dalbulben Rd station. Ride the R train 3 stops southbound, then change to the G and ride the G train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@400 Tinrol St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:149",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Vurle Junction station. Ride the E train 3 stops northbound, then change to the Z and ride the Z train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@146 Golgelsol Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:129",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zalren Hts station. Ride the M train 2 stops southbound, then change to the L and ride the L train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@40 Dalbulben Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:108",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Palpor St station. Ride the 7 train 3 stops southbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@491 Zunsilran St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:164",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Velper-Vengo Sq station. Ride the 6 train 1 stop southbound, then change to the 4 and ride the 4 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@141 Ginpa-Radan Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:112",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Milfa Hts station. Ride the 7 train 1 stop northbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@67 Dinunder Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:107",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Delgalpur St station. Ride the 5 train 3 stops northbound, then change to the Q and ride the Q train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@41 Dalbulben Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:140",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Volkon Av station. Ride the C train 3 stops northbound, then change to the FS and ride the FS train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@181 Korpekan Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:133",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Terperze Sq station. Ride the 1 train 3 stops southbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@36 Dalbinlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:122",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zilnema Blvd station. Ride the W train 3 stops northbound, then change to the J and ride the J train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@250 Nalkar Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:138",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Pimalzun-Vurlunger Junction station. Ride the 2 train 2 stops southbound, then change to the 4 and ride the 4 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@81 Fadurso St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:193",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Kilrur Pkwy station. Ride the 2 train 1 stop southbound, then change to the 1 and ride the 1 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@330 Riril-Rurdin Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:139",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Sindi Av station. Ride the E train 2 stops northbound, then change to the M and ride the M train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@228 Mangurve-Dervurdil Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:125",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Rerfi Blvd station. Ride the N train 2 stops southbound, then change to the 4 and ride the 4 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@56 Dersormur Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:137",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Kunlur Av station. Ride the 6 train 2 stops southbound, then change to the 7 and ride the 7 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@446 Volgar Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:127",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Dalbulben Rd station. Ride the Q train 1 stop northbound, then change to the Z and ride the Z train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@492 Zunsilran St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:134",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Lirna-Dalvannon Pkwy station. Ride the E train 3 stops northbound, then change to the M and ride the M train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@84 Fapor Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:157",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zunsilran St station. Ride the A train 2 stops northbound, then change to the B and ride the B train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@354 Sanfaven Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:161",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Kaldon Av station. Ride the 4 train 1 stop northbound, then change to the Q and ride the Q train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@70 Donni Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:115",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zununger Av station. Ride the M train 3 stops southbound, then change to the L and ride the L train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@186 Kuponman-Vunpal Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:166",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Versarrir St station. Ride the C train 2 stops southbound, then change to the FS and ride the FS train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@376 Silfontol Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:178",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Pakurval Blvd station. Ride the 7 train 2 stops southbound, then change to the W and ride the W train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@436 Velzer Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:121",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Nolfin Sq station. Ride the 7 train 1 stop southbound, then change to the N and ride the N train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@436 Velzer Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:195",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zeldan Park station. Ride the 4 train 2 stops southbound, then change to the B and ride the B train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@246 Minmer St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:141",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Kilsil Park station. Ride the M train 1 stop southbound, then change to the F and ride the F train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@358 Sanvunzel-Turrorrun Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:116",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Rifel Blvd station. Ride the 4 train 3 stops southbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@70 Donni Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:118",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Ferku Av station. Ride the 7 train 2 stops southbound, then change to the Q and ride the Q train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@434 Velper-Vengo Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:128",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Tunpa Sq station. Ride the M train 3 stops northbound, then change to the J and ride the J train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@103 Finmardun-Bilbir Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:142",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Rerfi Blvd station. Ride the N train 3 stops southbound, then change to the J and ride the J train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@89 Farrendun Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:197",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Velper-Vengo Sq station. Ride the 1 train 2 stops southbound, then change to the 3 and ride the 3 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@140 Ginpa-Radan Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:145",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Kaldon Av station. Ride the 5 train 1 stop southbound, then change to the C and ride the C train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@490 Zunsilran St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:150",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zilnema Blvd station. Ride the 1 train 2 stops northbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@36 Dalbinlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:105",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Pervun Pkwy station. Ride the N train 3 stops southbound, then change to the B and ride the B train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@268 Nolelsa Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:181",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Velper-Vengo Sq station. Ride the 1 train 3 stops northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@36 Dalbinlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:151",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Sanvunzel-Turrorrun Sq station. Ride the E train 2 stops southbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@489 Zunro Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:176",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Roban Rd station. Ride the E train 3 stops northbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@313 Razesu Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:167",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Lerpenpir Junction station. Ride the L train 3 stops southbound, then change to the M and ride the M train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@160 Kalrodon Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:155",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Terperze Sq station. Ride the W train 2 stops northbound, then change to the 1 and ride the 1 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@334 Roban Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:143",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Lirna-Dalvannon Pkwy station. Ride the E train 3 stops southbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@24 Borlonnu-Malmelo Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:131",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Borlonnu-Malmelo Junction station. Ride the B train 2 stops northbound, then change to the 4 and ride the 4 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@79 Durbirron Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:102",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Kalrodon Sq station. Ride the M train 3 stops northbound, then change to the L and ride the L train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@40 Dalbulben Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:104",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Volkon Av station. Ride the A train 1 stop southbound, then change to the Z and ride the Z train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@103 Finmardun-Bilbir Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:114",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Donni Blvd station. Ride the F train 3 stops southbound, then change to the E and ride the E train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@112 Forkernan Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:158",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Farmon Junction station. Ride the Q train 1 stop northbound, then change to the R and ride the R train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@462 Zanlel Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:106",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Farmon Junction station. Ride the G train 1 stop northbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@204 Lillulmen-Molminse Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:130",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Sanfaven Rd station. Ride the M train 2 stops northbound, then change to the Q and ride the Q train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@318 Rerfi Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:119",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zilgorba Hts station. Ride the Z train 2 stops southbound, then change to the A and ride the A train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@447 Volkon Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:110",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Banzenkun Junction station. Ride the F train 2 stops southbound, then change to the A and ride the A train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@490 Zunsilran St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:186",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Finlen Av station. Ride the E train 3 stops southbound, then change to the C and ride the C train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@91 Feltunkun Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:196",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Funsi-Vonvin St station. Ride the G train 3 stops northbound, then change to the 7 and ride the 7 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@286 Palpor St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:185",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Rultun Park station. Ride the 7 train 1 stop northbound, then change to the G and ride the G train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@175 Kolbeltil-Vevelsu Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:135",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Dalbinlir Sq station. Ride the J train 2 stops northbound, then change to the Q and ride the Q train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@88 Farmon Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:183",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Galnalsan Hts station. Ride the 2 train 3 stops southbound, then change to the 3 and ride the 3 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@25 Borlonnu-Malmelo Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:147",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Nolbar-Fikul Av station. Ride the 1 train 3 stops northbound, then change to the 3 and ride the 3 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@234 Melker-Malbider Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:153",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zunsilran St station. Ride the Z train 3 stops northbound, then change to the M and ride the M train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@369 Sermil Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:187",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Taponsil-Kirzanor Av station. Ride the F train 1 stop northbound, then change to the R and ride the R train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@359 Sarfinfu Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:124",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Denderbir Rd station. Ride the 6 train 3 stops southbound, then change to the N and ride the N train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@276 Norzan Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:117",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Razesu Hts station. Ride the M train 3 stops southbound, then change to the 2 and ride the 2 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@470 Zennudur-Ropensur Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:191",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Durbirron Park station. Ride the 2 train 2 stops northbound, then change to the 4 and ride the 4 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@190 Kutelfol Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:194",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Kider Av station. Ride the 1 train 3 stops southbound, then change to the 3 and ride the 3 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@36 Dalbinlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:160",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Finlen Av station. Ride the E train 2 stops southbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@76 Durbirron Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:154",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zirdi Sq station. Ride the F train 1 stop southbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@156 Gurluson-Finnerpo Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:148",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Ginpa-Radan Rd station. Ride the 3 train 1 stop northbound, then change to the 5 and ride the 5 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@95 Ferku Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:190",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zunsilran St station. Ride the Z train 1 stop southbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@488 Zulvanlar Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:103",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Lirzolron-Litalmer Rd station. Ride the 1 train 2 stops northbound, then change to the 3 and ride the 3 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@169 Kilrur Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:132",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Razesu Hts station. Ride the D train 2 stops northbound, then change to the E and ride the E train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@102 Finlen Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:174",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Donni Blvd station. Ride the B train 1 stop southbound, then change to the A and ride the A train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@341 Rorlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:156",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Rultun Park station. Ride the 7 train 2 stops southbound, then change to the 5 and ride the 5 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@56 Dersormur Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:173",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Borlonnu-Malmelo Junction station. Ride the D train 3 stops southbound, then change to the E and ride the E train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@341 Rorlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:136",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Dalbulben Rd station. Ride the Q train 3 stops northbound, then change to the D and ride the D train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@313 Razesu Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:198",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Rirnor-Ninral Sq station. Ride the R train 3 stops southbound, then change to the B and ride the B train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@293 Penluldo Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:182",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Tirelpul Junction station. Ride the J train 3 stops southbound, then change to the C and ride the C train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@490 Zunsilran St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:144",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Lirzolron-Litalmer Rd station. Ride the 1 train 2 stops northbound, then change to the 2 and ride the 2 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@460 Zanal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:120",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Korkonmil St station. Ride the N train 1 stop northbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@380 Sofa St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:172",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zanal St station. Ride the 2 train 2 stops southbound, then change to the 1 and ride the 1 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@121 Funtelbu Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:179",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Sanfaven Rd station. Ride the D train 3 stops northbound, then change to the C and ride the C train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@459 Zanal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:123",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Rerfi Blvd station. Ride the N train 2 stops southbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@166 Kelnul Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:152",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Riril-Rurdin Hts station. Ride the 1 train 2 stops southbound, then change to the 2 and ride the 2 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@169 Kilrur Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:180",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Razesu Hts station. Ride the D train 1 stop southbound, then change to the W and ride the W train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@351 Sallen St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:163",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zunsilran St station. Ride the A train 2 stops northbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@268 Nolelsa Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:170",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Tirelpul Junction station. Ride the Z train 3 stops northbound, then change to the M and ride the M train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@369 Sermil Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:162",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Balkonbon Blvd station. Ride the M train 3 stops northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@62 Dilmir-Pormarfal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:171",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zununger Av station. Ride the Z train 2 stops southbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@6 Banzenkun Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:146",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Gergu-Vuden Blvd station. Ride the A train 1 stop northbound, then change to the 4 and ride the 4 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@159 Kaldon Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:111",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Farrendun Park station. Ride the Z train 2 stops southbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@92 Ferelpu Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:184",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Lorzo St station. Ride the 6 train 1 stop southbound, then change to the 5 and ride the 5 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@282 Pakaken Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:126",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Binselnu-Semilpen Park station. Ride the N train 3 stops northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@268 Nolelsa Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:189",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Pilnelfo Pl station. Ride the Z train 3 stops southbound, then change to the M and ride the M train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@369 Sermil Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:113",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Rormolson-Supo Av station. Ride the F train 3 stops southbound, then change to the E and ride the E train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@445 Vitor Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:175",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Berfin Park station. Ride the G train 3 stops northbound, then change to the C and ride the C train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@365 Senlu Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:192",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Bizirben Junction station. Ride the 1 train 1 stop northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@140 Ginpa-Radan Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:169",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Farmon Junction station. Ride the D train 2 stops northbound, then change to the A and ride the A train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@341 Rorlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:109",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Sindi Av station. Ride the R train 2 stops southbound, then change to the W and ride the W train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@111 Forbunfal Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:188",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Zurkurben Sq station. Ride the 2 train 1 stop southbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@70 Donni Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:101",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Dersormur Sq station. Ride the N train 1 stop southbound, then change to the Q and ride the Q train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@482 Zirdi Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:100",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Roban Rd station. Ride the E train 1 stop northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@24 Borlonnu-Malmelo Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:177",
+"graph": "nyc-relabelled-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Dersormur Sq station. Ride the 1 train 1 stop northbound, then change to the 2 and ride the 2 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@460 Zanal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900000",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Berfin Park station. Ride the F train 4 stops southbound, then change to the G and ride the G train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@323 Revorpin Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900001",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Tilpir Pl station. Ride the B train 3 stops northbound, then change to the Q and ride the Q train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@259 Nerzir St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900002",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Nonfirfin Pkwy station. Ride the 6X train 2 stops northbound, then change to the 6 and ride the 6 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @477 Zilmon Junction, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900003",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Banzenkun Junction station. Ride the FX train 3 stops southbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@473 Zerdelben Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900004",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Dilnir Blvd station. Ride the Z train 4 stops southbound, then change to the J and ride the J train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@74 Dultolbi St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900005",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Delgalpur St station. Ride the 2 train 2 stops southbound, then change to the 5 and ride the 5 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@124 Fusar Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900006",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Gilval Park station. Ride the W train 1 stop northbound, then change to the R and ride the R train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@444 Vitofir Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900007",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Finbur Blvd station. Ride the M train 2 stops southbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@326 Rinpa-Sendilbel Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900008",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Kinolpa Sq station. Ride the 2 train 2 stops northbound, then change to the 5 and ride the 5 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@375 Sidarul-Purriger Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900009",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Fermolmir Pl station. Ride the 7 train 4 stops southbound, then change to the E and ride the E train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@402 Tirza Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900010",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Polmalpil-Finkungil Blvd station. Ride the 2 train 4 stops northbound, then change to the 5 and ride the 5 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@46 Datepor-Tali Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900011",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Mingorin-Derfebo Blvd station. Ride the L train 1 stop northbound, then change to the A and ride the A train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@432 Velper-Vengo Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900012",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Tolgerte Av station. Ride the L train 1 stop northbound, then change to the G and ride the G train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@59 Devul Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900013",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Nalfirzer-Derlulol Av station. Ride the R train 2 stops northbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@351 Sallen St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900014",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Pelvir Pl station. Ride the D train 2 stops southbound, then change to the B and ride the B train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @82 Falvantar Pl, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900015",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Sindi Av station. Ride the R train 2 stops southbound, then change to the W and ride the W train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@318 Rerfi Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900016",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Finlen Av station. Ride the F train 3 stops northbound, then change to the E and ride the E train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@445 Vitor Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900017",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Zilmon Junction station. Ride the 6 train 4 stops southbound, then change to the 6X and ride the 6X train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@477 Zilmon Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900018",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Porle-Genzalgun Hts station. Ride the FX train 1 stop southbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@268 Nolelsa Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900019",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Sanfaven Rd station. Ride the FX train 2 stops southbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@294 Pervun Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900020",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Kilsil Park station. Ride the M train 4 stops northbound, then change to the R and ride the R train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@454 Vurle Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900021",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Rinpa-Sendilbel Pkwy station. Ride the F train 2 stops northbound, then change to the FX and ride the FX train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@342 Rormolson-Supo Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900022",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Gavor Sq station. Ride the J train 1 stop southbound, then change to the L and ride the L train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@45 Darvonne Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900023",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Firgolnon Sq station. Ride the 3 train 3 stops southbound, then change to the 2 and ride the 2 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@460 Zanal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900024",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Belful Park station. Ride the 6 train 3 stops northbound, then change to the 6X and ride the 6X train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@142 Girbe Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900025",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Kilsil Park station. Ride the R train 3 stops northbound, then change to the M and ride the M train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@84 Fapor Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900026",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Fote-Malgol Sq station. Ride the 2 train 1 stop southbound, then change to the 5 and ride the 5 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@420 Turnu Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900027",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Kelnul Pkwy station. Ride the 6X train 1 stop northbound, then change to the 6 and ride the 6 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@212 Lokenron Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900028",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Selte-Zannalpa Pl station. Ride the 2 train 4 stops southbound, then change to the 3 and ride the 3 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@260 Nerzir St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900029",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Pulirban Rd station. Ride the Q train 1 stop northbound, then change to the B and ride the B train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@387 Talkirban Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900030",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Tilpir Pl station. Ride the Q train 1 stop southbound, then change to the B and ride the B train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@133 Gelbul-Neril Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900031",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Zolmonpul St station. Ride the 6 train 3 stops southbound, then change to the 6X and ride the 6X train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@79 Durbirron Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900032",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Zerdelben Blvd station. Ride the G train 1 stop southbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@323 Revorpin Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900033",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Telzindir Sq station. Ride the FX train 1 stop southbound, then change to the F and ride the F train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@85 Farfenin Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900034",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Dilnir Blvd station. Ride the J train 1 stop northbound, then change to the Z and ride the Z train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@461 Zankevol Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900035",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Forbunfal Pl station. Ride the N train 3 stops northbound, then change to the W and ride the W train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 2 steps at @80 Fabal-Gunvenrin Sq, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900036",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Pulirban Rd station. Ride the Q train 1 stop northbound, then change to the B and ride the B train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@133 Gelbul-Neril Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900037",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Niga Blvd station. Ride the C train 4 stops northbound, then change to the FS and ride the FS train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@181 Korpekan Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900038",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Binvargol Pkwy station. Ride the R train 3 stops southbound, then change to the W and ride the W train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@433 Velper-Vengo Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900039",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Girlurbur Av station. Ride the 6X train 3 stops northbound, then change to the 6 and ride the 6 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@458 Zanal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900040",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Fermolmir Pl station. Ride the 7X train 1 stop northbound, then change to the 7 and ride the 7 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@440 Verlin Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900041",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Nonfirfin Pkwy station. Ride the 6X train 3 stops southbound, then change to the 6 and ride the 6 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@220 Lovir-Zernelbo Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900042",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Rengon Blvd station. Ride the Q train 1 stop northbound, then change to the B and ride the B train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@399 Tilpir Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900043",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Zilmon Junction station. Ride the 6 train 3 stops southbound, then change to the 6X and ride the 6X train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@362 Sarmal-Minrunrel Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900044",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Venner Junction station. Ride the FX train 1 stop northbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@438 Venner Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900045",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Rinpa-Sendilbel Pkwy station. Ride the FX train 4 stops southbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@354 Sanfaven Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900046",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Zirdi Sq station. Ride the Q train 3 stops northbound, then change to the B and ride the B train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@322 Revorpin Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900047",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Sibakon St station. Ride the J train 1 stop southbound, then change to the Z and ride the Z train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@475 Zilgorba Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900048",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Pimalzun-Vurlunger Junction station. Ride the 2 train 1 stop northbound, then change to the 3 and ride the 3 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@124 Fusar Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900049",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Firgon Rd station. Ride the A train 3 stops northbound, then change to the C and ride the C train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@201 Libur St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900050",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Zurgirkun Junction station. Ride the FX train 3 stops northbound, then change to the F and ride the F train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@482 Zirdi Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900051",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Nonlu Rd station. Ride the 2 train 2 stops southbound, then change to the 5 and ride the 5 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@171 Kinolpa Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900052",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Tirelpul Junction station. Ride the J train 1 stop northbound, then change to the Z and ride the Z train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@431 Velper-Vengo Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900053",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Pakurval Blvd station. Ride the 7 train 2 stops southbound, then change to the 7X and ride the 7X train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@241 Milfa Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900054",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Renbu-Kirve Av station. Ride the B train 2 stops northbound, then change to the Q and ride the Q train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@387 Talkirban Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900055",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Burturval-Vilvil Junction station. Ride the M train 4 stops southbound, then change to the 4 and ride the 4 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@352 Sallen St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900056",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Gonponpar Park station. Ride the N train 1 stop southbound, then change to the W and ride the W train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@383 Sukon Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900057",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Talfen-Rofenkar Hts station. Ride the FX train 1 stop southbound, then change to the F and ride the F train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@15 Binselnu-Semilpen Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900058",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Pilbanre Pkwy station. Ride the 6X train 3 stops southbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@79 Durbirron Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900059",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Gundo Park station. Ride the Z train 3 stops northbound, then change to the J and ride the J train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@445 Vitor Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900060",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Gorpalfan Av station. Ride the 5 train 4 stops northbound, then change to the 2 and ride the 2 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@287 Pantor-Zunri Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900061",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Furdi Hts station. Ride the 1 train 1 stop southbound, then change to the F and ride the F train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@268 Nolelsa Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900062",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Zerdelben Blvd station. Ride the G train 2 stops northbound, then change to the F and ride the F train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@323 Revorpin Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900063",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Fusar Blvd station. Ride the 5 train 3 stops northbound, then change to the R and ride the R train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@18 Binvargol Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900064",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Farfenin Park station. Ride the FX train 2 stops southbound, then change to the E and ride the E train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@19 Bitopi-Folfel Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900065",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Versarrir St station. Ride the C train 3 stops southbound, then change to the A and ride the A train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@135 Gergu-Vuden Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900066",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Lirfu-Lorbel Pkwy station. Ride the L train 3 stops southbound, then change to the G and ride the G train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@329 Rinzar Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900067",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Nortil Blvd station. Ride the 2 train 3 stops southbound, then change to the 5 and ride the 5 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@151 Gorpalfan Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900068",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Sidarul-Purriger Junction station. Ride the 2 train 1 stop northbound, then change to the 4 and ride the 4 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@260 Nerzir St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900069",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Vidi-Nolru Junction station. Ride the 5 train 2 stops southbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@303 Polmalpil-Finkungil Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900070",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Zurgirkun Junction station. Ride the FX train 2 stops northbound, then change to the F and ride the F train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@410 Tornermal Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900071",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Tilpir Pl station. Ride the Q train 4 stops southbound, then change to the F and ride the F train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@350 Rurnon Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900072",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Finmardun-Bilbir Junction station. Ride the Z train 4 stops northbound, then change to the J and ride the J train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@9 Begil Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900073",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Kilsil Park station. Ride the R train 3 stops southbound, then change to the M and ride the M train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@439 Venrer Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900074",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Kilfoltar-Kovulza Pl station. Ride the 1 train 4 stops northbound, then change to the FX and ride the FX train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@32 Burrinol Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900075",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Zununger Av station. Ride the M train 2 stops northbound, then change to the J and ride the J train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@211 Lise-Lapi Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900076",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Gonponpar Park station. Ride the N train 2 stops southbound, then change to the 7 and ride the 7 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@286 Palpor St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900077",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Silpurnul Junction station. Ride the 5 train 2 stops southbound, then change to the 2 and ride the 2 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@378 Silpurnul Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900078",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Bitopi-Folfel Park station. Ride the FX train 1 stop southbound, then change to the E and ride the E train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@230 Manvurlir Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900079",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Vurle Junction station. Ride the FX train 4 stops northbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@233 Melkedor Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900080",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Razesu Hts station. Ride the F train 3 stops northbound, then change to the E and ride the E train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@402 Tirza Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900081",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Galnalsan Hts station. Ride the 2 train 3 stops southbound, then change to the 3 and ride the 3 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 2 steps at @107 Firgolnon Sq, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900082",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Melker-Malbider Sq station. Ride the 2 train 3 stops northbound, then change to the 1 and ride the 1 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@334 Roban Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900083",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Lise-Lapi Pl station. Ride the J train 1 stop southbound, then change to the Z and ride the Z train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@401 Tirelpul Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900084",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Pervun Pkwy station. Ride the R train 4 stops southbound, then change to the W and ride the W train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@351 Sallen St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900085",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Lunfarlo-Tubo Pl station. Ride the B train 1 stop northbound, then change to the D and ride the D train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@225 Lunfarlo-Tubo Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900086",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Garsir-Zidunvil Sq station. Ride the A train 4 stops southbound, then change to the B and ride the B train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@468 Zennudur-Ropensur Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900087",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Rifel Blvd station. Ride the 5 train 3 stops northbound, then change to the 6X and ride the 6X train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@429 Velper-Vengo Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900088",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Mangurve-Dervurdil Av station. Ride the R train 2 stops northbound, then change to the FX and ride the FX train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@102 Finlen Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900089",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Barsul Blvd station. Ride the E train 2 stops northbound, then change to the B and ride the B train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@468 Zennudur-Ropensur Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900090",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Volgar Hts station. Ride the 7X train 3 stops northbound, then change to the 7 and ride the 7 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@317 Rerfi Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900091",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Nulker Av station. Ride the M train 2 stops southbound, then change to the R and ride the R train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@98 Fernalzol-Kurnalvir Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900092",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Korpekan Park station. Ride the Q train 3 stops northbound, then change to the B and ride the B train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@181 Korpekan Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900093",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Rolgebin Junction station. Ride the J train 2 stops southbound, then change to the Z and ride the Z train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@146 Golgelsol Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900094",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Nulker Av station. Ride the R train 4 stops northbound, then change to the M and ride the M train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@64 Dilvirpul Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900095",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Tiburder-Sogortul Blvd station. Ride the L train 1 stop southbound, then change to the 3 and ride the 3 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@426 Velbi Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900096",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Kilsil Park station. Ride the R train 1 stop southbound, then change to the 7 and ride the 7 train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@97 Fermolmir Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900097",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Narlilpan Pl station. Ride the 7 train 4 stops southbound, then change to the 7X and ride the 7X train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@269 Nolfin Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900098",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Pimalzun-Vurlunger Junction station. Ride the 3 train 2 stops northbound, then change to the N and ride the N train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@185 Kunlur Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:900099",
+"graph": "nyc-relabelled-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Galnalsan Hts station. Ride the 5 train 1 stop northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@282 Pakaken Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910000",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Velper-Vengo Sq station. Ride the J train 1 stop northbound, then change to the Z and ride the Z train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@176 Kolpi Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910001",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Ferku Av station. Ride the 7X train 2 stops northbound, then change to the 7 and ride the 7 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@269 Nolfin Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910002",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Darvonne Park station. Ride the J train 1 stop southbound, then change to the Z and ride the Z train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@200 Libur St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910003",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Nerzir St station. Ride the B train 4 stops southbound, then change to the Q and ride the Q train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@305 Pulirban Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910004",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Dilmir-Pormarfal St station. Ride the A train 2 stops northbound, then change to the B and ride the B train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@189 Kutelfol Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910005",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Terperze Sq station. Ride the W train 4 stops southbound, then change to the R and ride the R train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@18 Binvargol Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910006",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Ginpa-Radan Rd station. Ride the 4 train 3 stops northbound, then change to the 5 and ride the 5 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@184 Kunlur Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910007",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Vallefel St station. Ride the Q train 4 stops southbound, then change to the W and ride the W train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@414 Tunmul Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910008",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Vallefel St station. Ride the B train 2 stops southbound, then change to the C and ride the C train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@120 Funtelbu Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910009",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Ferelpu Sq station. Ride the 6 train 4 stops northbound, then change to the 6X and ride the 6X train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@10 Belful Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910010",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Sanna Av station. Ride the W train 2 stops southbound, then change to the N and ride the N train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@182 Kuforsi Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910011",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Korkonmil St station. Ride the N train 2 stops southbound, then change to the D and ride the D train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@109 Firvinbi Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910012",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Zennudur-Ropensur Pkwy station. Ride the 3 train 1 stop southbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@414 Tunmul Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910013",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Mesarde Pl station. Ride the F train 2 stops northbound, then change to the FX and ride the FX train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@86 Farmon Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910014",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Gelbul-Neril Pl station. Ride the B train 1 stop northbound, then change to the Q and ride the Q train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@322 Revorpin Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910015",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Farrendun Park station. Ride the FX train 4 stops northbound, then change to the F and ride the F train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@354 Sanfaven Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910016",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Neltel Park station. Ride the A train 4 stops northbound, then change to the C and ride the C train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@292 Penluldo Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910017",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Dalbulben Rd station. Ride the B train 3 stops southbound, then change to the FS and ride the FS train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@366 Senlu Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910018",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Sanna Av station. Ride the 7X train 3 stops southbound, then change to the 7 and ride the 7 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@453 Vunpir Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910019",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Funtelbu Av station. Ride the 6 train 4 stops southbound, then change to the 6X and ride the 6X train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@163 Karmil-Norfenkar Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910020",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Funtelbu Av station. Ride the 6X train 1 stop southbound, then change to the 6 and ride the 6 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@458 Zanal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910021",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Terperze Sq station. Ride the W train 2 stops northbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@414 Tunmul Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910022",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Tornermal Hts station. Ride the FX train 1 stop northbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@410 Tornermal Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910023",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Berpil Rd station. Ride the 5 train 3 stops southbound, then change to the 2 and ride the 2 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@145 Goldolben Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910024",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Kutelfol Junction station. Ride the D train 3 stops southbound, then change to the C and ride the C train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@245 Minmer St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910025",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Velper-Vengo Sq station. Ride the R train 2 stops northbound, then change to the W and ride the W train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@137 Gilval Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910026",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Velper-Vengo Sq station. Ride the C train 1 stop northbound, then change to the E and ride the E train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@33 Burrinol Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910027",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Revorpin Pl station. Ride the 2 train 1 stop southbound, then change to the 5 and ride the 5 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 2 steps at @217 Lonporvir St, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910028",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Korkonmil St station. Ride the N train 2 stops northbound, then change to the D and ride the D train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@412 Tunbel-Kemon St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910029",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Riril-Rurdin Hts station. Ride the C train 3 stops southbound, then change to the B and ride the B train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@120 Funtelbu Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910030",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Velper-Vengo Sq station. Ride the R train 3 stops northbound, then change to the 6 and ride the 6 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@92 Ferelpu Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910031",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Burrinol Hts station. Ride the FX train 1 stop southbound, then change to the F and ride the F train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@90 Farrendun Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910032",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Rerfi Blvd station. Ride the 2 train 2 stops northbound, then change to the 3 and ride the 3 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@405 Tolrir-Suzel St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910033",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Ferelpu Sq station. Ride the 6 train 2 stops southbound, then change to the 6X and ride the 6X train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@142 Girbe Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910034",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Vallefel St station. Ride the B train 3 stops northbound, then change to the C and ride the C train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@57 Dersormur Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910035",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Dersormur Sq station. Ride the B train 1 stop southbound, then change to the C and ride the C train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@331 Riril-Rurdin Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910036",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Sallen St station. Ride the 6X train 3 stops northbound, then change to the 6 and ride the 6 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@212 Lokenron Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910037",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Pakaken Sq station. Ride the 2 train 3 stops northbound, then change to the 5 and ride the 5 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@151 Gorpalfan Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910038",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Borlonnu-Malmelo Junction station. Ride the 1 train 2 stops northbound, then change to the C and ride the C train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@302 Pofunpar-Palnimen Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910039",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Balkonbon Blvd station. Ride the FX train 2 stops southbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@142 Girbe Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910040",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Dersormur Sq station. Ride the Q train 4 stops southbound, then change to the 1 and ride the 1 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@470 Zennudur-Ropensur Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910041",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Goldolben Rd station. Ride the 2 train 4 stops southbound, then change to the 5 and ride the 5 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@275 Nortil Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910042",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Donni Blvd station. Ride the Q train 1 stop northbound, then change to the N and ride the N train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@261 Nerzir St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910043",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Binselnu-Semilpen Park station. Ride the N train 1 stop southbound, then change to the D and ride the D train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@412 Tunbel-Kemon St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910044",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Berpil Rd station. Ride the 5 train 4 stops southbound, then change to the 2 and ride the 2 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@28 Bullen Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910045",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Balkonbon Blvd station. Ride the C train 2 stops northbound, then change to the E and ride the E train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@93 Ferelpu Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910046",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Norzan Blvd station. Ride the M train 3 stops northbound, then change to the R and ride the R train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@379 Sindi Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910047",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Kunlur Av station. Ride the 6X train 3 stops northbound, then change to the 4 and ride the 4 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@184 Kunlur Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910048",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Farrendun Park station. Ride the F train 2 stops southbound, then change to the FX and ride the FX train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@323 Revorpin Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910049",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Lillulmen-Molminse Junction station. Ride the 5 train 1 stop southbound, then change to the 2 and ride the 2 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@151 Gorpalfan Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910050",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Kutelfol Junction station. Ride the B train 4 stops northbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@371 Sernulton-Linkebul Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910051",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Sanna Av station. Ride the N train 3 stops northbound, then change to the W and ride the W train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 3 steps at @80 Fabal-Gunvenrin Sq, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910052",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Mesarde Pl station. Ride the F train 4 stops southbound, then change to the FX and ride the FX train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@131 Gelbul-Neril Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910053",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Dartalzan Av station. Ride the D train 1 stop northbound, then change to the B and ride the B train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @82 Falvantar Pl, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910054",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Fapor Junction station. Ride the J train 4 stops southbound, then change to the Z and ride the Z train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@472 Zepilso Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910055",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Vallefel St station. Ride the 6 train 3 stops northbound, then change to the 6X and ride the 6X train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@79 Durbirron Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910056",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Velper-Vengo Sq station. Ride the 6 train 3 stops northbound, then change to the 6X and ride the 6X train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@92 Ferelpu Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910057",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Burrinol Hts station. Ride the C train 1 stop southbound, then change to the L and ride the L train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@205 Lirfu-Lorbel Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910058",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Donni Blvd station. Ride the FX train 4 stops northbound, then change to the E and ride the E train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@379 Sindi Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910059",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Zennudur-Ropensur Pkwy station. Ride the B train 4 stops northbound, then change to the C and ride the C train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@468 Zennudur-Ropensur Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910060",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Gurser Hts station. Ride the A train 4 stops southbound, then change to the 1 and ride the 1 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@464 Zarsin-Fulvarpur Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910061",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Zennudur-Ropensur Pkwy station. Ride the 1 train 2 stops southbound, then change to the C and ride the C train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@33 Burrinol Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910062",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Saringil Park station. Ride the 4 train 1 stop southbound, then change to the 5 and ride the 5 train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@184 Kunlur Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910063",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Velper-Vengo Sq station. Ride the J train 2 stops southbound, then change to the C and ride the C train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@432 Velper-Vengo Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910064",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Korkonmil St station. Ride the L train 2 stops southbound, then change to the 6 and ride the 6 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@51 Denderbir Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910065",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Rorlir Sq station. Ride the C train 3 stops northbound, then change to the D and ride the D train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@71 Donni Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910066",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Neltel Park station. Ride the R train 4 stops northbound, then change to the 3 and ride the 3 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@140 Ginpa-Radan Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910067",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Sermil Junction station. Ride the J train 4 stops northbound, then change to the Z and ride the Z train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@475 Zilgorba Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910068",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Ferku Av station. Ride the 4 train 1 stop southbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@455 Vuvonkar St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910069",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Neltel Park station. Ride the R train 1 stop northbound, then change to the 3 and ride the 3 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@495 Zurkurben Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910070",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Mesarde Pl station. Ride the N train 1 stop northbound, then change to the D and ride the D train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@109 Firvinbi Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910071",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Balkonbon Blvd station. Ride the C train 4 stops southbound, then change to the 3 and ride the 3 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@340 Rorlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910072",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Donni Blvd station. Ride the R train 4 stops northbound, then change to the W and ride the W train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@436 Velzer Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910073",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Farmon Junction station. Ride the F train 4 stops northbound, then change to the G and ride the G train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@463 Zanlel Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910074",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Saringil Park station. Ride the 4 train 1 stop southbound, then change to the 5 and ride the 5 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@126 Galnalsan Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910075",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Fapor Junction station. Ride the Z train 4 stops southbound, then change to the J and ride the J train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@297 Pilnelfo Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910076",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Durbirron Park station. Ride the 2 train 4 stops southbound, then change to the 1 and ride the 1 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@334 Roban Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910077",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Binselnu-Semilpen Park station. Ride the G train 4 stops northbound, then change to the F and ride the F train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@86 Farmon Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910078",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Durbirron Park station. Ride the 2 train 4 stops northbound, then change to the 5 and ride the 5 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@151 Gorpalfan Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910079",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Rerfi Blvd station. Ride the R train 4 stops southbound, then change to the 4 and ride the 4 train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@325 Rifel Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910080",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Donni Blvd station. Ride the R train 1 stop northbound, then change to the 3 and ride the 3 train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@234 Melker-Malbider Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910081",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Dalbinlir Sq station. Ride the 3 train 1 stop southbound, then change to the 2 and ride the 2 train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@495 Zurkurben Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910082",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Karmil-Norfenkar Junction station. Ride the R train 2 stops northbound, then change to the N and ride the N train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@180 Korkonmil St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910083",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Rurnon Sq station. Ride the Q train 2 stops southbound, then change to the B and ride the B train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @314 Renbu-Kirve Av, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910084",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Tornermal Hts station. Ride the N train 3 stops northbound, then change to the D and ride the D train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@209 Lirzolron-Litalmer Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910085",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Forlitel-Lasulnul Park station. Ride the A train 2 stops southbound, then change to the L and ride the L train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@186 Kuponman-Vunpal Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910086",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Senlu Park station. Ride the FS train 2 stops southbound, then change to the 2 and ride the 2 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@298 Pimalzun-Vurlunger Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910087",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Zunsilran St station. Ride the 3 train 2 stops southbound, then change to the J and ride the J train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@89 Farrendun Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910088",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Libur St station. Ride the J train 1 stop southbound, then change to the Z and ride the Z train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@472 Zepilso Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910089",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Zanlel Sq station. Ride the G train 4 stops southbound, then change to the F and ride the F train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@463 Zanlel Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910090",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Mesarde Pl station. Ride the FX train 2 stops southbound, then change to the F and ride the F train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@350 Rurnon Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910091",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Zilgorba Hts station. Ride the Z train 2 stops northbound, then change to the J and ride the J train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@83 Fapor Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910092",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Rorlir Sq station. Ride the 3 train 4 stops northbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@470 Zennudur-Ropensur Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910093",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Zanlel Sq station. Ride the R train 3 stops southbound, then change to the N and ride the N train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@70 Donni Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910094",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Funtelbu Av station. Ride the 6X train 2 stops northbound, then change to the 6 and ride the 6 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@422 Vallefel St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910095",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Dinunder Junction station. Ride the N train 2 stops southbound, then change to the W and ride the W train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@436 Velzer Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910096",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Libur St station. Ride the Z train 1 stop northbound, then change to the J and ride the J train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@44 Darvonne Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910097",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Riril-Rurdin Hts station. Ride the C train 1 stop northbound, then change to the B and ride the B train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@331 Riril-Rurdin Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910098",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Lillulmen-Molminse Junction station. Ride the R train 1 stop northbound, then change to the G and ride the G train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@15 Binselnu-Semilpen Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:910099",
+"graph": "nyc-relabelled-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Burrinol Hts station. Ride the M train 3 stops northbound, then change to the B and ride the B train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@91 Feltunkun Pl",
+"wants": null
+}
+]
+}
+],
+"plain": []
+}

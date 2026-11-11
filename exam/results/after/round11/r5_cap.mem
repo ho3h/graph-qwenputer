@@ -1,0 +1,9 @@
+09:02:57 memguard: start pid 44473 limit 6.0 GiB, min free 15%: <qwenputer>/experimental/riscv/.venv/bin/python t8/fw/tokrun.py ../exam/results/after/round11/attack.py --out <repo>/exam/re
+09:02:57 memguard: 0 s, 1 procs, 0.02 GiB, peak 0.02, system free 82%
+09:03:58 memguard: 61 s, 1 procs, 0.54 GiB, peak 0.64, system free 82%
+09:04:59 memguard: 122 s, 1 procs, 0.55 GiB, peak 0.64, system free 82%
+09:06:00 memguard: 183 s, 1 procs, 0.47 GiB, peak 0.64, system free 82%
+09:07:00 memguard: 243 s, 1 procs, 0.47 GiB, peak 0.64, system free 81%
+09:08:01 memguard: 304 s, 1 procs, 0.47 GiB, peak 0.64, system free 81%
+09:09:01 memguard: 364 s, 1 procs, 0.47 GiB, peak 0.64, system free 81%
+09:09:23 memguard: end code 0, 386 s, peak 0.64 GiB

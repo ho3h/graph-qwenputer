@@ -1,0 +1,316 @@
+{
+ "seed": 2710,
+ "eligible": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "J",
+  "L",
+  "M",
+  "N",
+  "Q",
+  "R",
+  "SI",
+  "W",
+  "Z"
+ ],
+ "removed": [
+  "W",
+  "M"
+ ],
+ "reroute_order": [
+  "N",
+  "R",
+  "Q",
+  "4",
+  "SI",
+  "F",
+  "6",
+  "5",
+  "1",
+  "Z",
+  "L",
+  "J",
+  "B",
+  "D",
+  "2",
+  "E",
+  "3",
+  "G",
+  "C"
+ ],
+ "no_detour": [],
+ "rerouted": [
+  {
+   "route": "N",
+   "draws": 14,
+   "from": "R31",
+   "to": "R20",
+   "old_segment": [
+    "R31",
+    "Q01",
+    "R20"
+   ],
+   "new_segment": [
+    "R31",
+    "R30",
+    "R29",
+    "R28",
+    "R27",
+    "R26",
+    "R25",
+    "R24",
+    "R23",
+    "R22",
+    "R21",
+    "R20"
+   ],
+   "old_names": [
+    "Atlantic Av-Barclays Ctr",
+    "Canal St",
+    "14 St-Union Sq"
+   ],
+   "new_names": [
+    "Atlantic Av-Barclays Ctr",
+    "DeKalb Av",
+    "Jay St-MetroTech",
+    "Court St",
+    "Whitehall St-South Ferry",
+    "Rector St",
+    "Cortlandt St",
+    "City Hall",
+    "Canal St",
+    "Prince St",
+    "8 St-NYU",
+    "14 St-Union Sq"
+   ]
+  },
+  {
+   "route": "R",
+   "draws": 64,
+   "from": "R36",
+   "to": "R30",
+   "old_segment": [
+    "R36",
+    "R35",
+    "R34",
+    "R33",
+    "R32",
+    "R31",
+    "R30"
+   ],
+   "new_segment": [
+    "R36",
+    "R31",
+    "D22",
+    "R30"
+   ],
+   "old_names": [
+    "36 St",
+    "25 St",
+    "Prospect Av",
+    "4 Av-9 St",
+    "Union St",
+    "Atlantic Av-Barclays Ctr",
+    "DeKalb Av"
+   ],
+   "new_names": [
+    "36 St",
+    "Atlantic Av-Barclays Ctr",
+    "Grand St",
+    "DeKalb Av"
+   ]
+  },
+  {
+   "route": "Q",
+   "draws": 92,
+   "from": "R30",
+   "to": "R20",
+   "old_segment": [
+    "R30",
+    "Q01",
+    "R20"
+   ],
+   "new_segment": [
+    "R30",
+    "R29",
+    "R28",
+    "R27",
+    "R26",
+    "R25",
+    "R24",
+    "R23",
+    "R22",
+    "R21",
+    "R20"
+   ],
+   "old_names": [
+    "DeKalb Av",
+    "Canal St",
+    "14 St-Union Sq"
+   ],
+   "new_names": [
+    "DeKalb Av",
+    "Jay St-MetroTech",
+    "Court St",
+    "Whitehall St-South Ferry",
+    "Rector St",
+    "Cortlandt St",
+    "City Hall",
+    "Canal St",
+    "Prince St",
+    "8 St-NYU",
+    "14 St-Union Sq"
+   ]
+  }
+ ],
+ "swapped": [
+  {
+   "a": "S20",
+   "b": "F29",
+   "a_name": "Bay Terrace",
+   "b_name": "Ditmas Av"
+  },
+  {
+   "a": "602",
+   "b": "R05",
+   "a_name": "Buhre Av",
+   "b_name": "Broadway"
+  },
+  {
+   "a": "S15",
+   "b": "A07",
+   "a_name": "Prince's Bay",
+   "b_name": "175 St"
+  },
+  {
+   "a": "601",
+   "b": "D05",
+   "a_name": "Pelham Bay Park",
+   "b_name": "Fordham Rd"
+  },
+  {
+   "a": "A54",
+   "b": "N02",
+   "a_name": "Shepherd Av",
+   "b_name": "8 Av"
+  },
+  {
+   "a": "G10",
+   "b": "238",
+   "a_name": "63 Dr-Rego Park",
+   "b_name": "Eastern Pkwy-Brooklyn Museum"
+  },
+  {
+   "a": "252",
+   "b": "S19",
+   "a_name": "Saratoga Av",
+   "b_name": "Great Kills"
+  },
+  {
+   "a": "106",
+   "b": "142",
+   "a_name": "Marble Hill-225 St",
+   "b_name": "South Ferry"
+  },
+  {
+   "a": "D32",
+   "b": "S16",
+   "a_name": "Avenue H",
+   "b_name": "Huguenot"
+  },
+  {
+   "a": "108",
+   "b": "B18",
+   "a_name": "207 St",
+   "b_name": "79 St"
+  },
+  {
+   "a": "419",
+   "b": "608",
+   "a_name": "Wall St",
+   "b_name": "Parkchester"
+  },
+  {
+   "a": "J16",
+   "b": "M16",
+   "a_name": "85 St-Forest Pkwy",
+   "b_name": "Marcy Av"
+  },
+  {
+   "a": "J19",
+   "b": "135",
+   "a_name": "Cypress Hills",
+   "b_name": "Canal St"
+  },
+  {
+   "a": "638",
+   "b": "L06",
+   "a_name": "Spring St",
+   "b_name": "1 Av"
+  },
+  {
+   "a": "A57",
+   "b": "627",
+   "a_name": "Grant Av",
+   "b_name": "77 St"
+  },
+  {
+   "a": "F22",
+   "b": "F33",
+   "a_name": "Smith-9 Sts",
+   "b_name": "Avenue N"
+  },
+  {
+   "a": "N09",
+   "b": "S28",
+   "a_name": "Avenue U",
+   "b_name": "Clifton"
+  },
+  {
+   "a": "122",
+   "b": "D34",
+   "a_name": "79 St",
+   "b_name": "Avenue M"
+  },
+  {
+   "a": "256",
+   "b": "716",
+   "a_name": "Van Siclen Av",
+   "b_name": "33 St-Rawson St"
+  },
+  {
+   "a": "B19",
+   "b": "J17",
+   "a_name": "18 Av",
+   "b_name": "75 St-Elderts Ln"
+  }
+ ],
+ "unserved_after": [
+  "B04",
+  "B06",
+  "B10",
+  "M01",
+  "M04",
+  "M05",
+  "M06",
+  "M08",
+  "M09",
+  "M10",
+  "Q01",
+  "R32",
+  "R33",
+  "R34",
+  "R35"
+ ],
+ "source_sha256": "92810585b850356bb6e9c7d85b67b369ff65a549ede12163178973efc83e559f"
+}

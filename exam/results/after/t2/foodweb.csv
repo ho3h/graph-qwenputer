@@ -1,0 +1,137 @@
+# Barents Sea food web, simplified from diet studies.
+# eats: predator or grazer to its food. scavenges: feeds on carcasses of.
+from,relation,to
+Calanus finmarchicus,eats,Diatoms
+Calanus finmarchicus,eats,Phaeocystis
+Calanus glacialis,eats,Ice algae
+Calanus glacialis,eats,Diatoms
+Calanus hyperboreus,eats,Diatoms
+Calanus hyperboreus,eats,Ice algae
+Krill,eats,Diatoms
+Krill,eats,Phaeocystis
+Krill,eats,Calanus finmarchicus
+Themisto libellula,eats,Calanus glacialis
+Themisto libellula,eats,Calanus hyperboreus
+Themisto abyssorum,eats,Calanus finmarchicus
+Bivalves,eats,Diatoms
+Bivalves,eats,Detritus
+Brittle stars,eats,Detritus
+Polychaete worms,eats,Detritus
+Northern shrimp,eats,Detritus
+Northern shrimp,eats,Calanus finmarchicus
+Northern shrimp,eats,Polychaete worms
+Snow crab,eats,Bivalves
+Snow crab,eats,Polychaete worms
+Snow crab,eats,Brittle stars
+Red king crab,eats,Bivalves
+Red king crab,eats,Brittle stars
+Red king crab,eats,Polychaete worms
+Gonatus squid,eats,Krill
+Gonatus squid,eats,Themisto libellula
+Gonatus squid,eats,Capelin
+Capelin,eats,Calanus finmarchicus
+Capelin,eats,Krill
+Capelin,eats,Themisto libellula
+Polar cod,eats,Calanus glacialis
+Polar cod,eats,Calanus hyperboreus
+Polar cod,eats,Themisto libellula
+Atlantic herring,eats,Calanus finmarchicus
+Atlantic herring,eats,Krill
+Lesser sandeel,eats,Calanus finmarchicus
+Atlantic cod,eats,Capelin
+Atlantic cod,eats,Polar cod
+Atlantic cod,eats,Atlantic herring
+Atlantic cod,eats,Northern shrimp
+Atlantic cod,eats,Krill
+Atlantic cod,eats,Haddock
+Haddock,eats,Brittle stars
+Haddock,eats,Polychaete worms
+Haddock,eats,Capelin
+Saithe,eats,Capelin
+Saithe,eats,Atlantic herring
+Saithe,eats,Krill
+Beaked redfish,eats,Krill
+Beaked redfish,eats,Themisto abyssorum
+Beaked redfish,eats,Capelin
+Golden redfish,eats,Krill
+Golden redfish,eats,Atlantic herring
+Greenland halibut,eats,Polar cod
+Greenland halibut,eats,Capelin
+Greenland halibut,eats,Gonatus squid
+Greenland halibut,eats,Northern shrimp
+Long rough dab,eats,Polychaete worms
+Long rough dab,eats,Brittle stars
+Long rough dab,eats,Northern shrimp
+Greenland shark,eats,Greenland halibut
+Greenland shark,eats,Ringed seal
+Greenland shark,scavenges,Minke whale
+Greenland shark,scavenges,Harp seal
+Black-legged kittiwake,eats,Capelin
+Black-legged kittiwake,eats,Polar cod
+Brünnich's guillemot,eats,Polar cod
+Brünnich's guillemot,eats,Capelin
+Brünnich's guillemot,eats,Themisto libellula
+Common guillemot,eats,Capelin
+Common guillemot,eats,Atlantic herring
+Common guillemot,eats,Lesser sandeel
+Atlantic puffin,eats,Capelin
+Atlantic puffin,eats,Atlantic herring
+Atlantic puffin,eats,Lesser sandeel
+Little auk,eats,Calanus glacialis
+Little auk,eats,Calanus hyperboreus
+Northern fulmar,eats,Gonatus squid
+Northern fulmar,eats,Themisto libellula
+Northern fulmar,eats,Capelin
+Glaucous gull,eats,Little auk
+Glaucous gull,eats,Black-legged kittiwake
+Glaucous gull,eats,Brünnich's guillemot
+Glaucous gull,eats,Polar cod
+Glaucous gull,scavenges,Walrus
+Glaucous gull,scavenges,Minke whale
+Harp seal,eats,Capelin
+Harp seal,eats,Polar cod
+Harp seal,eats,Krill
+Harp seal,eats,Themisto libellula
+Ringed seal,eats,Polar cod
+Ringed seal,eats,Themisto libellula
+Ringed seal,eats,Northern shrimp
+Bearded seal,eats,Snow crab
+Bearded seal,eats,Bivalves
+Bearded seal,eats,Polar cod
+Bearded seal,eats,Northern shrimp
+Hooded seal,eats,Greenland halibut
+Hooded seal,eats,Gonatus squid
+Hooded seal,eats,Polar cod
+Harbour seal,eats,Saithe
+Harbour seal,eats,Atlantic herring
+Walrus,eats,Bivalves
+Walrus,eats,Polychaete worms
+Minke whale,eats,Capelin
+Minke whale,eats,Atlantic herring
+Minke whale,eats,Krill
+Fin whale,eats,Krill
+Fin whale,eats,Capelin
+Humpback whale,eats,Capelin
+Humpback whale,eats,Krill
+Bowhead whale,eats,Calanus hyperboreus
+Bowhead whale,eats,Calanus glacialis
+Beluga,eats,Polar cod
+Beluga,eats,Capelin
+Beluga,eats,Northern shrimp
+Harbour porpoise,eats,Atlantic herring
+Harbour porpoise,eats,Capelin
+Harbour porpoise,eats,Lesser sandeel
+Killer whale,eats,Atlantic herring
+Killer whale,eats,Harp seal
+Killer whale,eats,Minke whale
+Killer whale,eats,Harbour porpoise
+Polar bear,eats,Ringed seal
+Polar bear,eats,Bearded seal
+Polar bear,eats,Harp seal
+Polar bear,eats,Little auk
+Polar bear,scavenges,Bowhead whale
+Arctic fox,eats,Little auk
+Arctic fox,eats,Black-legged kittiwake
+Arctic fox,eats,Brünnich's guillemot
+Arctic fox,scavenges,Ringed seal
+Arctic fox,scavenges,Walrus

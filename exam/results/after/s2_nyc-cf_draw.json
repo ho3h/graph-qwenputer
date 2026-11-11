@@ -1,0 +1,3606 @@
+{
+"seed": "20261103:nyc-cf:d1m",
+"conversations": [
+{
+"key": "nyc-cf:145",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 34 St-Herald Sq station. Ride the D train 3 stops northbound, then change to the E and ride the E train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@116 50 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:151",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Bergen St station. Ride the F train 1 stop northbound, then change to the A and ride the A train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@318 Fulton St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:165",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 116 St station. Ride the 2 train 2 stops southbound, then change to the 1 and ride the 1 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@15 116 St-Columbia University",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:189",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at W 4 St-Wash Sq station. Ride the F train 1 stop northbound, then change to the 3 and ride the 3 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@316 Fulton St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:185",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 161 St-Yankee Stadium station. Ride the D train 2 stops southbound, then change to the A and ride the A train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@46 168 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:160",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 86 St station. Ride the 5 train 2 stops southbound, then change to the 7 and ride the 7 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@476 Vernon Blvd-Jackson Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:166",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 25 Av station. Ride the D train 2 stops southbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@399 Neptune Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:109",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 57 St-7 Av station. Ride the N train 3 stops northbound, then change to the 7 and ride the 7 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@109 46 St-Bliss St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:195",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 110 St-Malcolm X Plaza station. Ride the 3 train 2 stops southbound, then change to the 1 and ride the 1 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@126 59 St-Columbus Circle",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:175",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 138 St-Grand Concourse station. Ride the 4 train 3 stops southbound, then change to the 6 and ride the 6 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@118 51 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:112",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 36 St station. Ride the D train 1 stop northbound, then change to the Q and ride the Q train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@357 Jay St-MetroTech",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:154",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Jamaica-Van Wyck station. Ride the E train 2 stops southbound, then change to the F and ride the F train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@145 75 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:143",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 46 St station. Ride the R train 3 stops northbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@373 Lexington Av/53 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:144",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Bowling Green station. Ride the 4 train 2 stops northbound, then change to the J and ride the J train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@227 Broad St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:105",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at York St station. Ride the F train 3 stops southbound, then change to the G and ride the G train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@319 Fulton St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:116",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 3 Av-149 St station. Ride the 2 train 1 stop southbound, then change to the 4 and ride the 4 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@19 125 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:152",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Hoyt St station. Ride the 3 train 2 stops southbound, then change to the R and ride the R train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@328 Grand St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:115",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 110 St-Malcolm X Plaza station. Ride the 3 train 2 stops southbound, then change to the 1 and ride the 1 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@115 50 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:149",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 77 St station. Ride the A train 1 stop northbound, then change to the C and ride the C train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@152 8 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:140",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Prince St station. Ride the R train 2 stops northbound, then change to the L and ride the L train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@128 6 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:104",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Cathedral Pkwy (110 St) station. Ride the B train 2 stops northbound, then change to the A and ride the A train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@106 42 St-Port Authority Bus Terminal",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:139",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 7 Av station. Ride the D train 1 stop northbound, then change to the C and ride the C train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@160 86 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:155",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at York St station. Ride the F train 2 stops northbound, then change to the Z and ride the Z train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@244 Canal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:197",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 80 St station. Ride the A train 3 stops northbound, then change to the L and ride the L train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@240 Bushwick Av-Aberdeen St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:100",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Shepherd Av station. Ride the N train 2 stops northbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@328 Grand St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:135",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 42 St-Bryant Pk station. Ride the D train 2 stops northbound, then change to the E and ride the E train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@373 Lexington Av/53 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:182",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Prospect Av station. Ride the 5 train 3 stops southbound, then change to the 4 and ride the 4 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@49 170 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:172",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 135 St station. Ride the C train 1 stop southbound, then change to the D and ride the D train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@110 47-50 Sts-Rockefeller Ctr",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:137",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Sutphin Blvd-Archer Av-JFK Airport station. Ride the E train 3 stops southbound, then change to the F and ride the F train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@145 75 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:113",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at W 4 St-Wash Sq station. Ride the F train 3 stops southbound, then change to the J and ride the J train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@157 85 St-Forest Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:171",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 110 St-Malcolm X Plaza station. Ride the 2 train 3 stops southbound, then change to the R and ride the R train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@111 49 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:159",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Utica Av station. Ride the C train 3 stops southbound, then change to the Z and ride the Z train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@409 Norwood Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:153",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at W 4 St-Wash Sq station. Ride the F train 1 stop northbound, then change to the 3 and ride the 3 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@253 Chambers St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:157",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Brooklyn Bridge-City Hall station. Ride the 5 train 1 stop northbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@153 8 St-NYU",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:186",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Van Siclen Av station. Ride the 7 train 2 stops southbound, then change to the G and ride the G train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@397 Nassau Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:132",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Borough Hall station. Ride the 2 train 3 stops northbound, then change to the C and ride the C train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@243 Canal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:134",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Lexington Av/53 St station. Ride the E train 3 stops northbound, then change to the R and ride the R train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@108 46 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:103",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 14 St station. Ride the F train 1 stop southbound, then change to the B and ride the B train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@328 Grand St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:187",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Vernon Blvd-Jackson Av station. Ride the 7 train 3 stops southbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@253 Chambers St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:194",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 2 Av station. Ride the F train 3 stops northbound, then change to the 2 and ride the 2 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@141 72 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:198",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 80 St station. Ride the A train 3 stops northbound, then change to the Z and ride the Z train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@321 Gates Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:196",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 138 St-Grand Concourse station. Ride the 5 train 2 stops southbound, then change to the 6 and ride the 6 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@2 103 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:164",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Fulton St station. Ride the G train 2 stops southbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@494 York St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:168",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Canal St station. Ride the R train 3 stops northbound, then change to the L and ride the L train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@210 Bedford Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:119",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Broadway-Lafayette St station. Ride the F train 1 stop northbound, then change to the A and ride the A train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@106 42 St-Port Authority Bus Terminal",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:176",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 49 St station. Ride the R train 1 stop northbound, then change to the Q and ride the Q train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@143 72 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:199",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Park Place station. Ride the 2 train 3 stops northbound, then change to the 1 and ride the 1 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@115 50 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:108",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Court Sq-23 St station. Ride the E train 3 stops northbound, then change to the R and ride the R train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@490 Woodhaven Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:118",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Bowling Green station. Ride the 4 train 3 stops northbound, then change to the 6 and ride the 6 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@218 Bleecker St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:136",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Sterling St station. Ride the 5 train 3 stops northbound, then change to the N and ride the N train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@125 59 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:183",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Chambers St station. Ride the 3 train 2 stops southbound, then change to the 5 and ride the 5 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@28 14 St-Union Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:131",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Marble Hill-225 St station. Ride the 1 train 3 stops northbound, then change to the 3 and ride the 3 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@316 Fulton St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:193",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Grand Army Plaza station. Ride the 3 train 2 stops northbound, then change to the B and ride the B train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@328 Grand St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:173",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Grand St station. Ride the D train 1 stop northbound, then change to the F and ride the F train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@76 23 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:147",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Fulton St station. Ride the A train 2 stops southbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@215 Bergen St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:124",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 50 St station. Ride the E train 3 stops northbound, then change to the F and ride the F train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@110 47-50 Sts-Rockefeller Ctr",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:114",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 86 St station. Ride the N train 1 stop southbound, then change to the F and ride the F train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@479 W 8 St-NY Aquarium",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:111",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Nostrand Av station. Ride the 3 train 3 stops northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@427 President St-Medgar Evers College",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:110",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 57 St-7 Av station. Ride the R train 3 stops northbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@113 5 Av/53 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:128",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 72 St station. Ride the 1 train 2 stops southbound, then change to the A and ride the A train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@33 145 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:120",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Whitehall St-South Ferry station. Ride the Q train 2 stops southbound, then change to the A and ride the A train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@412 Nostrand Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:121",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at High St station. Ride the A train 1 stop southbound, then change to the R and ride the R train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@438 Rector St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:129",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 50 St station. Ride the 1 train 1 stop southbound, then change to the 7 and ride the 7 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@476 Vernon Blvd-Jackson Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:133",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 57 St-7 Av station. Ride the N train 2 stops southbound, then change to the 3 and ride the 3 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@96 34 St-Penn Station",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:188",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 138 St-Grand Concourse station. Ride the 5 train 2 stops southbound, then change to the 6 and ride the 6 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@330 Grant Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:170",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Broadway-Lafayette St station. Ride the F train 2 stops northbound, then change to the 3 and ride the 3 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@96 34 St-Penn Station",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:148",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Lexington Av/53 St station. Ride the E train 3 stops southbound, then change to the C and ride the C train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@127 59 St-Columbus Circle",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:146",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Parkchester station. Ride the 5 train 3 stops southbound, then change to the 2 and ride the 2 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@344 Hoyt St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:192",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 57 St-7 Av station. Ride the Q train 1 stop southbound, then change to the 2 and ride the 2 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@167 96 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:141",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 33 St station. Ride the 6 train 3 stops southbound, then change to the L and ride the L train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@151 8 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:142",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 39 Av-Dutch Kills station. Ride the N train 1 stop southbound, then change to the 7 and ride the 7 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@347 Hunters Point Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:174",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Nostrand Av station. Ride the A train 2 stops northbound, then change to the R and ride the R train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@486 Whitehall St-South Ferry",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:191",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 49 St station. Ride the N train 1 stop southbound, then change to the 2 and ride the 2 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@96 34 St-Penn Station",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:117",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Canal St station. Ride the A train 2 stops southbound, then change to the 4 and ride the 4 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@236 Brooklyn Bridge-City Hall",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:107",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at East Broadway station. Ride the F train 3 stops southbound, then change to the G and ride the G train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@345 Hoyt-Schermerhorn Sts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:161",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Park Place station. Ride the 2 train 2 stops northbound, then change to the F and ride the F train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@233 Broadway-Lafayette St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:177",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 77 St station. Ride the A train 3 stops northbound, then change to the C and ride the C train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@436 Ralph Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:180",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 14 St-Union Sq station. Ride the 5 train 2 stops southbound, then change to the 2 and ride the 2 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@418 Park Place",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:179",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 85 St-Forest Pkwy station. Ride the Z train 3 stops southbound, then change to the N and ride the N train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@428 Prince St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:190",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Bay Pkwy station. Ride the D train 3 stops southbound, then change to the Q and ride the Q train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@225 Brighton Beach",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:169",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Hoyt-Schermerhorn Sts station. Ride the A train 1 stop northbound, then change to the Q and ride the Q train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@438 Rector St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:138",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 174-175 Sts station. Ride the B train 3 stops southbound, then change to the 4 and ride the 4 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@24 138 St-Grand Concourse",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:122",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Bowery station. Ride the Z train 3 stops southbound, then change to the 5 and ride the 5 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@419 Parkchester",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:163",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 8 St-NYU station. Ride the N train 3 stops northbound, then change to the 2 and ride the 2 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@96 34 St-Penn Station",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:184",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Broadway-Lafayette St station. Ride the D train 3 stops southbound, then change to the N and ride the N train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@125 59 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:123",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Canal St station. Ride the Z train 2 stops southbound, then change to the 4 and ride the 4 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@28 14 St-Union Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:158",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 42 St-Bryant Pk station. Ride the F train 3 stops northbound, then change to the E and ride the E train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@116 50 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:126",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Borough Hall station. Ride the 3 train 3 stops southbound, then change to the D and ride the D train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@165 9 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:130",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Bowery station. Ride the Z train 1 stop northbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@233 Broadway-Lafayette St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:127",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Norwood Av station. Ride the Z train 3 stops southbound, then change to the L and ride the L train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@338 Halsey St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:162",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Bowling Green station. Ride the 4 train 3 stops southbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@323 Grand Army Plaza",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:125",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Queensboro Plaza station. Ride the N train 1 stop southbound, then change to the R and ride the R train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@433 Queens Plaza",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:102",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 50 St station. Ride the E train 1 stop northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@34 145 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:101",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at World Trade Center station. Ride the E train 3 stops northbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@281 Delancey St-Essex St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:167",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Lexington Av/59 St station. Ride the R train 1 stop northbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@113 5 Av/53 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:178",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Sterling St station. Ride the 5 train 2 stops northbound, then change to the 3 and ride the 3 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@323 Grand Army Plaza",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:156",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Bronx Park East station. Ride the 2 train 1 stop southbound, then change to the 5 and ride the 5 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@389 Morris Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:181",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at Broadway-Lafayette St station. Ride the F train 2 stops southbound, then change to the Z and ride the Z train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@255 Chambers St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:106",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 135 St station. Ride the B train 3 stops northbound, then change to the 4 and ride the 4 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@49 170 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:150",
+"graph": "nyc-cf-b",
+"source": "file",
+"turns": [
+{
+"user": "Start at 77 St station. Ride the A train 1 stop northbound, then change to the C and ride the C train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@474 Van Siclen Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900000",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 174 St station. Ride the 2 train 4 stops southbound, then change to the 5 and ride the 5 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@89 3 Av-149 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900001",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 68 St-Hunter College station. Ride the 6X train 3 stops northbound, then change to the 6 and ride the 6 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@19 125 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900002",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Norwood-205 St station. Ride the D train 1 stop southbound, then change to the B and ride the B train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@422 Pelham Bay Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900003",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Elmhurst Av station. Ride the R train 1 stop southbound, then change to the FX and ride the FX train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@433 Queens Plaza",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900004",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 42 St-Port Authority Bus Terminal station. Ride the E train 1 stop northbound, then change to the C and ride the C train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@97 34 St-Penn Station",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900005",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Grand Av-Newtown station. Ride the R train 4 stops northbound, then change to the FX and ride the FX train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@352 Jackson Hts-Roosevelt Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900006",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 47-50 Sts-Rockefeller Ctr station. Ride the B train 3 stops northbound, then change to the C and ride the C train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@3 103 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900007",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Avenue I station. Ride the F train 3 stops northbound, then change to the FX and ride the FX train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@196 Bay Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900008",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 3 Av-149 St station. Ride the 5 train 3 stops southbound, then change to the 6 and ride the 6 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@277 Cypress Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900009",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Kosciuszko St station. Ride the J train 3 stops northbound, then change to the Z and ride the Z train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@171 Alabama Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900010",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Alabama Av station. Ride the Z train 3 stops northbound, then change to the J and ride the J train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@241 Canal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900011",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Bushwick Av-Aberdeen St station. Ride the L train 1 stop southbound, then change to the Z and ride the Z train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@171 Alabama Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900012",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Tremont Av station. Ride the B train 4 stops northbound, then change to the D and ride the D train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@469 Tremont Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900013",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 34 St-Hudson Yards station. Ride the 7X train 2 stops northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@127 59 St-Columbus Circle",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900014",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 168 St station. Ride the A train 1 stop southbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@42 161 St-Yankee Stadium",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900015",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Zerega Av station. Ride the 6X train 1 stop northbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@386 Middletown Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900016",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Grant Av station. Ride the 6 train 4 stops southbound, then change to the 7X and ride the 7X train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@464 Times Sq-42 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900017",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Morrison Av-Soundview station. Ride the 6 train 2 stops northbound, then change to the 6X and ride the 6X train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@495 Zerega Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900018",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at E 143 St-St Mary's St station. Ride the 6 train 3 stops southbound, then change to the 6X and ride the 6X train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@2 103 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900019",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Avenue I station. Ride the FX train 1 stop northbound, then change to the F and ride the F train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@200 Bay Terrace",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900020",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Hewes St station. Ride the J train 3 stops northbound, then change to the Z and ride the Z train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@222 Bowery",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900021",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Astor Pl station. Ride the 6X train 1 stop northbound, then change to the L and ride the L train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@452 Spring St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900022",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Neck Rd station. Ride the Q train 2 stops northbound, then change to the B and ride the B train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@259 Church Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900023",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Middletown Rd station. Ride the 6 train 3 stops southbound, then change to the 6X and ride the 6X train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@88 3 Av-138 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900024",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 51 St station. Ride the 6 train 4 stops northbound, then change to the 4 and ride the 4 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@325 Grand Central-42 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900025",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 9 Av station. Ride the D train 1 stop northbound, then change to the N and ride the N train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@274 Court St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900026",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 110 St station. Ride the 6 train 4 stops southbound, then change to the 6X and ride the 6X train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@159 86 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900027",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 121 St station. Ride the J train 3 stops southbound, then change to the Z and ride the Z train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@460 Sutphin Blvd-Archer Av-JFK Airport",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900028",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Morrison Av-Soundview station. Ride the 6 train 4 stops northbound, then change to the 6X and ride the 6X train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@348 Hunts Point Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900029",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Zerega Av station. Ride the 6 train 3 stops northbound, then change to the 6X and ride the 6X train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@304 Fordham Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900030",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Bleecker St station. Ride the 6 train 1 stop southbound, then change to the 6X and ride the 6X train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@218 Bleecker St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900031",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Bowling Green station. Ride the 4 train 3 stops southbound, then change to the N and ride the N train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@448 Shepherd Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900032",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 23 St-Baruch College station. Ride the 6 train 1 stop southbound, then change to the Q and ride the Q train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@94 34 St-Herald Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900033",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Myrtle Av station. Ride the Z train 1 stop northbound, then change to the J and ride the J train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@371 Kosciuszko St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900034",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Kew Gardens-Union Tpke station. Ride the FX train 1 stop southbound, then change to the F and ride the F train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@273 Court Sq-23 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900035",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Newkirk Plaza station. Ride the B train 2 stops southbound, then change to the Q and ride the Q train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@398 Neck Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900036",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Kew Gardens-Union Tpke station. Ride the F train 4 stops southbound, then change to the E and ride the E train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@306 Forest Hills-71 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900037",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Bedford Park Blvd station. Ride the D train 1 stop southbound, then change to the B and ride the B train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@469 Tremont Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900038",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 61 St-Woodside station. Ride the 7X train 1 stop southbound, then change to the 7 and ride the 7 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@109 46 St-Bliss St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900039",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Bedford Park Blvd station. Ride the B train 1 stop southbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@410 Norwood-205 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900040",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Elder Av station. Ride the 6 train 3 stops northbound, then change to the 6X and ride the 6X train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@19 125 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900041",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Forest Hills-71 Av station. Ride the FX train 3 stops southbound, then change to the E and ride the E train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@362 Kew Gardens-Union Tpke",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900042",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 23 St-Baruch College station. Ride the 6X train 3 stops southbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@291 East Broadway",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900043",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Hoyt-Schermerhorn Sts station. Ride the G train 3 stops southbound, then change to the F and ride the F train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@215 Bergen St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900044",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 74 St-Broadway station. Ride the 7X train 1 stop southbound, then change to the 7 and ride the 7 train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@104 40 St-Lowery St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900045",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Mt Eden Av station. Ride the 4 train 3 stops southbound, then change to the B and ride the B train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@45 167 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900046",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Smith-9 Sts station. Ride the FX train 1 stop northbound, then change to the F and ride the F train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@189 Avenue P",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900047",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Sutter Av-Rutland Rd station. Ride the 3 train 4 stops northbound, then change to the FS and ride the FS train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @432 Prospect Park, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900048",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Clark St station. Ride the 2 train 1 stop southbound, then change to the 4 and ride the 4 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@401 Nevins St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900049",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at St Lawrence Av station. Ride the 6 train 3 stops northbound, then change to the 6X and ride the 6X train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@304 Fordham Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900050",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 52 St station. Ride the 7 train 4 stops southbound, then change to the 7X and ride the 7X train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@476 Vernon Blvd-Jackson Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900051",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Cypress Av station. Ride the 6 train 4 stops southbound, then change to the 6X and ride the 6X train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@348 Hunts Point Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900052",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Newkirk Av-Little Haiti station. Ride the 5 train 1 stop southbound, then change to the 2 and ride the 2 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@406 Newkirk Av-Little Haiti",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900053",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 69 St station. Ride the 7 train 4 stops southbound, then change to the 7X and ride the 7X train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@434 Queensboro Plaza",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900054",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Jamaica Center-York College station. Ride the Z train 2 stops southbound, then change to the J and ride the J train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@382 Marcy Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900055",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 90 St-Elmhurst Av station. Ride the 7 train 3 stops southbound, then change to the 7X and ride the 7X train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@104 40 St-Lowery St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900056",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Sterling St station. Ride the 2 train 4 stops northbound, then change to the 3 and ride the 3 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@411 Nostrand Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900057",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at East Broadway station. Ride the FX train 3 stops southbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@37 15 St-Prospect Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900058",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 51 St station. Ride the 6X train 4 stops northbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@168 96 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900059",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at W 8 St-NY Aquarium station. Ride the F train 2 stops northbound, then change to the FX and ride the FX train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@191 Avenue U",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900060",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Chauncey St station. Ride the J train 4 stops southbound, then change to the Z and ride the Z train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@231 Broadway Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900061",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Avenue X station. Ride the F train 4 stops northbound, then change to the FX and ride the FX train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@200 Bay Terrace",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900062",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 40 St-Lowery St station. Ride the 7 train 3 stops southbound, then change to the 7X and ride the 7X train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@476 Vernon Blvd-Jackson Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900063",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 63 Dr-Rego Park station. Ride the 3 train 1 stop southbound, then change to the 4 and ride the 4 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@223 Bowling Green",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900064",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Hoyt St station. Ride the 2 train 1 stop northbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@270 Cortlandt St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900065",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 57 St-7 Av station. Ride the Q train 1 stop northbound, then change to the 6X and ride the 6X train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@330 Grant Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900066",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 74 St-Broadway station. Ride the 7 train 3 stops southbound, then change to the 7X and ride the 7X train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@109 46 St-Bliss St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900067",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 138 St-Grand Concourse station. Ride the 5 train 4 stops northbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@89 3 Av-149 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900068",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Ralph Av station. Ride the C train 1 stop northbound, then change to the A and ride the A train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@412 Nostrand Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900069",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 18 St station. Ride the 1 train 3 stops northbound, then change to the 2 and ride the 2 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@8 110 St-Malcolm X Plaza",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900070",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 8 St-NYU station. Ride the N train 1 stop southbound, then change to the R and ride the R train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@261 City Hall",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900071",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Parkchester station. Ride the 4 train 2 stops northbound, then change to the 5 and ride the 5 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@223 Bowling Green",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900072",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Houston St station. Ride the 1 train 3 stops southbound, then change to the 3 and ride the 3 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@141 72 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900073",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Bleecker St station. Ride the 6 train 2 stops northbound, then change to the 5 and ride the 5 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@419 Parkchester",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900074",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 71 St station. Ride the D train 1 stop northbound, then change to the N and ride the N train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@197 Bay Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900075",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Freeman St station. Ride the 5 train 4 stops southbound, then change to the 2 and ride the 2 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@314 Freeman St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900076",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Franklin Av-Medgar Evers College station. Ride the 5 train 4 stops northbound, then change to the 4 and ride the 4 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@419 Parkchester",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900077",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at E 149 St station. Ride the 6 train 4 stops southbound, then change to the 6X and ride the 6X train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@19 125 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900078",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Bedford Av station. Ride the L train 4 stops northbound, then change to the 3 and ride the 3 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@141 72 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900079",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Jamaica-Van Wyck station. Ride the E train 2 stops southbound, then change to the FX and ride the FX train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@273 Court Sq-23 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900080",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 33 St station. Ride the 6X train 1 stop southbound, then change to the 6 and ride the 6 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@177 Astor Pl",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900081",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 182-183 Sts station. Ride the D train 2 stops northbound, then change to the B and ride the B train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@422 Pelham Bay Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900082",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 21 St station. Ride the G train 3 stops southbound, then change to the L and ride the L train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@322 Graham Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900083",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 5 Av/59 St station. Ride the R train 1 stop northbound, then change to the 6 and ride the 6 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@168 96 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900084",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Forest Hills-71 Av station. Ride the F train 1 stop northbound, then change to the FX and ride the FX train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@421 Parsons Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900085",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Kosciuszko St station. Ride the J train 1 stop northbound, then change to the Z and ride the Z train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@256 Chauncey St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900086",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 3 Av-149 St station. Ride the 5 train 3 stops southbound, then change to the 4 and ride the 4 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@36 149 St-Hostos",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900087",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 75 Av station. Ride the F train 2 stops northbound, then change to the FX and ride the FX train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@362 Kew Gardens-Union Tpke",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900088",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at World Trade Center station. Ride the E train 2 stops northbound, then change to the C and ride the C train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@341 High St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900089",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Brooklyn Bridge-City Hall station. Ride the 6X train 2 stops northbound, then change to the 6 and ride the 6 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@78 23 St-Baruch College",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900090",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Grant Av station. Ride the 6X train 4 stops southbound, then change to the 5 and ride the 5 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@24 138 St-Grand Concourse",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900091",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 110 St station. Ride the 6 train 3 stops northbound, then change to the 6X and ride the 6X train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@348 Hunts Point Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900092",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Jackson Av station. Ride the 5 train 4 stops southbound, then change to the 4 and ride the 4 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@36 149 St-Hostos",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900093",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Middletown Rd station. Ride the 6X train 2 stops northbound, then change to the 6 and ride the 6 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@386 Middletown Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900094",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 51 St station. Ride the 6 train 2 stops northbound, then change to the 6X and ride the 6X train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@124 59 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900095",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Briarwood station. Ride the F train 2 stops northbound, then change to the FX and ride the FX train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@145 75 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900096",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Canarsie-Rockaway Pkwy station. Ride the L train 3 stops northbound, then change to the 3 and ride the 3 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@403 New Lots Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900097",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at Jamaica-Van Wyck station. Ride the E train 1 stop northbound, then change to the Z and ride the Z train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@16 121 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900098",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at 51 St station. Ride the 6 train 1 stop northbound, then change to the N and ride the N train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@114 5 Av/59 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:900099",
+"graph": "nyc-cf-b",
+"source": "generated",
+"turns": [
+{
+"user": "Start at High St station. Ride the A train 4 stops southbound, then change to the C and ride the C train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@376 Liberty Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910000",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 86 St station. Ride the 4 train 1 stop northbound, then change to the 6 and ride the 6 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@2 103 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910001",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Canal St station. Ride the 6X train 3 stops northbound, then change to the 6 and ride the 6 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@0 1 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910002",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 4 Av-9 St station. Ride the G train 3 stops northbound, then change to the F and ride the F train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@139 7 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910003",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 96 St station. Ride the 6X train 4 stops northbound, then change to the 5 and ride the 5 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@124 59 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910004",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Atlantic Av-Barclays Ctr station. Ride the 2 train 3 stops southbound, then change to the 3 and ride the 3 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@368 Kingston Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910005",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Delancey St-Essex St station. Ride the Z train 1 stop southbound, then change to the J and ride the J train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@282 Delancey St-Essex St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910006",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 34 St-Penn Station station. Ride the E train 4 stops northbound, then change to the FX and ride the FX train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@93 34 St-Herald Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910007",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 116 St station. Ride the C train 1 stop southbound, then change to the B and ride the B train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@160 86 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910008",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 125 St station. Ride the 2 train 2 stops southbound, then change to the 3 and ride the 3 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@12 116 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910009",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 149 St-Hostos station. Ride the 4 train 1 stop southbound, then change to the 5 and ride the 5 train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@325 Grand Central-42 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910010",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Canal St station. Ride the E train 2 stops northbound, then change to the C and ride the C train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@453 Spring St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910011",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 50 St station. Ride the E train 1 stop southbound, then change to the 2 and ride the 2 train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@418 Park Place",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910012",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 149 St-Hostos station. Ride the 5 train 1 stop northbound, then change to the 2 and ride the 2 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@351 Jackson Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910013",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Fulton St station. Ride the 3 train 4 stops northbound, then change to the 1 and ride the 1 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@126 59 St-Columbus Circle",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910014",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Wall St station. Ride the 3 train 4 stops northbound, then change to the 2 and ride the 2 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@463 Times Sq-42 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910015",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 125 St station. Ride the 1 train 4 stops northbound, then change to the C and ride the C train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@38 155 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910016",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Rector St station. Ride the R train 4 stops northbound, then change to the N and ride the N train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@270 Cortlandt St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910017",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Van Siclen Av station. Ride the J train 3 stops southbound, then change to the Z and ride the Z train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@157 85 St-Forest Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910018",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Bergen St station. Ride the F train 3 stops southbound, then change to the G and ride the G train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@248 Carroll St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910019",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 14 St-Union Sq station. Ride the Q train 3 stops northbound, then change to the R and ride the R train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@94 34 St-Herald Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910020",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 8 Av station. Ride the L train 1 stop southbound, then change to the F and ride the F train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@105 42 St-Bryant Pk",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910021",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Times Sq-42 St station. Ride the 3 train 1 stop southbound, then change to the 1 and ride the 1 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@84 28 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910022",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 104 St station. Ride the J train 2 stops northbound, then change to the Z and ride the Z train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@460 Sutphin Blvd-Archer Av-JFK Airport",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910023",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 96 St station. Ride the Q train 4 stops southbound, then change to the N and ride the N train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@101 39 Av-Dutch Kills",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910024",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 23 St station. Ride the FX train 3 stops southbound, then change to the 6X and ride the 6X train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@78 23 St-Baruch College",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910025",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Fort Hamilton Pkwy station. Ride the D train 2 stops northbound, then change to the R and ride the R train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@125 59 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910026",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Kingsbridge Rd station. Ride the B train 2 stops southbound, then change to the D and ride the D train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@52 174-175 Sts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910027",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Jay St-MetroTech station. Ride the Q train 3 stops southbound, then change to the B and ride the B train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@182 Atlantic Av-Barclays Ctr",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910028",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 4 Av-9 St station. Ride the F train 2 stops southbound, then change to the G and ride the G train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 2 steps at @260 Church Av, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910029",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Atlantic Av-Barclays Ctr station. Ride the 4 train 2 stops northbound, then change to the R and ride the R train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@438 Rector St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910030",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Bay Pkwy station. Ride the F train 4 stops northbound, then change to the FX and ride the FX train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@139 7 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910031",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Grand St station. Ride the B train 1 stop southbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@328 Grand St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910032",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Delancey St-Essex St station. Ride the FX train 2 stops northbound, then change to the 6X and ride the 6X train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@78 23 St-Baruch College",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910033",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 155 St station. Ride the C train 1 stop southbound, then change to the B and ride the B train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@39 155 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910034",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Fordham Rd station. Ride the 6 train 3 stops southbound, then change to the 6X and ride the 6X train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@249 Castle Hill Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910035",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 161 St-Yankee Stadium station. Ride the 4 train 2 stops southbound, then change to the 5 and ride the 5 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@124 59 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910036",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Times Sq-42 St station. Ride the R train 4 stops northbound, then change to the 6 and ride the 6 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@118 51 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910037",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Pelham Pkwy station. Ride the 2 train 4 stops southbound, then change to the 5 and ride the 5 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@484 West Farms Sq-E Tremont Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910038",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Bergen St station. Ride the 2 train 3 stops northbound, then change to the 3 and ride the 3 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@214 Bergen St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910039",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Borough Hall station. Ride the 4 train 4 stops southbound, then change to the 3 and ride the 3 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@462 Sutter Av-Rutland Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910040",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 34 St-Penn Station station. Ride the 3 train 3 stops southbound, then change to the E and ride the E train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@477 W 4 St-Wash Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910041",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 7 Av station. Ride the E train 1 stop southbound, then change to the C and ride the C train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@75 23 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910042",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 86 St station. Ride the B train 1 stop northbound, then change to the C and ride the C train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@160 86 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910043",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 135 St station. Ride the C train 1 stop southbound, then change to the A and ride the A train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@60 181 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910044",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Cathedral Pkwy (110 St) station. Ride the B train 3 stops southbound, then change to the C and ride the C train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@14 116 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910045",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Canal St station. Ride the N train 3 stops southbound, then change to the Q and ride the Q train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@246 Canal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910046",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 23 St station. Ride the R train 4 stops northbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@374 Lexington Av/59 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910047",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 8 Av station. Ride the L train 2 stops southbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@78 23 St-Baruch College",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910048",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 59 St station. Ride the N train 2 stops northbound, then change to the D and ride the D train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@100 36 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910049",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 145 St station. Ride the A train 3 stops southbound, then change to the 7X and ride the 7X train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @95 34 St-Hudson Yards, no further step along this relation exists. The journey did not finish.",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910050",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 155 St station. Ride the C train 2 stops northbound, then change to the A and ride the A train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@286 Dyckman St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910051",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Times Sq-42 St station. Ride the 3 train 2 stops southbound, then change to the 2 and ride the 2 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@141 72 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910052",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 50 St station. Ride the E train 1 stop northbound, then change to the B and ride the B train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@105 42 St-Bryant Pk",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910053",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Wall St station. Ride the 6X train 3 stops southbound, then change to the 4 and ride the 4 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@124 59 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910054",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Grand Central-42 St station. Ride the 7 train 3 stops southbound, then change to the 7X and ride the 7X train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@112 5 Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910055",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Woodhaven Blvd station. Ride the R train 3 stops southbound, then change to the 7X and ride the 7X train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@136 69 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910056",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Chambers St station. Ride the 3 train 1 stop southbound, then change to the 2 and ride the 2 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@253 Chambers St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910057",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Van Siclen Av station. Ride the J train 2 stops southbound, then change to the Z and ride the Z train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@409 Norwood Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910058",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Fulton St station. Ride the 2 train 4 stops southbound, then change to the 3 and ride the 3 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@401 Nevins St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910059",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 4 Av-9 St station. Ride the F train 2 stops southbound, then change to the G and ride the G train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@308 Fort Hamilton Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910060",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Jay St-MetroTech station. Ride the R train 2 stops northbound, then change to the Q and ride the Q train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@438 Rector St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910061",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 34 St-Herald Sq station. Ride the Q train 1 stop southbound, then change to the 6X and ride the 6X train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@91 33 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910062",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Dyckman St station. Ride the 1 train 3 stops southbound, then change to the A and ride the A train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@20 125 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910063",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 103 St station. Ride the B train 2 stops southbound, then change to the C and ride the C train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@155 81 St-Museum of Natural History",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910064",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 145 St station. Ride the D train 3 stops northbound, then change to the B and ride the B train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@42 161 St-Yankee Stadium",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910065",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 86 St station. Ride the 5 train 2 stops northbound, then change to the 4 and ride the 4 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@44 167 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910066",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Fort Hamilton Pkwy station. Ride the F train 2 stops northbound, then change to the FX and ride the FX train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@494 York St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910067",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 28 St station. Ride the 6 train 4 stops northbound, then change to the Q and ride the Q train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@466 Times Sq-42 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910068",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 155 St station. Ride the D train 3 stops northbound, then change to the B and ride the B train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@45 167 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910069",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 170 St station. Ride the B train 4 stops northbound, then change to the D and ride the D train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@52 174-175 Sts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910070",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Woodhaven Blvd station. Ride the J train 2 stops southbound, then change to the Z and ride the Z train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@475 Van Siclen Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910071",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Wall St station. Ride the 2 train 1 stop southbound, then change to the 3 and ride the 3 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@219 Borough Hall",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910072",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 59 St station. Ride the N train 3 stops southbound, then change to the D and ride the D train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@140 71 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910073",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Canal St station. Ride the Z train 1 stop southbound, then change to the 5 and ride the 5 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@325 Grand Central-42 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910074",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Wall St station. Ride the 3 train 2 stops northbound, then change to the C and ride the C train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@356 Jay St-MetroTech",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910075",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 125 St station. Ride the 1 train 4 stops northbound, then change to the C and ride the C train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@33 145 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910076",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 14 St station. Ride the F train 3 stops northbound, then change to the 7X and ride the 7X train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@271 Court Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910077",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 59 St station. Ride the 6X train 2 stops northbound, then change to the 6 and ride the 6 train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@7 110 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910078",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Broadway station. Ride the 6X train 1 stop northbound, then change to the 6 and ride the 6 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@485 Westchester Sq-E Tremont Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910079",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 28 St station. Ride the R train 3 stops northbound, then change to the N and ride the N train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@466 Times Sq-42 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910080",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Franklin Av station. Ride the FS train 3 stops southbound, then change to the Q and ride the Q train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@259 Church Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910081",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 145 St station. Ride the 3 train 3 stops southbound, then change to the 2 and ride the 2 train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@463 Times Sq-42 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910082",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 18 Av station. Ride the N train 1 stop northbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@117 50 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910083",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Bergen St station. Ride the F train 4 stops northbound, then change to the FX and ride the FX train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@356 Jay St-MetroTech",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910084",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Avenue U station. Ride the FX train 2 stops southbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@479 W 8 St-NY Aquarium",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910085",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 170 St station. Ride the 4 train 2 stops southbound, then change to the B and ride the B train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@52 174-175 Sts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910086",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 59 St station. Ride the R train 4 stops northbound, then change to the N and ride the N train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@100 36 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910087",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 28 St station. Ride the R train 4 stops southbound, then change to the N and ride the N train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@466 Times Sq-42 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910088",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 96 St station. Ride the B train 1 stop southbound, then change to the C and ride the C train 4 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@14 116 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910089",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 116 St station. Ride the 3 train 1 stop southbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@463 Times Sq-42 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910090",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 59 St-Columbus Circle station. Ride the B train 4 stops southbound, then change to the FX and ride the FX train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@233 Broadway-Lafayette St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910091",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Grand St station. Ride the R train 2 stops southbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@357 Jay St-MetroTech",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910092",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 59 St-Columbus Circle station. Ride the 1 train 2 stops northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@25 14 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910093",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Church Av station. Ride the F train 4 stops northbound, then change to the G and ride the G train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@37 15 St-Prospect Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910094",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Grand Central-42 St station. Ride the 7 train 4 stops northbound, then change to the 7X and ride the 7X train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@347 Hunters Point Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910095",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 145 St station. Ride the A train 1 stop northbound, then change to the 1 and ride the 1 train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@17 125 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910096",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Cathedral Pkwy (110 St) station. Ride the C train 4 stops southbound, then change to the B and ride the B train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@169 96 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910097",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at 18 Av station. Ride the Z train 1 stop northbound, then change to the J and ride the J train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@16 121 St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910098",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Canal St station. Ride the N train 1 stop southbound, then change to the R and ride the R train 4 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@274 Court St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-cf:910099",
+"graph": "nyc-cf-b",
+"source": "shared",
+"turns": [
+{
+"user": "Start at Atlantic Av-Barclays Ctr station. Ride the R train 2 stops northbound, then change to the B and ride the B train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@182 Atlantic Av-Barclays Ctr",
+"wants": null
+}
+]
+}
+],
+"plain": []
+}

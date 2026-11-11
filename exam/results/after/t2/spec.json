@@ -1,0 +1,856 @@
+{
+ "paths_relative_to": "xseries/X2.10/exam/results/after/t2",
+ "hard_kinds": [
+  "reverses_relation",
+  "pronoun_or_there",
+  "split_or_varied_name",
+  "number_in_name",
+  "sounds_like_change_isnt",
+  "indirect_change"
+ ],
+ "right_means": "Each entry of a turn's right list is one alternative, a list of calls. An empty list means the turn should make no call. prints is the exact firmware output on gq.py sim, with this conversation's first-listed calls run before it.",
+ "conversations": [
+  {
+   "id": "W1",
+   "graph_file": "water.graph.json",
+   "csv": "water.csv",
+   "import_flags": [
+    "--name",
+    "Ashvale water network",
+    "--both",
+    "interconnect"
+   ],
+   "examples_file": "water.examples.json",
+   "tools": "find,follow,neighbours,path,cheapest,close,reopen,link",
+   "turns": [
+    {
+     "n": 1,
+     "user": "A digger went through the main at Valve 18 this morning and the crew have isolated it. It won't be back before Friday.",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "indirect_change",
+      "number_in_name"
+     ],
+     "right": [
+      [
+       {
+        "fn": "close",
+        "args": {
+         "node": "Valve 18"
+        },
+        "prints": "closed @23 Valve 18"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 2,
+     "user": "What's the route with the fewest hops from Highfield SR to DMA 05 Riverside North now?",
+     "difficulty": "plain",
+     "hard_kinds": [],
+     "right": [
+      [
+       {
+        "fn": "path",
+        "args": {
+         "from": "Highfield SR",
+         "to": "DMA 05 Riverside North"
+        },
+        "prints": "9 steps: @5 Highfield SR > @6 Valve 3 > @7 Valve 5 > @11 Valve 40 > @29 Valve 44 > @55 Valve 38 > @45 Valve 33 > @24 Valve 21 > @25 PRV 6 > @26 DMA 05 Riverside North"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 3,
+     "user": "And the shortest pipe run there, in metres?",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "pronoun_or_there"
+     ],
+     "right": [
+      [
+       {
+        "fn": "cheapest",
+        "args": {
+         "from": "Highfield SR",
+         "to": "DMA 05 Riverside North"
+        },
+        "prints": "cost 6810: @5 Highfield SR > @6 Valve 3 > @7 Valve 5 > @10 Valve 12 > @15 Valve 12B > @40 Valve 27 > @42 Valve 31 > @45 Valve 33 > @24 Valve 21 > @25 PRV 6 > @26 DMA 05 Riverside North"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 4,
+     "user": "Crew's finished at last. Water's running through it again.",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "indirect_change",
+      "pronoun_or_there"
+     ],
+     "right": [
+      [
+       {
+        "fn": "reopen",
+        "args": {
+         "node": "Valve 18"
+        },
+        "prints": "reopened @23 Valve 18"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "W2",
+   "graph_file": "water.graph.json",
+   "csv": "water.csv",
+   "import_flags": [
+    "--name",
+    "Ashvale water network",
+    "--both",
+    "interconnect"
+   ],
+   "examples_file": "water.examples.json",
+   "tools": "find,follow,neighbours,path,cheapest,close,reopen,link",
+   "turns": [
+    {
+     "n": 1,
+     "user": "We're thinking of shutting PRV 14 next month for a survey. What does it supply at the moment?",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "sounds_like_change_isnt",
+      "number_in_name",
+      "pronoun_or_there"
+     ],
+     "right": [
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "PRV 14",
+         "relation": "feeds"
+        },
+        "prints": "@18 DMA 07 Mill Lane\n@19 DMA 17 Mill Road"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 2,
+     "user": "what does valve 12b feed",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "split_or_varied_name",
+      "number_in_name"
+     ],
+     "right": [
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Valve 12B",
+         "relation": "feeds"
+        },
+        "prints": "@17 PRV 41"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 3,
+     "user": "Someone asked me whether Booster 7 had been shut down. It hasn't, they were thinking of the old pump at the depot.",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "sounds_like_change_isnt",
+      "number_in_name"
+     ],
+     "right": [
+      []
+     ]
+    },
+    {
+     "n": 4,
+     "user": "Is there anything called Valve 50 on the network?",
+     "difficulty": "plain",
+     "hard_kinds": [],
+     "right": [
+      [
+       {
+        "fn": "find",
+        "args": {
+         "name": "Valve 50"
+        },
+        "prints": "NONE Valve 50"
+       }
+      ],
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Valve 50",
+         "relation": "feeds"
+        },
+        "prints": "NONE Valve 50"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "W3",
+   "graph_file": "water.graph.json",
+   "csv": "water.csv",
+   "import_flags": [
+    "--name",
+    "Ashvale water network",
+    "--both",
+    "interconnect"
+   ],
+   "examples_file": "water.examples.json",
+   "tools": "find,follow,neighbours,path,cheapest,close,reopen,link",
+   "turns": [
+    {
+     "n": 1,
+     "user": "Starting at Booster 2, where do you get to after three hops along feeds?",
+     "difficulty": "plain",
+     "hard_kinds": [],
+     "right": [
+      [
+       {
+        "fn": "follow",
+        "args": {
+         "node": "Booster 2",
+         "relation": "feeds",
+         "steps": "3"
+        },
+        "prints": "@25 PRV 6"
+       }
+      ],
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Booster 2",
+         "relation": "feeds"
+        },
+        "prints": "@23 Valve 18"
+       },
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Valve 18",
+         "relation": "feeds"
+        },
+        "prints": "@24 Valve 21"
+       },
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Valve 21",
+         "relation": "feeds"
+        },
+        "prints": "@25 PRV 6"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 2,
+     "user": "The hospital, the General one in Ashvale: which asset feeds it?",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "split_or_varied_name",
+      "reverses_relation"
+     ],
+     "right": [
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Ashvale General Hospital",
+         "relation": "feeds",
+         "direction": "in"
+        },
+        "prints": "@29 Valve 44"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 3,
+     "user": "A new cross-connection between Valve 31 and Valve 36 went live this morning, 640 metres.",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "indirect_change",
+      "number_in_name"
+     ],
+     "right": [
+      [
+       {
+        "fn": "link",
+        "args": {
+         "from": "Valve 31",
+         "relation": "interconnect",
+         "to": "Valve 36",
+         "weight": "640"
+        },
+        "prints": "linked @42 Valve 31 > interconnect > @49 Valve 36"
+       },
+       {
+        "fn": "link",
+        "args": {
+         "from": "Valve 36",
+         "relation": "interconnect",
+         "to": "Valve 31",
+         "weight": "640"
+        },
+        "prints": "linked @49 Valve 36 > interconnect > @42 Valve 31"
+       }
+      ],
+      [
+       {
+        "fn": "link",
+        "args": {
+         "from": "Valve 36",
+         "relation": "interconnect",
+         "to": "Valve 31",
+         "weight": "640"
+        },
+        "prints": "linked @49 Valve 36 > interconnect > @42 Valve 31"
+       },
+       {
+        "fn": "link",
+        "args": {
+         "from": "Valve 31",
+         "relation": "interconnect",
+         "to": "Valve 36",
+         "weight": "640"
+        },
+        "prints": "linked @42 Valve 31 > interconnect > @49 Valve 36"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "F1",
+   "graph_file": "foodweb.graph.json",
+   "csv": "foodweb.csv",
+   "import_flags": [
+    "--name",
+    "Barents Sea food web"
+   ],
+   "examples_file": "foodweb.examples.json",
+   "tools": "neighbours,path,close,reopen,link",
+   "turns": [
+    {
+     "n": 1,
+     "user": "What does Atlantic cod eat?",
+     "difficulty": "plain",
+     "hard_kinds": [],
+     "right": [
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Atlantic cod",
+         "relation": "eats"
+        },
+        "prints": "@6 Krill\n@13 Northern shrimp\n@17 Capelin\n@18 Polar cod\n@19 Atlantic herring\n@22 Haddock"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 2,
+     "user": "Trace a food chain from Diatoms up to Polar bear.",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "reverses_relation"
+     ],
+     "right": [
+      [
+       {
+        "fn": "path",
+        "args": {
+         "from": "Polar bear",
+         "to": "Diatoms"
+        },
+        "prints": "3 steps: @49 Polar bear > @36 Little auk > @3 Calanus glacialis > @1 Diatoms"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 3,
+     "user": "what preys on brunnichs guillemot?",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "reverses_relation",
+      "split_or_varied_name"
+     ],
+     "right": [
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Brünnich's guillemot",
+         "relation": "eats",
+         "direction": "in"
+        },
+        "prints": "@38 Glaucous gull\n@50 Arctic fox"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "graph_file": "foodweb.graph.json",
+   "csv": "foodweb.csv",
+   "import_flags": [
+    "--name",
+    "Barents Sea food web"
+   ],
+   "examples_file": "foodweb.examples.json",
+   "tools": "neighbours,path,close,reopen,link",
+   "turns": [
+    {
+     "n": 1,
+     "user": "The capelin fishery has been closed since March. What eats Capelin?",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "sounds_like_change_isnt",
+      "reverses_relation"
+     ],
+     "right": [
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Capelin",
+         "relation": "eats",
+         "direction": "in"
+        },
+        "prints": "@16 Gonatus squid\n@21 Atlantic cod\n@22 Haddock\n@23 Saithe\n@24 Beaked redfish\n@26 Greenland halibut\n@30 Minke whale\n@31 Harp seal\n@32 Black-legged kittiwake\n@33 Brünnich's guillemot\n@34 Common guillemot\n@35 Atlantic puffin\n@37 Northern fulmar\n@43 Fin whale\n@44 Humpback whale\n@46 Beluga\n@47 Harbour porpoise"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 2,
+     "user": "This year's survey found no capelin anywhere in the study area.",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "indirect_change"
+     ],
+     "right": [
+      [
+       {
+        "fn": "close",
+        "args": {
+         "node": "Capelin"
+        },
+        "prints": "closed @17 Capelin"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 3,
+     "user": "What's the shortest chain from Northern fulmar down to Calanus finmarchicus now?",
+     "difficulty": "plain",
+     "hard_kinds": [],
+     "right": [
+      [
+       {
+        "fn": "path",
+        "args": {
+         "from": "Northern fulmar",
+         "to": "Calanus finmarchicus"
+        },
+        "prints": "3 steps: @37 Northern fulmar > @16 Gonatus squid > @6 Krill > @0 Calanus finmarchicus"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 4,
+     "user": "The autumn cruise picked them up again off Bear Island.",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "indirect_change",
+      "pronoun_or_there"
+     ],
+     "right": [
+      [
+       {
+        "fn": "reopen",
+        "args": {
+         "node": "Capelin"
+        },
+        "prints": "reopened @17 Capelin"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 5,
+     "user": "Stomach samples show Greenland sharks take Hooded seal as well.",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "indirect_change",
+      "split_or_varied_name"
+     ],
+     "right": [
+      [
+       {
+        "fn": "link",
+        "args": {
+         "from": "Greenland shark",
+         "relation": "eats",
+         "to": "Hooded seal"
+        },
+        "prints": "linked @28 Greenland shark > eats > @41 Hooded seal"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1",
+   "graph_file": "companies.graph.json",
+   "csv": "companies.csv",
+   "import_flags": [
+    "--name",
+    "Company ownership register"
+   ],
+   "examples_file": "companies.examples.json",
+   "tools": "neighbours,path,close,add_node,link,unlink",
+   "turns": [
+    {
+     "n": 1,
+     "user": "What does Northgate Holdings 2 Ltd own?",
+     "difficulty": "plain",
+     "hard_kinds": [],
+     "right": [
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Northgate Holdings 2 Ltd",
+         "relation": "owns"
+        },
+        "prints": "@6 Northgate Property Ltd\n@7 Northgate Property 2 Ltd"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 2,
+     "user": "And who owns it?",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "reverses_relation",
+      "pronoun_or_there",
+      "number_in_name"
+     ],
+     "right": [
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Northgate Holdings 2 Ltd",
+         "relation": "owns",
+         "direction": "in"
+        },
+        "prints": "@3 Northgate Holdings Ltd"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 3,
+     "user": "How is Priya Raman connected to Harbour Street Developments Ltd?",
+     "difficulty": "plain",
+     "hard_kinds": [],
+     "right": [
+      [
+       {
+        "fn": "path",
+        "args": {
+         "from": "Priya Raman",
+         "to": "Harbour Street Developments Ltd"
+        },
+        "prints": "3 steps: @0 Priya Raman > @4 Northgate Holdings 2 Ltd > @6 Northgate Property Ltd > @10 Harbour Street Developments Ltd"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C2",
+   "graph_file": "companies.graph.json",
+   "csv": "companies.csv",
+   "import_flags": [
+    "--name",
+    "Company ownership register"
+   ],
+   "examples_file": "companies.examples.json",
+   "tools": "neighbours,path,close,add_node,link,unlink",
+   "turns": [
+    {
+     "n": 1,
+     "user": "Harcourt Capital LLP looked at buying Tidewell Foods Ltd in the spring, but the deal fell through. Who owns Tidewell Foods Ltd?",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "sounds_like_change_isnt",
+      "reverses_relation"
+     ],
+     "right": [
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Tidewell Foods Ltd",
+         "relation": "owns",
+         "direction": "in"
+        },
+        "prints": "@26 Sofia Lindqvist\n@28 Kenji Mori"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 2,
+     "user": "Brightwell Foods Ltd was struck off in June.",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "indirect_change"
+     ],
+     "right": [
+      [
+       {
+        "fn": "close",
+        "args": {
+         "node": "Brightwell Foods Ltd"
+        },
+        "prints": "closed @17 Brightwell Foods Ltd"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 3,
+     "user": "How is Marcus Hale connected to Brightwell Dairy Ltd now?",
+     "difficulty": "plain",
+     "hard_kinds": [],
+     "right": [
+      [
+       {
+        "fn": "path",
+        "args": {
+         "from": "Marcus Hale",
+         "to": "Brightwell Dairy Ltd"
+        },
+        "prints": "NOPATH"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 4,
+     "user": "Harcourt Capital LLP has since bought Sofia Lindqvist's whole stake in Tidewell Foods Ltd.",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "indirect_change"
+     ],
+     "right": [
+      [
+       {
+        "fn": "unlink",
+        "args": {
+         "from": "Sofia Lindqvist",
+         "relation": "owns",
+         "to": "Tidewell Foods Ltd"
+        },
+        "prints": "unlinked @26 Sofia Lindqvist > owns > @27 Tidewell Foods Ltd"
+       },
+       {
+        "fn": "link",
+        "args": {
+         "from": "Harcourt Capital LLP",
+         "relation": "owns",
+         "to": "Tidewell Foods Ltd"
+        },
+        "prints": "linked @13 Harcourt Capital LLP > owns > @27 Tidewell Foods Ltd"
+       }
+      ],
+      [
+       {
+        "fn": "link",
+        "args": {
+         "from": "Harcourt Capital LLP",
+         "relation": "owns",
+         "to": "Tidewell Foods Ltd"
+        },
+        "prints": "linked @13 Harcourt Capital LLP > owns > @27 Tidewell Foods Ltd"
+       },
+       {
+        "fn": "unlink",
+        "args": {
+         "from": "Sofia Lindqvist",
+         "relation": "owns",
+         "to": "Tidewell Foods Ltd"
+        },
+        "prints": "unlinked @26 Sofia Lindqvist > owns > @27 Tidewell Foods Ltd"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 5,
+     "user": "What does Harcourt Capital LLP own now?",
+     "difficulty": "plain",
+     "hard_kinds": [],
+     "right": [
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Harcourt Capital LLP",
+         "relation": "owns"
+        },
+        "prints": "@15 Harcourt Capital Partners 1 LP\n@16 Harcourt Capital Partners 2 LP\n@27 Tidewell Foods Ltd"
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "graph_file": "companies.graph.json",
+   "csv": "companies.csv",
+   "import_flags": [
+    "--name",
+    "Company ownership register"
+   ],
+   "examples_file": "companies.examples.json",
+   "tools": "neighbours,path,close,add_node,link,unlink",
+   "turns": [
+    {
+     "n": 1,
+     "user": "Add a new company, Bello Solar 30 Ltd. Bello Energy Ltd owns 100% of it.",
+     "difficulty": "plain",
+     "hard_kinds": [],
+     "right": [
+      [
+       {
+        "fn": "add_node",
+        "args": {
+         "name": "Bello Solar 30 Ltd"
+        },
+        "prints": "added @89 Bello Solar 30 Ltd"
+       },
+       {
+        "fn": "link",
+        "args": {
+         "from": "Bello Energy Ltd",
+         "relation": "owns",
+         "to": "Bello Solar 30 Ltd",
+         "weight": "100"
+        },
+        "prints": "linked @35 Bello Energy Ltd > owns > @89 Bello Solar 30 Ltd"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 2,
+     "user": "It's registered at Unit 3, Riverside Park, Hull. Who else is there?",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "pronoun_or_there",
+      "number_in_name",
+      "reverses_relation"
+     ],
+     "right": [
+      [
+       {
+        "fn": "link",
+        "args": {
+         "from": "Bello Solar 30 Ltd",
+         "relation": "registered_at",
+         "to": "Unit 3, Riverside Park, Hull"
+        },
+        "prints": "linked @89 Bello Solar 30 Ltd > registered_at > @82 Unit 3, Riverside Park, Hull"
+       },
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Unit 3, Riverside Park, Hull",
+         "relation": "registered_at",
+         "direction": "in"
+        },
+        "prints": "@35 Bello Energy Ltd\n@37 Bello Solar 1 Ltd\n@38 Bello Solar 2 Ltd\n@39 Bello Solar 12 Ltd\n@40 Bello Solar 21 Ltd\n@46 O'Connell Homes (Hull) Ltd\n@89 Bello Solar 30 Ltd"
+       }
+      ],
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Unit 3, Riverside Park, Hull",
+         "relation": "registered_at",
+         "direction": "in"
+        },
+        "prints": "@35 Bello Energy Ltd\n@37 Bello Solar 1 Ltd\n@38 Bello Solar 2 Ltd\n@39 Bello Solar 12 Ltd\n@40 Bello Solar 21 Ltd\n@46 O'Connell Homes (Hull) Ltd"
+       },
+       {
+        "fn": "link",
+        "args": {
+         "from": "Bello Solar 30 Ltd",
+         "relation": "registered_at",
+         "to": "Unit 3, Riverside Park, Hull"
+        },
+        "prints": "linked @89 Bello Solar 30 Ltd > registered_at > @82 Unit 3, Riverside Park, Hull"
+       }
+      ]
+     ]
+    },
+    {
+     "n": 3,
+     "user": "Bello Solar, the number 12 one: who's on its board?",
+     "difficulty": "hard",
+     "hard_kinds": [
+      "split_or_varied_name",
+      "number_in_name",
+      "pronoun_or_there",
+      "reverses_relation"
+     ],
+     "right": [
+      [
+       {
+        "fn": "neighbours",
+        "args": {
+         "node": "Bello Solar 12 Ltd",
+         "relation": "director_of",
+         "direction": "in"
+        },
+        "prints": "@36 Ruth Adeyemi\n@68 Liam Byrne"
+       }
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

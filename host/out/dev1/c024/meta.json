@@ -1,0 +1,35 @@
+{
+ "graph": "<repo>/data/dev/cities/c024.graph.json",
+ "graph_sha256": "a55c85638517901ecec684e0f19d7d1ab7ead0a4c08b65ee544b58690a35e6bf",
+ "questions": "<repo>/data/dev/cities/c024.questions.json",
+ "questions_sha256": "a40ea0c187e784cb7e9f2a15ea271ed29d0f0302911ed6d51ac74103f35fd3ad",
+ "n": 8,
+ "attn": [
+  "eager",
+  "sdpa"
+ ],
+ "think": false,
+ "model": "<drive>/Models/huggingface/hub/models--Qwen--Qwen3.5-4B/snapshots/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+ "tools_sha256": "a5050209422a152aa769cc10ebf294cad471b9f12ac73863fc1b7b7d259fad52",
+ "system_prompt": "You answer questions about the graph \"c024\" with the graph tools. Its relations are: 2 northbound; 2 southbound; 5 northbound; 5 southbound; A northbound; A southbound; B northbound; B southbound; F northbound; F southbound; FS northbound; FS southbound; H northbound; H southbound; Q northbound; Q southbound; SI northbound; SI southbound; transfer. Changing between lines uses the relation \"transfer\". A node argument is a handle such as @12 or a node's exact name.",
+ "max_calls": 12,
+ "load_seconds": 97.9,
+ "env": {
+  "PYTORCH_MPS_HIGH_WATERMARK_RATIO": "0.25",
+  "PYTORCH_MPS_LOW_WATERMARK_RATIO": "0.2"
+ },
+ "started": "2026-11-01T14:51:22-0500",
+ "finished": "2026-11-01T14:59:41-0500",
+ "summary": {
+  "eager": {
+   "n": 8,
+   "correct": 4,
+   "seconds": 263.93
+  },
+  "sdpa": {
+   "n": 8,
+   "correct": 4,
+   "seconds": 230.15
+  }
+ }
+}

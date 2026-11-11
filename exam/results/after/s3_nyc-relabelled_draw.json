@@ -1,0 +1,1537 @@
+{
+"seed": 20261104,
+"conversations": [
+{
+"key": "nyc-relabelled:112",
+"graph": "nyc-relabelled-b",
+"node": 111,
+"label": "Forbunfal Pl",
+"changed": true,
+"wording": "{X} is out of action today.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "Forbunfal Pl is out of action today. Start at Milfa Hts station. Ride the 7 train 1 stop northbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @355 Sanna Av, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+111
+]
+},
+{
+"user": "Forbunfal Pl is open again now. Start at Milfa Hts station. Ride the 7 train 1 stop northbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@67 Dinunder Junction",
+"wants": [
+"reopen",
+111
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:116",
+"graph": "nyc-relabelled-b",
+"node": 495,
+"label": "Zurkurben Sq",
+"changed": true,
+"wording": "Flooding has closed {X}.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "Flooding has closed Zurkurben Sq. Start at Rifel Blvd station. Ride the 4 train 3 stops southbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 1 steps at @308 Punkize St, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+495
+]
+},
+{
+"user": "Repairs are done and Zurkurben Sq is back. Start at Rifel Blvd station. Ride the 4 train 3 stops southbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@70 Donni Blvd",
+"wants": [
+"reopen",
+495
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:119",
+"graph": "nyc-relabelled-b",
+"node": 447,
+"label": "Volkon Av",
+"changed": true,
+"wording": "No trains are calling at {X} right now.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "No trains are calling at Volkon Av right now. Start at Zilgorba Hts station. Ride the Z train 2 stops southbound, then change to the A and ride the A train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @200 Libur St, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+447
+]
+},
+{
+"user": "Trains are stopping at Volkon Av once more. Start at Zilgorba Hts station. Ride the Z train 2 stops southbound, then change to the A and ride the A train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@447 Volkon Av",
+"wants": [
+"reopen",
+447
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:148",
+"graph": "nyc-relabelled-b",
+"node": 159,
+"label": "Kaldon Av",
+"changed": true,
+"wording": "A signal failure means {X} is being skipped.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "A signal failure means Kaldon Av is being skipped. Start at Ginpa-Radan Rd station. Ride the 3 train 1 stop northbound, then change to the 5 and ride the 5 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @36 Dalbinlir Sq, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+159
+]
+},
+{
+"user": "Kaldon Av has been reopened. Start at Ginpa-Radan Rd station. Ride the 3 train 1 stop northbound, then change to the 5 and ride the 5 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@95 Ferku Av",
+"wants": [
+"reopen",
+159
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:100",
+"graph": "nyc-relabelled-b",
+"node": 385,
+"label": "Surpol Sq",
+"changed": false,
+"wording": "{X} has been taken out of service for repairs.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Surpol Sq has been taken out of service for repairs. Start at Roban Rd station. Ride the E train 1 stop northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@24 Borlonnu-Malmelo Junction",
+"wants": [
+"close",
+385
+]
+},
+{
+"user": "Service at Surpol Sq has resumed. Start at Roban Rd station. Ride the E train 1 stop northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@24 Borlonnu-Malmelo Junction",
+"wants": [
+"reopen",
+385
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:106",
+"graph": "nyc-relabelled-b",
+"node": 160,
+"label": "Kalrodon Sq",
+"changed": false,
+"wording": "They've shut {X} after a fire.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "They've shut Kalrodon Sq after a fire. Start at Farmon Junction station. Ride the G train 1 stop northbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@204 Lillulmen-Molminse Junction",
+"wants": [
+"close",
+160
+]
+},
+{
+"user": "Kalrodon Sq is open again now. Start at Farmon Junction station. Ride the G train 1 stop northbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@204 Lillulmen-Molminse Junction",
+"wants": [
+"reopen",
+160
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:190",
+"graph": "nyc-relabelled-b",
+"node": 488,
+"label": "Zulvanlar Rd",
+"changed": true,
+"wording": "You can't get on or off at {X} this week.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "You can't get on or off at Zulvanlar Rd this week. Start at Zunsilran St station. Ride the Z train 1 stop southbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @140 Ginpa-Radan Rd, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+488
+]
+},
+{
+"user": "Repairs are done and Zulvanlar Rd is back. Start at Zunsilran St station. Ride the Z train 1 stop southbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@488 Zulvanlar Rd",
+"wants": [
+"reopen",
+488
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:146",
+"graph": "nyc-relabelled-b",
+"node": 159,
+"label": "Kaldon Av",
+"changed": true,
+"wording": "Trains won't stop at {X} until Friday.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "Trains won't stop at Kaldon Av until Friday. Start at Gergu-Vuden Blvd station. Ride the A train 1 stop northbound, then change to the 4 and ride the 4 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @35 Dalbinlir Sq, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+159
+]
+},
+{
+"user": "Trains are stopping at Kaldon Av once more. Start at Gergu-Vuden Blvd station. Ride the A train 1 stop northbound, then change to the 4 and ride the 4 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@159 Kaldon Av",
+"wants": [
+"reopen",
+159
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:198",
+"graph": "nyc-relabelled-b",
+"node": 207,
+"label": "Lirtennu Blvd",
+"changed": true,
+"wording": "{X} is closed for track work.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "Lirtennu Blvd is closed for track work. Start at Rirnor-Ninral Sq station. Ride the R train 3 stops southbound, then change to the B and ride the B train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @332 Rirnor-Ninral Sq, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+207
+]
+},
+{
+"user": "Lirtennu Blvd has been reopened. Start at Rirnor-Ninral Sq station. Ride the R train 3 stops southbound, then change to the B and ride the B train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@293 Penluldo Sq",
+"wants": [
+"reopen",
+207
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:188",
+"graph": "nyc-relabelled-b",
+"node": 156,
+"label": "Gurluson-Finnerpo Sq",
+"changed": false,
+"wording": "Crews have closed off {X} overnight.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Crews have closed off Gurluson-Finnerpo Sq overnight. Start at Zurkurben Sq station. Ride the 2 train 1 stop southbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@70 Donni Blvd",
+"wants": [
+"close",
+156
+]
+},
+{
+"user": "Service at Gurluson-Finnerpo Sq has resumed. Start at Zurkurben Sq station. Ride the 2 train 1 stop southbound, then change to the N and ride the N train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@70 Donni Blvd",
+"wants": [
+"reopen",
+156
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:197",
+"graph": "nyc-relabelled-b",
+"node": 234,
+"label": "Melker-Malbider Sq",
+"changed": true,
+"wording": "{X} is out of action today.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "Melker-Malbider Sq is out of action today. Start at Velper-Vengo Sq station. Ride the 1 train 2 stops southbound, then change to the 3 and ride the 3 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @491 Zunsilran St, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+234
+]
+},
+{
+"user": "Melker-Malbider Sq is open again now. Start at Velper-Vengo Sq station. Ride the 1 train 2 stops southbound, then change to the 3 and ride the 3 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@140 Ginpa-Radan Rd",
+"wants": [
+"reopen",
+234
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:181",
+"graph": "nyc-relabelled-b",
+"node": 364,
+"label": "Sendan St",
+"changed": true,
+"wording": "Flooding has closed {X}.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "Flooding has closed Sendan St. Start at Velper-Vengo Sq station. Ride the 1 train 3 stops northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 1 steps at @167 Kider Av, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+364
+]
+},
+{
+"user": "Repairs are done and Sendan St is back. Start at Velper-Vengo Sq station. Ride the 1 train 3 stops northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@36 Dalbinlir Sq",
+"wants": [
+"reopen",
+364
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:104",
+"graph": "nyc-relabelled-b",
+"node": 103,
+"label": "Finmardun-Bilbir Junction",
+"changed": true,
+"wording": "No trains are calling at {X} right now.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "No trains are calling at Finmardun-Bilbir Junction right now. Start at Volkon Av station. Ride the A train 1 stop southbound, then change to the Z and ride the Z train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @297 Pilnelfo Pl, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+103
+]
+},
+{
+"user": "Trains are stopping at Finmardun-Bilbir Junction once more. Start at Volkon Av station. Ride the A train 1 stop southbound, then change to the Z and ride the Z train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@103 Finmardun-Bilbir Junction",
+"wants": [
+"reopen",
+103
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:154",
+"graph": "nyc-relabelled-b",
+"node": 195,
+"label": "Lenfol Junction",
+"changed": true,
+"wording": "A signal failure means {X} is being skipped.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "A signal failure means Lenfol Junction is being skipped. Start at Zirdi Sq station. Ride the F train 1 stop southbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @482 Zirdi Sq, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+195
+]
+},
+{
+"user": "Lenfol Junction has been reopened. Start at Zirdi Sq station. Ride the F train 1 stop southbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@156 Gurluson-Finnerpo Sq",
+"wants": [
+"reopen",
+195
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:110",
+"graph": "nyc-relabelled-b",
+"node": 135,
+"label": "Gergu-Vuden Blvd",
+"changed": true,
+"wording": "{X} has been taken out of service for repairs.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Gergu-Vuden Blvd has been taken out of service for repairs. Start at Banzenkun Junction station. Ride the F train 2 stops southbound, then change to the A and ride the A train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @257 Neltel Park, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+135
+]
+},
+{
+"user": "Service at Gergu-Vuden Blvd has resumed. Start at Banzenkun Junction station. Ride the F train 2 stops southbound, then change to the A and ride the A train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@490 Zunsilran St",
+"wants": [
+"reopen",
+135
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:142",
+"graph": "nyc-relabelled-b",
+"node": 401,
+"label": "Tirelpul Junction",
+"changed": true,
+"wording": "They've shut {X} after a fire.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "They've shut Tirelpul Junction after a fire. Start at Rerfi Blvd station. Ride the N train 3 stops southbound, then change to the J and ride the J train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @434 Velper-Vengo Sq, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+401
+]
+},
+{
+"user": "Tirelpul Junction is open again now. Start at Rerfi Blvd station. Ride the N train 3 stops southbound, then change to the J and ride the J train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@89 Farrendun Park",
+"wants": [
+"reopen",
+401
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:115",
+"graph": "nyc-relabelled-b",
+"node": 456,
+"label": "Zalren Hts",
+"changed": true,
+"wording": "You can't get on or off at {X} this week.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "You can't get on or off at Zalren Hts this week. Start at Zununger Av station. Ride the M train 3 stops southbound, then change to the L and ride the L train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @493 Zununger Av, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+456
+]
+},
+{
+"user": "Repairs are done and Zalren Hts is back. Start at Zununger Av station. Ride the M train 3 stops southbound, then change to the L and ride the L train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@186 Kuponman-Vunpal Av",
+"wants": [
+"reopen",
+456
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:173",
+"graph": "nyc-relabelled-b",
+"node": 8,
+"label": "Barsul Blvd",
+"changed": true,
+"wording": "Trains won't stop at {X} until Friday.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "Trains won't stop at Barsul Blvd until Friday. Start at Borlonnu-Malmelo Junction station. Ride the D train 3 stops southbound, then change to the E and ride the E train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @336 Roban Rd, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+8
+]
+},
+{
+"user": "Trains are stopping at Barsul Blvd once more. Start at Borlonnu-Malmelo Junction station. Ride the D train 3 stops southbound, then change to the E and ride the E train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@341 Rorlir Sq",
+"wants": [
+"reopen",
+8
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:109",
+"graph": "nyc-relabelled-b",
+"node": 436,
+"label": "Velzer Pkwy",
+"changed": true,
+"wording": "{X} is closed for track work.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "Velzer Pkwy is closed for track work. Start at Sindi Av station. Ride the R train 2 stops southbound, then change to the W and ride the W train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @379 Sindi Av, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+436
+]
+},
+{
+"user": "Velzer Pkwy has been reopened. Start at Sindi Av station. Ride the R train 2 stops southbound, then change to the W and ride the W train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@111 Forbunfal Pl",
+"wants": [
+"reopen",
+436
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:120",
+"graph": "nyc-relabelled-b",
+"node": 380,
+"label": "Sofa St",
+"changed": true,
+"wording": "Crews have closed off {X} overnight.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Crews have closed off Sofa St overnight. Start at Korkonmil St station. Ride the N train 1 stop northbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: at @185 Kunlur Av, no change leads to that leg's relation. The journey did not finish.",
+"wants": [
+"close",
+380
+]
+},
+{
+"user": "Service at Sofa St has resumed. Start at Korkonmil St station. Ride the N train 1 stop northbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@380 Sofa St",
+"wants": [
+"reopen",
+380
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:199",
+"graph": "nyc-relabelled-b",
+"node": 488,
+"label": "Zulvanlar Rd",
+"changed": true,
+"wording": "{X} is out of action today.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "Zulvanlar Rd is out of action today. Start at Penluldo Sq station. Ride the A train 3 stops southbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 2: after 1 steps at @140 Ginpa-Radan Rd, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+488
+]
+},
+{
+"user": "Zulvanlar Rd is open again now. Start at Penluldo Sq station. Ride the A train 3 stops southbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@488 Zulvanlar Rd",
+"wants": [
+"reopen",
+488
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:108",
+"graph": "nyc-relabelled-b",
+"node": 453,
+"label": "Vunpir Junction",
+"changed": true,
+"wording": "Flooding has closed {X}.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "Flooding has closed Vunpir Junction. Start at Palpor St station. Ride the 7 train 3 stops southbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 1 steps at @94 Ferku Av, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+453
+]
+},
+{
+"user": "Repairs are done and Vunpir Junction is back. Start at Palpor St station. Ride the 7 train 3 stops southbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@491 Zunsilran St",
+"wants": [
+"reopen",
+453
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:129",
+"graph": "nyc-relabelled-b",
+"node": 236,
+"label": "Merpun Pl",
+"changed": true,
+"wording": "No trains are calling at {X} right now.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "No trains are calling at Merpun Pl right now. Start at Zalren Hts station. Ride the M train 2 stops southbound, then change to the L and ride the L train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "Stopped early on leg 1: after 0 steps at @456 Zalren Hts, no further step along this relation exists. The journey did not finish.",
+"wants": [
+"close",
+236
+]
+},
+{
+"user": "Trains are stopping at Merpun Pl once more. Start at Zalren Hts station. Ride the M train 2 stops southbound, then change to the L and ride the L train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@40 Dalbulben Rd",
+"wants": [
+"reopen",
+236
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:185",
+"graph": "nyc-relabelled-b",
+"node": 328,
+"label": "Rinza Blvd",
+"changed": false,
+"wording": "A signal failure means {X} is being skipped.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "A signal failure means Rinza Blvd is being skipped. Start at Rultun Park station. Ride the 7 train 1 stop northbound, then change to the G and ride the G train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@175 Kolbeltil-Vevelsu Pl",
+"wants": [
+"close",
+328
+]
+},
+{
+"user": "Rinza Blvd has been reopened. Start at Rultun Park station. Ride the 7 train 1 stop northbound, then change to the G and ride the G train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@175 Kolbeltil-Vevelsu Pl",
+"wants": [
+"reopen",
+328
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:111",
+"graph": "nyc-relabelled-b",
+"node": 248,
+"label": "Murfunle Hts",
+"changed": false,
+"wording": "{X} has been taken out of service for repairs.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Murfunle Hts has been taken out of service for repairs. Start at Farrendun Park station. Ride the Z train 2 stops southbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@92 Ferelpu Sq",
+"wants": [
+"close",
+248
+]
+},
+{
+"user": "Service at Murfunle Hts has resumed. Start at Farrendun Park station. Ride the Z train 2 stops southbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@92 Ferelpu Sq",
+"wants": [
+"reopen",
+248
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:174",
+"graph": "nyc-relabelled-b",
+"node": 196,
+"label": "Lerner-Lersenvor Pl",
+"changed": false,
+"wording": "They've shut {X} after a fire.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "They've shut Lerner-Lersenvor Pl after a fire. Start at Donni Blvd station. Ride the B train 1 stop southbound, then change to the A and ride the A train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@341 Rorlir Sq",
+"wants": [
+"close",
+196
+]
+},
+{
+"user": "Lerner-Lersenvor Pl is open again now. Start at Donni Blvd station. Ride the B train 1 stop southbound, then change to the A and ride the A train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@341 Rorlir Sq",
+"wants": [
+"reopen",
+196
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:191",
+"graph": "nyc-relabelled-b",
+"node": 69,
+"label": "Divorkol-Belrinral Junction",
+"changed": false,
+"wording": "You can't get on or off at {X} this week.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "You can't get on or off at Divorkol-Belrinral Junction this week. Start at Durbirron Park station. Ride the 2 train 2 stops northbound, then change to the 4 and ride the 4 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@190 Kutelfol Junction",
+"wants": [
+"close",
+69
+]
+},
+{
+"user": "Repairs are done and Divorkol-Belrinral Junction is back. Start at Durbirron Park station. Ride the 2 train 2 stops northbound, then change to the 4 and ride the 4 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@190 Kutelfol Junction",
+"wants": [
+"reopen",
+69
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:135",
+"graph": "nyc-relabelled-b",
+"node": 403,
+"label": "Tolgerte Av",
+"changed": false,
+"wording": "Trains won't stop at {X} until Friday.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "Trains won't stop at Tolgerte Av until Friday. Start at Dalbinlir Sq station. Ride the J train 2 stops northbound, then change to the Q and ride the Q train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@88 Farmon Junction",
+"wants": [
+"close",
+403
+]
+},
+{
+"user": "Trains are stopping at Tolgerte Av once more. Start at Dalbinlir Sq station. Ride the J train 2 stops northbound, then change to the Q and ride the Q train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@88 Farmon Junction",
+"wants": [
+"reopen",
+403
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:158",
+"graph": "nyc-relabelled-b",
+"node": 428,
+"label": "Velper Pkwy",
+"changed": false,
+"wording": "{X} is closed for track work.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "Velper Pkwy is closed for track work. Start at Farmon Junction station. Ride the Q train 1 stop northbound, then change to the R and ride the R train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@462 Zanlel Sq",
+"wants": [
+"close",
+428
+]
+},
+{
+"user": "Velper Pkwy has been reopened. Start at Farmon Junction station. Ride the Q train 1 stop northbound, then change to the R and ride the R train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@462 Zanlel Sq",
+"wants": [
+"reopen",
+428
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:132",
+"graph": "nyc-relabelled-b",
+"node": 186,
+"label": "Kuponman-Vunpal Av",
+"changed": false,
+"wording": "Crews have closed off {X} overnight.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Crews have closed off Kuponman-Vunpal Av overnight. Start at Razesu Hts station. Ride the D train 2 stops northbound, then change to the E and ride the E train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@102 Finlen Av",
+"wants": [
+"close",
+186
+]
+},
+{
+"user": "Service at Kuponman-Vunpal Av has resumed. Start at Razesu Hts station. Ride the D train 2 stops northbound, then change to the E and ride the E train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@102 Finlen Av",
+"wants": [
+"reopen",
+186
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:162",
+"graph": "nyc-relabelled-b",
+"node": 153,
+"label": "Gulzan-Lorrunti Blvd",
+"changed": false,
+"wording": "{X} is out of action today.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "Gulzan-Lorrunti Blvd is out of action today. Start at Balkonbon Blvd station. Ride the M train 3 stops northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@62 Dilmir-Pormarfal St",
+"wants": [
+"close",
+153
+]
+},
+{
+"user": "Gulzan-Lorrunti Blvd is open again now. Start at Balkonbon Blvd station. Ride the M train 3 stops northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@62 Dilmir-Pormarfal St",
+"wants": [
+"reopen",
+153
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:166",
+"graph": "nyc-relabelled-b",
+"node": 464,
+"label": "Zarsin-Fulvarpur Sq",
+"changed": false,
+"wording": "Flooding has closed {X}.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "Flooding has closed Zarsin-Fulvarpur Sq. Start at Versarrir St station. Ride the C train 2 stops southbound, then change to the FS and ride the FS train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@376 Silfontol Hts",
+"wants": [
+"close",
+464
+]
+},
+{
+"user": "Repairs are done and Zarsin-Fulvarpur Sq is back. Start at Versarrir St station. Ride the C train 2 stops southbound, then change to the FS and ride the FS train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@376 Silfontol Hts",
+"wants": [
+"reopen",
+464
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:107",
+"graph": "nyc-relabelled-b",
+"node": 105,
+"label": "Finse Pkwy",
+"changed": false,
+"wording": "No trains are calling at {X} right now.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "No trains are calling at Finse Pkwy right now. Start at Delgalpur St station. Ride the 5 train 3 stops northbound, then change to the Q and ride the Q train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@41 Dalbulben Rd",
+"wants": [
+"close",
+105
+]
+},
+{
+"user": "Trains are stopping at Finse Pkwy once more. Start at Delgalpur St station. Ride the 5 train 3 stops northbound, then change to the Q and ride the Q train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@41 Dalbulben Rd",
+"wants": [
+"reopen",
+105
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:103",
+"graph": "nyc-relabelled-b",
+"node": 230,
+"label": "Manvurlir Park",
+"changed": false,
+"wording": "A signal failure means {X} is being skipped.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "A signal failure means Manvurlir Park is being skipped. Start at Lirzolron-Litalmer Rd station. Ride the 1 train 2 stops northbound, then change to the 3 and ride the 3 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@169 Kilrur Pkwy",
+"wants": [
+"close",
+230
+]
+},
+{
+"user": "Manvurlir Park has been reopened. Start at Lirzolron-Litalmer Rd station. Ride the 1 train 2 stops northbound, then change to the 3 and ride the 3 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@169 Kilrur Pkwy",
+"wants": [
+"reopen",
+230
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:192",
+"graph": "nyc-relabelled-b",
+"node": 19,
+"label": "Bitopi-Folfel Park",
+"changed": false,
+"wording": "{X} has been taken out of service for repairs.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Bitopi-Folfel Park has been taken out of service for repairs. Start at Bizirben Junction station. Ride the 1 train 1 stop northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@140 Ginpa-Radan Rd",
+"wants": [
+"close",
+19
+]
+},
+{
+"user": "Service at Bitopi-Folfel Park has resumed. Start at Bizirben Junction station. Ride the 1 train 1 stop northbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@140 Ginpa-Radan Rd",
+"wants": [
+"reopen",
+19
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:167",
+"graph": "nyc-relabelled-b",
+"node": 359,
+"label": "Sarfinfu Pkwy",
+"changed": false,
+"wording": "They've shut {X} after a fire.",
+"reopen_wording": "{X} is open again now.",
+"turns": [
+{
+"user": "They've shut Sarfinfu Pkwy after a fire. Start at Lerpenpir Junction station. Ride the L train 3 stops southbound, then change to the M and ride the M train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@160 Kalrodon Sq",
+"wants": [
+"close",
+359
+]
+},
+{
+"user": "Sarfinfu Pkwy is open again now. Start at Lerpenpir Junction station. Ride the L train 3 stops southbound, then change to the M and ride the M train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@160 Kalrodon Sq",
+"wants": [
+"reopen",
+359
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:163",
+"graph": "nyc-relabelled-b",
+"node": 300,
+"label": "Pirnilkul-Nilkur Sq",
+"changed": false,
+"wording": "You can't get on or off at {X} this week.",
+"reopen_wording": "Repairs are done and {X} is back.",
+"turns": [
+{
+"user": "You can't get on or off at Pirnilkul-Nilkur Sq this week. Start at Zunsilran St station. Ride the A train 2 stops northbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@268 Nolelsa Sq",
+"wants": [
+"close",
+300
+]
+},
+{
+"user": "Repairs are done and Pirnilkul-Nilkur Sq is back. Start at Zunsilran St station. Ride the A train 2 stops northbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@268 Nolelsa Sq",
+"wants": [
+"reopen",
+300
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:124",
+"graph": "nyc-relabelled-b",
+"node": 343,
+"label": "Rortal Rd",
+"changed": false,
+"wording": "Trains won't stop at {X} until Friday.",
+"reopen_wording": "Trains are stopping at {X} once more.",
+"turns": [
+{
+"user": "Trains won't stop at Rortal Rd until Friday. Start at Denderbir Rd station. Ride the 6 train 3 stops southbound, then change to the N and ride the N train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@276 Norzan Blvd",
+"wants": [
+"close",
+343
+]
+},
+{
+"user": "Trains are stopping at Rortal Rd once more. Start at Denderbir Rd station. Ride the 6 train 3 stops southbound, then change to the N and ride the N train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@276 Norzan Blvd",
+"wants": [
+"reopen",
+343
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:196",
+"graph": "nyc-relabelled-b",
+"node": 162,
+"label": "Kanlarmun Park",
+"changed": false,
+"wording": "{X} is closed for track work.",
+"reopen_wording": "{X} has been reopened.",
+"turns": [
+{
+"user": "Kanlarmun Park is closed for track work. Start at Funsi-Vonvin St station. Ride the G train 3 stops northbound, then change to the 7 and ride the 7 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@286 Palpor St",
+"wants": [
+"close",
+162
+]
+},
+{
+"user": "Kanlarmun Park has been reopened. Start at Funsi-Vonvin St station. Ride the G train 3 stops northbound, then change to the 7 and ride the 7 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@286 Palpor St",
+"wants": [
+"reopen",
+162
+]
+}
+]
+},
+{
+"key": "nyc-relabelled:182",
+"graph": "nyc-relabelled-b",
+"node": 445,
+"label": "Vitor Junction",
+"changed": false,
+"wording": "Crews have closed off {X} overnight.",
+"reopen_wording": "Service at {X} has resumed.",
+"turns": [
+{
+"user": "Crews have closed off Vitor Junction overnight. Start at Tirelpul Junction station. Ride the J train 3 stops southbound, then change to the C and ride the C train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@490 Zunsilran St",
+"wants": [
+"close",
+445
+]
+},
+{
+"user": "Service at Vitor Junction has resumed. Start at Tirelpul Junction station. Ride the J train 3 stops southbound, then change to the C and ride the C train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@490 Zunsilran St",
+"wants": [
+"reopen",
+445
+]
+}
+]
+}
+],
+"plain": [
+{
+"key": "nyc-relabelled:169",
+"graph": "nyc-relabelled-b",
+"node": 8,
+"label": "Barsul Blvd",
+"wording": "The newsstand at {X} has closed for good.",
+"on_route": true,
+"turns": [
+{
+"user": "The newsstand at Barsul Blvd has closed for good. Start at Farmon Junction station. Ride the D train 2 stops northbound, then change to the A and ride the A train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@341 Rorlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:145",
+"graph": "nyc-relabelled-b",
+"node": 376,
+"label": "Silfontol Hts",
+"wording": "The elevator at {X} is out of order, but trains still stop there.",
+"on_route": false,
+"turns": [
+{
+"user": "The elevator at Silfontol Hts is out of order, but trains still stop there. Start at Kaldon Av station. Ride the 5 train 1 stop southbound, then change to the C and ride the C train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@490 Zunsilran St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:123",
+"graph": "nyc-relabelled-b",
+"node": 166,
+"label": "Kelnul Pkwy",
+"wording": "The coffee cart outside {X} shut down last month.",
+"on_route": true,
+"turns": [
+{
+"user": "The coffee cart outside Kelnul Pkwy shut down last month. Start at Rerfi Blvd station. Ride the N train 2 stops southbound, then change to the 6 and ride the 6 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@166 Kelnul Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:179",
+"graph": "nyc-relabelled-b",
+"node": 375,
+"label": "Sidarul-Purriger Junction",
+"wording": "{X} was closed in 1998 and reopened in 2001.",
+"on_route": false,
+"turns": [
+{
+"user": "Sidarul-Purriger Junction was closed in 1998 and reopened in 2001. Start at Sanfaven Rd station. Ride the D train 3 stops northbound, then change to the C and ride the C train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@459 Zanal St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:189",
+"graph": "nyc-relabelled-b",
+"node": 493,
+"label": "Zununger Av",
+"wording": "There's talk of shutting {X} some day.",
+"on_route": true,
+"turns": [
+{
+"user": "There's talk of shutting Zununger Av some day. Start at Pilnelfo Pl station. Ride the Z train 3 stops southbound, then change to the M and ride the M train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@369 Sermil Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:194",
+"graph": "nyc-relabelled-b",
+"node": 168,
+"label": "Kilfoltar-Kovulza Pl",
+"wording": "My office near {X} is closed on Mondays.",
+"on_route": true,
+"turns": [
+{
+"user": "My office near Kilfoltar-Kovulza Pl is closed on Mondays. Start at Kider Av station. Ride the 1 train 3 stops southbound, then change to the 3 and ride the 3 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@36 Dalbinlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:171",
+"graph": "nyc-relabelled-b",
+"node": 6,
+"label": "Banzenkun Junction",
+"wording": "The museum by {X} closes at six.",
+"on_route": true,
+"turns": [
+{
+"user": "The museum by Banzenkun Junction closes at six. Start at Zununger Av station. Ride the Z train 2 stops southbound, then change to the F and ride the F train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@6 Banzenkun Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:183",
+"graph": "nyc-relabelled-b",
+"node": 106,
+"label": "Fira-Dolbanzer Blvd",
+"wording": "One entrance at {X} is closed, but the station is open.",
+"on_route": true,
+"turns": [
+{
+"user": "One entrance at Fira-Dolbanzer Blvd is closed, but the station is open. Start at Galnalsan Hts station. Ride the 2 train 3 stops southbound, then change to the 3 and ride the 3 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@25 Borlonnu-Malmelo Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:128",
+"graph": "nyc-relabelled-b",
+"node": 456,
+"label": "Zalren Hts",
+"wording": "Is it true they might close {X}? I doubt it.",
+"on_route": true,
+"turns": [
+{
+"user": "Is it true they might close Zalren Hts? I doubt it. Start at Tunpa Sq station. Ride the M train 3 stops northbound, then change to the J and ride the J train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@103 Finmardun-Bilbir Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:152",
+"graph": "nyc-relabelled-b",
+"node": 169,
+"label": "Kilrur Pkwy",
+"wording": "The pharmacy at {X} went out of business.",
+"on_route": true,
+"turns": [
+{
+"user": "The pharmacy at Kilrur Pkwy went out of business. Start at Riril-Rurdin Hts station. Ride the 1 train 2 stops southbound, then change to the 2 and ride the 2 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@169 Kilrur Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:136",
+"graph": "nyc-relabelled-b",
+"node": 313,
+"label": "Razesu Hts",
+"wording": "The newsstand at {X} has closed for good.",
+"on_route": true,
+"turns": [
+{
+"user": "The newsstand at Razesu Hts has closed for good. Start at Dalbulben Rd station. Ride the Q train 3 stops northbound, then change to the D and ride the D train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@313 Razesu Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:151",
+"graph": "nyc-relabelled-b",
+"node": 19,
+"label": "Bitopi-Folfel Park",
+"wording": "The elevator at {X} is out of order, but trains still stop there.",
+"on_route": true,
+"turns": [
+{
+"user": "The elevator at Bitopi-Folfel Park is out of order, but trains still stop there. Start at Sanvunzel-Turrorrun Sq station. Ride the E train 2 stops southbound, then change to the R and ride the R train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@489 Zunro Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:133",
+"graph": "nyc-relabelled-b",
+"node": 234,
+"label": "Melker-Malbider Sq",
+"wording": "The coffee cart outside {X} shut down last month.",
+"on_route": true,
+"turns": [
+{
+"user": "The coffee cart outside Melker-Malbider Sq shut down last month. Start at Terperze Sq station. Ride the 1 train 3 stops southbound, then change to the 2 and ride the 2 train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@36 Dalbinlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:130",
+"graph": "nyc-relabelled-b",
+"node": 294,
+"label": "Pervun Pkwy",
+"wording": "{X} was closed in 1998 and reopened in 2001.",
+"on_route": true,
+"turns": [
+{
+"user": "Pervun Pkwy was closed in 1998 and reopened in 2001. Start at Sanfaven Rd station. Ride the M train 2 stops northbound, then change to the Q and ride the Q train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@318 Rerfi Blvd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:184",
+"graph": "nyc-relabelled-b",
+"node": 240,
+"label": "Migunpen Rd",
+"wording": "There's talk of shutting {X} some day.",
+"on_route": true,
+"turns": [
+{
+"user": "There's talk of shutting Migunpen Rd some day. Start at Lorzo St station. Ride the 6 train 1 stop southbound, then change to the 5 and ride the 5 train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@282 Pakaken Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:134",
+"graph": "nyc-relabelled-b",
+"node": 454,
+"label": "Vurle Junction",
+"wording": "My office near {X} is closed on Mondays.",
+"on_route": true,
+"turns": [
+{
+"user": "My office near Vurle Junction is closed on Mondays. Start at Lirna-Dalvannon Pkwy station. Ride the E train 3 stops northbound, then change to the M and ride the M train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@84 Fapor Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:160",
+"graph": "nyc-relabelled-b",
+"node": 402,
+"label": "Tirza Rd",
+"wording": "The museum by {X} closes at six.",
+"on_route": true,
+"turns": [
+{
+"user": "The museum by Tirza Rd closes at six. Start at Finlen Av station. Ride the E train 2 stops southbound, then change to the D and ride the D train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@76 Durbirron Park",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:172",
+"graph": "nyc-relabelled-b",
+"node": 314,
+"label": "Renbu-Kirve Av",
+"wording": "One entrance at {X} is closed, but the station is open.",
+"on_route": false,
+"turns": [
+{
+"user": "One entrance at Renbu-Kirve Av is closed, but the station is open. Start at Zanal St station. Ride the 2 train 2 stops southbound, then change to the 1 and ride the 1 train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@121 Funtelbu Av",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:126",
+"graph": "nyc-relabelled-b",
+"node": 448,
+"label": "Volsan St",
+"wording": "Is it true they might close {X}? I doubt it.",
+"on_route": false,
+"turns": [
+{
+"user": "Is it true they might close Volsan St? I doubt it. Start at Binselnu-Semilpen Park station. Ride the N train 3 stops northbound, then change to the D and ride the D train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@268 Nolelsa Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:150",
+"graph": "nyc-relabelled-b",
+"node": 263,
+"label": "Nillal Pkwy",
+"wording": "The pharmacy at {X} went out of business.",
+"on_route": false,
+"turns": [
+{
+"user": "The pharmacy at Nillal Pkwy went out of business. Start at Zilnema Blvd station. Ride the 1 train 2 stops northbound, then change to the 2 and ride the 2 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@36 Dalbinlir Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:101",
+"graph": "nyc-relabelled-b",
+"node": 481,
+"label": "Zinmu-Tullen Junction",
+"wording": "The newsstand at {X} has closed for good.",
+"on_route": false,
+"turns": [
+{
+"user": "The newsstand at Zinmu-Tullen Junction has closed for good. Start at Dersormur Sq station. Ride the N train 1 stop southbound, then change to the Q and ride the Q train 1 stop northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@482 Zirdi Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:121",
+"graph": "nyc-relabelled-b",
+"node": 329,
+"label": "Rinzar Park",
+"wording": "The elevator at {X} is out of order, but trains still stop there.",
+"on_route": false,
+"turns": [
+{
+"user": "The elevator at Rinzar Park is out of order, but trains still stop there. Start at Nolfin Sq station. Ride the 7 train 1 stop southbound, then change to the N and ride the N train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@436 Velzer Pkwy",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:176",
+"graph": "nyc-relabelled-b",
+"node": 177,
+"label": "Kongorpen Sq",
+"wording": "The coffee cart outside {X} shut down last month.",
+"on_route": false,
+"turns": [
+{
+"user": "The coffee cart outside Kongorpen Sq shut down last month. Start at Roban Rd station. Ride the E train 3 stops northbound, then change to the F and ride the F train 3 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@313 Razesu Hts",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:168",
+"graph": "nyc-relabelled-b",
+"node": 274,
+"label": "Norsilgo Blvd",
+"wording": "{X} was closed in 1998 and reopened in 2001.",
+"on_route": false,
+"turns": [
+{
+"user": "Norsilgo Blvd was closed in 1998 and reopened in 2001. Start at Dalbulben Rd station. Ride the R train 3 stops southbound, then change to the G and ride the G train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@400 Tinrol St",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:164",
+"graph": "nyc-relabelled-b",
+"node": 281,
+"label": "Pagelgan Pl",
+"wording": "There's talk of shutting {X} some day.",
+"on_route": false,
+"turns": [
+{
+"user": "There's talk of shutting Pagelgan Pl some day. Start at Velper-Vengo Sq station. Ride the 6 train 1 stop southbound, then change to the 4 and ride the 4 train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@141 Ginpa-Radan Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:125",
+"graph": "nyc-relabelled-b",
+"node": 136,
+"label": "Gibermer St",
+"wording": "My office near {X} is closed on Mondays.",
+"on_route": false,
+"turns": [
+{
+"user": "My office near Gibermer St is closed on Mondays. Start at Rerfi Blvd station. Ride the N train 2 stops southbound, then change to the 4 and ride the 4 train 3 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@56 Dersormur Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:113",
+"graph": "nyc-relabelled-b",
+"node": 418,
+"label": "Turfulti Av",
+"wording": "The museum by {X} closes at six.",
+"on_route": false,
+"turns": [
+{
+"user": "The museum by Turfulti Av closes at six. Start at Rormolson-Supo Av station. Ride the F train 3 stops southbound, then change to the E and ride the E train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@445 Vitor Junction",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:149",
+"graph": "nyc-relabelled-b",
+"node": 217,
+"label": "Lonporvir St",
+"wording": "One entrance at {X} is closed, but the station is open.",
+"on_route": false,
+"turns": [
+{
+"user": "One entrance at Lonporvir St is closed, but the station is open. Start at Vurle Junction station. Ride the E train 3 stops northbound, then change to the Z and ride the Z train 2 stops southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@146 Golgelsol Rd",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:147",
+"graph": "nyc-relabelled-b",
+"node": 377,
+"label": "Silgul-Monfa Av",
+"wording": "Is it true they might close {X}? I doubt it.",
+"on_route": false,
+"turns": [
+{
+"user": "Is it true they might close Silgul-Monfa Av? I doubt it. Start at Nolbar-Fikul Av station. Ride the 1 train 3 stops northbound, then change to the 3 and ride the 3 train 1 stop southbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@234 Melker-Malbider Sq",
+"wants": null
+}
+]
+},
+{
+"key": "nyc-relabelled:170",
+"graph": "nyc-relabelled-b",
+"node": 413,
+"label": "Tunkalpal Pkwy",
+"wording": "The pharmacy at {X} went out of business.",
+"on_route": false,
+"turns": [
+{
+"user": "The pharmacy at Tunkalpal Pkwy went out of business. Start at Tirelpul Junction station. Ride the Z train 3 stops northbound, then change to the M and ride the M train 2 stops northbound. One stop means the next station. At which station are you now? Answer with the station name only.",
+"gold": "@369 Sermil Junction",
+"wants": null
+}
+]
+}
+]
+}

@@ -1,0 +1,93 @@
+{
+"n": 100,
+"machine": {
+"right": 97,
+"unasked_closed": 0,
+"toolong": 0,
+"reserved_rows": 0,
+"lock_or_flag": 0,
+"machine_equals_host_tool": 100,
+"seconds": 3784.850000000001,
+"qwen_tokens": 5067,
+"chip_tokens": 527921,
+"silent": 1,
+"loud": 1,
+"limit": 1
+},
+"machine_right_wilson": [
+0.915,
+0.99
+],
+"host": {
+"right": 97,
+"silent": 1,
+"loud": 1,
+"limit": 1
+},
+"host_n": 100,
+"agreement": {
+"both": 100,
+"same_call": 100,
+"same_outcome": 100
+},
+"wrong": [
+{
+"id": 114,
+"text": "Take the 5 train northbound from President St-Medgar Evers College. Get off 2 stops later. Now board the Q train heading northbound. It's 1 stop from there to your stop. What's your stop? Answer with the station name only.",
+"gold": "@280 DeKalb Av",
+"call": {
+"start": "President St-Medgar Evers College",
+"legs": "5 northbound 2"
+},
+"line": "@181 Atlantic Av-Barclays Ctr",
+"outcome": "silent"
+},
+{
+"id": 115,
+"text": "Beach 60 St is where you begin. A train, northbound, 2 stops. Change there to the H, southbound, 3 stops. Final station? Answer with the station name only.",
+"gold": "@202 Beach 105 St",
+"call": {
+"start": "Beach 60 St",
+"legs": "K northbound 2; H southbound 3"
+},
+"line": "NORELATION K northbound",
+"outcome": "loud"
+},
+{
+"id": 169,
+"text": "Avenue X: F southbound x3, then N northbound x3. Where am I? Answer with the station name only.",
+"gold": "@365 Kings Hwy",
+"call": {
+"start": "@1",
+"legs": "F southbound 3; N northbound 3"
+},
+"line": "Stopped early on leg 1: after 0 steps at @1 103 St, no further step along this relation exists. The journey did not finish.",
+"outcome": "limit"
+}
+],
+"stock": {
+"seed": 20261103,
+"asked": 4,
+"limit_s": 1500,
+"load_s": 9.5,
+"positions": 21530,
+"mismatches": 0,
+"head_mismatch": 0,
+"token_differences": 0,
+"seconds": 322.6,
+"passed": true
+},
+"stock_questions": 4,
+"void": null,
+"bar": {
+"machine_points": 97.0,
+"host_points": 97.0,
+"pass": true
+},
+"by_source": {
+"file_right": 97,
+"file_silent": 1,
+"file_loud": 1,
+"file_limit": 1
+}
+}

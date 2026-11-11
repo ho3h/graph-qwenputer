@@ -1,0 +1,17 @@
+# Small register for checking the worked examples. No name here is in companies.csv.
+from,relation,to,weight
+Elif Kaya,owns,Alder Group plc,70
+Joao Pereira,owns,Alder Group plc,30
+Alder Group plc,owns,Alder Holdings 4 Ltd,100
+Alder Holdings 4 Ltd,owns,Alder Freight Ltd,100
+Alder Holdings 4 Ltd,owns,Alder Freight 2 Ltd,100
+Alder Freight Ltd,owns,Juniper Leasing Ltd,55
+Maria Santos,owns,Juniper Leasing Ltd,45
+Elif Kaya,director_of,Alder Holdings 4 Ltd
+Maria Santos,director_of,Juniper Leasing Ltd
+Joao Pereira,director_of,Juniper Leasing Ltd
+Alder Group plc,registered_at,"6 Quay Lane, Cardiff"
+Alder Holdings 4 Ltd,registered_at,"6 Quay Lane, Cardiff"
+Alder Freight Ltd,registered_at,"Unit 9, Dockside, Swansea"
+Alder Freight 2 Ltd,registered_at,"Unit 9, Dockside, Swansea"
+Juniper Leasing Ltd,registered_at,"Unit 9, Dockside, Swansea"

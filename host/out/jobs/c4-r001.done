@@ -1,0 +1,24 @@
+{
+ "graph": "<repo>/data/dev/random/r001.graph.json",
+ "questions": "<repo>/data/dev/random/r001.questions.json",
+ "out": "<repo>/host/out/dev3-clear/r001",
+ "attn": [
+  "eager",
+  "sdpa"
+ ],
+ "ids": [
+  0,
+  5,
+  8,
+  11,
+  17,
+  23,
+  25,
+  29,
+  28,
+  44,
+  46,
+  40
+ ],
+ "arm": "clear"
+}

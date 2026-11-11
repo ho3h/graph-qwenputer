@@ -1,0 +1,437 @@
+0a0fc9683b 2026-11-10T21:28:19-05:00 X2.10 round 18 shipped on Theo's word: the page, chart, README, article and Word copy carry the reasoning-on result
+5407515cde 2026-11-10T15:46:41-05:00 X2.10 round 18, the revision's result: with reasoning on and the map lines Qwen got 26 of the first 28; both reviews; the draft page changes wait for Theo
+b81410b434 2026-11-10T12:09:13-05:00 X2.10 round 18: the night run slept (10 of 200 rows); the one revision registered, reviewed and started
+b91fbc279b 2026-11-09T16:25:33-05:00 X2.10: the closing section Theo approved, on the page, the still article and the Word copy
+faf43072c1 2026-11-09T16:23:36-05:00 X2.10 round 18: both pre-run reviews answered; arm M first, chunked restarts, rules restated on shares; draft launch clip
+b1b4b437ba 2026-11-09T16:18:25-05:00 X2.10: look and feel on Theo's word: phone step spacing, the name on one line, balanced opening columns; no wording changed
+75b2410740 2026-11-09T16:05:31-05:00 X2.10 round 18: register the chart's Qwen baselines with reasoning on, and tonight's queue
+5f85053cff 2026-11-09T15:37:48-05:00 X2.10: Medium draft updated to the revised article; Substack and LinkedIn unchanged; Theo stops the Chrome work
+bd27928a6a 2026-11-09T15:34:16-05:00 X2.10: public repo republished as f42b099; anonymous clone verified
+933021a9b9 2026-11-09T15:32:01-05:00 X2.10: round 17's fixes shipped on Theo's word: site deployed, model card updated, repo to be republished from this commit
+c5f4168e54 2026-11-09T15:23:01-05:00 X2.10 round 17: the list of changed passages; status page
+5b4192cb3e 2026-11-09T15:22:23-05:00 X2.10 round 17: review of the public post, site and repo; fixes made locally, not deployed
+89240f58b1 2026-11-09T15:19:53-05:00 X2.10 round 17: register the rerun of the stock-tensor check from saved code; correct the MMLU attribution
+b8f20e8063 2026-11-09T14:50:53-05:00 X2.10 round 17: Qwen's layers against the stock release; "bit-identical" is wrong as stated, and the wording must change
+91b80094b8 2026-11-09T14:48:49-05:00 X2.10 round 17: register the direct check of Qwen's layers against the stock release
+d86ddb07d6 2026-11-05T11:00:52-05:00 X2.10: the model is public on Theo's word; anonymous download and sim tested
+0e39c552b4 2026-11-05T10:55:50-05:00 X2.10: site and repo public; model private and article drafts unpublished, on Theo's word
+da81798c92 2026-11-05T10:53:51-05:00 X2.10: publish script: attribution line, model made public through the API
+efccdfb934 2026-11-05T10:48:05-05:00 X2.10: Theo keeps one fresh commit for the public repo; drafts saved on Medium, Substack and LinkedIn, not published
+960f234bde 2026-11-05T10:45:12-05:00 X2.10: article copy drops the page's interactive-only heading
+23b05bf637 2026-11-05T10:40:27-05:00 X2.10: article copy for Medium, Substack and LinkedIn, with fresh stills
+32512b6839 2026-11-05T10:36:14-05:00 X2.10: bundle carries Qwen alone's scores
+44e4144b9e 2026-11-05T10:35:41-05:00 X2.10: Fable's prose pass on the post; round 16's fixes; the sealed maps' Qwen results: 244 of 244 that ran on the rerouted map, Qwen alone 0 and 1 of 100
+0a2bf0fff9 2026-11-05T10:21:11-05:00 X2.10 round 16: the critic's README blockers fixed, misses list complete, posts corrected, rows and opened maps go in the bundle
+2f37a8795c 2026-11-05T10:08:26-05:00 X2.10: Word copy generator; S2 stops by 10:32 so S4 fits Theo's 45 minutes
+b95633addc 2026-11-05T10:07:21-05:00 X2.10: launch posts with the final numbers, publish script rehearsed, sanitizer clears two names
+4f248466c4 2026-11-05T10:04:54-05:00 X2.10 S1: the blind machine exam, both sealed maps, 321,674 calls each, 0 differences; r6c2 and U6; 995,198 calls on the current build
+0aff76e5e4 2026-11-05T10:01:46-05:00 X2.10: resume the GPU exams, most useful first (Theo)
+e54be957e4 2026-11-04T19:57:32-05:00 X2.10 T2: the reviewer's audit agrees, 24 of 30; fairer wording, two scorer fixes affecting no row, the 12-call limit in the guide
+6d41b5e3e8 2026-11-04T19:57:11-05:00 X2.10: the mini's item build reads its own tokenizer copy
+8ddfb3c843 2026-11-04T19:56:17-05:00 X2.10: build the relabelled items on the mini with no install
+9f61bfdf46 2026-11-04T19:55:10-05:00 X2.10: Theo stopped the Mac's processes; the machine exam moves to the mini; the GPU exams wait
+41f3877420 2026-11-04T19:52:35-05:00 X2.10 T2 and S2: a reviewer's own graphs 24 of 30 right; invented names, blind, 296 of 300 lines right and 0 wrong
+cf18c03124 2026-11-04T19:50:18-05:00 X2.10 S1: split recorded before the change, the mini takes the relabelled map and nyc-cf's last 81 units (Theo)
+e8d0741ee6 2026-11-04T17:27:38-05:00 X2.10 E6: Qwen writes the closure on the blocking rule: 40 of 40, 35 of 40, 13 of 30 false closes, as predicted; 7 AMBIGUOUS lines I hadn't predicted, firmware and reflib agreeing
+b93dd7f1a0 2026-11-04T16:43:39-05:00 X2.10 T3: non-subway graphs whole on the real weights, 40,407 positions, 0 differ, token for token with T1
+8d8c616cba 2026-11-04T16:43:03-05:00 X2.10: overnight queue for E6w and S5; T3's rows
+ec76114fbf 2026-11-04T16:42:44-05:00 X2.10 T2: a reviewer's graphs, questions and scoring rule committed before any run; guide fixes from their confusions
+33ca2c77b1 2026-11-04T16:39:52-05:00 X2.10 F1: fresh install on Python 3.14: the model matches byte for byte, 77 of 77 checks; ask waits for the GPU
+badc9ec20d 2026-11-04T16:30:37-05:00 X2.10: the band short again; the 300-question exam's framing moves to the Questions
+8c65a822e7 2026-11-04T16:29:39-05:00 X2.10 round 15: critic and steel-man applied: the band's framing, driver wording, executors, a table of missed predictions; F1 found the Python version wrong in the README
+8e33aaae93 2026-11-04T16:26:20-05:00 X2.10: the sealed maps opened with the manifest clean: draws and queues for S1 to S4
+3499072fc2 2026-11-04T16:24:50-05:00 X2.10: register S1 to S5, the sealed maps' blind test, before opening them (Theo's word)
+58c12dd3b9 2026-11-04T16:22:14-05:00 X2.10: register F1, the fresh install test, Theo's OK
+f16e7bc1bb 2026-11-04T16:20:25-05:00 X2.10: tonight's queue: fix my script's path splitting, nothing had run
+7aa64a9fb5 2026-11-04T16:19:31-05:00 X2.10: tonight's tests registered before running: T3, E6, E6w, T2, r6c2, U6; worked turns on the blocking rule; gq.py ask --whole
+6b0cb48b86 2026-11-04T16:12:47-05:00 X2.10 T1: gq.py ask from a clean copy with an empty home folder, right calls on 11 of 11 turns by my reading, all 16 firmware answers equal reflib; exploratory
+088a0357e7 2026-11-04T16:10:55-05:00 X2.10 r6e: the walkthrough whole on the real model, 6 calls, 149,813 positions, 0 differ; the page and top band say so
+59f4c42547 2026-11-04T16:06:51-05:00 X2.10: toolkit recheck's fixes: setup test can't replace the firmware, guide's firmware advice corrected, header order sets CSV columns, check reports link, 39-file list; 78 checks on a clean copy
+0e6a1de95d 2026-11-04T15:56:34-05:00 X2.10: sim's report at the 256-edge limit tested on the firmware, and added to the toolkit's tests
+2317772b13 2026-11-04T15:52:03-05:00 X2.10 r6b: aimed writes on the blocking rule, 11,696 calls, 0 differences from the reference machine; reflib differs on 24 links past its missing 256-edge limit, so my prediction's wording missed
+8ec471c6cd 2026-11-04T15:37:06-05:00 X2.10 r6a: score file, and the base questions match across the mini and the Mac, 600 of 600
+f036a2d78e 2026-11-04T15:36:38-05:00 X2.10: toolkit review's blockers fixed: try and sim agree, TOOLONG explained, no home-folder paths, import refuses or reports messy data; 61 checks on a clean copy
+581efadb17 2026-11-04T15:31:21-05:00 X2.10 r6a: closure exam on the blocking rule, 0 differences on every row, my forecast of changed answers missed (2,395 against 2,100 to 2,300)
+e186a5c680 2026-11-04T15:15:36-05:00 X2.10: fix the band's layout, my class name clashed with an existing style
+f66ac6c101 2026-11-04T15:14:04-05:00 X2.10: toolkit guide shows the real run's output, README splits Why bother into its own paragraph
+d1db3b6b47 2026-11-04T15:14:02-05:00 X2.10: the band says what ran on the simulator, and phones keep one proof sentence per claim
+7bc8f4dc05 2026-11-04T15:08:54-05:00 X2.10: the band at the top states the biggest claims, each checked against saved rows (Theo)
+7e7acc7ff7 2026-11-04T14:59:30-05:00 X2.10: Theo: trick-sentence closures stay in Questions
+ede99e9968 2026-11-04T14:55:10-05:00 X2.10: round 14's fact-check and steel-man fixes on the page and README
+2e1c808a78 2026-11-04T14:53:53-05:00 X2.10: the toolkit: gq.py, a guide, own worked examples and tools, tests, non-subway examples; register T1
+21a215b03f 2026-11-04T14:39:51-05:00 X2.10 r6e: first attempt stopped on a limit I set too low, 75,659 positions none differing; register the one revision
+53ef4575ed 2026-11-04T14:38:18-05:00 X2.10: stop the overrun attack job on the mini, note it
+53dbe3f96a 2026-11-04T14:37:29-05:00 X2.10 r6a: more Mac workers and a rebalanced split, same items and hard stop
+00c5e8aff0 2026-11-04T14:34:37-05:00 X2.10 r6a: move the last 46 units to the faster mini, same items and hard stop
+d5643a325b 2026-11-04T14:26:13-05:00 X2.10: name the thing every time: pointing words and unclear uses of the replaced across the post
+8386465e1b 2026-11-04T14:23:15-05:00 X2.10: Theo's third copy pass: plain technical English, graph-qwenputer throughout, no bare pronouns, flourishes cut
+e35bf1627b 2026-11-04T14:11:48-05:00 X2.10: a band at the top names what's new against Qwenputer, with a large button to the technical section (Theo)
+6952821bc3 2026-11-04T14:02:51-05:00 X2.10: the new post on the public address, labelled for what's still running; r6e's calls measured on the simulator
+a3010d322c 2026-11-04T13:57:11-05:00 X2.10: cut the pushback result from the launch posts (Theo)
+1a57d9dbcd 2026-11-04T13:54:36-05:00 X2.10: Theo's second copy pass: audit sections and judgment move to the README, plain English, CTA before Questions
+11ceff836c 2026-11-04T13:49:48-05:00 X2.10: longer gaps between sections; the picture follows scroll position; coming back shows the finished picture
+b22b49d323 2026-11-04T13:40:35-05:00 X2.10: the picture swaps only after the old section has left the screen; inactive sections fade
+3495b14417 2026-11-04T13:23:26-05:00 X2.10: rewrite the post around one throughline; the model fires beside the map; draft until r6's rows are in; reader and editor reviews
+be26a073e3 2026-11-04T13:02:14-05:00 X2.10: r6 run scripts
+c6cfcf8add 2026-11-04T13:01:33-05:00 X2.10: register r6 before it runs: a closed stop blocks, routes go around (Theo)
+e81a885dea 2026-11-04T12:39:57-05:00 X2.10: the model drawn on the stage before the map; the map zooms out of memory; closed stops read as skipped; article screenshots
+ccbebd6e18 2026-11-04T12:17:40-05:00 X2.10: the opening fits one pane and the map comes first; parts, diagram and technical box follow the story (Theo)
+f3fa58fed5 2026-11-04T12:03:41-05:00 X2.10: round 13 live review fixes on the deployed site; Z2 on r5 recorded
+fc29dda4c1 2026-11-04T11:03:34-05:00 X2.10: the no-route demo passes whole on the real weights; page, README and checker updated; launch posts
+8343a2e252 2026-11-04T10:30:21-05:00 X2.10 release: draft launch posts for Theo
+97258558c1 2026-11-04T10:28:50-05:00 X2.10: PATH and status for launch day
+a076d0fab7 2026-11-04T10:28:29-05:00 X2.10: round 12 final audit's fixes: draft line, share image path, run steps, bundle, wording; r5's score
+15881d06e0 2026-11-04T10:21:06-05:00 X2.10: disclose the map file's one-way gap
+237ca5a87d 2026-11-04T10:19:52-05:00 X2.10: T line scene rebuilt on the no-route demo; r5's numbers; run instructions
+3c18876051 2026-11-04T10:18:07-05:00 X2.10: Z3b passes, 3 of 3; runner works from a clean folder; Z3c registered
+c48ce3be08 2026-11-04T10:12:52-05:00 X2.10: round 11 reviews; Z3's revision for time; r2 beside the critic's attack
+f276052329 2026-11-04T09:11:21-05:00 X2.10 release: the name is Graph Qwenputer, a graph computer inside a language model; repos renamed
+a815b20e85 2026-11-04T09:04:08-05:00 X2.10 release: lead with exact graph memory, Theo's choice
+cbddf9cefb 2026-11-04T09:02:22-05:00 X2.10 release: README and model card lead with the graph substrate; the subway is the worked example
+53c0288eb4 2026-11-04T09:00:53-05:00 X2.10 release: model card
+62fc5cfd0e 2026-11-04T08:53:16-05:00 X2.10: Z3 redrawn with unique names before any row
+e72ed4a15a 2026-11-04T08:52:37-05:00 X2.10: Z3 redrawn with unique names before any row; MIT licence
+e0cf78b6d8 2026-11-04T08:51:34-05:00 X2.10 r5: edited stops read their edges once; cost rows; register Z3 before it runs
+51238d54dd 2026-11-04T08:48:33-05:00 X2.10 exam: register r5, Theo's go-ahead, before building it
+c4e69e8cb5 2026-11-04T08:45:53-05:00 X2.10: checker follows the post's cost text; bundle leaves out r4's exam rows until scored
+8dcf7d5521 2026-11-04T08:45:29-05:00 X2.10: r4's results in the post, README and checker
+5b41edde79 2026-11-04T08:44:58-05:00 X2.10 exam: r4 passes its equality and real-weights bars; register Z1 and Z2 before they run
+d5206504d6 2026-11-04T08:11:19-05:00 X2.10 r4: routes keep the tight loop after writes; cost rows; tests switched from r3 to r4
+139cc9b554 2026-11-04T08:08:00-05:00 X2.10 exam: r3's cost result; register r4 as its one revision before building it
+394c1a1114 2026-11-04T08:06:17-05:00 X2.10 r3: firmware fix for the path cost as a separate build; N2 stopped by Theo; W's result; register r3's real-weights check
+5e72a4b3ce 2026-11-04T07:49:20-05:00 X2.10 exam: register r3, the path cost fix, before building it
+6ddf59093d 2026-11-04T07:29:45-05:00 X2.10 exam: Y3 passes; register Y4 before it runs
+6011670fde 2026-11-04T06:54:31-05:00 X2.10 exam: Y2's result, its generated half is vacuous; register Y3 before it runs
+76b85c73ea 2026-11-04T06:02:41-05:00 X2.10: round 10 reviews and their corrections; path cost, journeys reply score and writes evidence fixed; gaslight split and new ending in the post
+24423b0a60 2026-11-04T06:01:23-05:00 X2.10 exam: X and Y results; register Y2 before it runs
+4c108539a1 2026-11-04T05:40:55-05:00 X2.10 exam: round 10 registers X, Y and N2 before they run; U4 stopped at its partial rows
+e12126cbf8 2026-11-04T05:14:31-05:00 X2.10: real-weights query exam, longer line and recommend results; post, README and checker updated
+22dac43db4 2026-11-04T05:12:55-05:00 X2.10 exam: I passes on the real weights; register W before it runs
+eb850a3bc0 2026-11-04T04:41:36-05:00 X2.10 release: bundle the overnight rows
+5bba8b37a0 2026-11-04T04:41:13-05:00 X2.10: overnight writes-build results; a route across added stops is the new limit found; post, README and checker updated
+3c40c6234e 2026-11-04T04:18:28-05:00 X2.10 exam: register U4 before it runs
+196c1427bb 2026-11-03T21:22:13-05:00 X2.10: gaslight scored, Qwen caves when pushed; add_node cap confirmed; post and README carry both
+5589aa6a1b 2026-11-03T21:19:22-05:00 X2.10 exam: register U on the mini and V on the Mac GPU before they run; score gaslight
+5623d717b8 2026-11-03T21:14:30-05:00 X2.10 status: correct the timestamp
+fb9b5e5e3a 2026-11-03T21:14:19-05:00 X2.10 release: round 9 README review and fixes; try.py errors and validation, third-party notes, cited rows and firmware source in the bundle
+9a690bfc61 2026-11-03T21:05:01-05:00 X2.10 release: README as the technical home, a no-dependency try tool, example graph, path sanitiser; bundle covers all cited results
+34af852716 2026-11-03T21:01:15-05:00 X2.10 web: technical box shows what's from Qwenputer, what's new, and real graph calls
+a98ef39bfa 2026-11-03T20:59:11-05:00 X2.10: round 8 figure audit and fixes; zeroed and plain-loop-with-closure controls recorded
+59855b6713 2026-11-03T20:38:52-05:00 X2.10 web: fix track direction and closed-hop routes, check every figure against saved rows, add What I built, technical breakout and CTA
+e7cb40f7d6 2026-11-03T20:17:35-05:00 X2.10 web: neighbouring land on the map from the US Census county file
+6e4e1ba3b7 2026-11-03T20:11:32-05:00 X2.10: showcase trip passes on the real weights; the post's walkthrough now rides Bowling Green to east Brooklyn
+9ad6a7f8e2 2026-11-03T20:04:36-05:00 X2.10: journeys scored, 15 of 15 routes right; whole-route scene moves to the writes build's place with all 15 trips
+6731c2c3d0 2026-11-03T19:51:07-05:00 X2.10 web: round 7 reviews and fixes: honest scoring labels, named builds, station-sign deck, touching ribbons, route bullets, black water, one left edge
+3e72763344 2026-11-03T19:34:11-05:00 X2.10 web: post reordered as things happened, larger map on real shorelines with routes beside it; PATH and status catch up, L2's missed prediction recorded
+4663966e69 2026-11-03T19:32:01-05:00 X2.10 exam: register the walkthrough showcase trip, Bowling Green to Pennsylvania Av, before it runs
+e6c49f8490 2026-11-03T19:05:02-05:00 X2.10: round 6 reviews and their fixes to the post; register the plain loop with a write; zeroed moves up, L dropped
+822231ba16 2026-11-03T18:56:08-05:00 X2.10 web: the map from the MTA's real track geometry: every line side by side in official colors, Staten Island inset, hub labels, routes follow the track
+90954784a9 2026-11-03T18:50:17-05:00 X2.10 web: the map's camera follows the trip and the T line
+0c2a9d00f5 2026-11-03T18:49:22-05:00 X2.10 web: redesign: the post is one ride through the model on a pinned map, with scenes for query, machine, memory, closures, blackout and Qwen building the T; not reviewed
+8f23847133 2026-11-03T18:09:02-05:00 X2.10 exam: r2 regression on the mini
+9a06956953 2026-11-03T17:59:23-05:00 X2.10 exam: Qwen chooses when to call: routes 30/30, others 0/60, chat 0/20 then route 20/20, other cities called and refused; post section added; not reviewed
+77f4308b48 2026-11-03T17:42:33-05:00 X2.10 web: the post with every station, the graph store, Qwen building the T, the plain loop and the map read back; not reviewed
+a647bf023b 2026-11-03T17:00:03-05:00 X2.10 exam: Qwen builds a new line with new stops: 20/20 stops added, 19/20 links; map bytes read back identical after a real run
+b23f3ec39a 2026-11-03T15:57:58-05:00 X2.10 exam: register S before running: r2 regression and one-station names on the mini
+7de0c3f151 2026-11-03T15:55:23-05:00 X2.10 exam: plain loop 3 of 3: the model prints the right line from top picks alone; queue fault started the stock job early, stopped, corrected
+98a99bf2be 2026-11-03T15:54:52-05:00 X2.10 exam: register R before running: does Qwen choose when to call the machine?
+bb0d1f5627 2026-11-03T15:06:22-05:00 X2.10 r2: a shared name joined by transfers is one station: routes, closures and reopens work from Times Sq; 125 St still refuses; journeys add Times Sq, Grand Central, Atlantic Av
+e92a078f23 2026-11-03T15:02:55-05:00 X2.10 exam: shared-name closures mostly refused, one closed the wrong stop; new wordings' replies 76 strict; map on new wordings 48 of 90; edit table FULL at 256
+b766ec478a 2026-11-03T14:55:46-05:00 X2.10 exam: register Q before running: Qwen finds real journeys across New York, and reroutes around a closure
+2ed1b89f21 2026-11-03T14:50:32-05:00 X2.10 exam: limits mapped: 0 differences on every shape, 1,023-hop trip 360,976 tokens; edit-table unit void by my argument name; line search 4.15 hops against 1.30 random
+b23358a81c 2026-11-03T14:48:01-05:00 X2.10 r2: add_node firmware, a separate build; adds stops, links them, routes to them, matched on 18 direct calls; register its proofs and Qwen building a line with new stops, before running
+a262013383 2026-11-03T14:35:58-05:00 X2.10 exam: my side-by-side GPU runs tripped the memory guard, all six killed, no limit changed; one queue, one process at a time
+dcad643dde 2026-11-03T14:34:17-05:00 X2.10 exam: every station passed on the mini: 496 closures, 297,600 answers; register M, N, O before running: map out of the weights, gaslight, line search
+3a08fbf2aa 2026-11-03T14:18:19-05:00 X2.10 exam: register L before running: Qwen builds, rides, reads and removes a new T line on New York; link and unlink checked on the machine; new names and new nodes refused
+277528cdf4 2026-11-03T14:14:39-05:00 X2.10 exam: limit items built; the fit is above my prediction before any machine call
+74368d8102 2026-11-03T14:13:33-05:00 X2.10 exam: register mapping the machine's limits, before running: fit, shapes, scale, edit table
+150f050057 2026-11-03T14:08:00-05:00 X2.10 exam: K1 and K1b void: my loop stopped on an im_end the machine prints itself; register K1c with no stop tokens, before running
+b7057604cd 2026-11-03T14:04:16-05:00 X2.10 exam: the plain loop as registered stopped after 50 machine tokens, 0 of 3; the head was right on all 850 positions checked, so register one revision, K1b, before running
+aeae400c22 2026-11-03T13:59:24-05:00 X2.10 exam: bring the plain loop forward, alongside the running exams, on Theo's word
+92b6d0da27 2026-11-03T13:55:47-05:00 X2.10 web: 'in the model' isn't 'in the weights': the memory is already in the model's state; credit qwenFS's smaller driver
+7c5d55f3dc 2026-11-03T13:53:19-05:00 X2.10: Theo keeps the post's first-person voice and Claude Code credit
+ee530b1003 2026-11-03T13:51:47-05:00 X2.10: new wordings and the wrong map recorded; the post's map centered, small fixes
+3dbe58a40f 2026-11-03T13:51:29-05:00 X2.10 web: the post rewritten: a real map of New York to close, a trap game, three-way answers, the objections answered; new wordings 97 of 100, wrong map 0 of 600; not reviewed
+c9dc975fe6 2026-11-03T13:41:55-05:00 X2.10 exam: register K before running: a plain loop with no driver, chip layers zeroed, the wrong map; the driver does more than the post said
+44ebd344c8 2026-11-03T13:21:54-05:00 X2.10 web: the launch post, first draft: plain explanation, four diagrams, and the same 100 questions four ways; not reviewed
+2924948712 2026-11-03T13:18:04-05:00 X2.10 exam: register tonight's runs before running: new wordings on New York, shared-name closures, the query exam on the real weights, more on the mini
+857be47c7a 2026-11-03T12:54:32-05:00 X2.10 web: the Bowling Green transcript is the first sitting's; r1's own nyc:198 has a different wording and misses its reopen
+25797f11de 2026-11-03T12:54:21-05:00 X2.10 exam: the whole edit exam on the real weights: 70 conversations, 795,589 positions, 0 differ, identical to the simulator's run; the page's framing: the weights hold the computer, its memory holds the map
+8438725f4c 2026-11-03T11:38:52-05:00 X2.10 exam: the mini's treats: blackout, longest trips and fuzz all right; digests match across machines; every station running
+789787de40 2026-11-03T11:10:24-05:00 X2.10 exam: the mini's deployment notes, before any score
+6c339d6527 2026-11-03T10:59:59-05:00 X2.10 exam: register for the mini, before running: every station closed, and three treats: blackout, longest trips, New York fuzz by name; clean-room walker passed
+dcc19047ed 2026-11-03T09:00:34-05:00 X2.10 exam: Qwen with the map, no machine: 54 of 100 with 36 wrong, closes 6 of 30, traps 18 of 30; not reviewed
+1b570d25b2 2026-11-03T08:37:24-05:00 X2.10: the evidence bundle by allow list, and the page's link to it; repo private for now
+39bddfbccb 2026-11-03T08:36:50-05:00 X2.10 exam: mapped.sh's finished check looked at the wrong line and idled after M1, no rows affected
+5200cb781d 2026-11-03T08:35:42-05:00 X2.10 exam: register the whole edit exam on the real weights, before running, three runs under the ceiling
+78edd6bbc3 2026-11-03T08:19:49-05:00 X2.10: Theo's decisions: the revision stands, link everything but the model, hold sealed New York
+3fbd45da4f 2026-11-03T07:58:24-05:00 X2.10 exam: register Qwen with the map in its prompt, before running, on the 100 two-leg questions and E1's closes and traps
+4a513b735a 2026-11-03T07:57:15-05:00 X2.10: round 5 reviews and their corrections: the 300 can't test the fix, a tool ties the machine, the demo checked on the machine and its name refusals stated
+b2f510858d 2026-11-03T07:34:43-05:00 X2.10 exam: round 4's runs: New York's unasked 300 at 300, Qwen alone 10 of 600, stop lines 1 of 11, stock on E1's path 337,526 positions 0 differ; two predictions missed; not reviewed
+c8b5c11ec2 2026-11-03T04:31:02-05:00 X2.10 web: draft page rewritten from round 4: New York's numbers with their limits, a real trip in the demo, marked as not the model, Qwen's edit and a wrong close
+d9c4e4c5dc 2026-11-03T04:29:35-05:00 X2.10 exam: round 4's corrections to PATH and status: simulator on a sample, the new 100 not 300, false closes like for like, token misses, E1's limits
+6f212be77b 2026-11-03T04:27:51-05:00 X2.10 exam: register the runs round 4 asked for, before any runs: New York's 300 unasked questions, Qwen alone, stop lines, a stock window on E1's path
+b03157555f 2026-11-03T04:25:27-05:00 X2.10 exam: round 4 reviews, critic and steel-man, on frozen New York and r1
+d2b025bddc 2026-11-03T04:11:26-05:00 X2.10 exam: revision r1 on New York: D1m 300 of 300, D1r strict 225, E1 closes 40/40, reopens 33/40, false closes 14/30 with 5 silent; adoption reading met; not blind, not reviewed
+907a2fd48d 2026-11-03T02:16:55-05:00 X2.10 exam: r1 stock job's start pattern was greedy and would have missed the rule; stopped before any Qwen exam, fixed and made to fail on that
+920c2e7239 2026-11-03T02:15:34-05:00 X2.10 exam: r1 freeze entry for R1.md after the added section; frozen text checked as an exact prefix
+c14049ae77 2026-11-03T02:15:14-05:00 X2.10 exam: r1 proofs clean and machine exams passed; my M1 check could never pass, repaired on the record before any Qwen run
+66c242b44b 2026-11-03T01:48:15-05:00 X2.10 exam: New York's stock window on the frozen build: 335,703 positions, 0 differ, flips 8 of 8; 26 gates and 344 channels left uncompared
+dd5f4e96d9 2026-11-02T23:49:54-05:00 X2.10 exam: r1 pre-run critic's five blockers fixed: stock job, proof stops, freeze, an adoption reading, the safety cost predicted; names check on New York's real labels
+4ed129d292 2026-11-02T23:38:05-05:00 X2.10 exam: register revision r1 before any r1 run on New York: a shared start name narrowed by the first leg's line, predictions, budgets
+4d5d0f80b7 2026-11-02T23:38:03-05:00 X2.10 exam: New York frozen results. Machine 500/500 and every closure right; Qwen 147 of 200, 0 wrong, 53 refusals on shared names
+ee803a1f18 2026-11-02T21:11:44-05:00 X2.10 exam: FROZEN. New York opens after this commit
+483315f149 2026-11-02T21:11:43-05:00 X2.10 exam: the freeze review's four blockers and its notes fixed; D1m 100 file plus 100 seeded; hashes for every frozen file
+93099539f8 2026-11-02T20:58:53-05:00 X2.10 path: redraft not adopted, closures on writes.elf, Fast New York registered; exam order script
+0b226a1d77 2026-11-02T20:58:26-05:00 X2.10 exam: register Fast New York, decisions, predictions, budgets, before opening it; rehearsed on c024 only. Also writes.elf reference checks: closures 7,475/4,572/12,857, labels 122,165, 0 mismatches
+3cb1372a7b 2026-11-02T20:43:24-05:00 X2.10 t8: the worked-turn redraft isn't adopted, rule 5, 24 closes against 26; false closes on fresh traps 11 of 30 base (development, forced fast, not reviewed)
+2cbab690af 2026-11-02T20:40:55-05:00 X2.10 t8: closures harness finds d/graphs and refuses a short count; the first run stopped at 69 of 159 units
+8c3de6d6a8 2026-11-02T20:35:10-05:00 X2.10 t8: the variant scorer reads pass-to-Qwen rows by the machine's line
+03235f1dc1 2026-11-02T20:34:59-05:00 X2.10: round 3's findings in the path; whole-table check on writes.elf's tables, 491,248 numbers, 0 problems
+e410271331 2026-11-02T20:33:30-05:00 X2.10 t8: closures harness runs normal tokens; c.sh runs it after labels and fuzz
+e0a9c589af 2026-11-02T20:32:52-05:00 X2.10 t8: register the critic's second blocker on writes.elf, before running
+3a28fe521d 2026-11-02T20:31:55-05:00 X2.10 t8: register the worked-turn redraft and the stock window, before running
+697a17be7c 2026-11-02T20:31:14-05:00 X2.10: round 3 reviews, critic and steel-man; counts hold, freeze blocked on four items
+46772d6ee1 2026-11-02T20:17:28-05:00 X2.10 path: the edit-capable build's own results, 100 and 84 print, 100 and 83 pass to Qwen; what's open before the freeze (development, not reviewed)
+fd633a6fd2 2026-11-02T20:15:59-05:00 X2.10 t8: W1's run script
+4f73bb61c1 2026-11-02T20:15:54-05:00 X2.10 t8: the build's ELFs, logs and summaries for tomorrow's reviews
+e4b91354bb 2026-11-02T20:15:45-05:00 X2.10 t8: the freeze on writes.elf: proofs 40 of 40, chain 100 and 84 print, 100 and 83 pass to Qwen; worked turns +18 -14 on hard; coverage findings (development, not reviewed)
+be10b1cd8b 2026-11-02T18:52:05-05:00 X2.10 t8: register the freeze on writes.elf: proofs, the chain, worked turns on ordinary questions, coverage, before running
+22ad87beec 2026-11-02T18:48:07-05:00 X2.10: Theo makes the edit-capable build the standard; it carries the exams
+2432aabd5b 2026-11-02T18:31:57-05:00 X2.10 path: Qwen's edit on the real weights, 40,495 positions equal, state changes and returns
+abfcae07bd 2026-11-02T18:31:40-05:00 X2.10 t8: W3: Qwen's edit in lockstep on the real weights, 40,495 positions, state returns; demo transcripts
+abb6cd3a5d 2026-11-02T18:20:44-05:00 X2.10 path: Qwen works out edits on the machine, 40 of 40 closes, 39 of 40 reopens, state returned; 4 of 20 false on traps
+38bfb4cbe2 2026-11-02T18:20:07-05:00 X2.10 t8: Qwen works out the edit on the machine: 40 of 40 closes, 39 of 40 reopens, state returns word for word, 4 of 20 false closes (executor, development, not reviewed)
+ffe4573956 2026-11-02T17:44:10-05:00 X2.10 t8: W1 harness: a TOOLONG call must not change reflib's state, before rerunning
+c168c3fda8 2026-11-02T17:43:38-05:00 X2.10 t8: W3's pick by rule and the run order, before running
+01e214309c 2026-11-02T17:43:32-05:00 X2.10 path: final build, whole chain in print mode, 98 of 100 easy, 77 of 100 hard
+9c63b3fc5c 2026-11-02T17:43:10-05:00 X2.10 t8: chase with closed and reopened in SPEC 3, reflib and a new ELF; register W, Qwen works out the edit on the machine, before running
+b6b7426ae6 2026-11-02T17:34:33-05:00 X2.10 infer: Qwen works out edits, 30 of 30 right closes on fresh wordings, 3 of 20 false on hard traps; base Qwen, no machine yet
+7fec612af4 2026-11-02T17:23:03-05:00 X2.10 infer: closed field with three worked turns, 29 of 30 right closes, 15 of 15 on unnamed wordings, 0 false; register a fresh test
+d2027d45e4 2026-11-02T17:14:35-05:00 X2.10 infer: widened field 10 of 15 named, 4 of 15 unnamed, 0 false; register worked examples, before running
+4ef62bc86e 2026-11-02T17:08:05-05:00 X2.10 infer: the closed field reads the word, 4 of 15 on new wordings, 0 false of 10; register one revision
+edab0794d0 2026-11-02T17:02:43-05:00 X2.10 infer: a closed field on the tool, 20 of 20 right closes, 0 false; register stage 2 on new wordings and distractors, before running
+3ae2fa6ec9 2026-11-02T17:02:07-05:00 X2.10 status: speedup list tidied
+f67abfb2b7 2026-11-02T17:02:01-05:00 X2.10 path: fast runner proven on the final build in both modes, 32 of 32, about 2x
+e3e4a74042 2026-11-02T17:01:35-05:00 X2.10 speed: proof run metadata and stock samples
+8784d87eae 2026-11-02T17:01:28-05:00 X2.10 speed: README, read-one speed
+ce908e67b1 2026-11-02T17:01:21-05:00 X2.10 speed: read-one proved on t8's final firmware, 32 of 32 same; README proof table
+1fb8b3aaff 2026-11-02T16:59:41-05:00 X2.10 t8: register E2, Qwen carries out a stated edit, before running
+b30116838b 2026-11-02T16:53:46-05:00 X2.10 path: controls finished; normal-token read-back, sentence right on 26 of 27 right lines
+b566407c00 2026-11-02T16:53:10-05:00 X2.10 ctrl: clean reading test (normal 85 right, 0 misread, 100 stopped; bytes 28-37 right) and a 35-question normal read-back prefix (26 of 27 right lines read back right); arms 4 and 2, vanilla not run
+86544363ec 2026-11-02T16:52:09-05:00 X2.10 infer: register six designs for Qwen working out an edit itself, before running
+e8a753b0c3 2026-11-02T16:49:36-05:00 X2.10 path: Qwen doesn't infer a close from a statement, 0 of 23; new test with a direct instruction
+b9aab8a982 2026-11-02T16:49:12-05:00 X2.10 t8: E stopped after its one revision: Qwen writes no close from the sentence
+47ed7c6e87 2026-11-02T16:39:51-05:00 X2.10 t8: E: Qwen wrote no edit unprompted on 10 conversations; register the one prompt revision and the chain's order, before running
+7faea07792 2026-11-02T16:33:05-05:00 X2.10 speed: print-one proved on t8's final firmware: 32 of 32 same, stock sample 5,669 positions 0 mismatches; S17 log
+dc25774f14 2026-11-02T16:31:02-05:00 X2.10 t8: F2 passes: 39,343 stock positions equal the executor on the final ELF; E's lockstep chosen after the executor run, recorded before it
+beab16c687 2026-11-02T16:22:36-05:00 X2.10 ctrl: a3_rbnorm's deadline cut to 1,200 s before running; vanilla check, fixed rerun and arms 4 and 2 not run, GPU cleared
+1f80d71263 2026-11-02T16:10:59-05:00 X2.10 path: normal-token work finished; the 85 output units await Theo's reading
+b0cdca4a4e 2026-11-02T16:10:25-05:00 X2.10 tok: T5 A stopped on the lead's order at 2 of 4 jobs: 40,855 positions bit-equal, 0 head mismatches; T9 not run, pieces out of this build
+cc86a2eba0 2026-11-02T16:08:42-05:00 X2.10 t8: register step E, Qwen writes close and reopen with state read back from the heads, before running
+87e1ae3adf 2026-11-02T16:07:09-05:00 X2.10 speed: registration S18, fast-runner proofs on t8's final firmware, before running; P1 stopped at 38 of 38 same
+70b860e5e5 2026-11-02T16:06:03-05:00 X2.10 path: final build locked on reference checks; real-weight check, fast-runner proof and chain to come
+64e18363c5 2026-11-02T16:05:25-05:00 X2.10 t8: F1 passes on the final ELF, 0 mismatches beyond fw's known 80; exact costs recorded (development, not reviewed)
+b4d5fbaafd 2026-11-02T15:58:45-05:00 X2.10: Wednesday's edit item is Qwen making the edit with internal state shown; weight-editing comparison after launch
+13c88ddcc1 2026-11-02T15:46:42-05:00 X2.10 speed: P2 and P3 proofs on the normal-token firmware; runner read-one preset and cleaner words
+e0747ac5ac 2026-11-02T15:43:20-05:00 X2.10 path: landing page goes on an outofcontext.io subdomain instead
+acc5e449d0 2026-11-02T15:43:08-05:00 X2.10 path: landing page goes on a hopski.co subdomain
+4ab2c1ccf3 2026-11-02T15:40:43-05:00 X2.10 web: first draft of the subway-themed landing page, local only
+19cf860bef 2026-11-02T15:38:59-05:00 X2.10 tok: T8, the piece table in firmware: 0 byte mismatches on 51,762 checks; register T9, does it bring the 7 back, before running
+d18dbc9912 2026-11-02T15:36:24-05:00 X2.10 tok: T8 hit its limit at job 416 of 476 with no bad check; register T8b, the jobs left, before running
+3b3ee5cae5 2026-11-02T15:32:15-05:00 X2.10 t8: F1 awkward: the no-field setting compares through reword; remaining checks rerun
+13931aa39f 2026-11-02T15:26:06-05:00 X2.10 t8: register F2 (executor, stock, coverage) and F3 (the chain, both modes), before running
+3cda9abc46 2026-11-02T15:25:51-05:00 X2.10 tok: T7, every saved city NONE line equals the tokenizer through a piece table of the graph's own names; register T8, the table in firmware, before running
+dc8d0107c1 2026-11-02T15:24:35-05:00 X2.10 t8: final build: limit-line words in SPEC 3, reflib and firmware on the cleaner; register F1, before running
+a3b9fa26dd 2026-11-02T15:23:54-05:00 X2.10 tok: register T7, refused names through a piece table from the graph's own names, by tokenizer alone, before running
+75f28322fe 2026-11-02T15:13:39-05:00 X2.10: Theo approves the reworded limit lines for the final build
+49b441b214 2026-11-02T15:12:02-05:00 X2.10 lines: rewording limit lines, 60 of 60 replies say the walk stopped; two arms unrun at the deadline
+af1aab81d1 2026-11-02T15:11:26-05:00 X2.10 path: Qwen reads the normal-token machine, 35 of 49 against 19 in bytes and 41 for the host
+bb60a1edce 2026-11-02T15:11:14-05:00 X2.10 tok: T6, Qwen reads the machine on the 50 host questions: 35/49 against 19 in bytes and 41 for the host; all 7 lost are NONE lines still spelled in bytes
+f4b27798ed 2026-11-02T14:59:29-05:00 X2.10 path: target publishing by 4 Nov, fast New York with the machine paper as fallback
+4aa7447c90 2026-11-02T14:57:46-05:00 X2.10 path: checklist of speedups to lock before the freeze
+21177543ad 2026-11-02T14:56:12-05:00 X2.10 speed: S15 result; fast.py clean-firmware support; prove.py
+240a8b33ba 2026-11-02T14:55:53-05:00 X2.10 t8: cleaner moved after main so exact calls cost exactly what they did; rerun all of C1 on the new ELF, registered first
+326b68ea51 2026-11-02T14:54:03-05:00 X2.10 status: timing redone from remaining work, options for 4 Nov added
+5283de431d 2026-11-02T14:49:00-05:00 X2.10 t8: count: compare answers without the wrapping, so calls are classed right, before rerunning
+5e91bcff53 2026-11-02T14:46:20-05:00 X2.10 path: closure gaps closed on the executor, 0 divergences on 40,172 calls; reopen restores durable state
+18310c68f0 2026-11-02T14:45:45-05:00 X2.10 edits2: executor on 159 units, path, cheapest and 3-4-leg chase, overlapping closures: affected 7,475/7,475, unaffected 4,572/4,572, restored 12,857/12,857; reference digests on all 40,172 calls, 0 differ; 393 new gates against the stock baseline. Development, not reviewed
+ad477efc7d 2026-11-02T14:44:46-05:00 X2.10 status: correct the page's timestamp
+4ced32b790 2026-11-02T14:44:37-05:00 X2.10 status: live climb page, mountain, five levels, go-live timing; kept with PATH.md
+21aa51998a 2026-11-02T14:42:06-05:00 X2.10 t8: awkward: machine equals reflib on 5,106; one hand answer corrected to SPEC, before rerunning
+b2bf95a2d3 2026-11-02T14:40:26-05:00 X2.10 lines: register rewording of limit lines, five arms on 60 fresh questions, before running
+1a6b22e7bb 2026-11-02T14:39:53-05:00 X2.10 t8: harness: the tokenizer reaches boot in test_clean's workers too, before rerunning
+224ed5d581 2026-11-02T14:38:32-05:00 X2.10 t8: C1 revision: two faults in my test harness, a budget slip recorded, new budgets from the measured rate, before rerunning
+5881544d1c 2026-11-02T14:36:07-05:00 X2.10 ctrl: arm 3 results: equal tools, lines tie (73 against 77 and 82 on the 100, 36 against 36 on the 49), Qwen's own sentence right on 23 and 13 of 49
+8ede3bf752 2026-11-02T14:35:07-05:00 X2.10 ctrl: queue changes after the reading test: drop four byte arms, SSD weights for arm 2, slow path stated, before they run
+0ee4c564ee 2026-11-02T14:34:59-05:00 X2.10 path: clean reading test, normal tokens 85 right and 0 misread against 28-37 for byte echo; limit lines become plain answers
+1bf873ea13 2026-11-02T14:15:38-05:00 X2.10 speed: fast.py, the standard runner; registration S17, proofs per firmware and flow, before running; limit stop against the retry note, from saved records
+49ac37a9a4 2026-11-02T14:15:24-05:00 X2.10 t8: strict cleaner in SPEC 4, reflib, the builder rule and a firmware patch on tok's generator; register the reference-machine checks, before running them
+ed61103a92 2026-11-02T14:12:03-05:00 X2.10 speed: hold lifted; S15 revision: blocks and slow arm on the SSD, before running
+962aa16681 2026-11-02T14:10:02-05:00 X2.10 path: new runs move to one standard fast runner once token equality is shown
+d765b77c65 2026-11-02T14:06:34-05:00 X2.10: Theo picks the strict cleaner for the start name, build it in
+d904cbd0f1 2026-11-02T14:05:56-05:00 X2.10 tok: T5 B, whole questions on stock and executor in lockstep: 15,451 positions, 0 differ; all 5 correct and ended by Qwen's own im_end; 3 of 5 identical to the host's transcript
+7ef89ededf 2026-11-02T14:03:02-05:00 X2.10 path: five start-name fixes tried, strict cleaner recommended, Theo picks
+92caba9413 2026-11-02T14:02:52-05:00 X2.10 path: query-writing work paused at arm 1 for GPU priority; first reads
+a687b2b945 2026-11-02T14:02:25-05:00 X2.10 qw2: correct two loud counts in the agreement rows
+67c4bd76a4 2026-11-02T14:02:21-05:00 X2.10 t8: five start-name fixes side by side: strict cleaner 200/200 easy, 166/200 hard, no made-up name answered; guided typing can't go in today's weights (development, not reviewed)
+959f9b0da1 2026-11-02T14:02:19-05:00 X2.10 qw2: text b on sel500 and arm 3 from saved rows, 481 of 500 on the flattering sample with Cypher on any error line; further GPU runs held at the coordinator's request (practice data, not reviewed)
+b32b488fc2 2026-11-02T14:01:43-05:00 X2.10 qw2: register arms 2 and 3 before they run; arm 1's correction
+1c5e360075 2026-11-02T14:01:07-05:00 X2.10 path: speed work, Qwen gates from 86.8 to about 20 GPU hours with the same tokens; C path on the checkpoint's tensors
+c8786dc95d 2026-11-02T14:00:21-05:00 X2.10 speed: hold per the lead; S15 smoke result, fast arm stopped; Phase D arithmetic 86.8 to 20.0 hours (shared GPU, development, not reviewed)
+87138ff764 2026-11-02T13:49:15-05:00 X2.10 speed: registration S16, stock chip layers in batch, before running
+b2dfb335bc 2026-11-02T13:45:14-05:00 X2.10 tok: register T5 (executor against the new weights, whole questions) and T6 (Qwen reads the machine on the 50 host questions), before running
+c7b15849e9 2026-11-02T13:45:13-05:00 X2.10 tok: T4, merged checkpoint on the SSD, 22 s at 31.11 GiB after two memguard kills; Qwen's 424 tensors bit-identical, chip side matches tok's IR, 0 new differences
+e41dfbfcda 2026-11-02T13:40:21-05:00 X2.10 speed: S14 result; block-only runner code for S15
+6417f60b82 2026-11-02T13:39:03-05:00 X2.10 tok: T3, exit-only circuit: 85 new units, no new head or layer; IR 0 wrong on 48,924 positions; engine 0 wrong on 2.5M chip tokens against the reference
+c9d0f606f7 2026-11-02T13:35:10-05:00 X2.10 speed: S13 result; registrations S14, S15, before running
+ca588b46b9 2026-11-02T13:30:47-05:00 X2.10 edits2: the token surprise traced: call order, merged-word stores, durable state identical on 159 units, taint 0 on 40,172 calls, scrub 29,423 right. Reference machine; development, not reviewed
+7845252b04 2026-11-02T13:22:11-05:00 X2.10 speed: S12 result; registration S13, ballast memo in wexec, before running
+ea547befe0 2026-11-02T13:21:34-05:00 X2.10 tok: T2, the new firmware on the reference machine: 0 byte mismatches on all parts, tokens equal the real tokenizer except echoed arguments and names ending in whitespace
+f8401d15c6 2026-11-02T13:18:28-05:00 X2.10 speed: S8 finding (shared prefix changes output), S11 rows and head; registration S12 (committed late, recorded in the entry)
+ac1ca0d6a7 2026-11-02T13:14:45-05:00 X2.10 ctrl: register arm 3c, the clean reading test, forced canonical call and the true line in each delivery, before running
+7bf1ad3717 2026-11-02T13:13:00-05:00 X2.10 ctrl: stream audit and register arm 3b, read-back on the 100 by delivery and told, and a vanilla generate check, before running
+6ce4fd9d95 2026-11-02T13:12:03-05:00 X2.10 path: read-back audit; byte spelling looks like the main cost, the 13 of 100 was mostly a prompt effect
+964b2fc909 2026-11-02T13:05:24-05:00 X2.10 tok: register T3 (IR and executor) and T4 (merged checkpoint), before running
+469ae376cc 2026-11-02T13:01:01-05:00 X2.10 tok: choose the build (exit widened, labels as boot tokens) and register T2, reference machine, before running
+cc0b2f6008 2026-11-02T12:59:42-05:00 X2.10 tok: T1 and T1b by tokenizer alone: stored tokens equal the real tokenizer on 357,616 lines with no echoed argument; bytes exact on all; echoed arguments are the gap
+1756e29a84 2026-11-02T12:58:41-05:00 X2.10 tok: register T1b, awkward names by tokenizer alone, before running
+00db48b949 2026-11-02T12:57:08-05:00 X2.10 tok: register T1, exactness of stored tokens by tokenizer alone
+cd0d9bafae 2026-11-02T12:55:41-05:00 X2.10 qw2: arm 1 on the 1,000, tool fields with the note retry 906 words against compact's 901, 42 believable wrong answers against 56; full stops did not go away (practice data, not reviewed)
+070a57040d 2026-11-02T12:47:21-05:00 X2.10 path: pass-to-Qwen first read, misconfiguration check and normal-token printing next; weights move to the SSD
+1c63138021 2026-11-02T12:36:36-05:00 X2.10 speed: S7, S9, S10 results; registration S11 (more rows, one head), before running
+d26048268f 2026-11-02T12:27:02-05:00 X2.10 edits2: trace budgets and boot constants, before the full taint and scrub runs
+ee3df2f550 2026-11-02T12:15:15-05:00 X2.10 edits2: executor budget, 11,900 s, from the reference run's exact tokens and the pilot's rate, before the executor run
+1127bed3c8 2026-11-02T12:15:13-05:00 X2.10 edits2: reference machine on all 159 units, 0 divergences on 40,172 calls; executor pilot rate; state read-back. Development, not reviewed
+beb7b7e997 2026-11-02T12:05:01-05:00 X2.10 speed: registrations S9 and S10: whole questions on wexec, blocking and non-blocking GPU copies, before running
+ef3075fb5e 2026-11-02T12:01:46-05:00 X2.10 edits2: severed units and the networkx order fix, before any machine run
+f34d5ce4c0 2026-11-02T11:58:02-05:00 X2.10 edits2: registration, independent reference and runners for the headline's gaps, before any machine run
+1a42a2b905 2026-11-02T11:54:51-05:00 X2.10 speed: S4 result: batched chain3 replay gives the same tokens on 98 of 98, 3.7x on a shared GPU
+2a1cb7b82c 2026-11-02T11:48:08-05:00 X2.10 qw2: register arm 1's second text, the example written as the real call, before running; first read of sel500
+f1e82f7b28 2026-11-02T11:41:38-05:00 X2.10 path: widened edit check, all right on 26 more cities and 5 multi-edge graphs; second firmware pass exact
+90e4067311 2026-11-02T11:41:20-05:00 X2.10 d: PLAN.md, correct the closure count to 350
+06f6d6076f 2026-11-02T11:41:13-05:00 X2.10 d: widened edit check 94,412 calls, every affected, unaffected and restored answer right, 0 divergences; fw second pass agrees, 2x under closure; plan updated. Development, these results not reviewed
+172c75962a 2026-11-02T11:39:57-05:00 X2.10 speed: results S0-S5: where text time goes, bit-equal blocks and engine prefill, row-wise wide mean, chip layers from the checkpoint at 1,000/s bit-equal on 276,899 positions (shared GPU, development)
+a730c55cea 2026-11-02T11:39:34-05:00 X2.10 path: mini reachable again, its chain finished at 09:59
+fe149241a9 2026-11-02T11:22:41-05:00 X2.10 speed: registrations S6-S8: row-wise wide mean, flow changes on the batched path, shared prefill prefix, before running
+f91bd829a1 2026-11-02T11:14:48-05:00 X2.10 speed: registration S5, reductions by batch shape, before running
+b8ff498e1d 2026-11-02T11:07:59-05:00 X2.10 t8: register chain4's fixed note as a named comparison arm on both panels, before running it
+0516b59719 2026-11-02T10:57:12-05:00 X2.10 path: retry note plus prefill, 94 of 100 on fresh dev questions, 0 wrong lines
+8610d6f6dd 2026-11-02T10:56:53-05:00 X2.10 t8: registration of five start-name fixes, panels and budgets, before running
+3cdc204531 2026-11-02T10:56:47-05:00 X2.10 rvc: prefill and note together on 100 fresh dev chases: 94 correct, 73 first-attempt, 0 silent, 6 loud; Qwen's own text misreads 54% of right lines (development, not reviewed)
+a8f6a485a3 2026-11-02T10:56:19-05:00 X2.10 speed: registration S4, batched chain3 replay against saved tokens, before running
+1ed9f36169 2026-11-02T10:50:20-05:00 X2.10 speed: registration S3, batch bit differences and head fix, before running
+2b5b32cc36 2026-11-02T10:32:01-05:00 X2.10 qw2: registration of the choosing rule and arm 1, real tool fields, with runner and draws, before running
+0ecb36e4d2 2026-11-02T10:30:45-05:00 X2.10 speed: registration S2, chip layers from the checkpoint's tensors against stock traces, before running
+27dfef9721 2026-11-02T10:24:15-05:00 X2.10 path: T8 becomes a side-by-side test of five fixes, Theo's request
+03b80aa54c 2026-11-02T10:20:06-05:00 X2.10 speed: registration S1, text-step profile and bit-preserving cuts, before running
+3dda2510d6 2026-11-02T10:16:08-05:00 X2.10 speed: registration S0, kernel bit-equality on real weights, before running
+77c259fd16 2026-11-02T10:12:32-05:00 X2.10 path: query-writing improvements on practice data started, Theo's go-ahead
+908b077e79 2026-11-02T10:09:24-05:00 X2.10: Theo's answers on T2-T7; CLUTRR replaced by varied challenges after NYC; speed work next; name rule recount on the sealed pool
+bc90d28f6a 2026-11-02T09:58:55-05:00 X2.10 rvc: registration and budget of the fresh 100-question retry draw, before running
+268b1b26c1 2026-11-02T09:58:54-05:00 X2.10 rvc: retry arms on chain3's 27 wrong first lines: prefill and note together rescue 19, either alone 0-3, 0 silent (development, not reviewed)
+0648279e7a 2026-11-02T09:53:44-05:00 X2.10 ctrl: register arm 2, compact under system_b on the chain's 70 city questions, before running
+fe1ede946e 2026-11-02T09:53:02-05:00 X2.10 ctrl: register arm 4, name reading on 200 fresh dev-city chases as an overlay, with its draw, before running
+6346405ede 2026-11-02T09:52:27-05:00 X2.10 ctrl: arm 1 results, same-flow host on chain3's 100: told 82, untold 79, chain3 77; 0 silent, 0 limit, all misses ' station'
+dc7b528f93 2026-11-02T09:35:04-05:00 X2.10: Theo's answer on T1, answer mode is a setting, pass to Qwen by default, print as the option
+b2e76b2ae2 2026-11-02T09:26:28-05:00 X2.10 path: d/PLAN.md ready for Theo; mini unreachable since the Mac's network moved
+e37fb655f3 2026-11-02T09:26:15-05:00 X2.10 d: PLAN.md finished from round 2's reviews for Theo: T1-T8, four-outcome report, executor conditions, stock samples in answers, 86.8 GPU hours. Draft, nothing run for it
+43b8bce921 2026-11-02T09:23:31-05:00 X2.10 QW: reasoning by default on 100, 77 against 90 without; no gain on the 80 that finished. Path: mini unreachable
+80a593bd0b 2026-11-02T09:07:32-05:00 X2.10 ctrl: register arm 3, one-tool read-back against one-tool printout, before running
+3080cf75ad 2026-11-02T09:00:51-05:00 X2.10 d: registration and budgets for the fw second pass, before it runs
+a99d4301e3 2026-11-02T08:37:48-05:00 X2.10 path: executor tables and chip weights match the IR; 250 reserved token ids differ, Theo's call
+7bc0c89be9 2026-11-02T08:37:17-05:00 X2.10 exec: whole-table check, weight check and coverage difference. Tables equal the IR on 490,468 numbers; chip layers equal the IR on 1,044,349 nonzeros; 250 reserved-token embedding rows differ from the engine's features, for the lead
+21cd158342 2026-11-02T08:20:04-05:00 X2.10 exec: revision to the table check after its first run missed one of 1,030, before rerunning
+047141d471 2026-11-02T08:08:24-05:00 X2.10 exec: register the whole-table check and the coverage difference before running
+508d5f38eb 2026-11-02T08:05:53-05:00 X2.10 ctrl: runner, classes and registration of arm 1, the same-flow host on chain3's 100, before running
+5a518aa279 2026-11-02T08:00:05-05:00 X2.10 path: round 2 reviewed, the reviews' wording applied; decisions listed; raw evidence hashes
+05bb4a76ad 2026-11-02T07:58:52-05:00 X2.10 reviews: round 2 critical and steel-man; rvc retry arm registration as it stood while step 1 runs
+9a7c5276ce 2026-11-02T07:43:05-05:00 X2.10 path: told-only chain 77/100 on new dev questions, 0 silent; D4m dev on the executor
+6abeeb6d05 2026-11-02T07:42:00-05:00 X2.10 rvc: DEVLOG, how the prose failures end
+0b3181adfb 2026-11-02T07:41:48-05:00 X2.10 rvc: told-only chain on 100 new dev chase questions on fw firmware: 77 correct, 0 silent, 23 loud, 0 lock errors
+f7e8e64e61 2026-11-02T07:33:39-05:00 X2.10 d: D4m dev on the executor, 37,357 calls, 0 divergences, 0 differ from the reference; stock spot check 29,851 owned positions, 0 differ, an answer after reopen reached. Development, not reviewed
+d0805e7128 2026-11-02T06:22:54-05:00 X2.10 path: new firmware exact against stock on 274,110 machine tokens
+7526920125 2026-11-02T06:22:42-05:00 X2.10 exec: firmware e908647b exact on 276,899 positions against stock on MPS; coverage; what was not run
+143ce4f3a6 2026-11-02T06:22:34-05:00 X2.10 QW: reasoning pilot, median about 1,400 tokens, 17/25 against 23/25 without; larger descriptive run follows
+441953d80d 2026-11-02T05:44:19-05:00 X2.10 QW sealed test: 88.55% against the 90% bar, a miss; same text averages 88.0% across two blind pools
+686bd46707 2026-11-02T05:40:39-05:00 X2.10 d: rung 5 prep, D4m dev on the reference machine: 104,220 calls, 0 divergences, r097 outside DROM; budgets for the executor and edit runs; plan draft. Development, not reviewed
+ec49a4e962 2026-11-02T05:19:11-05:00 X2.10 exec: new firmware exact on 146,899 positions; c024 free decoding through stock; tokens per call and speed
+9fa5c6ec70 2026-11-02T04:41:20-05:00 X2.10 exec: new firmware against stock, windows deep in the hub, lag control and a bug fixed in the window tool
+4608e0cc15 2026-11-02T04:37:54-05:00 X2.10 path: told alone 14/17 at one call each on the merged chain; handle rule wording hurt
+9b5b1bac30 2026-11-02T04:37:43-05:00 X2.10 rvc: arms separate the two changes: told only 14/17 with no retries needed, rule only 9/17; the rule's description raises first-line errors
+bdd59f66fe 2026-11-02T04:33:44-05:00 X2.10 path: dev headline run holds on c024 and c025
+92386fed2d 2026-11-02T04:33:25-05:00 X2.10 edits: fw firmware pass, reopen reached on stock, D2m estimate, what was not run. Development, not reviewed
+444a1fbeb0 2026-11-02T04:11:02-05:00 X2.10 QW: gql different 455, compact stands; T check 1 lost, 1 rescued; opening pool 3
+714a13e337 2026-11-02T04:01:09-05:00 X2.10 QW: pre-open critic review, deviation flagged, sealed run script and reading fixed before opening
+2011f20802 2026-11-02T03:58:17-05:00 X2.10 edits: accepted firmware on c024 and c025, 0 divergences, restored 24,000 of 24,000; stock spot check 22,816 owned positions, 0 differ, reopen not reached on stock; negative controls; weight-edit plan draft. Development, not reviewed
+11fe17f511 2026-11-02T03:50:58-05:00 X2.10 QW selection: compact with a different-query retry wins by the registered rule; cypher within a point; reasoning arms not reached
+7ec8ca80b8 2026-11-02T03:27:04-05:00 X2.10 path: told plus handle rule went backwards on the merged chain, 9/17; separating them
+bccf2f7ce7 2026-11-02T03:26:49-05:00 X2.10 rvc: follow-up chain with told sentence and runner handle rule, 9/17: retries stop calling; rule met no invented handle
+946fcdf22f 2026-11-02T03:01:07-05:00 X2.10 path: one query tool results on dev questions
+b299620973 2026-11-02T03:00:47-05:00 X2.10 Q1: corrected miss counts in the log, run logs added
+da07d55437 2026-11-02T03:00:11-05:00 X2.10 Q1: one query tool on the 50: command 37/49, Cypher 38/49, fields 35/49, against 20/49 with ten tools; three questions need writes no arm offers
+af02df54f0 2026-11-02T02:48:57-05:00 X2.10 edits: mini engine reproduces the stock traces; timings and budget, before the main run
+c16ee918a5 2026-11-02T02:45:52-05:00 X2.10 edits: seeded items, spot-check plan, checker and controls, before the main run
+bfa0460f7a 2026-11-02T02:41:59-05:00 X2.10 edits: register the machine half of the headline on dev cities, predictions as guesses, before any machine run
+066cc7f4d3 2026-11-02T02:37:35-05:00 X2.10 path: first whole-chain result on the merged weights, 14/17 in development
+48841520fc 2026-11-02T02:37:06-05:00 X2.10 rvc M3 (changed by the lead): whole chain on merged weights 14/17, 0 lock errors; byte tokens are what loses answers; full 50-question run not done
+20d2c4b04c 2026-11-02T02:32:23-05:00 X2.10 path: executor meets its criteria in development; recheck on new firmware and the dev headline run started
+684d21164a 2026-11-02T02:31:35-05:00 X2.10 exec: stock trace logs
+6c775b9a7f 2026-11-02T02:31:31-05:00 X2.10 exec: acceptance. 260,597 positions bit-equal to stock on MPS; negative controls, same tokens, speed on a shared Mac; coverage measured
+fc46f41c12 2026-11-02T02:17:38-05:00 X2.10 Q1: format check on 20 train walks, no prompt or parser change, before the 50
+5988fd55ea 2026-11-02T02:03:57-05:00 X2.10 Q1: register one query tool test, three arms, predictions as guesses, before any model run
+784f7b261a 2026-11-02T01:55:26-05:00 X2.10 path: firmware groundwork and executor status
+a0233187f7 2026-11-02T01:54:56-05:00 X2.10 fw: one-tool flow check; dropping the wrapper saves 34 tokens of 3,393, 4 legs always fit the 80-token window
+12b153ad8e 2026-11-02T01:54:12-05:00 X2.10 fw: firmware parse and cheapest pass, 0 mismatches; real chase 5,546 to 2,485 tokens, cheapest 46,713 to 12,577
+a5ae1f4a82 2026-11-02T00:59:39-05:00 X2.10 RB: telling Qwen responses are spelled out lifts byte delivery from 19/49 to 31/49
+34b4014988 2026-11-02T00:46:34-05:00 X2.10 exec: verify sample of 16,145 owned positions clean; same tokens as stock on four questions; tiny-ten trace equal
+3394d739d2 2026-11-02T00:33:56-05:00 X2.10 fw: capacity law from code; DROM is 16 key heads and one layer per 128 KB, N<=1024 is only a compile constant
+8fb9fde2ca 2026-11-02T00:26:18-05:00 X2.10 fw: token histogram by C function; a real chase is 70% capture and tag parsing, 5% walking
+7d24c26ce5 2026-11-02T00:10:39-05:00 X2.10 CI: secondary lines logged; the relation list is worth about 19 points, and pools differ by several
+b2b8a437f4 2026-11-02T00:10:24-05:00 X2.10 CI: secondary arm and calibration saved
+6d93e267d0 2026-11-01T23:58:38-05:00 X2.10 RB: one tool with retry 16/17; handles stopped early at 0/10 in the ten-tool loop
+8907cd5045 2026-11-01T23:52:55-05:00 X2.10 exec: reference long run, five-process speed, same tokens on two tiny questions, verify stops on a wrong engine
+332829b206 2026-11-01T23:49:46-05:00 X2.10 path: one-tool result, QW selection under way, whole-chain run narrowed
+2b0044094a 2026-11-01T23:49:37-05:00 X2.10 QW: prompts frozen, pool 3 sealed by hash, selection chain written; reasoning on T did not finish
+5bc709e314 2026-11-01T23:38:37-05:00 X2.10 RB: one-tool printout 11/17; retry arm registered and run
+ee88583c56 2026-11-01T23:38:03-05:00 X2.10 exec: build notes, speed on dev streams, first negative controls on a partial trace
+8da773121c 2026-11-01T23:30:23-05:00 X2.10 exec: shared sums and batched evaluation in the engine; trace check, chat and drive with --verify (not yet run on the model)
+3c2b6c79df 2026-11-01T23:23:52-05:00 X2.10 RB: printout with ten tools 20/49, mostly tool choice; one-tool arm registered before running
+a1458f3a19 2026-11-01T23:03:43-05:00 X2.10 exec: design note, IR compiler, C engine; equal to the IR on 9,833 positions of a dev stream
+a9592cd677 2026-11-01T22:49:27-05:00 X2.10 path: routes to fix byte-token delivery
+a746b31edb 2026-11-01T22:49:19-05:00 X2.10 RB addendum before running: two delivery controls, told and handles
+267c8df3a8 2026-11-01T22:46:22-05:00 X2.10: Theo approves an executor for testing with periodic stock comparison; 4-hour ceiling on any run; acceptance registered
+f99c392906 2026-11-01T22:42:56-05:00 X2.10 RB registered: read-back against printout, small head to head on dev questions
+15bbf8ed64 2026-11-01T22:37:24-05:00 X2.10: decision-model research report and notes; path updated with the byte-token delivery problem and two open decisions
+9e6fa3ffb3 2026-11-01T22:21:12-05:00 X2.10 path: write-back goes last, after go-live (Theo)
+7f718cea42 2026-11-01T22:18:34-05:00 X2.10: one-page path to the summit, with rungs, side threads and open decisions
+1a73713aa4 2026-11-01T22:17:19-05:00 X2.10 design: Theo agrees the headline metric order: exact edits, answers Qwen can't know, nothing outside the model
+a0b33d9326 2026-11-01T22:12:17-05:00 X2.10 design: record Theo's steers on the query tool, reasoning and the value metric
+609f3a65f7 2026-11-01T21:53:22-05:00 X2.10 QW addendum before any pool run: retries that ask for a different query, and reasoning on retries only
+58fe837181 2026-11-01T21:42:51-05:00 X2.10 QW registered before running: Cypher, GQL, retry with the error passed back, reasoning; selection on the spent pool, bar on a new sealed pool
+9cd1680363 2026-11-01T21:24:29-05:00 X2.10 rvc M2: merged checkpoint on MPS, teacher-forced exact on 129,317 owned positions; chip and text rates
+3925c30d96 2026-11-01T21:23:14-05:00 X2.10 CI and WB: critical and steel-man reviews saved; logs corrected; batch check identical
+05061d607f 2026-11-01T21:01:10-05:00 X2.10 CI: no revision taken by the fixed rule; Q stands as a miss at 88.3%
+1a939072a9 2026-11-01T20:51:06-05:00 X2.10 CI revision: system_c worse on T; decision rule for system_d fixed before it runs
+c901aad99d 2026-11-01T20:34:09-05:00 X2.10 CI arm Q on the blind pool: 88.3% against the 90% bar, a miss; frozen port 50.1%, rule 32.2%
+a242c882b5 2026-11-01T20:02:46-05:00 X2.10 CI arms P and R on the sealed pool; WB front-of-model control on dev facts: text rewrite beats every patch
+63eb681b4f 2026-11-01T19:57:12-05:00 X2.10 WB: devlog, correct which per-relation intervals span 50%
+55dbc5e752 2026-11-01T19:57:03-05:00 X2.10 WB: test result, all three clauses hold on 283 facts, unreviewed
+1007541d0c 2026-11-01T19:52:58-05:00 X2.10 WB: dev choice and measured budget, before test opens
+3f2b9d63d6 2026-11-01T19:52:44-05:00 X2.10 rvc M1: C library as bridge firmware equals reflib on the reference machine; sizes, capture window, tokens per call
+9912f02216 2026-11-01T19:32:50-05:00 X2.10 CI step 2: blind pool sealed by hash, before any arm is scored
+72800fc86a 2026-11-01T19:32:49-05:00 X2.10 CI step 1: system text frozen on T phrasing; lead has not read the pool
+f834beef94 2026-11-01T19:30:33-05:00 X2.10 WB: facts, frames and split hashes, before any patched run
+48e46a541d 2026-11-01T19:22:25-05:00 X2.10 design r2: Phase E dropped; CI and WB registered before running; C library first, then graph hardware under three conditions
+3b558c8769 2026-11-01T17:35:24-05:00 X2.10 development round 1: critical and steel-man reviews of B0, B0c, costs
+d478f6209c 2026-11-01T17:20:09-05:00 X2.10 B0c development: 81.3% on held-out phrasings against the 90% bar, after the one revision (no gate)
+b7dd5345e2 2026-11-01T16:14:20-05:00 X2.10 host-tool baseline development: harness works on dev data; @h label and clearer wording recorded
+92e10e97f3 2026-11-01T15:37:39-05:00 X2.10 coprocessor development: C library equals reflib on all A1 dev checks; A4 cost predictions not supported by dev evidence
+2f253865a4 2026-11-01T15:19:18-05:00 X2.10 B0 development: exact two-hop mid-stack read on real Qwen weights (no gate); SPEC accepts @h label arguments
+2c2b28ef33 2026-11-01T14:32:17-05:00 X2.10: machine incident recorded, memguard for every process; reflib weights through closed nodes minimal; data re-checked
+cf2bd1f63d 2026-11-01T12:58:01-05:00 X2.10 A (dev): data builders, dev graphs and cities, manifest (held-out sets hashed, kept out of git)
+4f8e957938 2026-11-01T12:53:54-05:00 X2.10 A (dev): reflib fixes (zero-weight Dijkstra, self-loops, reopen), link/unlink edits, 16 legs
+630dfbf817 2026-11-01T12:30:25-05:00 X2.10 A (dev): interface spec v0, reference library, coprocessor instruction definition v0
+399ea57451 2026-11-01T12:16:56-05:00 X2.10 A0 addendum: lld toolchain, clang builds equal gcc/qemu on the RV reference; MQuAKE-CF-3k-v2 downloaded (not in git)
+83011cd443 2026-11-01T12:11:10-05:00 X2.10 A0: RISC-V base chosen; qwenputer experimental/riscv @01cf657 vendored with licence and hashes
+9ec0705e39 2026-11-01T12:09:23-05:00 X2.9 closed at dev (superseded); X2.10 graph qwenputer design r1.1, both reviews confirmed

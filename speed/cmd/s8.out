@@ -1,0 +1,102 @@
+common prefix across all 373 prompt mean 580.1938775510204
+prefill mean {'whole': 3.139, 'suffix': 1.318}
+('cities/c004', 22) True {}
+('random/r090', 48) True {}
+('cities/c007', 358) True {}
+('random/r021', 20) True {}
+('cities/c000', 377) True {}
+('random/r014', 23) True {}
+('cities/c020', 230) False {'n_calls': False, 'ids': False, 'qwen': False, 'echo': False}
+('cities/c008', 125) True {}
+('cities/c013', 79) True {}
+('cities/c025', 337) True {}
+('random/r014', 18) True {}
+('cities/c025', 389) True {}
+('cities/c003', 214) True {}
+('cities/c021', 52) True {}
+('cities/c021', 223) False {'n_calls': False, 'ids': False, 'qwen': False, 'echo': False}
+('cities/c017', 348) True {}
+('random/r045', 19) True {}
+('cities/c027', 213) True {}
+('cities/c004', 356) True {}
+('random/r021', 22) False {'prose': False}
+('cities/c011', 292) True {}
+('cities/c022', 88) False {'prose': False}
+('cities/c018', 272) False {'prose': False}
+('cities/c020', 209) True {}
+('random/r022', 48) True {}
+('cities/c027', 320) False {'prose': False}
+('random/r001', 18) False {'prose': False}
+('cities/c004', 91) True {}
+('random/r040', 21) False {'qwen': False}
+('cities/c025', 117) True {}
+('cities/c023', 31) True {}
+('cities/c017', 240) True {}
+('cities/c002', 104) True {}
+('cities/c022', 362) False {'prose': False}
+('random/r052', 19) True {}
+('cities/c022', 128) True {}
+('random/r027', 48) True {}
+('cities/c004', 355) False {'prose': False}
+('cities/c026', 26) True {}
+('cities/c014', 287) True {}
+('random/r040', 18) True {}
+('cities/c023', 81) True {}
+('cities/c024', 242) True {}
+('cities/c002', 286) True {}
+('random/r060', 21) False {'prose': False}
+('cities/c019', 49) False {'qwen': False}
+('random/r065', 19) True {}
+('cities/c007', 250) False {'ids': False, 'final': False, 'status': False, 'prose': False, 'qwen': False, 'echo': False, 'correct': False}
+('random/r078', 48) True {}
+('random/r074', 21) True {}
+('cities/c016', 393) True {}
+('random/r038', 23) False {'prose': False}
+('random/r062', 21) False {'qwen': False}
+('random/r014', 48) True {}
+('cities/c026', 103) False {'n_calls': False, 'prose': False, 'qwen': False, 'echo': False}
+('random/r016', 20) False {'prose': False}
+('cities/c022', 150) True {}
+('random/r041', 19) True {}
+('cities/c016', 239) False {'prose': False, 'qwen': False}
+('cities/c015', 179) True {}
+('cities/c023', 94) False {'qwen': False}
+('cities/c001', 332) True {}
+('cities/c024', 174) True {}
+('cities/c003', 7) True {}
+('cities/c005', 37) True {}
+('cities/c026', 113) True {}
+('random/r010', 20) True {}
+('cities/c026', 257) False {'qwen': False}
+('random/r025', 18) True {}
+('random/r066', 19) True {}
+('cities/c021', 147) True {}
+('random/r034', 48) True {}
+('cities/c008', 64) False {'prose': False}
+('cities/c000', 62) True {}
+('cities/c019', 243) True {}
+('cities/c018', 49) False {'n_calls': False, 'status': False, 'prose': False, 'qwen': False, 'echo': False}
+('cities/c004', 392) True {}
+('cities/c011', 46) False {'n_calls': False, 'final': False, 'status': False, 'prose': False, 'qwen': False, 'echo': False, 'correct': False}
+('cities/c016', 275) False {'ids': False, 'final': False, 'qwen': False, 'echo': False}
+('cities/c020', 62) True {}
+('random/r034', 18) True {}
+('cities/c023', 123) False {'prose': False}
+('cities/c027', 77) True {}
+('cities/c025', 316) True {}
+('cities/c009', 60) True {}
+('random/r075', 19) True {}
+('cities/c024', 210) True {}
+('random/r039', 22) False {'prose': False, 'qwen': False}
+('cities/c023', 57) True {}
+('cities/c026', 173) False {'prose': False}
+('cities/c013', 107) True {}
+('cities/c002', 343) True {}
+('cities/c024', 110) True {}
+('cities/c021', 327) False {'n_calls': False, 'status': False, 'prose': False, 'qwen': False, 'echo': False}
+('random/r068', 22) False {'prose': False, 'qwen': False}
+('cities/c012', 14) False {'prose': False}
+('cities/c000', 327) False {'n_calls': False, 'status': False, 'prose': False, 'qwen': False, 'echo': False}
+('cities/c006', 211) False {'prose': False, 'qwen': False}
+{"prefix": 373, "prefill_alternating_12": {"whole": 3.139, "suffix": 1.318}, "n": 98, "all_same": 66, "first_attempt_same": 94, "final_same": 95, "correct_same": 96, "prose_same": 74, "seconds": 1420.3, "stats": {"gpu_steps": 4178, "row_steps": 30817, "prefill_s": 137.8, "step_s": 1239.6, "seconds": 1420.3}, "shared_gpu": true}
+[stage seconds 1477.3]

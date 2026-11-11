@@ -1,0 +1,190 @@
+{
+ "format": "x210-graph/1",
+ "name": "Barents Sea food web",
+ "domain": "custom",
+ "nodes": [
+  {
+   "label": "Daphnia",
+   "prop": 0,
+   "src": "Daphnia"
+  },
+  {
+   "label": "Green algae",
+   "prop": 0,
+   "src": "Green algae"
+  },
+  {
+   "label": "Mayfly larvae",
+   "prop": 0,
+   "src": "Mayfly larvae"
+  },
+  {
+   "label": "Leaf litter",
+   "prop": 0,
+   "src": "Leaf litter"
+  },
+  {
+   "label": "Freshwater mussel",
+   "prop": 0,
+   "src": "Freshwater mussel"
+  },
+  {
+   "label": "Roach",
+   "prop": 0,
+   "src": "Roach"
+  },
+  {
+   "label": "Common bream",
+   "prop": 0,
+   "src": "Common bream"
+  },
+  {
+   "label": "Perch",
+   "prop": 0,
+   "src": "Perch"
+  },
+  {
+   "label": "Pike",
+   "prop": 0,
+   "src": "Pike"
+  },
+  {
+   "label": "Grey heron",
+   "prop": 0,
+   "src": "Grey heron"
+  },
+  {
+   "label": "Eurasian otter",
+   "prop": 0,
+   "src": "Eurasian otter"
+  },
+  {
+   "label": "Red kite",
+   "prop": 0,
+   "src": "Red kite"
+  }
+ ],
+ "relations": [
+  "eats",
+  "scavenges"
+ ],
+ "edges": [
+  [
+   0,
+   0,
+   1,
+   1
+  ],
+  [
+   2,
+   0,
+   1,
+   1
+  ],
+  [
+   2,
+   0,
+   3,
+   1
+  ],
+  [
+   4,
+   0,
+   1,
+   1
+  ],
+  [
+   5,
+   0,
+   0,
+   1
+  ],
+  [
+   5,
+   0,
+   2,
+   1
+  ],
+  [
+   6,
+   0,
+   2,
+   1
+  ],
+  [
+   6,
+   0,
+   4,
+   1
+  ],
+  [
+   7,
+   0,
+   0,
+   1
+  ],
+  [
+   7,
+   0,
+   2,
+   1
+  ],
+  [
+   7,
+   0,
+   5,
+   1
+  ],
+  [
+   8,
+   0,
+   5,
+   1
+  ],
+  [
+   8,
+   0,
+   7,
+   1
+  ],
+  [
+   9,
+   0,
+   5,
+   1
+  ],
+  [
+   9,
+   0,
+   7,
+   1
+  ],
+  [
+   10,
+   0,
+   7,
+   1
+  ],
+  [
+   10,
+   0,
+   8,
+   1
+  ],
+  [
+   11,
+   1,
+   8,
+   1
+  ],
+  [
+   11,
+   1,
+   10,
+   1
+  ]
+ ],
+ "splice": [],
+ "change": null,
+ "meta": {}
+}

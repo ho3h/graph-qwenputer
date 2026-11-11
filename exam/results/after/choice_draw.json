@@ -1,0 +1,1666 @@
+{
+"seed": 20261108,
+"conversations": [
+{
+"key": "E:0",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Hi! How's your day going?",
+"gold": "",
+"wants": null
+},
+{
+"user": "How do I get from 47-50 Sts-Rockefeller Ctr to Morgan Av?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:1",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Thanks for the help earlier. Do you like trains?",
+"gold": "",
+"wants": null
+},
+{
+"user": "What's the best way from Grant City to City Hall on the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:2",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Can you recommend a good pizza topping?",
+"gold": "",
+"wants": null
+},
+{
+"user": "I'm at Bleecker St and need to get to 40 St-Lowery St. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:3",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "What's a fun fact about pigeons?",
+"gold": "",
+"wants": null
+},
+{
+"user": "Fewest stops from Nereid Av to Sutter Av-Rutland Rd, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:4",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "I'm visiting New York next week. Any general advice?",
+"gold": "",
+"wants": null
+},
+{
+"user": "Can you route me from 5 Av to Roosevelt Island?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:5",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Hi! How's your day going?",
+"gold": "",
+"wants": null
+},
+{
+"user": "How do I get from Bushwick Av-Aberdeen St to 21 St-Queensbridge?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:6",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Thanks for the help earlier. Do you like trains?",
+"gold": "",
+"wants": null
+},
+{
+"user": "What's the best way from Sheepshead Bay to 57 St-7 Av on the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:7",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Can you recommend a good pizza topping?",
+"gold": "",
+"wants": null
+},
+{
+"user": "I'm at Franklin Av-Medgar Evers College and need to get to 174 St. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:8",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "What's a fun fact about pigeons?",
+"gold": "",
+"wants": null
+},
+{
+"user": "Fewest stops from Norwood Av to Morrison Av-Soundview, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:9",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "I'm visiting New York next week. Any general advice?",
+"gold": "",
+"wants": null
+},
+{
+"user": "Can you route me from Hunters Point Av to Mosholu Pkwy?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:10",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Hi! How's your day going?",
+"gold": "",
+"wants": null
+},
+{
+"user": "How do I get from Utica Av to Lexington Av/63 St?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:11",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Thanks for the help earlier. Do you like trains?",
+"gold": "",
+"wants": null
+},
+{
+"user": "What's the best way from Kew Gardens-Union Tpke to Lafayette Av on the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:12",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Can you recommend a good pizza topping?",
+"gold": "",
+"wants": null
+},
+{
+"user": "I'm at 3 Av and need to get to Brighton Beach. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:13",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "What's a fun fact about pigeons?",
+"gold": "",
+"wants": null
+},
+{
+"user": "Fewest stops from Park Place to Cortelyou Rd, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:14",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "I'm visiting New York next week. Any general advice?",
+"gold": "",
+"wants": null
+},
+{
+"user": "Can you route me from 207 St to Beach 90 St?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:15",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Hi! How's your day going?",
+"gold": "",
+"wants": null
+},
+{
+"user": "How do I get from Avenue X to Beach 90 St?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:16",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Thanks for the help earlier. Do you like trains?",
+"gold": "",
+"wants": null
+},
+{
+"user": "What's the best way from 33 St-Rawson St to 5 Av on the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:17",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "Can you recommend a good pizza topping?",
+"gold": "",
+"wants": null
+},
+{
+"user": "I'm at Nassau Av and need to get to Freeman St. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:18",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "What's a fun fact about pigeons?",
+"gold": "",
+"wants": null
+},
+{
+"user": "Fewest stops from Vernon Blvd-Jackson Av to 36 Av, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "E:19",
+"graph": "nyc",
+"arm": "E",
+"turns": [
+{
+"user": "I'm visiting New York next week. Any general advice?",
+"gold": "",
+"wants": null
+},
+{
+"user": "Can you route me from High St to E 180 St?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:0",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "How do I get from 71 St to Neck Rd?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:1",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "What's the best way from Eltingville to 168 St-Washington Hts on the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:2",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "I'm at Hoyt St and need to get to Cleveland St. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:3",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Fewest stops from 231 St to Elder Av, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:4",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Can you route me from Allerton Av to Graham Av?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:5",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "How do I get from E 149 St to 62 St?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:6",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "What's the best way from Ozone Park-Lefferts Blvd to Zerega Av on the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:7",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "I'm at Beverly Rd and need to get to 51 St. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:8",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Fewest stops from Winthrop St to Gates Av, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:9",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Can you route me from Hoyt-Schermerhorn Sts to Newkirk Av-Little Haiti?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:10",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "How do I get from 169 St to Parkchester?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:11",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "What's the best way from Longwood Av to 51 St on the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:12",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "I'm at Jamaica-179 St and need to get to Nassau Av. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:13",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Fewest stops from Park Pl to Sutphin Blvd-Archer Av-JFK Airport, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:14",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Can you route me from 42 St-Port Authority Bus Terminal to New Dorp?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:15",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "How do I get from 30 Av to Buhre Av?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:16",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "What's the best way from Eastchester-Dyre Av to 176 St on the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:17",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "I'm at Court St and need to get to Morgan Av. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:18",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Fewest stops from Longwood Av to Far Rockaway-Mott Av, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:19",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Can you route me from Gates Av to Bowling Green?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:20",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "How do I get from Bedford Park Blvd-Lehman College to Seneca Av?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:21",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "What's the best way from 33 St-Rawson St to 219 St on the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:22",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "I'm at Euclid Av and need to get to Prince's Bay. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:23",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Fewest stops from 116 St-Columbia University to West Farms Sq-E Tremont Av, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:24",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Can you route me from 90 St-Elmhurst Av to 42 St-Port Authority Bus Terminal?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:25",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "How do I get from 5 Av to 30 Av?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:26",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "What's the best way from Brighton Beach to Bay 50 St on the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:27",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "I'm at Morgan Av and need to get to 137 St-City College. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:28",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Fewest stops from 42 St-Port Authority Bus Terminal to Grant Av, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "A:29",
+"graph": "nyc",
+"arm": "A",
+"turns": [
+{
+"user": "Can you route me from York St to Roosevelt Island?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:0",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Why is the New York subway so loud?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:1",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "When did the New York subway open?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:2",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "How much does a subway ride cost?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:3",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Why are some subway lines lettered and others numbered?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:4",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Is it safe to ride the subway at night?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:5",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Who runs the New York subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:6",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "How do the subway's express trains work?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:7",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Why is the subway so hot in summer?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:8",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "What does the MTA do?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:9",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "How deep is the deepest subway station in New York?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:10",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "What's the etiquette for standing on a subway escalator?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:11",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Are there rats in the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:12",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Why do subway trains screech on curves?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:13",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Can I bring a bike on the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:14",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Do subway trains run all night?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:15",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "What's OMNY?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:16",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Who designed the subway map?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:17",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Why does New York's map look different from London's?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:18",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "How many people ride the subway each day?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:19",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "What's a good subway book to read?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:20",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Why are there so many delays on weekends?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:21",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "What happens when a subway station floods?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:22",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Why do people like the old subway tiles?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:23",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Is the subway map to scale?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:24",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "What should a tourist know about the subway?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:25",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "How do subway signals work?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:26",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Why are subway cars different widths?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:27",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "What is a third rail?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:28",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "How is a subway different from a light rail?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "B:29",
+"graph": "nyc",
+"arm": "B",
+"turns": [
+{
+"user": "Is the subway better than driving in New York?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:0",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What's the capital of France?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:1",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "Write a haiku about autumn.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:2",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What's 17 times 23?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:3",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "Who wrote Pride and Prejudice?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:4",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "How do I boil an egg?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:5",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "Why is the sky blue?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:6",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What's a good name for a cat?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:7",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "Explain photosynthesis in one sentence.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:8",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "How many legs does a spider have?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:9",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What's the largest ocean?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:10",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "Give me a tip for sleeping better.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:11",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What does a noun do in a sentence?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:12",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "Who painted the Mona Lisa?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:13",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "How do vaccines work?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:14",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "Translate 'good morning' into Spanish.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:15",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What's the boiling point of water?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:16",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "Write a one-line joke about Mondays.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:17",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What is a black hole?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:18",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "How tall is Mount Everest?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:19",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What's the difference between a virus and a bacterium?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:20",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What should I cook for dinner?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:21",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "How do I fold a fitted sheet?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:22",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What's the square root of 144?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:23",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "Who was Ada Lovelace?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:24",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What's a good first programming language?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:25",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What is inflation?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:26",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "How does a rainbow form?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:27",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "Name three primary colors.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:28",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "What's the speed of light?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "C:29",
+"graph": "nyc",
+"arm": "C",
+"turns": [
+{
+"user": "Why do cats purr?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:0",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "How do I get from Paris to Lyon?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:1",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "What's the best way from Oxford Circus to King's Cross?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:2",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "Route me from Shibuya to Shinjuku.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:3",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "How do I get from Alexanderplatz to Potsdamer Platz?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:4",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "Fewest stops from Gare du Nord to Bastille, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:5",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "I'm at Union Station in Chicago and need O'Hare. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:6",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "Can you route me from Brixton to Camden Town?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:7",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "How do I get from Powell St to Embarcadero?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:8",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "What's the best way from Sagrada Familia to Barceloneta?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:9",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "Fewest stops from Dupont Circle to Foggy Bottom, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:10",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "How do I get from Akihabara to Ueno?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:11",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "Route me from Hollywood to Union Station in Los Angeles.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:12",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "I'm at Central in Hong Kong and need to reach Mong Kok. Which way?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:13",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "How do I get from Waterloo to Paddington?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:14",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "What's the best way from Sydney Central to Circular Quay?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:15",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "Can you route me from Kendall to Harvard in Boston?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:16",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "How do I get from Rome's Termini to the Colosseum?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:17",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "Fewest stops from Marienplatz to Sendlinger Tor, please.",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:18",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "How do I get from Atocha to Sol?",
+"gold": "",
+"wants": null
+}
+]
+},
+{
+"key": "D:19",
+"graph": "nyc",
+"arm": "D",
+"turns": [
+{
+"user": "Route me from Bloor to Union in Toronto.",
+"gold": "",
+"wants": null
+}
+]
+}
+],
+"plain": []
+}

@@ -1,0 +1,14 @@
+{
+"n": 600,
+"strict": 10,
+"generous": 12,
+"file_n": 400,
+"file_strict": 2,
+"file_generous": 2,
+"generated_n": 100,
+"generated_strict": 4,
+"generated_generous": 5,
+"shared_n": 100,
+"shared_strict": 4,
+"shared_generous": 5
+}

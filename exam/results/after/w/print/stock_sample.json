@@ -1,0 +1,90 @@
+{
+ "seed": 20261103,
+ "asked": 4,
+ "limit_s": 1500,
+ "load_s": 9.5,
+ "questions": [
+  {
+   "tag": [
+    "nyc",
+    175
+   ],
+   "status": "answered",
+   "positions": 5486,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 71.27
+  },
+  {
+   "tag": [
+    "nyc",
+    100
+   ],
+   "status": "answered",
+   "positions": 6201,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 85.31
+  },
+  {
+   "tag": [
+    "nyc",
+    147
+   ],
+   "status": "answered",
+   "positions": 4702,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 73.41
+  },
+  {
+   "tag": [
+    "nyc",
+    192
+   ],
+   "status": "answered",
+   "positions": 5141,
+   "mismatch": null,
+   "head_mismatch": 0,
+   "lock": null,
+   "same_tokens": true,
+   "differ": [],
+   "end_state": {
+    "small": 0,
+    "big": 0,
+    "first": null
+   },
+   "seconds": 85.4
+  }
+ ],
+ "positions": 21530,
+ "mismatches": 0,
+ "head_mismatch": 0,
+ "token_differences": 0,
+ "seconds": 322.6,
+ "passed": true
+}

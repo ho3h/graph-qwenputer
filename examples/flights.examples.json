@@ -1,0 +1,6 @@
+[
+ {"user": "What's the cheapest way from Dublin to Vienna?", "calls": [{"fn": "cheapest", "args": {"from": "Dublin", "to": "Vienna"}, "result": "cost 210: @1 Dublin > @4 Prague > @6 Vienna"}], "reply": "Dublin, Prague, Vienna, for 210"},
+ {"user": "What's the route with the fewest flights from Dublin to Vienna?", "calls": [{"fn": "path", "args": {"from": "Dublin", "to": "Vienna"}, "result": "1 steps: @1 Dublin > @6 Vienna"}], "reply": "Dublin, Vienna"},
+ {"user": "Prague airport has closed. What's the cheapest way from Dublin to Vienna now?", "calls": [{"fn": "close", "args": {"node": "Prague"}, "result": "closed @4 Prague"}, {"fn": "cheapest", "args": {"from": "Dublin", "to": "Vienna"}, "result": "cost 300: @1 Dublin > @6 Vienna"}], "reply": "Dublin, Vienna, for 300"},
+ {"user": "Prague airport has reopened. What's the cheapest way from Dublin to Vienna now?", "calls": [{"fn": "reopen", "args": {"node": "Prague"}, "result": "reopened @4 Prague"}, {"fn": "cheapest", "args": {"from": "Dublin", "to": "Vienna"}, "result": "cost 210: @1 Dublin > @4 Prague > @6 Vienna"}], "reply": "Dublin, Prague, Vienna, for 210"}
+]

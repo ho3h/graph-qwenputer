@@ -1,0 +1,8 @@
+nyc {'base': 600, 'base_same': 600, 'refsame': 24640, 'closed': 12000, 'closed_same': 12000, 'unaff': 11736, 'unaff_same': 11736, 'aff': 264, 'aff_changed': 264, 'restored': 12000, 'restored_same': 12000} tags {'close': 20, 'closed': 12000, 'reopen': 20, 'restored': 12000} closechiptok 95273278 paths {'n': 500, 'ok': 500, 'same': 454, 'maxchip': 58798} diffs 0
+[]
+nyc_r1 {'base': 600, 'base_same': 600, 'refsame': 24640, 'closed': 12000, 'closed_same': 12000, 'unaff': 11736, 'unaff_same': 11736, 'aff': 264, 'aff_changed': 264, 'restored': 12000, 'restored_same': 12000} tags {'close': 20, 'closed': 12000, 'reopen': 20, 'restored': 12000} closechiptok 98075030 paths {'n': 500, 'ok': 500, 'same': 454, 'maxchip': 58798} diffs 0
+[]
+closures [478, 280, 93, 94, 30, 345, 356, 233, 466, 477, 17, 297, 413, 198, 259, 73, 42, 369, 172, 404] ['W 4 St-Wash Sq', 'DeKalb Av', '34 St-Herald Sq', '34 St-Herald Sq', '14 St-Union Sq', 'Hoyt-Schermerhorn Sts', 'Jay St-MetroTech', 'Broadway-Lafayette St', 'Times Sq-42 St', 'W 4 St-Wash Sq', '125 St', 'Euclid Av', 'Oakwood Heights', 'Bay Ridge Av', 'Church Av', '225 St', '161 St-Yankee Stadium', 'Kingston-Throop Avs', 'Allerton Av', 'New Lots Av'] file 400 gen 200 dropped 0
+n 496 edges 1761 rel 59
+shared labels 76 nodes 193
+distinct affected questions

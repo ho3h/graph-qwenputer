@@ -1,0 +1,7 @@
+B 2 [('cities/c020', 230), ('random/r021', 22)] 103.2
+('cities/c020', 230) {"calls": [2, 2], "ids_eq": [true, true], "status": ["answered", "answered"], "q": [157, 157], "prose_eq": true, "first_diff_prose": null}
+('random/r021', 22) {"calls": [1, 1], "ids_eq": [true], "status": ["no_call", "no_call"], "q": [820, 820], "prose_eq": true, "first_diff_prose": null}
+B 8 [('random/r021', 20), ('cities/c004', 22), ('cities/c007', 358), ('random/r021', 22), ('random/r014', 23), ('cities/c017', 348), ('cities/c020', 230), ('random/r021', 22)] 202.4
+('cities/c020', 230) {"calls": [2, 2], "ids_eq": [true, true], "status": ["answered", "answered"], "q": [157, 157], "prose_eq": true, "first_diff_prose": null}
+('random/r021', 22) {"calls": [1, 1], "ids_eq": [true], "status": ["no_call", "no_call"], "q": [820, 820], "prose_eq": true, "first_diff_prose": null}
+[stage seconds 305.8]

@@ -1,0 +1,33 @@
+Wed Nov  4 16:22:20 EST 2026
+Python 3.15.0
+Python 3.15.0
+
+[notice] A new release of pip is available: 26.2.1 -> 26.3
+[notice] To update, run: pip install --upgrade pip
+ERROR: No matching distribution found for torch==2.14.1
+pip install -r requirements.txt 2>&1  0.21s user 0.06s system 23% cpu 1.151 total
+tail -4  0.00s user 0.00s system 0% cpu 1.150 total
+cut -c1-300  0.00s user 0.00s system 0% cpu 1.150 total
+pip code 0
+/usr/local/bin/hf
+Fetching 3 files:   0%|          | 0/3 [00:00<?, ?it/s]Fetching 3 files:  33%|███▎      | 1/3 [00:00<00:00,  8.28it/s]Fetching 3 files: 100%|██████████| 3/3 [00:02<00:00
+<scratchpad>
+hf download hopski/graph-qwenputer chipformer.json config.json tokenizer.json  0.50s user 0.18s system 9% cpu 6.930 total
+tail -2  0.00s user 0.00s system 0% cpu 6.930 total
+cut -c1-200  0.00s user 0.00s system 0% cpu 6.929 total
+
+heel       192 Nov  4 16:22 .
+heel      1152 Nov  4 16:22 ..
+heel        96 Nov  4 16:22 .cache
+heel      2373 Nov  4 16:22 chipformer.json
+heel      2093 Nov  4 16:22 config.json
+heel  65204715 Nov  4 16:22 tokenizer.json
+packages.graph.json: 13 nodes, 15 edges, 1 relations.
+<scratchpad> can't f
+Wed Nov  4 16:22:30 EST 2026
+<scratchpad>
+hf download hopski/graph-qwenputer --local-dir model 2>&1  44.20s user 32.59s system 22% cpu 5:35.48 total
+tail -1  0.00s user 0.00s system 0% cpu 5:35.48 total
+cut -c1-200  0.00s user 0.00s system 0% cpu 5:35.48 total
+ 18G
+Wed Nov  4 16:28:06 EST 2026

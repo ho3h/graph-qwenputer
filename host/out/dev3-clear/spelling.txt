@@ -1,0 +1,28 @@
+calls: 290; token ids equal the tokenizer's encoding of the call text: 290/290
+
+trailing words after a canonical name: {'station': 21, '3 southbound': 2}
+
+node arguments: 328 (resolve in the tool: 297)
+  class         count   share
+  handle          106   32.3%
+  exact           118   36.0%
+  accents           2    0.6%
+  handle+label     73   22.3%
+  label+suffix     21    6.4%
+  partial           8    2.4%
+    accents: 'Otaki' -> 'Ōtaki'  (tinytown q2 eager)
+    accents: 'Otaki' -> 'Ōtaki'  (tinytown q2 sdpa)
+    handle+label: '@0 Central' -> 'Central'  (tinytown q1 eager)
+    handle+label: '@1 Central' -> 'Central'  (tinytown q1 eager)
+    label+suffix: 'Eastgate station' -> 'Eastgate'  (tinytown q0 eager)
+    label+suffix: 'Central station' -> 'Central'  (tinytown q1 eager)
+    partial: 'Otaki station' -> 'Ōtaki'  (tinytown q2 eager)
+    partial: 'Otaki station' -> 'Ōtaki'  (tinytown q2 sdpa)
+
+relation arguments: 150 (resolve in the tool: 148)
+  class         count   share
+  exact           148   98.7%
+  label+suffix      2    1.3%
+    label+suffix: 'transfer 3 southbound' -> 'transfer'  (c025 q100 eager)
+    label+suffix: 'transfer 3 southbound' -> 'transfer'  (c025 q100 sdpa)
+

@@ -1,0 +1,67 @@
+16a17,19
+>   -- tok/ copy of cop/boot.py: the stored tokens, tokenized once here, with a leading space. Entry: v < 512 a printable (a byte or
+>      one of the four specials); v < 0xFFFF the token id v - 512; 0xFFFF: the next two u16 are the id, low half first --
+>   22 labtokoff u16[N+1]  23 labtok u16[]  24 reltokoff u16[R+1]  25 reltok u16[]
+28c31
+< HDR_WORDS, RELHASH, MAGIC = 22, 128, 0x30313258
+---
+> HDR_WORDS, RELHASH, MAGIC = 26, 128, 0x30313258
+33,34c36
+< class BootLimit(Exception):
+<     pass
+---
+> from boot import BootLimit, ghash, norm, load  # noqa: E402,F401  (cop/boot.py, the same limit and hash)
+35a38,39
+> TEXT = None  # bridge.Text, set by overlay.py
+> ADDED = None
+37,41d40
+< def ghash(b: bytes) -> int:
+<     h = 0x811C9DC5
+<     for c in b:
+<         h = ((h ^ c) * 0x01000193) & M32
+<     return (h ^ h >> 12 ^ h >> 24) & 0xFFF
+42a42,55
+> def encode_entries(ids):
+>     """Table entries of a list of token ids."""
+>     out = []
+>     for q in ids:
+>         p = TEXT.printable_index(q)
+>         if p is not None:
+>             out.append(p)
+>         elif q + 512 < 0xFFFF:
+>             assert TEXT.id_ok(q), q
+>             out.append(q + 512)
+>         else:
+>             assert TEXT.id_ok(q), q
+>             out += [0xFFFF, q & 0xFFFF, q >> 16]
+>     return out
+44,45d56
+< def norm(s: str) -> str:
+<     return unicodedata.normalize("NFC", s).strip()
+46a58,66
+> def name_entries(s: str):
+>     """A name as printed after a space. A name holding an added token's text stays in byte tokens: the machine must not print those
+>     specials from a name (a printed <tool_call> would arm its own capture)."""
+>     global ADDED
+>     if ADDED is None:
+>         ADDED = [a.content for a in TEXT.tok.get_added_tokens_decoder().values()]
+>     if any(x in s for x in ADDED):
+>         return [32] + list(s.encode())
+>     return encode_entries(TEXT.tok.encode(" " + s, add_special_tokens=False).ids)
+48,51d67
+< def load(path_or_dict):
+<     g = path_or_dict if isinstance(path_or_dict, dict) else json.load(open(path_or_dict))
+<     assert g["format"] == "x210-graph/1"
+<     return g
+53a70
+> 
+155a173,181
+>     if software:
+>         for base, names_ in ((22, labels), (24, rels)):
+>             ent, off = [], [0]
+>             for s_ in names_:
+>                 ent += name_entries(s_)
+>                 off.append(len(ent))
+>             assert off[-1] < 0x10000
+>             hdr[base] = put(struct.pack(f"<{len(off)}H", *off))
+>             hdr[base + 1] = put(struct.pack(f"<{len(ent)}H", *ent))
